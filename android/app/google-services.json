@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "109788230031",
+    "project_id": "quizcorsica",
+    "storage_bucket": "quizcorsica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109788230031:android:2d5beda26c1bdcfa989bfa",
+        "android_client_info": {
+          "package_name": "com.msj2025.corsicaquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109788230031-2cel176v2dl6muahk1tqo9dv9jfc7sgu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "109788230031-2cel176v2dl6muahk1tqo9dv9jfc7sgu.apps.googleusercontent.com",
+          "client_type": 1
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbqYRqf6_wJ05wX6cz7aXX49EZ_kKncvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109788230031-2cel176v2dl6muahk1tqo9dv9jfc7sgu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.msj2025.corsicaquiz"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
