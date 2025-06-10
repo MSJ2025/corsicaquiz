@@ -2,10 +2,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'dart:async';
 import '../classement/classement_perso_screen.dart';
 import 'domain_selection_screen.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
+import '../../services/favorite_service.dart';
 
 class DuelUserListScreen extends StatefulWidget {
   const DuelUserListScreen({Key? key}) : super(key: key);
@@ -17,6 +19,27 @@ class DuelUserListScreen extends StatefulWidget {
 class _DuelUserListScreenState extends State<DuelUserListScreen> {
   String searchQuery = '';
   bool _isSendingRequest = false;
+  final FavoriteService _favoriteService = FavoriteService();
+  Set<String> _favorites = {};
+  StreamSubscription<List<String>>? _favSub;
+  bool _showFavoritesOnly = false;
+
+  @override
+  void initState() {
+    super.initState();
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid != null) {
+      _favSub = _favoriteService.favoritesStream(uid).listen((fav) {
+        setState(() => _favorites = fav.toSet());
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _favSub?.cancel();
+    super.dispose();
+  }
 
   Future<void> sendDuelRequest(String opponentId, String opponentPseudo) async {
     if (_isSendingRequest) return;
@@ -133,6 +156,16 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
     });
   }
 
+  Future<void> _toggleFavorite(String uid) async {
+    final currentUser = FirebaseAuth.instance.currentUser;
+    if (currentUser == null) return;
+    if (_favorites.contains(uid)) {
+      await _favoriteService.removeFavorite(currentUser.uid, uid);
+    } else {
+      await _favoriteService.addFavorite(currentUser.uid, uid);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final currentUser = FirebaseAuth.instance.currentUser;
@@ -209,6 +242,20 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
                     },
                   ),
                 ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: IconButton(
+                    icon: Icon(
+                      _showFavoritesOnly ? Icons.star : Icons.star_border,
+                      color: Colors.orangeAccent,
+                    ),
+                    onPressed: () {
+                      setState(() {
+                        _showFavoritesOnly = !_showFavoritesOnly;
+                      });
+                    },
+                  ),
+                ),
                 Expanded(
                   child: StreamBuilder<QuerySnapshot>(
                     stream: FirebaseFirestore.instance.collection('users').snapshots(),
@@ -218,7 +265,7 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
                       }
 
                       final allUsers = snapshot.data!.docs;
-                      final filteredUsers = allUsers
+                      var filteredUsers = allUsers
                         .where((doc) => doc.id != currentUser?.uid)
                         .map((doc) {
                           final data = doc.data() as Map<String, dynamic>;
@@ -232,6 +279,9 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
                         })
                         .where((user) => user['pseudo'].toLowerCase().contains(searchQuery.toLowerCase()))
                         .toList();
+                      if (_showFavoritesOnly) {
+                        filteredUsers = filteredUsers.where((u) => _favorites.contains(u['uid'])).toList();
+                      }
                       // Trier les utilisateurs par ordre alphabétique de pseudo
                       filteredUsers.sort((a, b) => a['pseudo'].toString().toLowerCase().compareTo(b['pseudo'].toString().toLowerCase()));
 
@@ -302,32 +352,44 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
                                     if (user.containsKey('online')) (isOnline ? 'En ligne' : 'Hors ligne'),
                                   ].join(' • '),
                                 ),
-                                trailing: InkWell(
-                                  onTap: () => sendDuelRequest(uid, pseudo),
-                                  child: Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                                    decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        image: AssetImage('assets/images/boiscartoon.png'),
-                                        fit: BoxFit.cover,
+                                trailing: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    IconButton(
+                                      icon: Icon(
+                                        _favorites.contains(uid) ? Icons.star : Icons.star_border,
+                                        color: _favorites.contains(uid) ? Colors.orange : Colors.grey,
                                       ),
-                                      borderRadius: BorderRadius.circular(12),
-                                      boxShadow: [
-                                        BoxShadow(
-                                          color: Colors.black26,
-                                          blurRadius: 4,
-                                          offset: Offset(2, 2),
+                                      onPressed: () => _toggleFavorite(uid),
+                                    ),
+                                    InkWell(
+                                      onTap: () => sendDuelRequest(uid, pseudo),
+                                      child: Container(
+                                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            image: AssetImage('assets/images/boiscartoon.png'),
+                                            fit: BoxFit.cover,
+                                          ),
+                                          borderRadius: BorderRadius.circular(12),
+                                          boxShadow: [
+                                            BoxShadow(
+                                              color: Colors.black26,
+                                              blurRadius: 4,
+                                              offset: Offset(2, 2),
+                                            ),
+                                          ],
                                         ),
-                                      ],
-                                    ),
-                                    child: Text(
-                                      'Défier',
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
+                                        child: Text(
+                                          'Défier',
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                       ),
                                     ),
-                                  ),
+                                  ],
                                 ),
                               ),
                             ),
