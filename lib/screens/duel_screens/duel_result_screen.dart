@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
+import 'domain_selection_screen.dart';
+import 'duel_game_screen.dart';
 
 class DuelResultScreen extends StatefulWidget {
   final String duelId;
@@ -14,6 +18,7 @@ class DuelResultScreen extends StatefulWidget {
 class _DuelResultScreenState extends State<DuelResultScreen> {
   bool _visible = false;
   bool _statsUpdated = false;
+  bool _isSendingRematch = false;
   late final Future<DocumentSnapshot<Map<String, dynamic>>> _duelFuture;
 
   @override
@@ -82,6 +87,113 @@ class _DuelResultScreenState extends State<DuelResultScreen> {
       }, SetOptions(merge: true));
 
     _statsUpdated = true;
+  }
+
+  Future<void> _sendRematchRequest(String opponentId, String opponentPseudo) async {
+    if (_isSendingRematch) return;
+    final currentUser = FirebaseAuth.instance.currentUser;
+    if (currentUser == null) return;
+
+    setState(() {
+      _isSendingRematch = true;
+    });
+
+    final selectedDomains = await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => DomainSelectionScreen(),
+      ),
+    );
+
+    if (selectedDomains == null || selectedDomains.length != 6) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Vous devez choisir exactement 6 domaines.'),
+          backgroundColor: Colors.red,
+        ),
+      );
+      setState(() {
+        _isSendingRematch = false;
+      });
+      return;
+    }
+
+    final myId = currentUser.uid;
+    final mySnapshot = await FirebaseFirestore.instance.collection('users').doc(myId).get();
+    final myPseudo = mySnapshot.data()?['pseudo'] ?? 'Joueur';
+
+    List<Map<String, dynamic>> allQuestions = [];
+
+    Future<List<dynamic>> loadJson(String path) async {
+      final String jsonString = await rootBundle.loadString(path);
+      return json.decode(jsonString);
+    }
+
+    final difficultyMap = {
+      'Facile': 4,
+      'Moyen': 4,
+      'Difficile': 4,
+    };
+
+    for (final difficulty in difficultyMap.keys) {
+      final filteredDomains = List<String>.from(selectedDomains);
+      filteredDomains.shuffle();
+
+      for (final domain in filteredDomains) {
+        if (allQuestions.where((q) => q['difficulte'] == difficulty).length >= difficultyMap[difficulty]!) break;
+
+        final questions = await loadJson('assets/data/$domain.json');
+        final filtered = (questions as List).where((q) => q['difficulte'] == difficulty).toList();
+        filtered.shuffle();
+        if (filtered.isNotEmpty) {
+          allQuestions.add(filtered.first);
+        }
+      }
+    }
+
+    final duelData = {
+      'from': myId,
+      'to': opponentId,
+      'status': 'pending',
+      'createdAt': FieldValue.serverTimestamp(),
+      'questions': allQuestions,
+      'domainesEnvoyeur': selectedDomains,
+      'player1': {
+        'uid': myId,
+        'pseudo': myPseudo,
+        'score': 0,
+        'currentIndex': 0,
+      },
+      'player2': {
+        'uid': opponentId,
+        'pseudo': opponentPseudo,
+        'score': 0,
+        'currentIndex': 0,
+      },
+      'participants': [myId, opponentId],
+    };
+
+    final duelRef = await FirebaseFirestore.instance.collection('duels').add(duelData);
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Nouveau duel créé !'),
+        backgroundColor: Colors.green,
+      ),
+    );
+
+    setState(() {
+      _isSendingRematch = false;
+    });
+
+    if (mounted) {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => DuelGameScreen(duelId: duelRef.id),
+        ),
+      );
+    }
   }
 
   @override
@@ -304,19 +416,42 @@ class _DuelResultScreenState extends State<DuelResultScreen> {
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-                      child: SizedBox(
-                        width: double.infinity,
-                        child: ElevatedButton.icon(
-                          onPressed: () => Navigator.popUntil(context, (route) => route.isFirst),
-                          icon: const Icon(Icons.home),
-                          label: const Text('Retour à l\'accueil'),
-                          style: ElevatedButton.styleFrom(
-                            shape: const StadiumBorder(),
-                            padding: const EdgeInsets.symmetric(vertical: 14),
-                            textStyle: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.bold),
-                            backgroundColor: Colors.yellow,
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            width: double.infinity,
+                            child: ElevatedButton.icon(
+                              onPressed: () {
+                                final opponentId = isCurrentPlayer1 ? data['to'] as String : data['from'] as String;
+                                final opponentPseudo = isCurrentPlayer1 ? (player2['pseudo'] ?? 'Adversaire') : (player1['pseudo'] ?? 'Adversaire');
+                                _sendRematchRequest(opponentId, opponentPseudo);
+                              },
+                              icon: const Icon(Icons.casino),
+                              label: const Text('Revanche'),
+                              style: ElevatedButton.styleFrom(
+                                shape: const StadiumBorder(),
+                                padding: const EdgeInsets.symmetric(vertical: 14),
+                                textStyle: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.bold),
+                                backgroundColor: Colors.orangeAccent,
+                              ),
+                            ),
                           ),
-                        ),
+                          const SizedBox(height: 12),
+                          SizedBox(
+                            width: double.infinity,
+                            child: ElevatedButton.icon(
+                              onPressed: () => Navigator.popUntil(context, (route) => route.isFirst),
+                              icon: const Icon(Icons.home),
+                              label: const Text('Retour à l\'accueil'),
+                              style: ElevatedButton.styleFrom(
+                                shape: const StadiumBorder(),
+                                padding: const EdgeInsets.symmetric(vertical: 14),
+                                textStyle: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.bold),
+                                backgroundColor: Colors.yellow,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
