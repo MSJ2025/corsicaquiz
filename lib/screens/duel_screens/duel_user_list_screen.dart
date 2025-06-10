@@ -60,7 +60,7 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
     final myId = currentUser.uid;
     final mySnapshot = await FirebaseFirestore.instance.collection('users').doc(myId).get();
     final myPseudo = mySnapshot.data()?['pseudo'] ?? 'Joueur';
-    print('sendDuelRequest: myId=$myId, opponentId=$opponentId, opponentPseudo=$opponentPseudo');
+    debugPrint('sendDuelRequest: myId=$myId, opponentId=$opponentId, opponentPseudo=$opponentPseudo');
 
     List<Map<String, dynamic>> allQuestions = [];
 
@@ -93,7 +93,7 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
       }
     }
 
-    print('sendDuelRequest: Total questions generated: ${allQuestions.length}');
+    debugPrint('sendDuelRequest: Total questions generated: ${allQuestions.length}');
 
     // Préparer les données du duel, en ajoutant le champ 'domainesEnvoyeur'
     final duelData = {
@@ -119,7 +119,7 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
     };
 
     final duelRef = await FirebaseFirestore.instance.collection('duels').add(duelData);
-    print('sendDuelRequest: Duel request sent successfully. Duel ID: ${duelRef.id}');
+    debugPrint('sendDuelRequest: Duel request sent successfully. Duel ID: ${duelRef.id}');
 
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(

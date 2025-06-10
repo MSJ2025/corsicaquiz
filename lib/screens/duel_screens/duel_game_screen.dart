@@ -60,7 +60,7 @@ void initState() {
   Future<void> _loadDuel() async {
     final docRef = FirebaseFirestore.instance.collection('duels').doc(widget.duelId);
     final doc = await docRef.get();
-    print("📄 Document récupéré pour le duel ${widget.duelId} : ${doc.exists}");
+    debugPrint("📄 Document récupéré pour le duel ${widget.duelId} : ${doc.exists}");
 
     if (!doc.exists) {
       setState(() {
@@ -71,7 +71,7 @@ void initState() {
     // Removed previous hasAlreadyPlayed assignment. It will be computed after mapping duelQuestions.
 
     final data = doc.data();
-    print("📊 Données du duel : $data");
+    debugPrint("📊 Données du duel : $data");
     if (data == null) {
       setState(() {
         isLoading = false;
@@ -101,7 +101,7 @@ void initState() {
             'answer': correctAnswer,
           };
         } catch (e) {
-          print('❌ Erreur lors du mapping d’une question existante Firestore : $e');
+          debugPrint('❌ Erreur lors du mapping d’une question existante Firestore : $e');
           return {
             'text': 'Question invalide',
             'options': ['Erreur'],
@@ -111,8 +111,8 @@ void initState() {
       }
     }).toList();
 
-    print("✅ Questions générées : $duelQuestions");
-    print("🛠 Questions locales mappées : $duelQuestions");
+    debugPrint("✅ Questions générées : $duelQuestions");
+    debugPrint("🛠 Questions locales mappées : $duelQuestions");
 
     await docRef.update({'questions': duelQuestions});
 
@@ -129,7 +129,7 @@ void initState() {
       });
     }
 
-    print("✅ Chargement terminé. ${duelQuestions.length} question(s) prêtes.");
+    debugPrint("✅ Chargement terminé. ${duelQuestions.length} question(s) prêtes.");
     final userField = currentUser!.uid == doc.data()?['from'] ? 'player1' : 'player2';
     final userData = doc.data()?[userField] ?? {};
     final answers = (userData['answers'] as Map?) ?? {};

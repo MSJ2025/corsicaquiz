@@ -22,7 +22,7 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
       await bellPlayer.setAsset('assets/sons/quiz/bell.mp3');
       bellPlayer.play();
     } catch (e) {
-      print("Erreur de lecture du son bell : \$e");
+      debugPrint("Erreur de lecture du son bell : \$e");
     }
 
     await showDialog(
@@ -238,7 +238,7 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
       await wooshPlayer.setAsset('assets/sons/quiz/woosh.mp3');
       wooshPlayer.play();
     } catch (e) {
-      print("Erreur de lecture du son woosh : \$e");
+      debugPrint("Erreur de lecture du son woosh : \$e");
     }
 
     await showDialog(
@@ -566,7 +566,7 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
       await _player.setLoopMode(LoopMode.all);
       _player.play();
     } catch (e) {
-      print("Erreur lors de la lecture du son : $e");
+      debugPrint("Erreur lors de la lecture du son : $e");
     }
   }
 
@@ -575,7 +575,7 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
       await _gunPlayer.setAsset('assets/sons/quiz/gun2.mp3');
       _gunPlayer.play();
     } catch (e) {
-      print("Erreur de lecture du son de tir : $e");
+      debugPrint("Erreur de lecture du son de tir : $e");
     }
   }
 

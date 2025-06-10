@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 
 class ProfileService {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
@@ -7,12 +8,12 @@ class ProfileService {
   // 🔹 Vérifie si l'utilisateur a un profil complet
   Future<bool> hasProfile(String uid) async {
     try {
-      print("🔎 [Firestore] Vérification du profil pour UID: $uid");
+      debugPrint("🔎 [Firestore] Vérification du profil pour UID: $uid");
 
       var doc = await _db.collection('users').doc(uid).get();
 
       if (!doc.exists) {
-        print("❌ [Firestore] Aucun profil trouvé !");
+        debugPrint("❌ [Firestore] Aucun profil trouvé !");
         return false;
       }
 
@@ -21,14 +22,14 @@ class ProfileService {
       final isValid = pseudo.toString().trim().isNotEmpty;
 
       if (isValid) {
-        print("✅ [Firestore] Profil complet trouvé !");
+        debugPrint("✅ [Firestore] Profil complet trouvé !");
       } else {
-        print("❌ [Firestore] Profil incomplet (pseudo manquant)");
+        debugPrint("❌ [Firestore] Profil incomplet (pseudo manquant)");
       }
 
       return isValid;
     } catch (e) {
-      print("⚠️ [Erreur Firestore - hasProfile] $e");
+      debugPrint("⚠️ [Erreur Firestore - hasProfile] $e");
       return false;
     }
   }
@@ -36,7 +37,7 @@ class ProfileService {
   // 🔹 Crée un profil utilisateur
   Future<void> createProfile(String uid, String pseudo, String avatar, String bio) async {
     try {
-      print("📝 [Firestore] Création du profil pour UID: $uid");
+      debugPrint("📝 [Firestore] Création du profil pour UID: $uid");
 
       await _db.collection('users').doc(uid).set({
         "uid": uid,
@@ -52,28 +53,28 @@ class ProfileService {
         "glands": 0,
       });
 
-      print("✅ [Firestore] Profil créé avec succès !");
+      debugPrint("✅ [Firestore] Profil créé avec succès !");
     } catch (e) {
-      print("⚠️ [Erreur Firestore - createProfile] $e");
+      debugPrint("⚠️ [Erreur Firestore - createProfile] $e");
     }
   }
 
   // 🔹 Récupère les infos du profil utilisateur
   Future<Map<String, dynamic>?> getProfile(String uid) async {
     try {
-      print("📡 [Firestore] Récupération du profil pour UID: $uid");
+      debugPrint("📡 [Firestore] Récupération du profil pour UID: $uid");
 
       var doc = await _db.collection('users').doc(uid).get();
 
       if (doc.exists) {
-        print("✅ [Firestore] Profil récupéré : ${doc.data()}");
+        debugPrint("✅ [Firestore] Profil récupéré : ${doc.data()}");
         return doc.data();
       } else {
-        print("❌ [Firestore] Aucun profil trouvé !");
+        debugPrint("❌ [Firestore] Aucun profil trouvé !");
         return null;
       }
     } catch (e) {
-      print("⚠️ [Erreur Firestore - getProfile] $e");
+      debugPrint("⚠️ [Erreur Firestore - getProfile] $e");
       return null;
     }
   }
@@ -89,7 +90,7 @@ class ProfileService {
       // S’il existe au moins un document dont l’ID est différent de excludeUid, le pseudo est pris
       return query.docs.any((doc) => doc.id != excludeUid);
     } catch (e) {
-      print("⚠️ [Firestore - isPseudoTaken] $e");
+      debugPrint("⚠️ [Firestore - isPseudoTaken] $e");
       // En cas d’erreur, on considère le pseudo comme déjà pris pour éviter les conflits
       return true;
     }
