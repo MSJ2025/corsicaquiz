@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:async';
 import '../services/auth_service.dart';
 import '/screens/login_screen.dart';
 import '/screens/profile_screen.dart';
@@ -28,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   final AuthService _authService = AuthService();
   double _boatX = 0.0;
   late AnimationController _settingsController;
+  StreamSubscription<QuerySnapshot>? _duelSub;
 
   @override
   void initState() {
@@ -36,12 +38,36 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       vsync: this,
       duration: Duration(seconds: 20),
     )..repeat();
+    _listenForDuels();
   }
 
   @override
   void dispose() {
     _settingsController.dispose();
+    _duelSub?.cancel();
     super.dispose();
+  }
+
+  void _listenForDuels() {
+    final uid = widget.user.uid;
+    _duelSub = FirebaseFirestore.instance
+        .collection('duels')
+        .where('to', isEqualTo: uid)
+        .where('status', isEqualTo: 'pending')
+        .snapshots()
+        .listen((snapshot) {
+      for (final change in snapshot.docChanges) {
+        if (change.type == DocumentChangeType.added) {
+          final data = change.doc.data() as Map<String, dynamic>;
+          final pseudo = data['player1']?['pseudo'] ?? 'Un joueur';
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('$pseudo vous a lancé un duel !')),
+            );
+          }
+        }
+      }
+    });
   }
 
   @override

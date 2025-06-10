@@ -6,12 +6,14 @@ import 'firebase_options.dart';
 import '/screens/splash_screen.dart'; // Import du splash screen
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '/services/winner_service.dart';
+import 'services/notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await NotificationService.init();
 
   runApp(const MyApp());
 }
