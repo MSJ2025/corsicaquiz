@@ -6,9 +6,17 @@ import 'package:flutter/foundation.dart';
 import 'presence_service.dart';
 
 class AuthService {
-  final FirebaseAuth _auth = FirebaseAuth.instance;
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
-  final _presence = PresenceService();
+  final FirebaseAuth _auth;
+  final GoogleSignIn _googleSignIn;
+  final PresenceService _presence;
+
+  AuthService({
+    FirebaseAuth? auth,
+    GoogleSignIn? googleSignIn,
+    PresenceService? presenceService,
+  })  : _auth = auth ?? FirebaseAuth.instance,
+        _googleSignIn = googleSignIn ?? GoogleSignIn(),
+        _presence = presenceService ?? PresenceService();
 
   // 🔹 Connexion avec Google
   Future<User?> signInWithGoogle() async {
