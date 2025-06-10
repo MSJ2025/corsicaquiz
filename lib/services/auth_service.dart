@@ -3,7 +3,9 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'presence_service.dart';
+import 'profile_service.dart';
 
 class AuthService {
   final FirebaseAuth _auth;
@@ -33,6 +35,18 @@ class AuthService {
       UserCredential userCredential = await _auth.signInWithCredential(credential);
       final user = userCredential.user;
       if (user != null) {
+        final doc = await FirebaseFirestore.instance
+            .collection('users')
+            .doc(user.uid)
+            .get();
+        if (!doc.exists) {
+          await ProfileService().createProfile(
+            user.uid,
+            user.displayName ?? '',
+            user.photoURL ?? '',
+            '',
+          );
+        }
         _presence.init(user.uid);
       }
       return user;
