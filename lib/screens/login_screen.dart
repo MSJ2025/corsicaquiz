@@ -7,15 +7,25 @@ import '../screens/home_screen.dart';
 import '../screens/profile_screen.dart';
 
 class LoginScreen extends StatefulWidget {
+  final AuthService? authService;
+
+  const LoginScreen({Key? key, this.authService}) : super(key: key);
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final AuthService _authService = AuthService();
+  late final AuthService _authService;
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   bool _isLoading = false; // Indicateur de chargement
+
+  @override
+  void initState() {
+    super.initState();
+    _authService = widget.authService ?? AuthService();
+  }
 
   void _handleAuth() async {
     setState(() => _isLoading = true);
@@ -270,6 +280,10 @@ class _LoginScreenState extends State<LoginScreen> {
                               ? HomeScreen(user: user)
                               : ProfileScreen(user: user),
                         ),
+                      );
+                    } else {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Échec de la connexion')),
                       );
                     }
                   },
