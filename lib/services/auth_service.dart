@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'presence_service.dart';
 
 class AuthService {
@@ -28,7 +29,7 @@ class AuthService {
       }
       return user;
     } catch (e) {
-      print("❌ Erreur d'authentification Google : $e");
+      debugPrint("❌ Erreur d'authentification Google : $e");
       return null;
     }
   }
@@ -56,7 +57,7 @@ class AuthService {
       }
       return user;
     } catch (e) {
-      print("❌ Erreur d'authentification Apple : $e");
+      debugPrint("❌ Erreur d'authentification Apple : $e");
       return null;
     }
   }
@@ -74,7 +75,7 @@ class AuthService {
       }
       return user;
     } catch (e) {
-      print("❌ Erreur d'inscription : $e");
+      debugPrint("❌ Erreur d'inscription : $e");
       return null;
     }
   }
@@ -92,7 +93,7 @@ class AuthService {
       }
       return user;
     } catch (e) {
-      print("❌ Erreur d'authentification Email : $e");
+      debugPrint("❌ Erreur d'authentification Email : $e");
       return null;
     }
   }
@@ -105,9 +106,9 @@ class AuthService {
       if (await _googleSignIn.isSignedIn()) {
         await _googleSignIn.signOut();
       }
-      print("✅ Déconnexion réussie");
+      debugPrint("✅ Déconnexion réussie");
     } catch (e) {
-      print("❌ Erreur lors de la déconnexion : $e");
+      debugPrint("❌ Erreur lors de la déconnexion : $e");
     }
   }
 }
