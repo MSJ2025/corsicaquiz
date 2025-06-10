@@ -3,9 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import '../classement/classement_perso_screen.dart';
-import 'domain_selection_screen.dart';
-import 'dart:convert';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:corsicaquiz/services/duel_service.dart';
 
 class DuelUserListScreen extends StatefulWidget {
   const DuelUserListScreen({Key? key}) : super(key: key);
@@ -34,99 +32,21 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
       _isSendingRequest = true;
     });
 
-    if (currentUser == null) return;
-
-    // Affichage de l'écran de sélection des domaines pour le créateur
-    final selectedDomains = await Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => DomainSelectionScreen(),
-      ),
+    final duelId = await DuelService().sendDuelRequest(
+      context: context,
+      opponentId: opponentId,
+      opponentPseudo: opponentPseudo,
     );
 
-    if (selectedDomains == null || selectedDomains.length != 6) {
+    if (duelId != null) {
+      debugPrint('sendDuelRequest: Duel request sent successfully. Duel ID: $duelId');
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Vous devez choisir exactement 6 domaines.'),
-          backgroundColor: Colors.red,
+          content: Text('Défi envoyé avec succès !'),
+          backgroundColor: Colors.green,
         ),
       );
-      setState(() {
-        _isSendingRequest = false;
-      });
-      return;
     }
-
-    final myId = currentUser.uid;
-    final mySnapshot = await FirebaseFirestore.instance.collection('users').doc(myId).get();
-    final myPseudo = mySnapshot.data()?['pseudo'] ?? 'Joueur';
-    debugPrint('sendDuelRequest: myId=$myId, opponentId=$opponentId, opponentPseudo=$opponentPseudo');
-
-    List<Map<String, dynamic>> allQuestions = [];
-
-    Future<List<dynamic>> loadJson(String path) async {
-      final String jsonString = await rootBundle.loadString(path);
-      return json.decode(jsonString);
-    }
-
-    final difficultyMap = {
-      'Facile': 4,
-      'Moyen': 4,
-      'Difficile': 4,
-    };
-
-    // Pour chaque difficulté, pour chaque domaine sélectionné, ajouter une question si nécessaire
-    for (final difficulty in difficultyMap.keys) {
-      final filteredDomains = List<String>.from(selectedDomains);
-      filteredDomains.shuffle();
-
-      for (final domain in filteredDomains) {
-        // Vérifie si le nombre de questions pour cette difficulté est déjà atteint
-        if (allQuestions.where((q) => q['difficulte'] == difficulty).length >= difficultyMap[difficulty]!) break;
-
-        final questions = await loadJson('assets/data/$domain.json');
-        final filtered = (questions as List).where((q) => q['difficulte'] == difficulty).toList();
-        filtered.shuffle();
-        if (filtered.isNotEmpty) {
-          allQuestions.add(filtered.first);
-        }
-      }
-    }
-
-    debugPrint('sendDuelRequest: Total questions generated: ${allQuestions.length}');
-
-    // Préparer les données du duel, en ajoutant le champ 'domainesEnvoyeur'
-    final duelData = {
-      'from': myId,
-      'to': opponentId,
-      'status': 'pending',
-      'createdAt': FieldValue.serverTimestamp(),
-      'questions': allQuestions,
-      'domainesEnvoyeur': selectedDomains, // Ce champ contient les 6 domaines sélectionnés par le créateur
-      'player1': {
-        'uid': myId,
-        'pseudo': myPseudo,
-        'score': 0,
-        'currentIndex': 0,
-      },
-      'player2': {
-        'uid': opponentId,
-        'pseudo': opponentPseudo,
-        'score': 0,
-        'currentIndex': 0,
-      },
-      'participants': [myId, opponentId],
-    };
-
-    final duelRef = await FirebaseFirestore.instance.collection('duels').add(duelData);
-    debugPrint('sendDuelRequest: Duel request sent successfully. Duel ID: ${duelRef.id}');
-
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Défi envoyé avec succès !'),
-        backgroundColor: Colors.green,
-      ),
-    );
 
     setState(() {
       _isSendingRequest = false;
