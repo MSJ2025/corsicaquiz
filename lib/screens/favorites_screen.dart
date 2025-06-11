@@ -21,6 +21,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   List<Map<String, dynamic>> _favoriteUsers = [];
   bool _loading = true;
   bool _isSendingRequest = false;
+  bool _loggedIn = true;
 
   @override
   void initState() {
@@ -31,7 +32,10 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   void _listenFavorites() {
     final uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid == null) {
-      setState(() => _loading = false);
+      setState(() {
+        _loading = false;
+        _loggedIn = false;
+      });
       return;
     }
     _favSub = _favoriteService.favoritesStream(uid).listen((uids) {
@@ -182,9 +186,13 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
       appBar: AppBar(title: const Text('Mes favoris')),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
-          : _favoriteUsers.isEmpty
-              ? const Center(child: Text('Aucun favori.'))
-              : ListView.builder(
+          : !_loggedIn
+              ? const Center(
+                  child: Text('Veuillez vous connecter pour voir vos favoris.'),
+                )
+              : _favoriteUsers.isEmpty
+                  ? const Center(child: Text('Aucun favori.'))
+                  : ListView.builder(
                   itemCount: _favoriteUsers.length,
                   itemBuilder: (context, index) {
                     final user = _favoriteUsers[index];

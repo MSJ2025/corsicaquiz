@@ -1,7 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class FavoriteService {
-  final FirebaseFirestore _db = FirebaseFirestore.instance;
+  final FirebaseFirestore _db;
+
+  FavoriteService({FirebaseFirestore? firestore})
+      : _db = firestore ?? FirebaseFirestore.instance;
 
   Stream<List<String>> favoritesStream(String uid) {
     return _db
@@ -31,13 +34,4 @@ class FavoriteService {
         .delete();
   }
 
-  Future<bool> isFavorite(String uid, String favoriteUid) async {
-    final doc = await _db
-        .collection('users')
-        .doc(uid)
-        .collection('favorites')
-        .doc(favoriteUid)
-        .get();
-    return doc.exists;
-  }
 }
