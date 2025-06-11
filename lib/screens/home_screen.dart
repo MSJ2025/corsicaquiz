@@ -15,6 +15,7 @@ import '/screens/etude_questions.dart';
 import 'signalements_questions_screen.dart';
 import '/screens/proposition_question_screen.dart';
 import '/screens/questions_selection_screen.dart';
+import '/screens/favorites_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final User user;
@@ -362,6 +363,15 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                     context,
                     MaterialPageRoute(builder: (context) => PropositionQuestionScreen()),
                   );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.star, color: Colors.orange),
+                title: Text('Mes favoris'),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => FavoritesScreen()));
                 },
               ),
               if (widget.user.email == 'pacman93@gmail.com' ||
