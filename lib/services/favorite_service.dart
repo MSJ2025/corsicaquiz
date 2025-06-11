@@ -31,13 +31,4 @@ class FavoriteService {
         .delete();
   }
 
-  Future<bool> isFavorite(String uid, String favoriteUid) async {
-    final doc = await _db
-        .collection('users')
-        .doc(uid)
-        .collection('favorites')
-        .doc(favoriteUid)
-        .get();
-    return doc.exists;
-  }
 }
