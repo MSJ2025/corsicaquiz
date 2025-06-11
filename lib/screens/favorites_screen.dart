@@ -22,6 +22,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   bool _loading = true;
 
   bool _loggedIn = true;
+  bool _isSendingRequest = false;
 
   @override
   void initState() {
