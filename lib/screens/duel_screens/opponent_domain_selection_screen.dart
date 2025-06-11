@@ -159,6 +159,28 @@ class _OpponentDomainSelectionScreenState extends State<OpponentDomainSelectionS
                 ),
               ),
               Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                child: ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.orangeAccent,
+                    foregroundColor: Colors.white,
+                    elevation: 4,
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                  ),
+                  icon: const Icon(Icons.shuffle),
+                  label: const Text('Sélection aléatoire'),
+                  onPressed: () {
+                    final random = Random();
+                    final shuffled = List<String>.from(availableDomains)..shuffle(random);
+                    setState(() {
+                      for (int i = 0; i < selectedDomains.length; i++) {
+                        selectedDomains[i] = shuffled[i % shuffled.length];
+                      }
+                    });
+                  },
+                ),
+              ),
+              Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: FloatingActionButton.extended(
                   onPressed: selectedDomains.every((d) => d != null)
