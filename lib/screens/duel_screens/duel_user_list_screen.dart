@@ -159,10 +159,21 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
   Future<void> _toggleFavorite(String uid) async {
     final currentUser = FirebaseAuth.instance.currentUser;
     if (currentUser == null) return;
-    if (_favorites.contains(uid)) {
-      await _favoriteService.removeFavorite(currentUser.uid, uid);
-    } else {
-      await _favoriteService.addFavorite(currentUser.uid, uid);
+    try {
+      if (_favorites.contains(uid)) {
+        await _favoriteService.removeFavorite(currentUser.uid, uid);
+        setState(() => _favorites.remove(uid));
+      } else {
+        await _favoriteService.addFavorite(currentUser.uid, uid);
+        setState(() => _favorites.add(uid));
+      }
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Erreur lors de la mise à jour des favoris.'),
+          backgroundColor: Colors.red,
+        ),
+      );
     }
   }
 
