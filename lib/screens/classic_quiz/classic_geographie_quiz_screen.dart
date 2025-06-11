@@ -122,7 +122,9 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   @override
   Widget build(BuildContext context) {
     if (_cities.isEmpty) {
-      return Scaffold(body: Center(child: CircularProgressIndicator()));
+      return Scaffold(
+        body: SafeArea(child: Center(child: CircularProgressIndicator())),
+      );
     }
 
     final city = _cities[_current];
@@ -130,8 +132,8 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     final realPoint = latlong2.LatLng(city['latitude'], city['longitude']);
 
     return Scaffold(
-      appBar: AppBar(title: Text('Géographie')),
-      body: Stack(
+      body: SafeArea(
+        child: Stack(
         children: [
           flutter_map.FlutterMap(
             mapController: _mapController,
