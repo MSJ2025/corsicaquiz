@@ -58,6 +58,8 @@ dependencies:
   upgrader: ^11.3.1
   firebase_messaging: ^14.7.4
   flutter_local_notifications: ^16.1.0
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
 
 dev_dependencies:
   flutter_test:
@@ -93,6 +95,7 @@ flutter:
    - assets/images/napoleon.png
    - assets/icons/
    - assets/data/
+   - assets/data/questions_geographie.json
    - assets/images/avatars/
    - assets/lottie/
    - assets/sons/quiz/

@@ -1,0 +1,14 @@
+[
+  {"ville": "Ajaccio", "latitude": 41.919229, "longitude": 8.738635},
+  {"ville": "Bastia", "latitude": 42.697672, "longitude": 9.450962},
+  {"ville": "Calvi", "latitude": 42.566376, "longitude": 8.756933},
+  {"ville": "Corte", "latitude": 42.306397, "longitude": 9.150068},
+  {"ville": "Porto-Vecchio", "latitude": 41.591419, "longitude": 9.279619},
+  {"ville": "Bonifacio", "latitude": 41.387067, "longitude": 9.159307},
+  {"ville": "Sartène", "latitude": 41.622886, "longitude": 8.974305},
+  {"ville": "Île-Rousse", "latitude": 42.634925, "longitude": 8.937267},
+  {"ville": "Propriano", "latitude": 41.676137, "longitude": 8.907394},
+  {"ville": "Aléria", "latitude": 42.101586, "longitude": 9.513199},
+  {"ville": "Saint-Florent", "latitude": 42.683155, "longitude": 9.299641},
+  {"ville": "Ghisonaccia", "latitude": 42.014526, "longitude": 9.406066}
+]
