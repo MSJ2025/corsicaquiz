@@ -8,6 +8,7 @@ import '/screens/classic_quiz/classic_histoire_quiz_screen.dart';
 import '/screens/classic_quiz/classic_culture_quiz_screen.dart';
 import '/screens/classic_quiz/classic_faune_quiz_screen.dart';
 import '/screens/classic_quiz/classic_personnalites_quiz_screen.dart';
+import '/screens/classic_quiz/classic_geographie_quiz_screen.dart';
 
 class _AnimatedFloatingButton extends StatefulWidget {
   final String text;
@@ -180,7 +181,12 @@ class ClassicQuizMenuScreen extends StatelessWidget {
                 ),
                 _AnimatedFloatingButton(
                   backgroundImage: 'assets/images/boiscartoon.png',
-                  onTap: () => _startQuiz(context, "Géographie"),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ClassicGeographieQuizScreen()),
+                    );
+                  },
                   text: "Géographie",
                 ),
                 _AnimatedFloatingButton(
