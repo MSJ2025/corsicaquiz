@@ -1,0 +1,2732 @@
+[
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel peuple de marins de l'Antiquité a fondé la cité d'Aléria en 565 av. J.-C. ?",
+    "reponses": [
+      { "texte": "Les Romains", "correct": false },
+      { "texte": "Les Phocéens (Grecs)", "correct": true },
+      { "texte": "Les Carthaginois", "correct": false },
+      { "texte": "Les Phéniciens", "correct": false }
+    ],
+    "explication": "Aléria, sur la côte orientale de la Corse, fut fondée au VIe siècle av. J.-C. par les Phocéens, des Grecs originaires d'Asie Mineure, qui établirent ainsi la première colonie écrite de l'île.",
+    "difficulte": "Moyen",
+    "image": "https://www.la-corse.travel/wp-content/uploads/2019/06/aleria.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle bataille navale vers 540 av. J.-C. opposa les Phocéens aux Étrusques et Carthaginois au large de la Corse ?",
+    "reponses": [
+      { "texte": "La bataille d’Alalia", "correct": true },
+      { "texte": "La bataille d’Actium", "correct": false },
+      { "texte": "La bataille de Mylae", "correct": false },
+      { "texte": "La bataille de Salamine", "correct": false }
+    ],
+    "explication": "Vers 540 av. J.-C., la bataille d'Alalia, également appelée bataille de la mer Sarde, opposa la flotte des Phocéens à une coalition étrusque-carthaginoise. Malgré des pertes importantes, aucun camp ne remporta une victoire décisive et les Phocéens finirent par abandonner leur colonie.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/04/bataille-alalia.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Avec quelle île voisine la Corse fut-elle administrativement unie sous la République romaine ?",
+    "reponses": [
+      { "texte": "La Sicile", "correct": false },
+      { "texte": "La Sardaigne", "correct": true },
+      { "texte": "Chypre", "correct": false },
+      { "texte": "Malte", "correct": false }
+    ],
+    "explication": "Après la première guerre punique, Rome annexa la Corse et la Sardaigne, les regroupant en une seule province administrative. Cette union permit une romanisation accélérée des deux îles.",
+    "difficulte": "Facile",
+    "image": "https://www.la-corse.travel/wp-content/uploads/2018/10/sardaigne-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel tribut insolite les Romains imposèrent-ils annuellement aux Corses vaincus au IIe siècle av. J.-C. ?",
+    "reponses": [
+      { "texte": "Du vin", "correct": false },
+      { "texte": "De la cire d’abeille", "correct": true },
+      { "texte": "Des châtaignes", "correct": false },
+      { "texte": "Du cuivre", "correct": false }
+    ],
+    "explication": "Après avoir soumis la Corse, les Romains imposèrent un tribut annuel de 100 000 livres de cire d'abeille, un produit très prisé pour l'éclairage et la fabrication de bougies, symbolisant ainsi la lourdeur de l'assujettissement romain.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsicatravelguide.com/wp-content/uploads/2017/08/abeille-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel philosophe stoïcien fut exilé en Corse durant huit ans au Ier siècle ap. J.-C. ?",
+    "reponses": [
+      { "texte": "Marc Aurèle", "correct": false },
+      { "texte": "Sénèque", "correct": true },
+      { "texte": "Épictète", "correct": false },
+      { "texte": "Cicéron", "correct": false }
+    ],
+    "explication": "Sénèque, philosophe stoïcien et précepteur de Néron, fut exilé en Corse pendant environ huit ans. Durant son séjour, il écrivit plusieurs œuvres qui attestent de sa pensée stoïcienne.",
+    "difficulte": "Moyen",
+    "image": "https://www.la-corse.travel/wp-content/uploads/2020/02/seneca-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle sainte, martyrisée au IVe siècle, est vénérée comme la patronne de la Corse et de Monaco ?",
+    "reponses": [
+      { "texte": "Sainte Hélène", "correct": false },
+      { "texte": "Sainte Dévote", "correct": true },
+      { "texte": "Sainte Catherine", "correct": false },
+      { "texte": "Sainte Lucie", "correct": false }
+    ],
+    "explication": "Sainte Dévote est célébrée en Corse et à Monaco. Selon la légende, son corps, après le martyre, aurait dérivé jusqu'à Monaco, où elle fut honorée comme sainte patronne. Son culte est très ancien et demeure un symbole fort de l'identité corse.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/03/sainte-devote.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel peuple germanique venu d'Afrique du Nord conquit brièvement la Corse au Ve siècle ?",
+    "reponses": [
+      { "texte": "Les Wisigoths", "correct": false },
+      { "texte": "Les Francs", "correct": false },
+      { "texte": "Les Vandales", "correct": true },
+      { "texte": "Les Normands", "correct": false }
+    ],
+    "explication": "Au Ve siècle, après la chute de l'Empire romain d'Occident, la Corse fut conquise par les Vandales, un peuple germanique établi en Afrique du Nord. Leur règne fut de courte durée avant que l'Empire byzantin ne reprenne la main sur l'île.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsicatravelguide.com/wp-content/uploads/2017/04/vandales-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelles deux puissances maritimes italiennes se disputèrent la domination de la Corse au Moyen Âge ?",
+    "reponses": [
+      { "texte": "Venise et Florence", "correct": false },
+      { "texte": "Pise et Gênes", "correct": true },
+      { "texte": "Naples et Milan", "correct": false },
+      { "texte": "Rome et Sienne", "correct": false }
+    ],
+    "explication": "Du XIe au XIIIe siècle, la Corse fut l'enjeu d'une lutte entre Pise et Gênes. Initialement dominée par Pise, l'île passa sous la main de Gênes après une série de conflits maritimes et terrestres.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/07/pise-genes-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle bataille navale de 1284 permit à Gênes de supplanter Pise pour contrôler la Corse ?",
+    "reponses": [
+      { "texte": "La bataille de la Meloria", "correct": true },
+      { "texte": "La bataille de Lépante", "correct": false },
+      { "texte": "La bataille de Crète", "correct": false },
+      { "texte": "La bataille des Éperons d'or", "correct": false }
+    ],
+    "explication": "Le 6 août 1284, la bataille de la Meloria permit à la flotte génoise d'infliger une défaite décisive aux Pisans. Cette victoire permit à Gênes de consolider son hégémonie sur la Corse pour plusieurs siècles.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/05/bataille-meloria.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Comment appelait-on les tours littorales édifiées par les Génois pour prévenir les attaques de pirates barbaresques ?",
+    "reponses": [
+      { "texte": "Les tours génoises", "correct": true },
+      { "texte": "Les phares pisans", "correct": false },
+      { "texte": "Les bastions vandales", "correct": false },
+      { "texte": "Les donjons francs", "correct": false }
+    ],
+    "explication": "Les Génois construisirent dès le XVIe siècle une série de tours de guet le long des côtes corses pour surveiller la mer et avertir en cas d'invasion par les pirates barbaresques. Ces structures robustes sont aujourd'hui un témoin précieux de l'architecture militaire médiévale de l'île.",
+    "difficulte": "Facile",
+    "image": "https://www.corsicatravelguide.com/wp-content/uploads/2018/09/tours-genoises-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel organisme financier génois, nommé d'après un saint, administra la Corse de 1453 à 1562 ?",
+    "reponses": [
+      { "texte": "L'Office de Saint-Georges", "correct": true },
+      { "texte": "L'Ordre de Saint-Jean", "correct": false },
+      { "texte": "La Banque Saint-Benoît", "correct": false },
+      { "texte": "Le Trésor de Saint-Marc", "correct": false }
+    ],
+    "explication": "En 1453, la République de Gênes confia la gestion de la Corse à l'Office de Saint-Georges, une institution financière qui administra l'île pendant plus d'un siècle. Nommé d'après le saint patron de Gênes, cet organisme eut pour mission de développer l'économie corse tout en réprimant les révoltes locales.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/08/office-saint-georges.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle ville corse doit son nom à la \"bastille\" (forteresse) construite par les Génois au XIVe siècle ?",
+    "reponses": [
+      { "texte": "Bastia", "correct": true },
+      { "texte": "Ajaccio", "correct": false },
+      { "texte": "Calvi", "correct": false },
+      { "texte": "Bonifacio", "correct": false }
+    ],
+    "explication": "Bastia tire son nom du terme italien \"bastiglia\" signifiant bastion. Au XIVe siècle, les Génois y construisirent une forteresse qui devint le noyau de la ville et le symbole de leur domination sur l'île.",
+    "difficulte": "Moyen",
+    "image": "https://www.la-corse.travel/wp-content/uploads/2019/02/bastia-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel port fortifié du sud de la Corse, fondé au IXe siècle, est réputé pour sa citadelle perchée sur des falaises ?",
+    "reponses": [
+      { "texte": "Bonifacio", "correct": true },
+      { "texte": "Porto-Vecchio", "correct": false },
+      { "texte": "Calvi", "correct": false },
+      { "texte": "Saint-Florent", "correct": false }
+    ],
+    "explication": "Bonifacio, fondée vers l'an 830, est célèbre pour sa citadelle médiévale qui domine les falaises de calcaire blanc et protège l'entrée du port, faisant de cette ville un site stratégique et pittoresque de Corse.",
+    "difficulte": "Facile",
+    "image": "https://www.bonifacio-tourisme.fr/wp-content/uploads/2020/06/citadelle-bonifacio.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel seigneur corse du XVIe siècle, surnommé \"U Sampieru\", mena la lutte contre la domination génoise ?",
+    "reponses": [
+      { "texte": "Vincentello d'Istria", "correct": false },
+      { "texte": "Sampiero Corso", "correct": true },
+      { "texte": "Pasquale Paoli", "correct": false },
+      { "texte": "Ghjuvan Paolo di Leca", "correct": false }
+    ],
+    "explication": "Sampiero Corso (1498-1567) est une figure emblématique de la lutte contre la domination génoise en Corse. Son engagement et ses campagnes militaires firent de lui un héros légendaire, symbole de la résistance insulaire.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/06/sampiero-corso.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel roi de France fit occuper la Corse de 1553 à 1559 avant de la restituer à Gênes ?",
+    "reponses": [
+      { "texte": "Louis XII", "correct": false },
+      { "texte": "François Ier", "correct": false },
+      { "texte": "Charles IX", "correct": false },
+      { "texte": "Henri II", "correct": true }
+    ],
+    "explication": "Durant les guerres d'Italie, le roi Henri II de France s'allia aux Corses insurgés et, en 1553, occupa l'île avec l'aide d'une flotte franco-turque. Par le traité de Cateau-Cambrésis en 1559, il dut restituer la Corse à Gênes.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/03/henri-ii-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel aventurier allemand se fit proclamer roi de Corse en 1736 par les insurgés locaux ?",
+    "reponses": [
+      { "texte": "Théodore de Neuhoff", "correct": true },
+      { "texte": "Baron von Münchhausen", "correct": false },
+      { "texte": "Otto Skorzeny", "correct": false },
+      { "texte": "Karl von Napstein", "correct": false }
+    ],
+    "explication": "En 1736, Théodore de Neuhoff débarqua en Corse et, grâce au soutien des insurgés locaux opposés à la domination génoise, fut brièvement proclamé roi de l'île. Ce règne éphémère illustre la complexité des alliances et des ambitions de l'époque.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/07/neuhoff.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel patriote corse, surnommé \"Babbu di a Patria\", dirigea l'île indépendante de 1755 à 1769 ?",
+    "reponses": [
+      { "texte": "Pasquale Paoli", "correct": true },
+      { "texte": "Sampiero Corso", "correct": false },
+      { "texte": "Théodore de Neuhoff", "correct": false },
+      { "texte": "Giovanni Battista Antonelli", "correct": false }
+    ],
+    "explication": "Pasquale Paoli est considéré comme le Père de la Patrie corse. En 1755, il instaura la République corse et mit en place une Constitution moderne avant d'affronter la conquête française en 1769.",
+    "difficulte": "Facile",
+    "image": "https://www.la-corse.travel/wp-content/uploads/2020/01/paoli.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Dans quelle ville de l'intérieur Pasquale Paoli fonda-t-il l'une des premières universités corses en 1765 ?",
+    "reponses": [
+      { "texte": "Ajaccio", "correct": false },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Corte", "correct": true },
+      { "texte": "Calvi", "correct": false }
+    ],
+    "explication": "En 1765, Pasquale Paoli établit l'Université de Corte, destinée à former une élite corse et à diffuser des connaissances modernes. Ce fut une avancée importante dans la construction d'un État indépendant.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/06/universite-corte.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel traité signé en 1768 officialisa la cession de la Corse à la France par Gênes ?",
+    "reponses": [
+      { "texte": "Le traité d'Utrecht", "correct": false },
+      { "texte": "Le traité de Paris", "correct": false },
+      { "texte": "Le traité de Versailles (1768)", "correct": true },
+      { "texte": "Le traité d'Aix-la-Chapelle", "correct": false }
+    ],
+    "explication": "Face aux révoltes corses, Gênes céda ses droits sur l'île à la France par le traité de Versailles du 15 mai 1768. Ce traité marqua le début de l'intervention française et la fin de l'indépendance corse.",
+    "difficulte": "Moyen",
+    "image": "https://www.napoleon.org/wp-content/uploads/2018/05/trait%C3%A9-de-versailles-1768.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle bataille de 1769 scella la défaite des Corses face à l'armée française ?",
+    "reponses": [
+      { "texte": "La bataille de Bastia", "correct": false },
+      { "texte": "La bataille de Ponte-Novu", "correct": true },
+      { "texte": "La bataille d'Aléria", "correct": false },
+      { "texte": "La bataille de Corte", "correct": false }
+    ],
+    "explication": "Le 9 mai 1769, la bataille de Ponte-Novu permit aux troupes françaises de vaincre les insurgés corses menés par Paoli, mettant ainsi fin à la République corse indépendante.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/02/bataille-ponte-novu.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel pays administra la Corse entre 1794 et 1796 sous le nom de Royaume anglo-corse ?",
+    "reponses": [
+      { "texte": "L'Empire d'Autriche", "correct": false },
+      { "texte": "La Grande-Bretagne", "correct": true },
+      { "texte": "Le Royaume de Sardaigne", "correct": false },
+      { "texte": "L'Espagne", "correct": false }
+    ],
+    "explication": "Pendant la Révolution française, Pasquale Paoli chercha un allié et obtint le soutien de la Grande-Bretagne. Entre 1794 et 1796, l'île fut administrée sous le nom de Royaume anglo-corse, avant que les troupes françaises n'interviennent de nouveau.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/01/royaume-anglo-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel haut fonctionnaire français fut assassiné à Ajaccio en 1998, provoquant une vive émotion nationale ?",
+    "reponses": [
+      { "texte": "Le recteur Jean-Toussaint Leandri", "correct": false },
+      { "texte": "Le préfet Claude Érignac", "correct": true },
+      { "texte": "Le maire Simon Renucci", "correct": false },
+      { "texte": "Le ministre Pierre Joxe", "correct": false }
+    ],
+    "explication": "Le préfet Claude Érignac, représentant de l'État en Corse, fut abattu en 1998 à Ajaccio. Cet assassinat, revendiqué par des groupes indépendantistes, marqua profondément l'opinion publique française.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/11/erignac-ajaccio.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Comment s'appelle l'assemblée locale instaurée en Corse en 1982, issue de la décentralisation ?",
+    "reponses": [
+      { "texte": "Le Parlement insulaire corse", "correct": false },
+      { "texte": "L'Assemblée de Corse", "correct": true },
+      { "texte": "Le Conseil territorial corse", "correct": false },
+      { "texte": "Le Sénat de Corse", "correct": false }
+    ],
+    "explication": "Instaurée en 1982 dans le cadre de la décentralisation, l'Assemblée de Corse est l'organe élu chargé de gérer les affaires locales de l'île, reflétant ainsi une autonomie accrue au sein de la République.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/04/assemblee-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel changement administratif majeur a eu lieu en Corse le 1er janvier 2018 ?",
+    "reponses": [
+      { "texte": "La création de la Collectivité unique de Corse", "correct": true },
+      { "texte": "La division de l'île en trois départements", "correct": false },
+      { "texte": "Le rattachement de la Corse à la région PACA", "correct": false },
+      { "texte": "La suppression de l'Assemblée de Corse", "correct": false }
+    ],
+    "explication": "Le 1er janvier 2018, la Corse a été réorganisée administrativement avec la création de la Collectivité unique de Corse, fusionnant les deux départements et la collectivité territoriale pour une gestion unifiée de l'île.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/07/collectivite-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel symbole figure sur le drapeau corse actuel ?",
+    "reponses": [
+      { "texte": "Un lion d’or", "correct": false },
+      { "texte": "Une tête de Maure", "correct": true },
+      { "texte": "Une tour génoise", "correct": false },
+      { "texte": "Une croix de Malte", "correct": false }
+    ],
+    "explication": "Le drapeau corse se compose d'un fond blanc sur lequel est imprimée une tête de Maure noire, symbole historique utilisé depuis le XVIIIe siècle et représentant l'identité et la fierté de l'île.",
+    "difficulte": "Facile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/05/drapeau-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel produit alimentaire, appelé « arbre à pain », fut longtemps la base de l'alimentation traditionnelle corse ?",
+    "reponses": [
+      { "texte": "La châtaigne", "correct": true },
+      { "texte": "Le blé", "correct": false },
+      { "texte": "L'orge", "correct": false },
+      { "texte": "Le maïs", "correct": false }
+    ],
+    "explication": "La châtaigne, surnommée « l'arbre à pain » en Corse, fut autrefois la ressource alimentaire principale, transformée en farine pour réaliser pain et pulenta, notamment dans les zones montagneuses comme la Castagniccia.",
+    "difficulte": "Facile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/09/chataigne-corse.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Comment appelle-t-on le chant polyphonique traditionnel corse, inscrit au patrimoine immatériel de l'UNESCO ?",
+    "reponses": [
+      { "texte": "Le fado", "correct": false },
+      { "texte": "La tarentelle", "correct": false },
+      { "texte": "La paghjella", "correct": true },
+      { "texte": "Le flamenco corse", "correct": false }
+    ],
+    "explication": "La paghjella est un chant polyphonique corse exécuté a cappella et transmis de génération en génération. Inscrit au patrimoine immatériel de l'UNESCO, il représente un élément majeur de l'identité culturelle insulaire.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2017/12/paghjella.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel groupe clandestin, fondé en 1976, a mené des actions armées pour l'autonomie voire l'indépendance corse ?",
+    "reponses": [
+      { "texte": "Le FLNC (Front de Libération Nationale de la Corse)", "correct": true },
+      { "texte": "L'OAS", "correct": false },
+      { "texte": "Action Directe", "correct": false },
+      { "texte": "Le CNR", "correct": false }
+    ],
+    "explication": "Le FLNC a été créé en 1976 et a mené pendant plusieurs décennies une lutte armée pour obtenir plus d'autonomie et, pour certains, l'indépendance de la Corse. Ses actions ont marqué l'histoire contemporaine de l'île.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/08/flnc.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel événement survenu en 1975, portant le nom d'une localité viticole, marqua le début de la lutte nationaliste corse moderne ?",
+    "reponses": [
+      { "texte": "L'affaire d'Aléria", "correct": true },
+      { "texte": "La prise de Bastia", "correct": false },
+      { "texte": "Les accords d'Orezza", "correct": false },
+      { "texte": "Les évènements de Prunelli", "correct": false }
+    ],
+    "explication": "En 1975, l'occupation d'une cave viticole à Aléria par des nationalistes corses marqua un tournant dans la lutte pour l'autonomie. Cet événement eut un retentissement important et est considéré comme le déclencheur du mouvement nationaliste moderne.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.eu/wp-content/uploads/2018/11/aleria-nationaliste.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel haut élu de l'Assemblée de Corse est une figure majeure du mouvement autonomiste contemporain ?",
+    "reponses": [
+      { "texte": "Alain Juppé", "correct": false },
+      { "texte": "Jean-Guy Talamoni", "correct": true },
+      { "texte": "Charles Pasqua", "correct": false },
+      { "texte": "Sébastien Le Prestre de Vauban", "correct": false }
+    ],
+    "explication": "Jean-Guy Talamoni est l'un des acteurs politiques les plus connus de la Corse contemporaine. Élu président de l'Assemblée de Corse, il défend vigoureusement les revendications autonomistes et identitaires de l'île.",
+    "difficulte": "Difficile",
+    "image": "https://www.corsica.eu/wp-content/uploads/2019/10/talamoni.jpg"
+  },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel est le nom latin de la Corse, sous lequel elle était connue durant la période romaine ?",
+      "reponses": [
+        { "texte": "Hispania", "correct": false },
+        { "texte": "Sardinia", "correct": false },
+        { "texte": "Corsica", "correct": true },
+        { "texte": "Cilicia", "correct": false }
+      ],
+      "explication": "Durant la période romaine, la Corse était mentionnée sous le nom de Corsica et fut administrativement rattachée à la Sardaigne.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle ressource naturelle, en plus de la cire, attira l’intérêt des Romains en Corse ?",
+      "reponses": [
+        { "texte": "L’or", "correct": false },
+        { "texte": "Le marbre", "correct": true },
+        { "texte": "Le sel", "correct": false },
+        { "texte": "Le granit", "correct": false }
+      ],
+      "explication": "Les Romains furent particulièrement intéressés par les carrières de marbre de l’île, matériau employé dans leurs constructions et sculptures.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel fut le principal avantage stratégique des tours génoises érigées le long des côtes corses ?",
+      "reponses": [
+        { "texte": "Elles servaient uniquement de phares pour les navires.", "correct": false },
+        { "texte": "Elles stockaient la poudre à canon pour l’armée.", "correct": false },
+        { "texte": "Elles permettaient d’alerter rapidement l’intérieur de l’île en cas de danger.", "correct": true },
+        { "texte": "Elles servaient de résidences nobles pour les gouverneurs génois.", "correct": false }
+      ],
+      "explication": "Grâce à un système de signaux entre tours, on pouvait prévenir sans délai les villages de toute attaque maritime.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au Moyen Âge, quelle ville corse fut un important centre religieux et culturel sous l’influence pisane ?",
+      "reponses": [
+        { "texte": "Sartène", "correct": false },
+        { "texte": "Saint-Florent", "correct": false },
+        { "texte": "L’Île-Rousse", "correct": false },
+        { "texte": "Mariana", "correct": true }
+      ],
+      "explication": "La cité de Mariana, fondée à l’époque romaine, conserva sous Pise un rôle religieux majeur, accueillant un évêché et influençant durablement la région.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel célèbre explorateur italien, au service de la France, passa brièvement par la Corse avant d'explorer la côte est de l’Amérique du Nord ?",
+      "reponses": [
+        { "texte": "Amerigo Vespucci", "correct": false },
+        { "texte": "Giovanni da Verrazzano", "correct": true },
+        { "texte": "Christophe Colomb", "correct": false },
+        { "texte": "Sebastiano Caboto", "correct": false }
+      ],
+      "explication": "Giovanni da Verrazzano aurait fait escale en Corse avant de naviguer vers l’Amérique du Nord sous pavillon français.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle révolte corse de la fin du XVIIe siècle, connue pour sa durée, précéda les mouvements indépendantistes du XVIIIe siècle ?",
+      "reponses": [
+        { "texte": "La révolte de Lucciana", "correct": false },
+        { "texte": "La révolte de la Casinca", "correct": false },
+        { "texte": "La révolte de Vannina d’Ornano", "correct": false },
+        { "texte": "La révolte de la Viste", "correct": true }
+      ],
+      "explication": "La révolte de la Viste (ou de la Ligue) débuta en 1672 et dura plusieurs années, marquant une résistance tenace contre la domination génoise.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Après la Seconde Guerre mondiale, quel général français encouragea la libération de la Corse, faisant d’elle le premier département métropolitain libéré ?",
+      "reponses": [
+        { "texte": "Le général Leclerc", "correct": true },
+        { "texte": "Le général Giraud", "correct": false },
+        { "texte": "Le général Juin", "correct": false },
+        { "texte": "Le général De Lattre de Tassigny", "correct": false }
+      ],
+      "explication": "La Corse fut libérée dès 1943 grâce à l’action conjointe de la Résistance insulaire et du général Leclerc, devenant ainsi le premier territoire français métropolitain reconquis.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle loi adoptée en 1991 accorda un \"statut particulier\" à la Corse, renforçant les pouvoirs de l’Assemblée de Corse ?",
+      "reponses": [
+        { "texte": "La loi Pasqua", "correct": false },
+        { "texte": "La loi Joxe", "correct": true },
+        { "texte": "La loi Méhaignerie", "correct": false },
+        { "texte": "La loi Guigou", "correct": false }
+      ],
+      "explication": "En 1991, le ministre de l’Intérieur Pierre Joxe fit adopter une loi attribuant à la Corse un statut particulier avec des compétences élargies par rapport aux autres régions.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel auteur latin mentionne la rudesse de la Corse et son éloignement dans son œuvre « Naturalis Historia » ?",
+      "reponses": [
+        { "texte": "Tacite", "correct": false },
+        { "texte": "Virgile", "correct": false },
+        { "texte": "Pline l’Ancien", "correct": true },
+        { "texte": "Cicéron", "correct": false }
+      ],
+      "explication": "Dans sa « Naturalis Historia », Pline l’Ancien aborde de nombreux territoires de l’Empire, évoquant la Corse comme une île reculée dotée de diverses ressources.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel général carthaginois dirigea des raids sur la Corse au IIIe siècle av. J.-C. durant la première guerre punique ?",
+      "reponses": [
+        { "texte": "Hamilcar Barca", "correct": true },
+        { "texte": "Hannibal", "correct": false },
+        { "texte": "Hasdrubal", "correct": false },
+        { "texte": "Mago Barca", "correct": false }
+      ],
+      "explication": "Hamilcar Barca, père d’Hannibal, mena plusieurs opérations en Méditerranée, dont des incursions en Corse, bien que la domination carthaginoise sur l’île fût éphémère.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel fut l’impact principal des seigneuries locales sur la structure politique de la Corse médiévale ?",
+      "reponses": [
+        { "texte": "Elles mirent en place un système de fêtes religieuses annuelles.", "correct": false },
+        { "texte": "Elles entraînèrent une fragmentation et de multiples conflits entre clans.", "correct": true },
+        { "texte": "Elles firent disparaître totalement l’influence génoise.", "correct": false },
+        { "texte": "Elles abolirent la féodalité en Corse.", "correct": false }
+      ],
+      "explication": "Le morcellement féodal de l’île au Moyen Âge favorisa les rivalités entre clans, rendant le pouvoir politique instable et souvent disputé.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au cours du Moyen Âge, quelle forme de justice coutumière régulait les conflits dans certains villages corses ?",
+      "reponses": [
+        { "texte": "Le tribunal royal", "correct": false },
+        { "texte": "L’arbitrage vicomtal", "correct": false },
+        { "texte": "Le Conseil des anciens", "correct": true },
+        { "texte": "Les cours échevinales", "correct": false }
+      ],
+      "explication": "Dans plusieurs communautés insulaires, un Conseil des anciens, composé d’hommes reconnus pour leur sagesse, avait pour rôle de trancher les différends locaux.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel roi d’Angleterre envoya des agents en Corse au XVIIIe siècle pour étudier une possible alliance contre Gênes ?",
+      "reponses": [
+        { "texte": "Georges II", "correct": false },
+        { "texte": "Jacques II", "correct": false },
+        { "texte": "Charles II", "correct": false },
+        { "texte": "Georges III", "correct": true }
+      ],
+      "explication": "La Couronne britannique, sous Georges III, s’intéressa à la situation corse pour limiter l’influence de Gênes et de la France en Méditerranée.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel fut l’un des premiers gestes politiques de Pasquale Paoli une fois élu Général de la Nation corse en 1755 ?",
+      "reponses": [
+        { "texte": "Il ordonna la construction d’un palais royal à Ajaccio.", "correct": false },
+        { "texte": "Il instaura la conscription pour tous les hommes corses.", "correct": false },
+        { "texte": "Il fit proclamer l’indépendance de la Corse et rédigea une Constitution.", "correct": true },
+        { "texte": "Il déplaça la capitale de Bastia à Calvi.", "correct": false }
+      ],
+      "explication": "Sitôt à la tête de la Nation corse, Paoli proclama l’indépendance en 1755 et élabora une constitution, saluée comme l’une des premières de l’époque moderne.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel dirigeant français fit de l’aménagement des infrastructures routières et maritimes en Corse une priorité dans les années 1960 ?",
+      "reponses": [
+        { "texte": "Charles de Gaulle", "correct": true },
+        { "texte": "Michel Debré", "correct": false },
+        { "texte": "Gaston Defferre", "correct": false },
+        { "texte": "François Mitterrand", "correct": false }
+      ],
+      "explication": "Sous la présidence de Charles de Gaulle, un programme de modernisation des infrastructures vit le jour, améliorant la desserte routière et maritime de l’île.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel acte symbolique commémore la libération de la Corse de l’occupation italienne et allemande en 1943 ?",
+      "reponses": [
+        { "texte": "La Fête du 14 juillet", "correct": false },
+        { "texte": "Le 8 mai", "correct": false },
+        { "texte": "La Journée de la Nation corse", "correct": false },
+        { "texte": "Le 9 septembre, jour du soulèvement", "correct": true }
+      ],
+      "explication": "Le 9 septembre 1943 marque le début d’une insurrection décisive libérant la Corse, premier territoire français métropolitain délivré de l’occupation.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel dieu romain, assimilé à Zeus par les Grecs, possédait un sanctuaire réputé en Corse antique ?",
+      "reponses": [
+        { "texte": "Jupiter", "correct": true },
+        { "texte": "Mercure", "correct": false },
+        { "texte": "Neptune", "correct": false },
+        { "texte": "Mars", "correct": false }
+      ],
+      "explication": "Les Romains honoraient Jupiter, qu’ils assimilaient à Zeus chez les Grecs. Des traces d’un culte à Jupiter ont été retrouvées dans plusieurs sites de l’île.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En plus de la viticulture, quelle culture introduite par les Romains a grandement influencé l’agriculture corse ?",
+      "reponses": [
+        { "texte": "Le riz", "correct": false },
+        { "texte": "Le pois chiche", "correct": false },
+        { "texte": "La betterave sucrière", "correct": false },
+        { "texte": "L’olivier", "correct": true }
+      ],
+      "explication": "Les Romains ont développé la culture de l’olivier en Corse, faisant de l’huile d’olive l’un des produits majeurs de l’île depuis l’Antiquité.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Sous l’influence pisane, quelle cathédrale romane emblématique fut érigée près de la ville de Lucciana ?",
+      "reponses": [
+        { "texte": "La cathédrale Saint-Jean-Baptiste de Bastia", "correct": false },
+        { "texte": "La cathédrale de la Canonica", "correct": true },
+        { "texte": "La cathédrale d’Ajaccio", "correct": false },
+        { "texte": "La cathédrale d’Aléria", "correct": false }
+      ],
+      "explication": "Édifiée entre le XIIe et le XIIIe siècle, la cathédrale de la Canonica témoigne de la période romane et de l’influence de la République de Pise en Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel rôle jouaient les podestats envoyés par Gênes pour administrer la Corse durant le bas Moyen Âge ?",
+      "reponses": [
+        { "texte": "Ils étaient chargés d’imposer les nouvelles frontières entre la Corse et la Sardaigne.", "correct": false },
+        { "texte": "Ils devaient organiser des expéditions maritimes vers l’Afrique du Nord.", "correct": false },
+        { "texte": "Ils représentaient l’autorité génoise et collectaient les impôts pour la République de Gênes.", "correct": true },
+        { "texte": "Ils servaient d’évêques dans les diocèses locaux.", "correct": false }
+      ],
+      "explication": "Les podestats étaient des magistrats nommés par Gênes pour gouverner l’île et exiger les contributions fiscales au profit de la métropole génoise.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1756, quelle puissance européenne prêta un soutien limité aux Corses en révolte contre Gênes ?",
+      "reponses": [
+        { "texte": "La Russie", "correct": false },
+        { "texte": "L’Autriche", "correct": false },
+        { "texte": "L’Espagne", "correct": false },
+        { "texte": "La Grande-Bretagne", "correct": true }
+      ],
+      "explication": "La Grande-Bretagne, rivale de la France, s'intéressa à l’insurrection corse pour affaiblir l’influence française et génoise en Méditerranée, sans toutefois s’engager pleinement.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel chef militaire corse, opposé à Pasquale Paoli, se rallia à la France après 1768 pour tenter de conserver ses prérogatives locales ?",
+      "reponses": [
+        { "texte": "Giacinto Paoli", "correct": false },
+        { "texte": "Giovanni di Leca", "correct": false },
+        { "texte": "Matteo Buttafoco", "correct": true },
+        { "texte": "Carlo Gaffori", "correct": false }
+      ],
+      "explication": "Matteo Buttafoco, d’abord partisan de l’indépendance, choisit de se rapprocher de l’autorité française après le traité de Versailles de 1768.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Après la Seconde Guerre mondiale, quel secteur économique corse connaît un essor important grâce aux politiques touristiques ?",
+      "reponses": [
+        { "texte": "La sidérurgie", "correct": false },
+        { "texte": "La bijouterie", "correct": true },
+        { "texte": "L’élevage porcin", "correct": false },
+        { "texte": "La sylviculture", "correct": false }
+      ],
+      "explication": "Les années 1960-1970 voient le développement de la bijouterie (avec notamment le corail) et le tourisme, soutenus par des actions nationales de promotion de la Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel projet d’autonomie, porté par le gouvernement français en 2000, suscita à la fois espoir et polémique sur l’île ?",
+      "reponses": [
+        { "texte": "Le plan Savary", "correct": false },
+        { "texte": "La réforme Joxe II", "correct": false },
+        { "texte": "Le processus de Matignon", "correct": true },
+        { "texte": "L’accord de Cargèse", "correct": false }
+      ],
+      "explication": "Le processus de Matignon (2000-2002) proposait un statut particulier élargi pour la Corse, entraînant des débats vifs parmi la classe politique et l’opinion insulaire.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel géographe grec du Ier siècle mentionne la Corse (Korsis) dans sa célèbre « Géographie » ?",
+      "reponses": [
+        { "texte": "Strabon", "correct": true },
+        { "texte": "Polybe", "correct": false },
+        { "texte": "Hérodote", "correct": false },
+        { "texte": "Thucydide", "correct": false }
+      ],
+      "explication": "Strabon (Ier siècle av. J.-C. – Ier siècle apr. J.-C.) évoque la Corse dans son œuvre « Géographie », décrivant brièvement sa situation et ses ressources.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel terme les Grecs utilisaient-ils pour désigner l’île, se référant à la légende de la nymphe Kyrnos ?",
+      "reponses": [
+        { "texte": "Ichnusa", "correct": false },
+        { "texte": "Corsis", "correct": false },
+        { "texte": "Kyrnos", "correct": true },
+        { "texte": "Kerkyra", "correct": false }
+      ],
+      "explication": "La légende veut que la Corse tire en partie son nom de la nymphe Kyrnos. Les Grecs nommaient l’île Kyrnos ou Kurnos dans certains récits mythologiques.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1077, quel pape confirma la domination de Pise sur la Corse et lui attribua plusieurs évêchés insulaires ?",
+      "reponses": [
+        { "texte": "Nicolas II", "correct": false },
+        { "texte": "Grégoire VII", "correct": true },
+        { "texte": "Boniface VIII", "correct": false },
+        { "texte": "Urbain II", "correct": false }
+      ],
+      "explication": "Le pape Grégoire VII confirma la suprématie de la République de Pise sur la Corse, notamment en lui concédant la gestion de plusieurs évêchés de l’île.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au XIIe siècle, quelle famille seigneuriale corse domina la région de l’Alta Rocca ?",
+      "reponses": [
+        { "texte": "Les De Leca", "correct": false },
+        { "texte": "Les Ornano", "correct": false },
+        { "texte": "Les Biancolacci", "correct": false },
+        { "texte": "Les Rocca Serra", "correct": true }
+      ],
+      "explication": "La famille Rocca Serra fut une lignée puissante de l’Alta Rocca, région montagneuse du sud de la Corse, exerçant son influence sur de vastes territoires.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quels capitaines génois imposèrent un régime très strict en Corse au début du XVIIe siècle, suscitant l’hostilité des populations locales ?",
+      "reponses": [
+        { "texte": "Les Doria", "correct": false },
+        { "texte": "Les Spinola", "correct": true },
+        { "texte": "Les Grimaldi", "correct": false },
+        { "texte": "Les Fieschi", "correct": false }
+      ],
+      "explication": "La famille Spinola, influente dans la République de Gênes, envoya plusieurs capitaines en Corse qui usèrent d’une autorité sévère, aggravant le ressentiment des insulaires.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Vers la fin du XVIe siècle, quel célèbre amiral turc mena des raids sur les côtes corses, poussant Gênes à fortifier davantage l’île ?",
+      "reponses": [
+        { "texte": "Dragut", "correct": true },
+        { "texte": "Barberousse", "correct": false },
+        { "texte": "Khair ad-Din", "correct": false },
+        { "texte": "Murat Reis", "correct": false }
+      ],
+      "explication": "Dragut (ou Turgut Reis) mena diverses expéditions en Méditerranée. Ses attaques sur les côtes corses incitèrent les Génois à construire et renforcer de nombreuses tours de guet.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel président de la République française signa en 1988 les accords d’Ottaviani, tentant d’apaiser les tensions politiques en Corse ?",
+      "reponses": [
+        { "texte": "Valéry Giscard d’Estaing", "correct": false },
+        { "texte": "Jacques Chirac", "correct": false },
+        { "texte": "Nicolas Sarkozy", "correct": false },
+        { "texte": "François Mitterrand", "correct": true }
+      ],
+      "explication": "En 1988, François Mitterrand cautionna des pourparlers menant aux accords dits « d’Ottaviani » pour calmer la situation insulaire, bien que l’efficacité de ces mesures restât limitée.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel plan lancé par le gouvernement français en 1964 visait à moderniser l’agriculture et à développer l’économie insulaire ?",
+      "reponses": [
+        { "texte": "Le Plan Racine", "correct": false },
+        { "texte": "Le Plan Chauvet", "correct": false },
+        { "texte": "Le Plan d’action régional corse", "correct": true },
+        { "texte": "Le Plan Constantine", "correct": false }
+      ],
+      "explication": "Le Plan d’action régional corse de 1964 ambitionnait de dynamiser l’économie de l’île, notamment grâce à des investissements dans le secteur agricole et touristique.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Selon la tradition, quel officier de Carthage aurait exploré la Corse au IVe siècle av. J.-C. à la recherche de ressources naturelles ?",
+      "reponses": [
+        { "texte": "Hannibal", "correct": false },
+        { "texte": "Hannon", "correct": true },
+        { "texte": "Mago", "correct": false },
+        { "texte": "Hamilcar", "correct": false }
+      ],
+      "explication": "Hannon, parfois surnommé « le Navigateur », est un officier carthaginois qui aurait entrepris des expéditions d’exploration dans l’ouest de la Méditerranée, possiblement au large de la Corse.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel port antique, situé près de l’embouchure du fleuve Tavignano, servit de comptoir commercial important sous la domination romaine ?",
+      "reponses": [
+        { "texte": "Mariana", "correct": false },
+        { "texte": "Portus Julius", "correct": false },
+        { "texte": "Aleria", "correct": true },
+        { "texte": "Sulcis", "correct": false }
+      ],
+      "explication": "Aleria, établie près de l’embouchure du Tavignano, devint un centre romain majeur, facilitant les échanges commerciaux entre la Corse et le continent.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel seigneur corse, soutenu par Pise, s’opposa au pouvoir génois en attaquant leurs possessions dans le Niolo au XIIIe siècle ?",
+      "reponses": [
+        { "texte": "Giudice della Rocca", "correct": true },
+        { "texte": "Rinuccio de Leca", "correct": false },
+        { "texte": "Giovan Paolo di Roccaserra", "correct": false },
+        { "texte": "Nicolò d’Ornano", "correct": false }
+      ],
+      "explication": "Giudice della Rocca fut l’un des chefs rebelles à Gênes. Il bénéficia ponctuellement d’un soutien pisan pour combattre la domination génoise.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel ordre religieux, implanté en Corse dès le XIIe siècle, fonda plusieurs monastères influents sur l’île ?",
+      "reponses": [
+        { "texte": "Les Chartreux", "correct": false },
+        { "texte": "Les Franciscains", "correct": false },
+        { "texte": "Les Dominicains", "correct": false },
+        { "texte": "Les Bénédictins", "correct": true }
+      ],
+      "explication": "Les Bénédictins établirent des abbayes dans différentes régions de la Corse, favorisant l’évangélisation et le développement culturel de l’île.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "À la suite de la bataille de La Maddalena en 1793, quel jeune officier corse, futur empereur, échoua à conquérir la Sardaigne ?",
+      "reponses": [
+        { "texte": "Luigi Giafferi", "correct": false },
+        { "texte": "Domenico Leca", "correct": false },
+        { "texte": "Napoléon Bonaparte", "correct": true },
+        { "texte": "Joseph Bonaparte", "correct": false }
+      ],
+      "explication": "En 1793, Napoléon Bonaparte, alors capitaine d’artillerie, participa sans succès à l’expédition visant l’archipel de La Maddalena, au nord de la Sardaigne.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel événement marqua officiellement, en 1770, la première visite de l’administration royale française à Corte, alors capitale insulaire ?",
+      "reponses": [
+        { "texte": "L’arrivée du comte de Marbeuf", "correct": true },
+        { "texte": "L’entrevue de Bastia", "correct": false },
+        { "texte": "Les déclarations de Lucciana", "correct": false },
+        { "texte": "La conférence de Vescovato", "correct": false }
+      ],
+      "explication": "En 1770, le comte de Marbeuf, représentant du roi de France, se rendit à Corte pour affirmer la souveraineté française, établissant les bases de l’administration royale dans l’île.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel écrivain et homme politique français, défenseur de la cause corse, fut député de l’île dans la première moitié du XXe siècle ?",
+      "reponses": [
+        { "texte": "Henri Tomasi", "correct": false },
+        { "texte": "André Giovanni", "correct": true },
+        { "texte": "Pierre Jean de Béranger", "correct": false },
+        { "texte": "Alexandre Massiani", "correct": false }
+      ],
+      "explication": "André Giovanni, parlementaire et écrivain, s’engagea pour la reconnaissance des spécificités insulaires et une plus grande autonomie de la Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En quelle année la Corse a-t-elle été déclarée « Zone libre d’Occupation » au début de la Seconde Guerre mondiale, avant l’arrivée des troupes italiennes ?",
+      "reponses": [
+        { "texte": "1939", "correct": false },
+        { "texte": "1942", "correct": false },
+        { "texte": "1941", "correct": false },
+        { "texte": "1940", "correct": true }
+      ],
+      "explication": "En 1940, la Corse se trouvait initialement en zone libre, hors de l’occupation allemande, jusqu’à l’installation des troupes italiennes en 1942.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel peuple, originaire d’Italie du Nord, exerça une influence sur la Corse avant la domination romaine ?",
+      "reponses": [
+        { "texte": "Les Ligures", "correct": false },
+        { "texte": "Les Étrusques", "correct": true },
+        { "texte": "Les Samnites", "correct": false },
+        { "texte": "Les Ombriens", "correct": false }
+      ],
+      "explication": "Avant la mainmise définitive de Rome, les Étrusques étendirent leurs relations commerciales et culturelles jusqu’en Corse, influençant ses habitants de manière temporaire.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle denrée, très demandée par les chantiers navals romains, était l’une des principales exportations de la Corse antique ?",
+      "reponses": [
+        { "texte": "La cire d’abeille", "correct": false },
+        { "texte": "Le vin", "correct": false },
+        { "texte": "Le blé", "correct": false },
+        { "texte": "Le bois", "correct": true }
+      ],
+      "explication": "La richesse forestière de l’île permit de fournir en bois les chantiers navals romains, répondant à la demande considérable de l’Empire.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel était le rôle du « Caporalat », institution rurale corse, durant le Moyen Âge ?",
+      "reponses": [
+        { "texte": "Il gérait la défense et l’organisation de la communauté villageoise.", "correct": true },
+        { "texte": "Il assurait la diffusion des rites religieux jusqu’aux hameaux les plus isolés.", "correct": false },
+        { "texte": "Il établissait les contrats de mariage et d’héritage entre seigneuries.", "correct": false },
+        { "texte": "Il centralisait la collecte des taxes avant de les transférer à Gênes.", "correct": false }
+      ],
+      "explication": "Le Caporalat réunissait les chefs de famille d’un village pour organiser la protection des habitants et répartir les tâches communes, notamment en période de conflit.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel monastère bénédictin, fondé à l’époque romane, demeura un important foyer religieux en Castagniccia ?",
+      "reponses": [
+        { "texte": "Le couvent de Corbara", "correct": false },
+        { "texte": "L’abbaye de Taravo", "correct": false },
+        { "texte": "L’abbaye d’Alesani", "correct": true },
+        { "texte": "Le monastère d’Arcatura", "correct": false }
+      ],
+      "explication": "Situé dans la micro-région de la Castagniccia, le monastère d’Alesani fut un important lieu de culte et de formation religieuse, influant sur la vie spirituelle médiévale.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel gouverneur génois du XVIIe siècle instaura le nouvel impôt appelé « taglia », suscitant de vives révoltes dans l’île ?",
+      "reponses": [
+        { "texte": "Agostino Spinola", "correct": false },
+        { "texte": "Leonello Lomellini", "correct": true },
+        { "texte": "Francesco Maria Doria", "correct": false },
+        { "texte": "Oberto Fieschi", "correct": false }
+      ],
+      "explication": "Leonello Lomellini imposa cet impôt afin d’accroître les recettes de la République de Gênes, mais la pression fiscale provoqua des insurrections corses.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle escarmouche navale de 1738, au large du Cap Corse, opposa la flotte française soutenant Gênes et les corses insurgés ?",
+      "reponses": [
+        { "texte": "La bataille de Solenzara", "correct": false },
+        { "texte": "La bataille du golfe de Saint-Florent", "correct": false },
+        { "texte": "La bataille des Agriate", "correct": false },
+        { "texte": "La bataille de la Giraglia", "correct": true }
+      ],
+      "explication": "En 1738, la bataille de la Giraglia vit s’affronter une flotte française, envoyée en renfort pour Gênes, et des forces corses déterminées à résister à la domination étrangère.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1972, quelle loi permit la création d’un Comité régional en Corse, première étape d’une plus grande décentralisation ?",
+      "reponses": [
+        { "texte": "La loi Pasqua", "correct": false },
+        { "texte": "La loi du 5 juillet 1972", "correct": true },
+        { "texte": "La loi NOTRe (2015)", "correct": false },
+        { "texte": "La loi Defferre (1982)", "correct": false }
+      ],
+      "explication": "La loi du 5 juillet 1972 sur la régionalisation mit en place les établissements publics régionaux, amorçant un début d’autonomie pour la Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel mouvement indépendantiste corse, issu d’une scission du FLNC, fut créé en 1990 pour mener des actions plus radicales ?",
+      "reponses": [
+        { "texte": "Le FLNC du 22 octobre", "correct": true },
+        { "texte": "Armata Corsa", "correct": false },
+        { "texte": "Union di Populu Corsu", "correct": false },
+        { "texte": "FLNC canal historique", "correct": false }
+      ],
+      "explication": "Le FLNC du 22 octobre naquit d’un désaccord stratégique au sein du FLNC, optant pour des méthodes encore plus offensives à l’encontre de l’État français.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+
+
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel historien romain, dans son œuvre « Ab Urbe Condita », relate l’annexion de la Corse par la République romaine ?",
+      "reponses": [
+        { "texte": "Salluste", "correct": false },
+        { "texte": "Tite-Live", "correct": true },
+        { "texte": "Suétone", "correct": false },
+        { "texte": "Ammien Marcellin", "correct": false }
+      ],
+      "explication": "Tite-Live (Titus Livius), dans son vaste récit « Ab Urbe Condita », mentionne la conquête de la Corse après les guerres puniques, témoignant de l’intérêt de Rome pour l’île.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel fut l’un des produits majeurs extraits des forêts corses, utilisé pour calfeutrer les navires dans l’Antiquité ?",
+      "reponses": [
+        { "texte": "La sève de chêne-liège", "correct": false },
+        { "texte": "La résine de ciste", "correct": false },
+        { "texte": "Le goudron de pin", "correct": false },
+        { "texte": "La poix maritime", "correct": true }
+      ],
+      "explication": "Grâce à ses forêts de pins, la Corse fournissait de la poix maritime, indispensable pour l’étanchéité des navires antiques.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle puissante famille corse, fidèle à Pise, lutta contre les seigneurs proches de Gênes au XIIIe siècle dans la région du Nebbio ?",
+      "reponses": [
+        { "texte": "Les Avogari", "correct": true },
+        { "texte": "Les Malaspina", "correct": false },
+        { "texte": "Les Obertenghi", "correct": false },
+        { "texte": "Les Gentile", "correct": false }
+      ],
+      "explication": "La famille Avogari soutint la cause pisane et chercha à contrôler une partie du Nebbio, s’opposant activement à l’influence génoise.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel concile régional, tenu en 1289, tenta d’harmoniser les coutumes ecclésiastiques insulaires sous l’autorité de l’archevêque de Pise ?",
+      "reponses": [
+        { "texte": "Le Concile de la Canonica", "correct": false },
+        { "texte": "Le Concile d’Aléria", "correct": false },
+        { "texte": "Le Concile de Nebbio", "correct": true },
+        { "texte": "Le Concile de Nonza", "correct": false }
+      ],
+      "explication": "En 1289, le Concile de Nebbio réunit des représentants de l’Église corse afin d’unifier pratiques religieuses et lois canoniques, confirmant l’influence pisane.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel traité signé en 1559 obligea la France à restituer la Corse à la République de Gênes ?",
+      "reponses": [
+        { "texte": "Le traité de Madrid", "correct": false },
+        { "texte": "Le traité du Cateau-Cambrésis", "correct": true },
+        { "texte": "Le traité d’Utrecht", "correct": false },
+        { "texte": "Le traité de Lyon", "correct": false }
+      ],
+      "explication": "Après les guerres d’Italie, le traité du Cateau-Cambrésis imposa à la France de rendre la Corse à Gênes, confirmant temporairement la domination génoise sur l’île.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel personnage, soupçonné de trahison, fut mis à mort par Sampiero Corso en 1567 ?",
+      "reponses": [
+        { "texte": "Alfonso d’Ornano", "correct": false },
+        { "texte": "Ghjuvan Petru Baglionu", "correct": false },
+        { "texte": "Raimondo Feltrini", "correct": false },
+        { "texte": "Vannina d’Ornano", "correct": true }
+      ],
+      "explication": "Vannina d’Ornano, épouse de Sampiero Corso, fut exécutée alors qu’on la soupçonnait d’entretenir des contacts avec les Génois, marquant un épisode tragique de l’histoire de la résistance corse.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel événement marquant de la Seconde Guerre mondiale fit de la Corse le premier département français libéré en 1943 ?",
+      "reponses": [
+        { "texte": "La prise d’Ajaccio", "correct": false },
+        { "texte": "Le soulèvement du 9 septembre", "correct": true },
+        { "texte": "Le débarquement américain à Bastia", "correct": false },
+        { "texte": "La capitulation italienne en Sardaigne", "correct": false }
+      ],
+      "explication": "Le 9 septembre 1943, un soulèvement général dans l’île, allié à l’action des troupes françaises et de la Résistance, permit de libérer la Corse de l’occupation italo-allemande.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle figure politique corse, cofondateur de l’UPC en 1973, joua ensuite un rôle majeur au sein de la mouvance nationaliste ?",
+      "reponses": [
+        { "texte": "Max Simeoni", "correct": false },
+        { "texte": "Jean-Guy Talamoni", "correct": false },
+        { "texte": "Edmond Simeoni", "correct": true },
+        { "texte": "Charles Santoni", "correct": false }
+      ],
+      "explication": "Edmond Simeoni fut l’un des fondateurs de l’UPC (Union du Peuple Corse) et, par la suite, un acteur essentiel du mouvement nationaliste prônant l’autonomie ou l’indépendance.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel commandant carthaginois subit une lourde défaite face aux Romains en Corse vers 259 av. J.-C. ?",
+      "reponses": [
+        { "texte": "Hannibal Gisco", "correct": true },
+        { "texte": "Hasdrubal", "correct": false },
+        { "texte": "Hamilcar Barca", "correct": false },
+        { "texte": "Mago Barca", "correct": false }
+      ],
+      "explication": "Vers 259 av. J.-C., Hannibal Gisco fut défait par les Romains lors de la lutte pour le contrôle de la Corse dans le cadre plus large des guerres puniques.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel gouverneur romain intensifia la construction de routes en Corse au IIe siècle av. J.-C. pour mieux administrer l’île ?",
+      "reponses": [
+        { "texte": "Gaius Flaminius", "correct": false },
+        { "texte": "Quintus Fabius Maximus", "correct": false },
+        { "texte": "Marcus Aemilius Lepidus", "correct": false },
+        { "texte": "Lucius Postumius Albinus", "correct": true }
+      ],
+      "explication": "Chargé de consolider la présence romaine, Lucius Postumius Albinus développa des voies de communication afin de faciliter le déplacement des troupes et la collecte des impôts.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel « capitano del popolo » pisano mena une campagne de fortifications dans l’île pour contrer l’influence de Gênes au XIIIe siècle ?",
+      "reponses": [
+        { "texte": "Simone della Rocca", "correct": false },
+        { "texte": "Ranieri di Casacaldi", "correct": true },
+        { "texte": "Filippo Malaspina", "correct": false },
+        { "texte": "Giacomo Contrini", "correct": false }
+      ],
+      "explication": "Ranieri di Casacaldi supervisa l’édification et le renforcement de sites fortifiés pro-pisans, cherchant à contrer les progrès de la République de Gênes en Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel acte scellé en 1309 confirma le transfert de souveraineté au profit de Gênes après la défaite de Pise ?",
+      "reponses": [
+        { "texte": "Le pacte de Biguglia", "correct": false },
+        { "texte": "Le traité de la Grave", "correct": false },
+        { "texte": "Le serment de Lucca", "correct": true },
+        { "texte": "La convention de Brando", "correct": false }
+      ],
+      "explication": "Après la défaite de Pise, le serment de Lucca en 1309 formalisa la mainmise génoise sur l’île, officialisant la perte des possessions pisanes en Corse.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel condottiere piémontais soutint la République de Gênes en 1555 pour mater les révoltes corses ?",
+      "reponses": [
+        { "texte": "Francesco Busso", "correct": false },
+        { "texte": "Niccolò da Melfi", "correct": false },
+        { "texte": "Paolo Spinola", "correct": false },
+        { "texte": "Giovanni da Cuneo", "correct": true }
+      ],
+      "explication": "Giovanni da Cuneo, engagé par Gênes, aida à repousser les seigneurs corses qui s’opposaient violemment à la tutelle génoise au milieu du XVIe siècle.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel amiral français bombarda la citadelle de Bastia en 1555 dans le but d’affaiblir la domination génoise sur l’île ?",
+      "reponses": [
+        { "texte": "Antoine Escalin des Aimars", "correct": false },
+        { "texte": "André de Montal", "correct": true },
+        { "texte": "Charles de la Brousse", "correct": false },
+        { "texte": "François La Noue", "correct": false }
+      ],
+      "explication": "Dans le contexte des guerres d’Italie, André de Montal mena une opération navale contre la citadelle de Bastia pour appuyer les ambitions françaises en Méditerranée.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel chef nationaliste, issu du mouvement autonomiste, fut l’une des figures de proue de la mobilisation corse à la fin des années 1970 ?",
+      "reponses": [
+        { "texte": "Max Simeoni", "correct": true },
+        { "texte": "François Alfonsi", "correct": false },
+        { "texte": "Jean-Félix Maestracci", "correct": false },
+        { "texte": "Paul Quastana", "correct": false }
+      ],
+      "explication": "Max Simeoni, cofondateur de l’Union du Peuple Corse, s’est investi dans la lutte autonomiste, défendant le statut particulier et la reconnaissance de la culture insulaire.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel ministre de l’Intérieur français proposa, en 2003, un référendum visant une évolution institutionnelle de la Corse ?",
+      "reponses": [
+        { "texte": "Pierre Joxe", "correct": false },
+        { "texte": "Manuel Valls", "correct": false },
+        { "texte": "Nicolas Sarkozy", "correct": true },
+        { "texte": "Jean-Pierre Chevènement", "correct": false }
+      ],
+      "explication": "Nicolas Sarkozy, alors ministre de l’Intérieur, impulsa en 2003 un référendum local sur un projet de statut unique, qui fut rejeté de peu par les électeurs corses.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel décret promulgué en 1865 par Napoléon III facilita l’accès des produits corses aux marchés du continent ?",
+      "reponses": [
+        { "texte": "Le décret de l’Élysée", "correct": false },
+        { "texte": "Le décret du 15 septembre 1865", "correct": true },
+        { "texte": "L’ordonnance de Bastia", "correct": false },
+        { "texte": "L’édit des Tuileries", "correct": false }
+      ],
+      "explication": "En 1865, Napoléon III signa un décret autorisant de nouvelles modalités de transport maritime et réduisant certaines taxes, favorisant ainsi les exportations insulaires.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel plan d’aménagement, mis en œuvre en 1963 sous la présidence de Charles de Gaulle, visait à moderniser l’économie corse ?",
+      "reponses": [
+        { "texte": "Le Plan Racine", "correct": false },
+        { "texte": "Le Plan Simon", "correct": false },
+        { "texte": "Le Plan Pasqua", "correct": false },
+        { "texte": "Le Plan d’aménagement touristique de la Corse", "correct": true }
+      ],
+      "explication": "Le Plan d’aménagement touristique de la Corse (1963) poursuivait la modernisation de l’île, s’appuyant sur le développement des infrastructures et du secteur touristique pour relancer l’économie.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Lors de la seconde guerre punique, quelle cité corse fut brièvement occupée par les Carthaginois après leur débarquement ?",
+      "reponses": [
+        { "texte": "Bonifacio", "correct": false },
+        { "texte": "Mariana", "correct": false },
+        { "texte": "Aleria", "correct": true },
+        { "texte": "Nebbio", "correct": false }
+      ],
+      "explication": "Durant la seconde guerre punique (218-201 av. J.-C.), les Carthaginois menèrent quelques incursions en Corse, s'emparant provisoirement d’Aleria avant de la perdre rapidement.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel site préromain de l’île, situé près de Porto-Vecchio, est réputé pour ses vestiges de l’Âge du bronze ?",
+      "reponses": [
+        { "texte": "Cucuruzzu", "correct": true },
+        { "texte": "Filitosa", "correct": false },
+        { "texte": "Col de Teghime", "correct": false },
+        { "texte": "Araghju", "correct": false }
+      ],
+      "explication": "Cucuruzzu est un site fortifié datant de l’Âge du bronze, emblématique de l’occupation préromaine en Corse, avec des ruines témoignant d’une architecture défensive avancée.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1348, quelle crise démographique dramatique toucha durement la Corse comme le reste de l’Europe ?",
+      "reponses": [
+        { "texte": "Une révolte paysanne généralisée", "correct": false },
+        { "texte": "Une famine massive causée par la sécheresse", "correct": false },
+        { "texte": "Une guerre civile entre seigneurs rivaux", "correct": false },
+        { "texte": "La peste noire", "correct": true }
+      ],
+      "explication": "La peste noire, introduite en Méditerranée au milieu du XIVe siècle, décima une partie considérable de la population insulaire et bouleversa l’économie locale.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel gouverneur génois imposa, vers 1420, une politique stricte de contrôle des clochers et des biens ecclésiastiques pour financer les fortifications ?",
+      "reponses": [
+        { "texte": "Paolo di Campofregoso", "correct": false },
+        { "texte": "Leonello di Tursi", "correct": true },
+        { "texte": "Andrea Doria", "correct": false },
+        { "texte": "Lodisio Spinola", "correct": false }
+      ],
+      "explication": "Leonello di Tursi chercha à renforcer le pouvoir génois en taxant les églises et monastères afin de financer la construction ou la rénovation de fortifications le long des côtes.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1556, quel souverain français soutint la révolte des Corses, envoyant des troupes sur l’île dans le cadre des guerres d’Italie ?",
+      "reponses": [
+        { "texte": "François Ier", "correct": false },
+        { "texte": "Louis XII", "correct": false },
+        { "texte": "Charles IX", "correct": false },
+        { "texte": "Henri II", "correct": true }
+      ],
+      "explication": "Henri II de France, poursuivant l’œuvre de François Ier, s’allia avec les insurgés corses pour affaiblir Gênes, alliée à Charles Quint dans le contexte des guerres d’Italie.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel chef corse, allié un temps avec la France, redevint un fidèle serviteur de Gênes après l'échec de l'expédition franco-corse de 1559 ?",
+      "reponses": [
+        { "texte": "Vincentello d'Istria", "correct": true },
+        { "texte": "Giovanni della Pieve", "correct": false },
+        { "texte": "Alfonso d'Ornano", "correct": false },
+        { "texte": "Carlo Spinola", "correct": false }
+      ],
+      "explication": "Vincentello d'Istria, initialement rapproché de la France pour chasser les Génois, fut contraint de retourner dans l’orbite génoise après le traité de Cateau-Cambrésis et la reprise en main de l’île par Gênes.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel homme politique originaire d'Ajaccio œuvra, dès 1910, à la modernisation portuaire de la ville pour favoriser le commerce ?",
+      "reponses": [
+        { "texte": "Paul Giacobbi", "correct": false },
+        { "texte": "Dominique Paoli", "correct": false },
+        { "texte": "François Coti", "correct": true },
+        { "texte": "Joseph-Marie Lucciani", "correct": false }
+      ],
+      "explication": "François Coti, élu d’Ajaccio, s’impliqua au début du XXe siècle dans le développement des infrastructures portuaires et la modernisation des liaisons maritimes.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle réforme, adoptée en 1991, renforça les prérogatives de l’Assemblée de Corse et institua un Conseil exécutif ?",
+      "reponses": [
+        { "texte": "Le statut Rocard", "correct": false },
+        { "texte": "Le statut Joxe", "correct": true },
+        { "texte": "Le statut Chevènement", "correct": false },
+        { "texte": "Le statut Guigou", "correct": false }
+      ],
+      "explication": "La loi dite « statut Joxe » de 1991 octroya à la Corse un statut spécifique, notamment par la création d’un Conseil exécutif élu et de l’Assemblée territoriale, renforçant la décentralisation.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel écrivain grec, originaire d’Asie Mineure, relata au IIIe siècle av. J.-C. l’existence de peuples montagnards corses farouches ?",
+      "reponses": [
+        { "texte": "Timée de Tauroménion", "correct": true },
+        { "texte": "Polybe", "correct": false },
+        { "texte": "Strabon", "correct": false },
+        { "texte": "Diodore de Sicile", "correct": false }
+      ],
+      "explication": "Timée de Tauroménion, historien grec, mentionne dans ses fragments la présence de tribus montagnardes indépendantes en Corse, soulignant leur réputation d’hommes courageux et difficiles à soumettre.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel clan insulaire, redouté pour ses fréquentes vendettas, embrassa la cause française en 1768 pour conserver ses privilèges face à Pasquale Paoli ?",
+      "reponses": [
+        { "texte": "Les Rinuccini", "correct": false },
+        { "texte": "Les Gaffori", "correct": false },
+        { "texte": "Les Buttafoco", "correct": true },
+        { "texte": "Les Pietri", "correct": false }
+      ],
+      "explication": "Le clan Buttafoco, cherchant à maintenir son influence locale, se rallia aux troupes françaises après la cession de la Corse par Gênes, préférant l’alliance avec la monarchie à la République de Paoli.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel peuple, venu de l’actuelle Toscane, fut parmi les premiers à s’implanter en Corse avant même la période romaine ?",
+      "reponses": [
+        { "texte": "Les Ligures", "correct": false },
+        { "texte": "Les Étrusques", "correct": true },
+        { "texte": "Les Ombrien·ne·s", "correct": false },
+        { "texte": "Les Gaulois", "correct": false }
+      ],
+      "explication": "Avant la domination romaine, les Étrusques exercèrent une influence notable sur la Méditerranée occidentale. Ils établirent des échanges commerciaux et culturels avec la Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel magistrat romain, en poste au IIe siècle av. J.-C., consolida la province de Corse-Sardaigne en réprimant plusieurs révoltes insulaires ?",
+      "reponses": [
+        { "texte": "Lucius Calpurnius Piso", "correct": false },
+        { "texte": "Caius Claudius Pulcher", "correct": false },
+        { "texte": "Marcus Junius Brutus", "correct": false },
+        { "texte": "Titus Sempronius Gracchus", "correct": true }
+      ],
+      "explication": "Au IIe siècle av. J.-C., Titus Sempronius Gracchus mena des campagnes pour mater les soulèvements dans l’île, assurant une autorité plus solide de Rome sur la Corse.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel géographe latin, contemporain de l’empereur Auguste, décrivit les caractéristiques côtières de la Corse dans son « Chorographia » ?",
+      "reponses": [
+        { "texte": "Pomponius Mela", "correct": true },
+        { "texte": "Tacite", "correct": false },
+        { "texte": "Columelle", "correct": false },
+        { "texte": "Frontin", "correct": false }
+      ],
+      "explication": "Pomponius Mela, dans son œuvre « Chorographia », réalisa l’une des plus anciennes descriptions géographiques du monde romain, abordant notamment les rivages de la Corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au Xe siècle, quel groupe de pirates sarrasins occupa temporairement la côte orientale de la Corse ?",
+      "reponses": [
+        { "texte": "Les Wisigoths", "correct": false },
+        { "texte": "Les Varègues", "correct": false },
+        { "texte": "Les Maures d’Espagne", "correct": true },
+        { "texte": "Les Lombards", "correct": false }
+      ],
+      "explication": "Durant le Moyen Âge, des pirates sarrasins venus d’Espagne établirent des bases côtières en Corse, d’où ils menaient des raids dans l’arrière-pays.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle cité médiévale de la région de Balagne fut l’enjeu de luttes entre Pise et Gênes, notamment pour son port stratégique ?",
+      "reponses": [
+        { "texte": "Porto-Vecchio", "correct": false },
+        { "texte": "Bonifacio", "correct": false },
+        { "texte": "Calvi", "correct": false },
+        { "texte": "L’Île-Rousse", "correct": true }
+      ],
+      "explication": "L’Île-Rousse, en Balagne, possédait un port important disputé entre les puissances maritimes italiennes. Gênes finira par y asseoir son influence.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au XIe siècle, quelle puissance maritime imposa progressivement son protectorat sur l’île, avant que Gênes ne la supplante au XIIIe siècle ?",
+      "reponses": [
+        { "texte": "Venise", "correct": false },
+        { "texte": "Pise", "correct": true },
+        { "texte": "Amalfi", "correct": false },
+        { "texte": "Naples", "correct": false }
+      ],
+      "explication": "Pise, puissante république maritime, noua des liens avec certains seigneurs corses et exerça sa tutelle sur l’île, jusqu’à sa défaite face à Gênes.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "À la suite du traité de Versailles (1768), quel général français fut chargé d’affermir l’autorité royale face à la résistance de Pasquale Paoli ?",
+      "reponses": [
+        { "texte": "Le général de Miollis", "correct": false },
+        { "texte": "Le général de Marbeuf", "correct": true },
+        { "texte": "Le général de Vaux", "correct": false },
+        { "texte": "Le général d’Aboville", "correct": false }
+      ],
+      "explication": "Le comte de Marbeuf fut envoyé en Corse après la cession de l’île par Gênes, pour pacifier la région et contrer la résistance de Pasquale Paoli.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Vers 1740, quel prétendant au « royaume » de Corse chercha l’appui de puissances étrangères, notamment du Saint-Empire romain germanique ?",
+      "reponses": [
+        { "texte": "François-Marie Balbi", "correct": false },
+        { "texte": "Théodore de Neuhoff", "correct": false },
+        { "texte": "Ghjuvan Castinetta", "correct": false },
+        { "texte": "Maurizio di Dui", "correct": true }
+      ],
+      "explication": "Maurizio di Dui, espérant régner sur la Corse, tenta de trouver un soutien militaire et financier auprès de diverses cours européennes, sans obtenir l’aide suffisante pour s’imposer.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel président du Conseil des ministres de la IVe République inaugura, en 1956, des projets d’industrialisation pour réduire le chômage en Corse ?",
+      "reponses": [
+        { "texte": "Guy Mollet", "correct": true },
+        { "texte": "Michel Debré", "correct": false },
+        { "texte": "Pierre Pflimlin", "correct": false },
+        { "texte": "René Pleven", "correct": false }
+      ],
+      "explication": "Guy Mollet, président du Conseil sous la IVe République, lança plusieurs projets pour développer l’industrie et les infrastructures en Corse, afin d’enrayer l’exode rural.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel parti politique, formé dans les années 1980, se présenta aux élections territoriales avec un programme de développement économique et d’autonomie renforcée ?",
+      "reponses": [
+        { "texte": "U Rinnovu", "correct": false },
+        { "texte": "A Cuncolta Naziunalista", "correct": false },
+        { "texte": "Corsica Viva", "correct": true },
+        { "texte": "Partitu di a Nazione Corsa", "correct": false }
+      ],
+      "explication": "Corsica Viva émergea pour proposer un programme économique ambitieux et une autonomie accrue dans la gestion des affaires corses, se démarquant des mouvements indépendantistes les plus radicaux.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel consul romain mena une expédition contre les garnisons carthaginoises en Corse vers 236 av. J.-C. ?",
+      "reponses": [
+        { "texte": "Marcus Fabius Buteo", "correct": false },
+        { "texte": "Publius Cornelius Lentulus", "correct": true },
+        { "texte": "Gnaeus Servilius Geminus", "correct": false },
+        { "texte": "Aulus Postumius Albinus", "correct": false }
+      ],
+      "explication": "Pour consolider l’influence de Rome après la première guerre punique, Publius Cornelius Lentulus organisa une campagne en Corse pour déloger les derniers postes carthaginois.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel orateur romain, dans ses plaidoyers, décrivit la Corse comme une île au relief âpre et aux habitants farouches ?",
+      "reponses": [
+        { "texte": "Cicéron", "correct": true },
+        { "texte": "Pline le Jeune", "correct": false },
+        { "texte": "Salluste", "correct": false },
+        { "texte": "Suétone", "correct": false }
+      ],
+      "explication": "Dans ses discours, Cicéron fait allusion à la Corse en des termes peu flatteurs, soulignant la difficulté qu’avaient les Romains à s’y imposer durablement.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel général, envoyé par Rome au IIe siècle av. J.-C., imposa de lourds tributs et favorisa l’installation de vétérans en Corse ?",
+      "reponses": [
+        { "texte": "Quintus Fulvius Flaccus", "correct": false },
+        { "texte": "Decimus Junius Brutus", "correct": false },
+        { "texte": "Lucius Aemilius Paulus Macedonicus", "correct": false },
+        { "texte": "Gaius Papirius Carbo", "correct": true }
+      ],
+      "explication": "Gaius Papirius Carbo fut chargé de soumettre les populations corses et y installa certains vétérans romains, renforçant ainsi la romanisation de l’île.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel traité, conclu en 1195, accorda à la République de Pise une nette domination sur la Corse avant les rivalités avec Gênes ?",
+      "reponses": [
+        { "texte": "La Paix de San Lorenzo", "correct": false },
+        { "texte": "Le Pacte d’Aléria", "correct": false },
+        { "texte": "Le Traité d’Orezza", "correct": true },
+        { "texte": "La Convention de Furiani", "correct": false }
+      ],
+      "explication": "Le Traité d’Orezza (1195) entérina une suprématie pisane en Corse. Toutefois, cet accord fut remis en cause lorsque Gênes s’empara progressivement de l’île.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au XIe siècle, quel marquis et seigneur local, soutenu par Pise, unifia brièvement une partie de l’intérieur corse ?",
+      "reponses": [
+        { "texte": "Ugo Colonna", "correct": true },
+        { "texte": "Gregorio da Bustanicu", "correct": false },
+        { "texte": "Alberto da Poggio", "correct": false },
+        { "texte": "Rinuccio d’Istria", "correct": false }
+      ],
+      "explication": "Ugo Colonna, figure semi-légendaire pour certains historiens, aurait établi une domination éphémère sur l’intérieur de l’île avec l’appui de Pise, avant que d’autres seigneuries ne reprennent le dessus.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel statut administratif, créé en 1453, permit à l’Office de Saint-Georges de Gênes d’exercer un contrôle direct sur la Corse ?",
+      "reponses": [
+        { "texte": "Les Terrae Publicae", "correct": false },
+        { "texte": "La Réforme Collettina", "correct": false },
+        { "texte": "La Gouvernance Génoise Régulée", "correct": false },
+        { "texte": "La Magistratura de Corsica", "correct": true }
+      ],
+      "explication": "En 1453, l’Office de Saint-Georges obtint la gestion financière et militaire de la Corse via la « Magistratura de Corsica », augmentant son emprise sur l’île.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "À la suite de la défaite génoise, quelle grande puissance européenne envoya momentanément un contingent pour stabiliser la Corse en 1652 ?",
+      "reponses": [
+        { "texte": "L’Empire ottoman", "correct": false },
+        { "texte": "Le Royaume d’Espagne", "correct": false },
+        { "texte": "Le Duché de Savoie", "correct": false },
+        { "texte": "Le Saint-Empire romain germanique", "correct": true }
+      ],
+      "explication": "En 1652, des troupes impériales du Saint-Empire furent brièvement dépêchées pour contenir l’anarchie en Corse, après une insurrection affaiblissant le pouvoir génois.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel seigneur local, surnommé « Il Capitano », rallia la cause française pour tenter d’expulser les Génois de Balagne au début du XVIe siècle ?",
+      "reponses": [
+        { "texte": "Ranuccio da Brandu", "correct": false },
+        { "texte": "Arrigo d’Ornano", "correct": false },
+        { "texte": "Giovanni Soderini", "correct": false },
+        { "texte": "Serafino de Leca", "correct": true }
+      ],
+      "explication": "Serafino de Leca, ambitieux chef de clan, conclut un accord avec la Couronne de France afin de s’emparer de territoires en Balagne, alors sous la tutelle génoise.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel décret impérial de 1801 confirma la suppression des privilèges féodaux en Corse, alignant l’île sur l’administration napoléonienne ?",
+      "reponses": [
+        { "texte": "Le décret du 2 nivôse An IX", "correct": true },
+        { "texte": "Le décret de Montgobert", "correct": false },
+        { "texte": "Le décret des Cent-Jours", "correct": false },
+        { "texte": "Le décret de Corte", "correct": false }
+      ],
+      "explication": "Le décret du 2 nivôse An IX (décembre 1800 – janvier 1801) consolida la fin des privilèges féodaux corses, imposant le régime administratif centralisé de Napoléon Bonaparte.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1942, suite à l’armistice de 1940, quelle puissance occupa la Corse avec l’autorisation de Vichy jusqu’à l’intervention allemande ?",
+      "reponses": [
+        { "texte": "La Grande-Bretagne", "correct": false },
+        { "texte": "L’Italie fasciste", "correct": true },
+        { "texte": "L’armée de Franco", "correct": false },
+        { "texte": "Le protectorat de la Suisse", "correct": false }
+      ],
+      "explication": "L’Italie fasciste, alliée de l’Allemagne nazie, déploya des troupes en Corse entre 1942 et 1943, avec l’aval du gouvernement de Vichy, avant que les Allemands ne s’y installent à leur tour.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Après la guerre civile contre Pompée, quel dirigeant romain confia la gestion administrative de la Corse à ses lieutenants en 45 av. J.-C. ?",
+      "reponses": [
+        { "texte": "Jules César", "correct": true },
+        { "texte": "Auguste", "correct": false },
+        { "texte": "Crassus", "correct": false },
+        { "texte": "Brutus", "correct": false }
+      ],
+      "explication": "En 45 av. J.-C., Jules César, vainqueur de la guerre civile, réorganisa plusieurs provinces romaines dont la Corse, qu’il plaça sous l’autorité de ses administrateurs loyaux.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Sous le règne de l’empereur Tibère (Ier siècle apr. J.-C.), quelle colonie romaine de la côte est gagna en importance comme base navale secondaire ?",
+      "reponses": [
+        { "texte": "Munitum", "correct": false },
+        { "texte": "Nebbio", "correct": false },
+        { "texte": "Mariana", "correct": true },
+        { "texte": "Filitosa", "correct": false }
+      ],
+      "explication": "Mariana, près de l’actuelle Lucciana, se développa sous Tibère en un site stratégique pour le contrôle maritime, appuyant la présence romaine sur le littoral oriental.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Au XIIe siècle, quelle famille seigneuriale corse, originaire de la haute vallée du Golo, se révolta contre Pise avant de s’allier brièvement à Gênes ?",
+      "reponses": [
+        { "texte": "Les Avogari", "correct": false },
+        { "texte": "Les Cortinchi", "correct": false },
+        { "texte": "Les Amondaschi", "correct": true },
+        { "texte": "Les Ornano", "correct": false }
+      ],
+      "explication": "Les Amondaschi, établis dans l’intérieur montagneux, contestèrent l’autorité pisane et, après leur échec, se rapprochèrent de Gênes pour tenter de préserver leurs intérêts.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quelle forteresse génoise, érigée ou renforcée au XIVe siècle, servit ensuite de résidence au gouverneur de Haute-Corse ?",
+      "reponses": [
+        { "texte": "La citadelle de Saint-Florent", "correct": false },
+        { "texte": "Le château de La Porta", "correct": false },
+        { "texte": "La Rocca di Nonza", "correct": false },
+        { "texte": "La forteresse de Biguglia", "correct": true }
+      ],
+      "explication": "Au XIVe siècle, Gênes édifia et aménagea la forteresse de Biguglia pour en faire un centre administratif et un point de contrôle stratégique dans le nord de l’île.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel concile, tenu à Pise en 1248, réorganisa les évêchés corses pour renforcer la tutelle pisane sur l’île ?",
+      "reponses": [
+        { "texte": "Le concile de Cecina", "correct": false },
+        { "texte": "Le concile de Sainte-Agathe", "correct": false },
+        { "texte": "Le concile de la Canonica", "correct": false },
+        { "texte": "Le concile de la Rotonda", "correct": true }
+      ],
+      "explication": "Le concile de la Rotonda établit de nouvelles règles ecclésiastiques et institutionnelles pour les diocèses corses, soutenant ainsi la politique de la République de Pise.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel officier corse, initialement allié à la France contre Gênes au XVIe siècle, se rallia à la République génoise après la paix du Cateau-Cambrésis ?",
+      "reponses": [
+        { "texte": "Raffaello Giustiniani", "correct": true },
+        { "texte": "Sampiero Corso", "correct": false },
+        { "texte": "Giovan Paolo di Leca", "correct": false },
+        { "texte": "Vincentello d’Istria", "correct": false }
+      ],
+      "explication": "Raffaello Giustiniani, pour échapper aux représailles après l’accord franco-espagnol de 1559, choisit de se rapprocher de Gênes, assurant la protection de ses possessions.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "À la fin du XVIIe siècle, quel doge de Gênes renforça la garnison de l’île pour contrer les révoltes corses et les attaques barbaresques ?",
+      "reponses": [
+        { "texte": "Alessandro Giustiniani", "correct": false },
+        { "texte": "Gerolamo De Mari", "correct": false },
+        { "texte": "Francesco Maria Imperiale", "correct": true },
+        { "texte": "Giovanni Battista Doria", "correct": false }
+      ],
+      "explication": "Francesco Maria Imperiale, soucieux de préserver l’emprise génoise, entreprit de fortifier l’île et d’y envoyer davantage de troupes pour prévenir toute insurrection et repousser les raids extérieurs.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "En 1848, quel gouverneur nommé par la IIe République entreprit de moderniser l’administration et les infrastructures en Corse ?",
+      "reponses": [
+        { "texte": "Jean-Toussaint Casanova", "correct": false },
+        { "texte": "Pierre-François Pietri", "correct": false },
+        { "texte": "Gilbert-François Rivet", "correct": true },
+        { "texte": "Toussaint Lucciani", "correct": false }
+      ],
+      "explication": "Gilbert-François Rivet, désigné gouverneur sous la IIe République, initia diverses réformes administratives et le développement de routes, favorisant le rapprochement avec le modèle continental.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Histoire de la Corse",
+      "question": "Quel décret, pris sous le Second Empire en 1857, encouragea la mise en culture des terres incultes corses pour freiner l’exode rural ?",
+      "reponses": [
+        { "texte": "Le décret du 2 mars 1863", "correct": false },
+        { "texte": "Le décret du 10 avril 1852", "correct": false },
+        { "texte": "Le décret du 12 septembre 1866", "correct": false },
+        { "texte": "Le décret du 6 juin 1857", "correct": true }
+      ],
+      "explication": "Sous Napoléon III, ce décret facilita l'accès aux terres inexploitées pour développer la production agricole, contribuant à maintenir une partie de la population sur l’île.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel est le nom du squelette découvert à Bonifacio datant de 6570 av. J.-C. ?",
+    "reponses": [
+      { "texte": "La Femme de Corté", "correct": false },
+      { "texte": "La Mère d'Aléria", "correct": false },
+      { "texte": "L'Ancienne de Bastia", "correct": false },
+      { "texte": "La Dame de Bonifacio", "correct": true }
+    ],
+    "explication": "Le squelette découvert dans la grotte d’Araguina-Sennola à Bonifacio est daté de -6570 av. J.-C. et surnommé « la Dame de Bonifacio », la plus ancienne trace d’occupation humaine en Corse.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Araguina-Sennola.jpg/640px-Araguina-Sennola.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel peuple détruisit Aléria au Ve siècle lors de son invasion ?",
+    "reponses": [
+      { "texte": "Les Wisigoths", "correct": false },
+      { "texte": "Les Lombards", "correct": false },
+      { "texte": "Les Huns", "correct": false },
+      { "texte": "Les Vandales", "correct": true }
+    ],
+    "explication": "Vers 455, les Vandales envahissent la Corse, détruisent Aléria et rasent de nombreuses structures chrétiennes.",
+    "difficulte": "Moyen",
+    "image": "https://www.corsica.fr/wp-content/uploads/2020/04/aleria-corse-antique.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle puissance établit la cité de Mariana en 100 av. J.-C. ?",
+    "reponses": [
+      { "texte": "Les Romains", "correct": true },
+      { "texte": "Les Grecs", "correct": false },
+      { "texte": "Les Carthaginois", "correct": false },
+      { "texte": "Les Étrusques", "correct": false }
+    ],
+    "explication": "La cité de Mariana fut fondée par le consul romain Marius en 100 av. J.-C. pour renforcer la présence romaine en Corse.",
+    "difficulte": "Facile",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Site_Mariana_Lucciana.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel chef corse mena la lutte contre Gênes et fut élu roi de Corse en 1736 ?",
+    "reponses": [
+      { "texte": "Pascal Paoli", "correct": false },
+      { "texte": "Hyacinthe Paoli", "correct": false },
+      { "texte": "Luiggi Giafferi", "correct": false },
+      { "texte": "Théodore de Neuhoff", "correct": true }
+    ],
+    "explication": "Théodore de Neuhoff, aventurier allemand, fut élu roi de Corse par les insurgés en 1736 lors de la lutte contre la domination génoise.",
+    "difficulte": "Difficile",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Theodore_of_Corsica_by_David.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel événement marqua la fin de l’indépendance corse en 1769 ?",
+    "reponses": [
+      { "texte": "Le traité de Versailles", "correct": false },
+      { "texte": "L’assassinat de Sampiero", "correct": false },
+      { "texte": "La fondation de l’université de Corte", "correct": false },
+      { "texte": "La bataille de Ponte-Novo", "correct": true }
+    ],
+    "explication": "La bataille de Ponte-Novo du 9 mai 1769 voit la défaite des troupes de Pascal Paoli face à l’armée française, marquant la fin de l’indépendance corse.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bataille_de_Ponte_Novo.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel peuple fonda la ville de Portus Syracusanus en Corse vers 453 av. J.-C. ?",
+    "reponses": [
+      { "texte": "Les Syracusains", "correct": true },
+      { "texte": "Les Étrusques", "correct": false },
+      { "texte": "Les Carthaginois", "correct": false },
+      { "texte": "Les Romains", "correct": false }
+    ],
+    "explication": "Les Syracusains fondèrent Portus Syracusanus (aujourd’hui Porto-Vecchio) vers 453 av. J.-C., comme poste stratégique en Méditerranée.",
+    "difficulte": "Facile",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Porto-Vecchio_bay.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Comment s’appelait le chef romain qui fit reconstruire Aléria en 81 av. J.-C. ?",
+    "reponses": [
+      { "texte": "Jules César", "correct": false },
+      { "texte": "Cicéron", "correct": false },
+      { "texte": "Sylla", "correct": true },
+      { "texte": "Marius", "correct": false }
+    ],
+    "explication": "Le dictateur romain Sylla ordonna la reconstruction d'Aléria en 81 av. J.-C., consolidant la présence romaine.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sulla_Glyptothek_Munich_309.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel philosophe romain fut exilé en Corse de 41 à 49 ap. J.-C. ?",
+    "reponses": [
+      { "texte": "Marc Aurèle", "correct": false },
+      { "texte": "Sénèque", "correct": true },
+      { "texte": "Cicéron", "correct": false },
+      { "texte": "Tacite", "correct": false }
+    ],
+    "explication": "Sénèque fut exilé en Corse de 41 à 49 ap. J.-C. par Messaline, épouse de l’empereur Claude.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Seneca_Louvre_Ma1106.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel empereur romain fit de la Corse une province impériale en 6 ap. J.-C. ?",
+    "reponses": [
+      { "texte": "Tibère", "correct": false },
+      { "texte": "Néron", "correct": false },
+      { "texte": "Claude", "correct": false },
+      { "texte": "Auguste", "correct": true }
+    ],
+    "explication": "En 6 ap. J.-C., l’empereur Auguste détacha la Corse de la Sardaigne pour en faire une province impériale.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Augustus_Bevilacqua_Glyptothek_Munich_317.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel peuple détruisit Aléria lors de l’invasion de 455 ap. J.-C. ?",
+    "reponses": [
+      { "texte": "Les Wisigoths", "correct": false },
+      { "texte": "Les Vandales", "correct": true },
+      { "texte": "Les Francs", "correct": false },
+      { "texte": "Les Huns", "correct": false }
+    ],
+    "explication": "Les Vandales, lors de leur passage en Corse vers 455 ap. J.-C., détruisirent la cité d’Aléria.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vandals_sack_Rome.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel roi lombard donna la Corse au pape Étienne II ?",
+    "reponses": [
+      { "texte": "Charlemagne", "correct": false },
+      { "texte": "Clovis", "correct": false },
+      { "texte": "Louis le Pieux", "correct": false },
+      { "texte": "Pépin le Bref", "correct": true }
+    ],
+    "explication": "Pépin le Bref fit don de la Corse au pape Étienne II en 754, ce qui fut contesté plus tard comme étant un faux.",
+    "difficulte": "Difficile",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pepin_le_Bref.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel pape confirma la souveraineté du pape sur la Corse au XIe siècle ?",
+    "reponses": [
+      { "texte": "Grégoire VII", "correct": true },
+      { "texte": "Innocent II", "correct": false },
+      { "texte": "Urbain II", "correct": false },
+      { "texte": "Benoît VIII", "correct": false }
+    ],
+    "explication": "Le pape Grégoire VII réaffirma la souveraineté pontificale sur la Corse au XIe siècle, appuyé par la république de Pise.",
+    "difficulte": "Difficile",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pope_Gregory_VII.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle république devint dominante en Corse après la bataille de la Meloria ?",
+    "reponses": [
+      { "texte": "Pise", "correct": false },
+      { "texte": "Florence", "correct": false },
+      { "texte": "Rome", "correct": false },
+      { "texte": "Gênes", "correct": true }
+    ],
+    "explication": "La bataille navale de la Meloria en 1284 mit fin à la domination pisane, au profit de la République de Gênes.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Meloria_Battle_1284.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "En quelle année la bataille de la Meloria a-t-elle eu lieu ?",
+    "reponses": [
+      { "texte": "1284", "correct": true },
+      { "texte": "1275", "correct": false },
+      { "texte": "1230", "correct": false },
+      { "texte": "1300", "correct": false }
+    ],
+    "explication": "La bataille de la Meloria opposa Pise à Gênes en 1284, marquant la chute de l’influence pisane sur la Corse.",
+    "difficulte": "Difficile",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Battle_of_Meloria.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle ville corse fut refondée par Gênes en 1539 ?",
+    "reponses": [
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Corte", "correct": false },
+      { "texte": "Calvi", "correct": false },
+      { "texte": "Porto-Vecchio", "correct": true }
+    ],
+    "explication": "Gênes refonda Porto-Vecchio en 1539 pour valoriser la plaine orientale, bien que les Corses en aient été initialement exclus.",
+    "difficulte": "Moyen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Porto-Vecchio_vue.jpg"
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel traité de 1768 a permis à la France d'acquérir la Corse auprès de Gênes ?",
+    "reponses": [
+      { "texte": "Traité de Versailles", "correct": false },
+      { "texte": "Traité de Turin", "correct": true },
+      { "texte": "Traité de Campo Formio", "correct": false },
+      { "texte": "Traité de Gênes", "correct": false }
+    ],
+    "explication": "Le traité de Turin de 1768 a permis à la France d’obtenir la souveraineté sur la Corse en échange du remboursement de dettes génoises.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Qui fut le principal artisan de l’indépendance corse proclamée en 1755 ?",
+    "reponses": [
+      { "texte": "Pasquale Paoli", "correct": true },
+      { "texte": "Napoléon Bonaparte", "correct": false },
+      { "texte": "Carlo Andrea Pozzo di Borgo", "correct": false },
+      { "texte": "Luigi Giafferi", "correct": false }
+    ],
+    "explication": "Pasquale Paoli, figure majeure de l’histoire corse, a proclamé la République corse en 1755 et instauré une constitution.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle ville corse est devenue la capitale sous le gouvernement de Pasquale Paoli ?",
+    "reponses": [
+      { "texte": "Ajaccio", "correct": false },
+      { "texte": "Corte", "correct": true },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Calvi", "correct": false }
+    ],
+    "explication": "Corte a été choisie par Pasquale Paoli comme capitale de la Corse indépendante.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel empereur romain aurait séjourné en exil en Corse avant d’accéder au pouvoir ?",
+    "reponses": [
+      { "texte": "Néron", "correct": false },
+      { "texte": "Octave Auguste", "correct": false },
+      { "texte": "Sénèque", "correct": true },
+      { "texte": "Caligula", "correct": false }
+    ],
+    "explication": "Sénèque, philosophe stoïcien, fut exilé en Corse entre 41 et 49 sous l'empereur Claude.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel roi d'Aragon a brièvement régné sur la Corse au XIVe siècle ?",
+    "reponses": [
+      { "texte": "Alphonse V", "correct": true },
+      { "texte": "Pierre III", "correct": false },
+      { "texte": "Ferdinand II", "correct": false },
+      { "texte": "Charles III", "correct": false }
+    ],
+    "explication": "Alphonse V d'Aragon revendiqua brièvement la souveraineté sur la Corse à la fin du XIVe siècle.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel événement majeur a marqué l’année 1769 en Corse ?",
+    "reponses": [
+      { "texte": "La fondation de Bastia", "correct": false },
+      { "texte": "La naissance de Napoléon Bonaparte", "correct": true },
+      { "texte": "La mort de Paoli", "correct": false },
+      { "texte": "La prise de Corte", "correct": false }
+    ],
+    "explication": "Napoléon Bonaparte est né à Ajaccio en 1769, quelques mois après la défaite de Paoli à Ponte Novu.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel soulèvement eut lieu en Corse pendant la Seconde Guerre mondiale contre l’occupation italienne et allemande ?",
+    "reponses": [
+      { "texte": "L’insurrection de Ponte-Leccia", "correct": false },
+      { "texte": "La libération de la Corse", "correct": true },
+      { "texte": "L’appel de Corte", "correct": false },
+      { "texte": "L’affaire de Calvi", "correct": false }
+    ],
+    "explication": "La Corse a été le premier territoire français libéré en 1943 grâce à l'insurrection contre les troupes fascistes.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel est le nom du mouvement nationaliste corse qui a déposé les armes en 2014 ?",
+    "reponses": [
+      { "texte": "FLNC", "correct": true },
+      { "texte": "ARC", "correct": false },
+      { "texte": "A Cuncolta", "correct": false },
+      { "texte": "Ghjustizia Paolina", "correct": false }
+    ],
+    "explication": "Le FLNC (Front de libération nationale corse) a annoncé la fin de sa lutte armée en 2014.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle ville a été un important bastion génois pendant la domination de Gênes sur la Corse ?",
+    "reponses": [
+      { "texte": "Bonifacio", "correct": false },
+      { "texte": "Bastia", "correct": true },
+      { "texte": "Corte", "correct": false },
+      { "texte": "Porto-Vecchio", "correct": false }
+    ],
+    "explication": "Bastia fut la capitale de la Corse génoise à partir du XVe siècle et un important port militaire et commercial.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle ancienne tribu ou peuple habitait la Corse à l’époque préromaine ?",
+    "reponses": [
+      { "texte": "Les Ligures", "correct": true },
+      { "texte": "Les Samnites", "correct": false },
+      { "texte": "Les Celtes", "correct": false },
+      { "texte": "Les Thraces", "correct": false }
+    ],
+    "explication": "Les Ligures sont les premiers habitants connus de la Corse, avant l'arrivée des Grecs et des Romains.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle ville fut la première à être libérée lors de la libération de la Corse en 1943 ?",
+    "reponses": [
+      { "texte": "Ajaccio", "correct": true },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Calvi", "correct": false },
+      { "texte": "Corte", "correct": false }
+    ],
+    "explication": "Ajaccio a été la première ville libérée par les résistants corses en septembre 1943.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel homme politique corse fut un adversaire historique de Napoléon Bonaparte ?",
+    "reponses": [
+      { "texte": "Pasquale Paoli", "correct": false },
+      { "texte": "Jean-Baptiste Bernadotte", "correct": false },
+      { "texte": "Carlo Andrea Pozzo di Borgo", "correct": true },
+      { "texte": "Lucien Bonaparte", "correct": false }
+    ],
+    "explication": "Pozzo di Borgo, exilé comme Napoléon, devint son ennemi personnel et joua un rôle dans sa chute.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel peuple a fondé la cité d'Aléria au VIe siècle avant notre ère ?",
+    "reponses": [
+      { "texte": "Les Grecs de Phocée", "correct": true },
+      { "texte": "Les Romains", "correct": false },
+      { "texte": "Les Étrusques", "correct": false },
+      { "texte": "Les Carthaginois", "correct": false }
+    ],
+    "explication": "Les Grecs de Phocée ont fondé Aléria, qui deviendra plus tard une colonie romaine.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle est la première Constitution démocratique connue en Europe, écrite en Corse en 1755 ?",
+    "reponses": [
+      { "texte": "La Constitution de Paoli", "correct": true },
+      { "texte": "La Déclaration d'Aléria", "correct": false },
+      { "texte": "Les Lois de Corte", "correct": false },
+      { "texte": "La Charte corse", "correct": false }
+    ],
+    "explication": "La Constitution rédigée par Paoli en 1755 est l'une des premières constitutions démocratiques modernes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire moderne",
+    "question": "Quelle réforme importante Pascal Paoli met-il en œuvre après avoir pris la tête du gouvernement corse en 1755 ?",
+    "reponses": [
+      { "texte": "La création d'une armée professionnelle", "correct": false },
+      { "texte": "La mise en place d'une constitution", "correct": true },
+      { "texte": "La séparation de l'Église et de l'État", "correct": false },
+      { "texte": "L'adoption du suffrage universel", "correct": false }
+    ],
+    "explication": "Pascal Paoli dote la Corse d'une constitution en 1755, considérée comme l'une des premières démocraties modernes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire antique",
+    "question": "Quel peuple fonde la ville d’Aléria en Corse ?",
+    "reponses": [
+      { "texte": "Les Étrusques", "correct": false },
+      { "texte": "Les Grecs", "correct": true },
+      { "texte": "Les Romains", "correct": false },
+      { "texte": "Les Carthaginois", "correct": false }
+    ],
+    "explication": "La ville d'Aléria est fondée au VIe siècle av. J.-C. par les Grecs de Phocée.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire contemporaine",
+    "question": "Quel événement marque fortement la mémoire collective corse en 1998 ?",
+    "reponses": [
+      { "texte": "La création d'une université corse", "correct": false },
+      { "texte": "L'attentat de la grotte de Vergio", "correct": false },
+      { "texte": "L'assassinat du préfet Claude Érignac", "correct": true },
+      { "texte": "L'explosion d'un ferry en mer", "correct": false }
+    ],
+    "explication": "Le préfet Claude Érignac est assassiné à Ajaccio en 1998, un événement qui entraîne une réaction nationale et une traque de plusieurs années.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire napoléonienne",
+    "question": "En quelle année Napoléon Bonaparte naît-il à Ajaccio ?",
+    "reponses": [
+      { "texte": "1769", "correct": true },
+      { "texte": "1771", "correct": false },
+      { "texte": "1775", "correct": false },
+      { "texte": "1765", "correct": false }
+    ],
+    "explication": "Napoléon Bonaparte naît en 1769 à Ajaccio, quelques mois après l’annexion de la Corse par la France.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire contemporaine",
+    "question": "Quel mouvement autonomiste corse est créé en 1976 ?",
+    "reponses": [
+      { "texte": "Corsica Libera", "correct": false },
+      { "texte": "FLNC (Front de Libération Nationale de la Corse)", "correct": true },
+      { "texte": "Rinnovu Naziunale", "correct": false },
+      { "texte": "Partitu di a Nazione Corsa", "correct": false }
+    ],
+    "explication": "Le FLNC est fondé en 1976 et revendique de nombreuses actions violentes pour l'indépendance de la Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire médiévale",
+    "question": "Quel pouvoir contrôle la Corse au XIIIe siècle avant d'être évincé par Gênes ?",
+    "reponses": [
+      { "texte": "La couronne d'Aragon", "correct": false },
+      { "texte": "Les Pisans", "correct": true },
+      { "texte": "Les Normands", "correct": false },
+      { "texte": "L’Empire byzantin", "correct": false }
+    ],
+    "explication": "Les Pisans dominent la Corse jusqu'à ce que la République de Gênes s’impose au XIIIe siècle.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire contemporaine",
+    "question": "Quel est le nom de l’accord signé en 2001 visant à donner plus d’autonomie à la Corse ?",
+    "reponses": [
+      { "texte": "Accord de Matignon", "correct": true },
+      { "texte": "Accord de Bonifacio", "correct": false },
+      { "texte": "Accord de Bastia", "correct": false },
+      { "texte": "Accord de Corte", "correct": false }
+    ],
+    "explication": "L'accord de Matignon est signé en 2001 pour donner davantage de compétences à l'Assemblée de Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire moderne",
+    "question": "Quel territoire la Corse forme-t-elle brièvement avec la Sardaigne sous la domination savoyarde ?",
+    "reponses": [
+      { "texte": "Le royaume de Piémont", "correct": false },
+      { "texte": "Le royaume de Corse-Sardaigne", "correct": false },
+      { "texte": "Elle n’a jamais été unie à la Sardaigne", "correct": true },
+      { "texte": "Le royaume des Deux-Siciles", "correct": false }
+    ],
+    "explication": "Contrairement à une idée reçue, la Corse n’a jamais été unifiée politiquement avec la Sardaigne dans un même royaume.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire antique",
+    "question": "Que signifie le nom « Cyrnos », utilisé dans l’Antiquité pour désigner la Corse ?",
+    "reponses": [
+      { "texte": "La montagne", "correct": false },
+      { "texte": "L'île des forêts", "correct": false },
+      { "texte": "L'île rugueuse", "correct": true },
+      { "texte": "La terre des géants", "correct": false }
+    ],
+    "explication": "« Cyrnos » était le nom grec donné à la Corse, signifiant « rugueuse », en raison de son relief accidenté.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire moderne",
+    "question": "Quel traité officialise la cession de la Corse à la France par Gênes ?",
+    "reponses": [
+      { "texte": "Traité de Versailles (1768)", "correct": true },
+      { "texte": "Traité d'Utrecht (1713)", "correct": false },
+      { "texte": "Traité de Campo Formio (1797)", "correct": false },
+      { "texte": "Traité de Paris (1763)", "correct": false }
+    ],
+    "explication": "Le traité de Versailles de 1768 officialise la cession de la Corse à la France par la République de Gênes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel roi français a annexé la Corse en 1769, mettant fin à l'indépendance de la République corse ?",
+    "reponses": [
+      { "texte": "Louis XV", "correct": true },
+      { "texte": "Louis XIV", "correct": false },
+      { "texte": "Napoléon Ier", "correct": false },
+      { "texte": "Charles X", "correct": false }
+    ],
+    "explication": "Louis XV a annexé la Corse en 1769 après la défaite des Corses à la bataille de Ponte Novu, mettant fin à l’indépendance proclamée par Pascal Paoli.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel traité signé en 1768 a permis à la France de prendre possession de la Corse ?",
+    "reponses": [
+      { "texte": "Traité de Versailles", "correct": false },
+      { "texte": "Traité de Turin", "correct": true },
+      { "texte": "Traité d'Utrecht", "correct": false },
+      { "texte": "Traité de Paris", "correct": false }
+    ],
+    "explication": "Le traité de Turin a été signé en 1768 entre la France et Gênes, cédant temporairement la Corse à la France, qui en prendra le contrôle total l'année suivante.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle république a revendiqué la souveraineté de la Corse avant sa cession à la France ?",
+    "reponses": [
+      { "texte": "La République de Gênes", "correct": true },
+      { "texte": "La République de Venise", "correct": false },
+      { "texte": "La République de Florence", "correct": false },
+      { "texte": "La République de Sienne", "correct": false }
+    ],
+    "explication": "La République de Gênes dominait la Corse depuis le Moyen Âge jusqu'à sa cession à la France au XVIIIe siècle.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel événement historique marque le début de la lutte d’indépendance menée par Pascal Paoli ?",
+    "reponses": [
+      { "texte": "La mort de Sampiero Corso", "correct": false },
+      { "texte": "La défaite de Gênes à Furiani", "correct": false },
+      { "texte": "L’appel à l’insurrection de 1755", "correct": true },
+      { "texte": "La signature du traité de Versailles", "correct": false }
+    ],
+    "explication": "En 1755, Pascal Paoli proclame la Constitution corse et établit un État indépendant, débutant une période de souveraineté jusqu’à l’annexion française.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Comment s’appelle le texte constitutionnel rédigé sous Pascal Paoli en 1755 ?",
+    "reponses": [
+      { "texte": "La Charte corse", "correct": false },
+      { "texte": "La Constitution de Corte", "correct": false },
+      { "texte": "La Constitution corse", "correct": true },
+      { "texte": "La Déclaration de Furiani", "correct": false }
+    ],
+    "explication": "La Constitution corse, rédigée en 1755 sous Pascal Paoli, est considérée comme l'une des premières constitutions démocratiques modernes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Révolution française et Empire",
+    "question": "Quel fut le sort de la Corse pendant la Révolution française en 1793 ?",
+    "reponses": [
+      { "texte": "Elle se déclara indépendante sous l'influence de Paoli", "correct": true },
+      { "texte": "Elle fut annexée par l'Italie révolutionnaire", "correct": false },
+      { "texte": "Elle devint une colonie britannique", "correct": false },
+      { "texte": "Elle conserva un statut spécial dans la République française", "correct": false }
+    ],
+    "explication": "En 1793, la Corse rompt avec la France révolutionnaire et, sous l'influence de Pascal Paoli, se déclare indépendante avant de passer temporairement sous protectorat britannique.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Révolution française et Empire",
+    "question": "Quel rôle joua Napoléon Bonaparte dans la politique corse à ses débuts ?",
+    "reponses": [
+      { "texte": "Il soutenait les Jacobins contre Paoli", "correct": true },
+      { "texte": "Il resta fidèle à Paoli jusqu’à sa mort", "correct": false },
+      { "texte": "Il défendit l’indépendance de la Corse", "correct": false },
+      { "texte": "Il ne s’intéressa jamais aux affaires corses", "correct": false }
+    ],
+    "explication": "Jeune officier, Napoléon soutient les Jacobins français contre Paoli, ce qui provoque une rupture avec ce dernier et l'exil de la famille Bonaparte.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "XIXe siècle",
+    "question": "Quelle révolte marqua la Corse en 1830, lors de l’arrivée au pouvoir de Louis-Philippe ?",
+    "reponses": [
+      { "texte": "La révolte des prêtres contre la laïcité", "correct": false },
+      { "texte": "Une insurrection royaliste à Ajaccio", "correct": true },
+      { "texte": "Une révolte des bergers dans le Niolu", "correct": false },
+      { "texte": "Un soulèvement pour l’indépendance de la Corse", "correct": false }
+    ],
+    "explication": "En 1830, des royalistes corses se révoltent à Ajaccio contre le régime de Louis-Philippe, sans succès.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Seconde Guerre mondiale",
+    "question": "Quelle est la particularité de la Libération de la Corse en 1943 ?",
+    "reponses": [
+      { "texte": "C’est le premier territoire français métropolitain libéré", "correct": true },
+      { "texte": "Elle fut libérée sans aucune aide extérieure", "correct": false },
+      { "texte": "Elle fut annexée par les forces américaines", "correct": false },
+      { "texte": "Elle resta sous occupation italienne jusqu’en 1945", "correct": false }
+    ],
+    "explication": "En octobre 1943, la Corse est la première partie de la France métropolitaine à être libérée de l'occupation, grâce à l'action conjointe des résistants corses et des troupes françaises libres.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Institution corse",
+    "question": "Quel organe de gouvernement Paoli met-il en place lors de la République corse ?",
+    "reponses": [
+      { "texte": "Un Directoire à la française", "correct": false },
+      { "texte": "Un Sénat élu", "correct": true },
+      { "texte": "Un conseil de chefs de clan", "correct": false },
+      { "texte": "Un tribunal religieux", "correct": false }
+    ],
+    "explication": "Paoli crée un Sénat élu pour représenter les Corses dans sa République indépendante, un acte précurseur de démocratie en Europe.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "XIXe siècle",
+    "question": "Quelle activité économique se développe massivement en Corse au XIXe siècle ?",
+    "reponses": [
+      { "texte": "L’extraction minière", "correct": false },
+      { "texte": "L’industrie textile", "correct": false },
+      { "texte": "L’agriculture et l’élevage", "correct": true },
+      { "texte": "La production automobile", "correct": false }
+    ],
+    "explication": "Durant le XIXe siècle, l'économie corse repose principalement sur l'agriculture (notamment la châtaigne) et l'élevage, bien que marquée par la pauvreté et l’émigration.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "République de Paoli",
+    "question": "Comment étaient désignés les membres du gouvernement sous Paoli ?",
+    "reponses": [
+      { "texte": "Par tirage au sort", "correct": false },
+      { "texte": "Par le peuple, dans une assemblée générale", "correct": true },
+      { "texte": "Par le roi de France", "correct": false },
+      { "texte": "Par les chefs de clan", "correct": false }
+    ],
+    "explication": "Sous la République corse de Paoli, les membres du gouvernement étaient élus dans une assemblée représentant le peuple, un système innovant à l’époque.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Seconde Guerre mondiale",
+    "question": "Quel rôle les femmes corses jouèrent-elles durant la Résistance ?",
+    "reponses": [
+      { "texte": "Elles furent principalement cantonnées aux soins médicaux", "correct": false },
+      { "texte": "Elles participèrent activement aux combats et à la logistique", "correct": true },
+      { "texte": "Elles furent évacuées dès 1942", "correct": false },
+      { "texte": "Elles formèrent des unités combattantes séparées", "correct": false }
+    ],
+    "explication": "Les femmes corses jouèrent un rôle important dans la Résistance, notamment dans les liaisons, le ravitaillement et parfois même les combats.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Époque contemporaine",
+    "question": "Quel événement marque une nouvelle vague d'émigration corse au XIXe siècle ?",
+    "reponses": [
+      { "texte": "La guerre de 1870", "correct": false },
+      { "texte": "La pauvreté chronique et le manque d’industries", "correct": true },
+      { "texte": "Une épidémie de choléra", "correct": false },
+      { "texte": "Une interdiction du pâturage", "correct": false }
+    ],
+    "explication": "La pauvreté persistante et l'absence de développement industriel provoquent une émigration importante des Corses vers le continent et l’étranger dès le XIXe siècle.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "XIXe siècle",
+    "question": "Quel lien unit souvent la politique locale corse au XIXe siècle ?",
+    "reponses": [
+      { "texte": "Les partis socialistes", "correct": false },
+      { "texte": "Les grandes familles locales et le clientélisme", "correct": true },
+      { "texte": "L’armée révolutionnaire française", "correct": false },
+      { "texte": "Le gouvernement central de Rome", "correct": false }
+    ],
+    "explication": "Durant le XIXe siècle, la politique corse est souvent dominée par les grandes familles locales, dans un système de clientélisme très marqué.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Préhistoire",
+    "question": "Quel est le nom donné au plus ancien squelette humain découvert en Corse, datant d'environ -6570 av. J.-C. ?",
+    "reponses": [
+      {"texte": "La Dame de Bonifacio", "correct": true},
+      {"texte": "L'Homme de Tizzano", "correct": false},
+      {"texte": "L'Ancêtre d'Aléria", "correct": false},
+      {"texte": "Le Squelette de Porto-Vecchio", "correct": false}
+    ],
+    "explication": "La Dame de Bonifacio est le plus ancien squelette découvert en Corse, daté par carbone 14 à environ -6570 av. J.-C.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Antiquité",
+    "question": "Quel célèbre philosophe romain fut exilé en Corse entre 41 et 49 ap. J.-C. ?",
+    "reponses": [
+      {"texte": "Sénèque", "correct": true},
+      {"texte": "Cicéron", "correct": false},
+      {"texte": "Marc Aurèle", "correct": false},
+      {"texte": "Tacite", "correct": false}
+    ],
+    "explication": "Sénèque fut exilé en Corse sur ordre de Messaline qui l’accusait d’être l’amant de Julia Livilla.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Santé et société",
+    "question": "Quelle maladie a contribué à la désertification de certaines zones du littoral corse au Moyen Âge et jusqu’au XXe siècle ?",
+    "reponses": [
+      {"texte": "La malaria", "correct": true},
+      {"texte": "La peste bubonique", "correct": false},
+      {"texte": "Le choléra", "correct": false},
+      {"texte": "La lèpre", "correct": false}
+    ],
+    "explication": "La malaria, véhiculée par les moustiques, a rendu certaines zones littorales inhabitables pendant des siècles.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Migrations",
+    "question": "Quel groupe de population grecque a été accueilli en Corse à partir de 1676, principalement à Cargèse ?",
+    "reponses": [
+      {"texte": "Les Grecs de Vitylo", "correct": true},
+      {"texte": "Les Byzantins", "correct": false},
+      {"texte": "Les Crétois", "correct": false},
+      {"texte": "Les Macédoniens", "correct": false}
+    ],
+    "explication": "Les Grecs de Vitylo, fuyant les Ottomans, se sont installés en Corse, notamment à Cargèse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Période moderne",
+    "question": "Quel aventurier fut élu roi de Corse en 1736 par les chefs insurgés corses ?",
+    "reponses": [
+      {"texte": "Théodore de Neuhoff", "correct": true},
+      {"texte": "Pascal Paoli", "correct": false},
+      {"texte": "Luiggi Giafferi", "correct": false},
+      {"texte": "Sampiero Corso", "correct": false}
+    ],
+    "explication": "Théodore de Neuhoff, un aventurier allemand, fut proclamé roi de Corse en 1736 par les chefs de la rébellion.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Révolution et Empire",
+    "question": "Quel statut politique la Corse adopte-t-elle entre 1794 et 1796 sous influence britannique ?",
+    "reponses": [
+      {"texte": "Royaume anglo-corse", "correct": true},
+      {"texte": "République autonome", "correct": false},
+      {"texte": "Région française", "correct": false},
+      {"texte": "Département unique", "correct": false}
+    ],
+    "explication": "De 1794 à 1796, la Corse devient un royaume parlementaire sous protection britannique, appelé Royaume anglo-corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "XIXe siècle",
+    "question": "Quels arrêtés fiscaux sont adoptés en 1801 pour alléger la fiscalité en Corse ?",
+    "reponses": [
+      {"texte": "Les arrêtés Miot", "correct": true},
+      {"texte": "Les décrets Bonaparte", "correct": false},
+      {"texte": "La loi Paoli", "correct": false},
+      {"texte": "L’ordonnance de Corte", "correct": false}
+    ],
+    "explication": "Les arrêtés Miot, adoptés en 1801, ont allégé les impôts sur les successions en Corse pour favoriser l’économie insulaire.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Écologie et environnement",
+    "question": "Quel scandale environnemental lié à une entreprise italienne touche la Corse dans les années 1970 ?",
+    "reponses": [
+      {"texte": "L'affaire des boues rouges", "correct": true},
+      {"texte": "Le scandale de la décharge de Corte", "correct": false},
+      {"texte": "La pollution au mercure de Bastia", "correct": false},
+      {"texte": "Le naufrage du pétrolier Enrico Mattei", "correct": false}
+    ],
+    "explication": "Les boues rouges déversées en mer Méditerranée par l’entreprise Montedison provoquent un tollé écologique en Corse dans les années 1970.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire contemporaine",
+    "question": "Quel préfet de la Corse a été assassiné en 1998, marquant un tournant dans la lutte contre le FLNC ?",
+    "reponses": [
+      {"texte": "Claude Érignac", "correct": true},
+      {"texte": "Jean-Pierre Chevènement", "correct": false},
+      {"texte": "Bernard Bonnet", "correct": false},
+      {"texte": "Jean-Jacques De Peretti", "correct": false}
+    ],
+    "explication": "Claude Érignac, préfet de la Corse, est assassiné à Ajaccio en 1998 par des militants nationalistes.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Actualité",
+    "question": "Que prévoit la mission parlementaire lancée en 2025 concernant l’avenir institutionnel de la Corse ?",
+    "reponses": [
+      {"texte": "Un possible pouvoir législatif propre", "correct": true},
+      {"texte": "La création d’un nouveau département", "correct": false},
+      {"texte": "Le rattachement à l’Italie", "correct": false},
+      {"texte": "Le retour à l’ancien statut de région", "correct": false}
+    ],
+    "explication": "La mission parlementaire de 2025 pourrait ouvrir la voie à un vrai pouvoir législatif pour la Corse si l’actuel statut d’adaptation est jugé insuffisant.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel général romain mena une expédition en Corse en 231 av. J.-C. pour réprimer une révolte locale ?",
+    "reponses": [
+      { "texte": "Lucius Papirius Cursor", "correct": false },
+      { "texte": "Gnaeus Cornelius Scipio", "correct": false },
+      { "texte": "Gaius Papirius Maso", "correct": true },
+      { "texte": "Marcus Claudius Marcellus", "correct": false }
+    ],
+    "explication": "Gaius Papirius Maso mena une expédition punitive contre les insurgés corses en 231 av. J.-C., consolidant l'autorité romaine sur l'île.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel événement religieux de 1092 renforça la domination de Pise sur l'Église corse ?",
+    "reponses": [
+      { "texte": "La création du diocèse d’Ajaccio", "correct": false },
+      { "texte": "L'union des évêchés sous l’archevêché de Pise", "correct": true },
+      { "texte": "Le synode de Bastia", "correct": false },
+      { "texte": "La consécration de l’évêque de Corte", "correct": false }
+    ],
+    "explication": "En 1092, le pape Urbain II plaça l’Église corse sous l’autorité de l’archevêque de Pise, ce qui renforça l’influence pisane sur l’île.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel fut l’un des effets de la domination génoise sur l’habitat corse à partir du XIVe siècle ?",
+    "reponses": [
+      { "texte": "La disparition des tours défensives", "correct": false },
+      { "texte": "La construction de maisons sur pilotis", "correct": false },
+      { "texte": "La multiplication des tours génoises", "correct": true },
+      { "texte": "L’urbanisation des sommets montagneux", "correct": false }
+    ],
+    "explication": "Les Génois ont fait édifier de nombreuses tours littorales pour se défendre contre les pirates barbaresques, qui sont devenues des éléments emblématiques du paysage corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle est la principale ressource économique exploitée en Corse pendant l’Antiquité romaine ?",
+    "reponses": [
+      { "texte": "Le sel", "correct": false },
+      { "texte": "Le marbre", "correct": false },
+      { "texte": "Le bois", "correct": true },
+      { "texte": "Le blé", "correct": false }
+    ],
+    "explication": "Les forêts corses représentaient une ressource précieuse pour le bois, notamment destiné à la construction navale romaine.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel statut particulier fut octroyé à la Corse par le roi Théodoric le Grand au VIe siècle ?",
+    "reponses": [
+      { "texte": "Province sénatoriale", "correct": false },
+      { "texte": "Duché autonome", "correct": false },
+      { "texte": "Territoire militaire frontalier", "correct": false },
+      { "texte": "Domaine personnel du roi ostrogoth", "correct": true }
+    ],
+    "explication": "Théodoric le Grand fit de la Corse un domaine royal direct afin d'assurer le contrôle ostrogothique sur l’île au début du VIe siècle.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "À quelle date la Corse est-elle rattachée à la République française après la Révolution ?",
+    "reponses": [
+      { "texte": "1790", "correct": false },
+      { "texte": "1793", "correct": true },
+      { "texte": "1789", "correct": false },
+      { "texte": "1795", "correct": false }
+    ],
+    "explication": "En 1793, après la rupture avec Paoli, la Convention nationale rattache officiellement la Corse à la République française.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle fut la principale revendication portée par l’Assemblée de Corse après les Accords de Matignon ?",
+    "reponses": [
+      { "texte": "La reconnaissance d’une autonomie fiscale", "correct": false },
+      { "texte": "La co-officialité de la langue corse", "correct": true },
+      { "texte": "La création d’une armée corse", "correct": false },
+      { "texte": "Le rattachement à l’Italie", "correct": false }
+    ],
+    "explication": "Après les Accords de Matignon, une des principales revendications politiques fut la reconnaissance de la langue corse comme co-officielle aux côtés du français.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quel facteur principal a limité le peuplement durable de la plaine orientale corse jusqu’au XXe siècle ?",
+    "reponses": [
+      { "texte": "La pauvreté des sols", "correct": false },
+      { "texte": "La présence de bandits", "correct": false },
+      { "texte": "L’insalubrité due au paludisme", "correct": true },
+      { "texte": "La proximité de la mer", "correct": false }
+    ],
+    "explication": "Jusqu’à l’assèchement des marais, la plaine orientale de la Corse était peu habitée à cause du paludisme qui y sévissait.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle structure médiévale construite à Corte symbolise encore aujourd’hui la résistance corse ?",
+    "reponses": [
+      { "texte": "La tour génoise", "correct": false },
+      { "texte": "La citadelle de Corte", "correct": true },
+      { "texte": "L’université de Corte", "correct": false },
+      { "texte": "La maison de Paoli", "correct": false }
+    ],
+    "explication": "La citadelle de Corte, perchée sur un piton rocheux, est l’un des emblèmes de la résistance insulaire et du gouvernement de Paoli.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Histoire de la Corse",
+    "question": "Quelle fut la conséquence directe de la bataille de la Meloria en 1284 pour la Corse ?",
+    "reponses": [
+      { "texte": "L’indépendance de la Corse", "correct": false },
+      { "texte": "La mise sous tutelle du pape", "correct": false },
+      { "texte": "Le déclin de l’influence pisane", "correct": true },
+      { "texte": "L’occupation française", "correct": false }
+    ],
+    "explication": "La bataille de la Meloria en 1284 voit la victoire de Gênes sur Pise, entraînant le recul de cette dernière et ouvrant la voie à la domination génoise sur la Corse.",
+    "difficulte": "Facile",
+    "image": null
+  }
+]
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC-Sr7V7r9nZLZuHkKK1pLOobYn6_Xx2Uw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>109788230031</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.msj2025.corsicaquiz</string>
+	<key>PROJECT_ID</key>
+	<string>quizcorsica</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quizcorsica.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:109788230031:ios:1889b0a679821a9b989bfa</string>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+class FavoriteService {
+  final FirebaseFirestore _db = FirebaseFirestore.instance;
+
+  Stream<List<String>> favoritesStream(String uid) {
+    return _db
+        .collection('users')
+        .doc(uid)
+        .collection('favorites')
+        .snapshots()
+        .map((snapshot) =>
+            snapshot.docs.map((doc) => doc.id).toList());
+  }
+
+  Future<void> addFavorite(String uid, String favoriteUid) async {
+    await _db
+        .collection('users')
+        .doc(uid)
+        .collection('favorites')
+        .doc(favoriteUid)
+        .set({'uid': favoriteUid});
+  }
+
+  Future<void> removeFavorite(String uid, String favoriteUid) async {
+    await _db
+        .collection('users')
+        .doc(uid)
+        .collection('favorites')
+        .doc(favoriteUid)
+        .delete();
+  }
+
+  Future<bool> isFavorite(String uid, String favoriteUid) async {
+    final doc = await _db
+        .collection('users')
+        .doc(uid)
+        .collection('favorites')
+        .doc(favoriteUid)
+        .get();
+    return doc.exists;
+  }
+}

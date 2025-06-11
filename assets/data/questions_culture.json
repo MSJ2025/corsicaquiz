@@ -1,0 +1,3057 @@
+[
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage emblématique, produit à base de lait de brebis (ou de chèvre), se consomme aussi bien frais qu’affiné ?",
+    "reponses": [
+      { "texte": "Le Niolo", "correct": false },
+      { "texte": "Le Casgiu Merzu", "correct": false },
+      { "texte": "Le Brocciu", "correct": true },
+      { "texte": "Le Pinzutu", "correct": false }
+    ],
+    "explication": "Le Brocciu est le fromage corse incontournable. Il peut être dégusté frais ou affiné, et entre dans de nombreuses recettes traditionnelles de l’île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle saucisse corse, élaborée à partir de foie de porc, est traditionnellement grillée au feu de bois ?",
+    "reponses": [
+      { "texte": "Le Figatellu", "correct": true },
+      { "texte": "Le Boudin noir", "correct": false },
+      { "texte": "La Coppa", "correct": false },
+      { "texte": "La Panzetta", "correct": false }
+    ],
+    "explication": "Le Figatellu, produit emblématique de la charcuterie corse, se consomme le plus souvent grillé, surtout en hiver, et peut être cuisiné de multiples façons.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel dessert traditionnel corse, réalisé à partir de Brocciu, d’œufs et de citron, se savoure généralement frais ?",
+    "reponses": [
+      { "texte": "La Canistrelli", "correct": false },
+      { "texte": "La Foccacia dolce", "correct": false },
+      { "texte": "La Migliacciola", "correct": false },
+      { "texte": "Le Fiadone", "correct": true }
+    ],
+    "explication": "Le Fiadone est un gâteau corse moelleux et parfumé au citron, dont l’ingrédient phare est le Brocciu. Il se déguste froid, souvent accompagné d’un petit verre de liqueur.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment se nomme le chant polyphonique traditionnel corse, inscrit au patrimoine culturel immatériel de l’UNESCO ?",
+    "reponses": [
+      { "texte": "Le flamenco corse", "correct": false },
+      { "texte": "La paghjella", "correct": true },
+      { "texte": "La tarentelle corse", "correct": false },
+      { "texte": "La mazurca corse", "correct": false }
+    ],
+    "explication": "La paghjella est un chant polyphonique a cappella, typique de la tradition vocale de l’île. Il se transmet de génération en génération et fait la fierté des Corses.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel écrivain français, fasciné par l’île, publia en 1840 la nouvelle « Colomba » qui évoque la vendetta corse ?",
+    "reponses": [
+      { "texte": "Stendhal", "correct": false },
+      { "texte": "Alexandre Dumas", "correct": false },
+      { "texte": "Gustave Flaubert", "correct": false },
+      { "texte": "Prosper Mérimée", "correct": true }
+    ],
+    "explication": "Prosper Mérimée voyagea en Corse et trouva dans la culture insulaire, particulièrement la vendetta, l’inspiration pour « Colomba », qui popularisa l’île aux yeux du public européen.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel artiste corse, né à Ajaccio en 1907, devint célèbre pour sa voix et les chansons romantiques qui firent sa renommée internationale ?",
+    "reponses": [
+      { "texte": "Antoine Ciosi", "correct": true },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Petru Guelfucci", "correct": false },
+      { "texte": "Dédé Nobili", "correct": false }
+    ],
+    "explication": "Antoine Ciosi fut l’une des grandes voix insulaires. Bien qu’il n’ait pas eu la même notoriété mondiale que Tino Rossi, il porta haut la musique et les chansons corses.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle fête religieuse, célébrée chaque 17 janvier, rend hommage à un saint protecteur des animaux et donne lieu à des bénédictions en Corse ?",
+    "reponses": [
+      { "texte": "Santa Maria di i Nioli", "correct": false },
+      { "texte": "San Roccu", "correct": false },
+      { "texte": "Sant’Antone Abate", "correct": true },
+      { "texte": "Sant’Andria", "correct": false }
+    ],
+    "explication": "Le 17 janvier, Sant’Antone Abate (saint Antoine le Grand) est honoré dans plusieurs localités corses. À cette occasion, on procède à la bénédiction des animaux.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle pratique ancestrale corse consiste à assembler des bruyères ou des châtaigniers pour fabriquer paniers et corbeilles ?",
+    "reponses": [
+      { "texte": "La broderie corse", "correct": false },
+      { "texte": "La poterie en granit", "correct": false },
+      { "texte": "La vannerie traditionnelle", "correct": true },
+      { "texte": "La sculpture sur liège", "correct": false }
+    ],
+    "explication": "La vannerie corse exploite des matériaux locaux comme la bruyère et le châtaignier. Les paniers ainsi confectionnés font partie du patrimoine artisanal et des traditions villageoises.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rite pascal célèbre à Sartène implique la procession d’un pénitent encagoulé portant une lourde croix à travers la ville ?",
+    "reponses": [
+      { "texte": "Le Catenacciu", "correct": false },
+      { "texte": "A Granitula", "correct": false },
+      { "texte": "La Moresca", "correct": false },
+      { "texte": "Le Catenacciu (ou Catenacciu de Sartène)", "correct": true }
+    ],
+    "explication": "Le Catenacciu de Sartène est l’une des processions les plus marquantes du Vendredi saint en Corse. Le pénitent anonyme, en signe de pénitence, porte une lourde chaîne et une croix.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel costume féminin traditionnel, caractérisé par une coiffe et un corsage ajusté, se porte encore lors de fêtes culturelles et folkloriques ?",
+    "reponses": [
+      { "texte": "Le « costume di filitosa »", "correct": false },
+      { "texte": "La « roba di luminarie »", "correct": false },
+      { "texte": "Le « vesti Bonifacienne »", "correct": false },
+      { "texte": "La « robba di a sposa »", "correct": true }
+    ],
+    "explication": "La « robba di a sposa », tenue traditionnelle corse, comprend un corsage lacé, une longue jupe et parfois une coiffe. On la porte souvent lors de mariages ou de fêtes villageoises.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel ragoût de poissons, typique de Bastia, se prépare avec des rougets, rascasses et chapons, et est souvent considéré comme la « bouillabaisse corse » ?",
+    "reponses": [
+      { "texte": "Aziminu", "correct": true },
+      { "texte": "Cacciucco", "correct": false },
+      { "texte": "Brodetto", "correct": false },
+      { "texte": "Zuppa di pesce", "correct": false }
+    ],
+    "explication": "L’Aziminu est une spécialité bastiaise, un ragoût de poissons agrémenté d’herbes aromatiques, qui rappelle la bouillabaisse mais avec des ingrédients typiquement corses.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel type de beignet, confectionné avec de la farine de blé ou de châtaigne, est généralement fourré au Brocciu lors du carnaval corse ?",
+    "reponses": [
+      { "texte": "Panzarotti", "correct": false },
+      { "texte": "Frappe", "correct": false },
+      { "texte": "Fritelle", "correct": true },
+      { "texte": "Beignets de fleurs de courgette", "correct": false }
+    ],
+    "explication": "Les fritelle au Brocciu sont des beignets sucrés appréciés durant la période de carnaval en Corse. Elles peuvent être nature ou agrémentées d’autres ingrédients (zeste de citron, sucre, etc.).",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel pain traditionnel, réalisé à partir de farine de châtaigne, est emblématique de la région de la Castagniccia ?",
+    "reponses": [
+      { "texte": "Panu di Castagna", "correct": true },
+      { "texte": "Pan de Ségle", "correct": false },
+      { "texte": "Canistrelli", "correct": false },
+      { "texte": "Sciacci", "correct": false }
+    ],
+    "explication": "Le panu di castagna est une préparation typique de la Castagniccia. La farine de châtaigne, longtemps considérée comme \"l’arbre à pain\" en Corse, donne à ce pain un goût doux et légèrement sucré.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel écrivain corse du XXIe siècle, né en 1968, compose ses œuvres à la fois en français et en langue corse, reflétant la société insulaire contemporaine ?",
+    "reponses": [
+      { "texte": "Marcu Biancarelli", "correct": true },
+      { "texte": "Jérôme Ferrari", "correct": false },
+      { "texte": "Michel Castellani", "correct": false },
+      { "texte": "Guy de Maupassant", "correct": false }
+    ],
+    "explication": "Marcu Biancarelli est l’un des auteurs contemporains de la Corse qui écrit dans les deux langues, abordant des thématiques modernes tout en restant ancré dans l’identité insulaire.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel palais d’Ajaccio abrite le musée Fesch, renommé pour sa grande collection de peintures italiennes ?",
+    "reponses": [
+      { "texte": "Le Palais Lantivy", "correct": false },
+      { "texte": "Le Palais Impérial", "correct": false },
+      { "texte": "Le Palais Fesch", "correct": true },
+      { "texte": "Le Palais Morati", "correct": false }
+    ],
+    "explication": "Le Palais Fesch, édifié au XIXe siècle, doit son nom au cardinal Joseph Fesch, oncle maternel de Napoléon Ier. Il recèle une des plus importantes collections de peintures italiennes de France.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel événement culturel, créé à Bastia dans les années 1980, célèbre chaque automne le cinéma et la création audiovisuelle méditerranéenne ?",
+    "reponses": [
+      { "texte": "Arte Mare", "correct": true },
+      { "texte": "Les Musicales de Bastia", "correct": false },
+      { "texte": "Calvi on the Rocks", "correct": false },
+      { "texte": "Le Festival du Vent", "correct": false }
+    ],
+    "explication": "Arte Mare est un festival bastiais consacrant chaque année le cinéma méditerranéen et plus largement la création audiovisuelle, avec une programmation variée et des rencontres d’artistes.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle veillée traditionnelle, autour de la pulenta castagnina, a lieu à la Toussaint pour honorer la mémoire des défunts ?",
+    "reponses": [
+      { "texte": "A Pulintata di i Santi", "correct": true },
+      { "texte": "A Casa di i Morti", "correct": false },
+      { "texte": "U Macciu", "correct": false },
+      { "texte": "A Rimessa", "correct": false }
+    ],
+    "explication": "A Pulintata di i Santi est une veillée gastronomique et mémorielle où l’on prépare la pulenta de châtaigne et d’autres mets en hommage aux proches disparus.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment appelle-t-on la fête de la moisson dans certains villages corses, où l’on célèbre la « battiture » du blé avec chants et danses ?",
+    "reponses": [
+      { "texte": "A Cerca", "correct": false },
+      { "texte": "A Battitura di u Granu", "correct": true },
+      { "texte": "U Rustinu", "correct": false },
+      { "texte": "A Sarra", "correct": false }
+    ],
+    "explication": "A Battitura di u Granu est l’occasion de festivités rurales rassemblant les villageois autour du battage du blé à l’ancienne, animé par la musique et des repas conviviaux.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle coutume, célébrée le 8 décembre pour la fête de l’Immaculée Conception, consiste à dresser un petit autel dédié à la Vierge ?",
+    "reponses": [
+      { "texte": "U Presepu", "correct": false },
+      { "texte": "L’altarinu di a Cuncezzione", "correct": true },
+      { "texte": "La Veghja di Natale", "correct": false },
+      { "texte": "A Palmentu", "correct": false }
+    ],
+    "explication": "L’altarinu di a Cuncezzione est une tradition familiale où l’on orne un autel, parfois agrémenté de lumières, pour rendre hommage à la Vierge Marie lors de la fête de l’Immaculée Conception.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle grande fête religieuse et pastorale, célébrée dans la région du Niolu, associe processions, bénédiction des bêtes et rassemblement festif ?",
+    "reponses": [
+      { "texte": "A Santa di a Niolu", "correct": true },
+      { "texte": "A Messa di i Pastori", "correct": false },
+      { "texte": "U Catenacciu", "correct": false },
+      { "texte": "Santa di la Croce", "correct": false }
+    ],
+    "explication": "La Santa di a Niolu, en septembre, réunit les bergers et fidèles autour de processions et cérémonies en l’honneur de la Vierge, marquant l’identité rurale et spirituelle de la région.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel ragoût de poissons typique de Bastia, souvent surnommé la « bouillabaisse corse », se prépare avec rougets, rascasses et chapons ?",
+    "reponses": [
+      { "texte": "La bouillabaisse insulaire", "correct": false },
+      { "texte": "L’aziminu", "correct": true },
+      { "texte": "Le tianu di mare", "correct": false },
+      { "texte": "La soupette bastiaise", "correct": false }
+    ],
+    "explication": "L’aziminu est un plat emblématique de la cuisine bastiaise, un ragoût de divers poissons méditerranéens agrémenté d’aromates, à la manière d’une bouillabaisse locale.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quels biscuits secs corses, souvent parfumés à l’anis ou au vin blanc, se dégustent en dessert ou à l’apéritif ?",
+    "reponses": [
+      { "texte": "Les canistrelli", "correct": true },
+      { "texte": "Les tiramisu", "correct": false },
+      { "texte": "Les frappes", "correct": false },
+      { "texte": "Les bruccioli", "correct": false }
+    ],
+    "explication": "Les canistrelli sont des biscuits traditionnels, sucrés ou parfois salés, dont la recette varie selon les régions (Balagne, Cap Corse…) et les saveurs (anis, citron, vin blanc).",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel civet corse, préparé avec du vin rouge, des herbes du maquis et de la viande de sanglier, figure parmi les plats de fête ?",
+    "reponses": [
+      { "texte": "Le stufatu di capra", "correct": false },
+      { "texte": "Le civet di cignale", "correct": true },
+      { "texte": "Le casgiu merzu", "correct": false },
+      { "texte": "Le tianu di veau aux olives", "correct": false }
+    ],
+    "explication": "Le civet di cignale (sanglier) est un mets phare de la gastronomie corse, la viande mijotant longuement avec du vin, des oignons et des aromates du maquis.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel ensemble vocal corse, fondé en 1978, s’est spécialisé dans la polyphonie sacrée et profane, se produisant dans le monde entier ?",
+    "reponses": [
+      { "texte": "I Chjami Aghjalesi", "correct": false },
+      { "texte": "Canta u Populu Corsu", "correct": false },
+      { "texte": "A Filetta", "correct": true },
+      { "texte": "Diana di l’Alba", "correct": false }
+    ],
+    "explication": "A Filetta est un groupe insulaire réputé pour ses polyphonies raffinées, qu’il présente en Corse et sur les grandes scènes internationales.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel romancier corse a obtenu le Prix Goncourt en 2012 pour son roman « Le Sermon sur la chute de Rome » ?",
+    "reponses": [
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Sébastien Bonifay", "correct": false },
+      { "texte": "Jérôme Ferrari", "correct": true },
+      { "texte": "Michel Rocca", "correct": false }
+    ],
+    "explication": "Jérôme Ferrari, né à Paris mais profondément attaché à la Corse, a remporté le Goncourt 2012 avec ce roman qui interroge l’histoire, la philosophie et l’identité insulaire.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel groupe corse, formé au début des années 1980 par les frères Bernardini, mêle polyphonies et musiques actuelles ?",
+    "reponses": [
+      { "texte": "I Muvrini", "correct": true },
+      { "texte": "A Passione", "correct": false },
+      { "texte": "U Populu Corsu", "correct": false },
+      { "texte": "I Surghjenti", "correct": false }
+    ],
+    "explication": "I Muvrini, créé par Alain et Jean-François Bernardini, modernise le chant corse en l’alliant à divers courants musicaux, popularisant la culture insulaire à l’international.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment se nomme la couronne pascale corse, ornée d’œufs durs, partagée en famille le jour de Pâques ?",
+    "reponses": [
+      { "texte": "U campanile", "correct": true },
+      { "texte": "A pannera", "correct": false },
+      { "texte": "U cantonu", "correct": false },
+      { "texte": "A scialata di Pasqua", "correct": false }
+    ],
+    "explication": "U campanile est un pain/couronne traditionnel décoré d’œufs durs, symbole de fécondité et de renouveau, que l’on prépare pour les fêtes de Pâques.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle foire automnale, organisée à Bocognano, met chaque année la châtaigne à l’honneur sous toutes ses formes ?",
+    "reponses": [
+      { "texte": "A Fiera di a Castagna", "correct": true },
+      { "texte": "A Fiera di l’Oliu", "correct": false },
+      { "texte": "A Fiera di u Vinu", "correct": false },
+      { "texte": "A Fiera di l’Apicultura", "correct": false }
+    ],
+    "explication": "A Fiera di a Castagna (Foire de la Châtaigne) à Bocognano est un rendez-vous incontournable, réunissant artisans et producteurs autour de ce fruit majeur du patrimoine corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelles associations religieuses, parfois nommées « confraternite », apparues au Moyen Âge, organisent toujours des processions et offices en corse ?",
+    "reponses": [
+      { "texte": "Les abbés laïcs", "correct": false },
+      { "texte": "Les pieuses confréries", "correct": true },
+      { "texte": "Les oratoires monastiques", "correct": false },
+      { "texte": "Les sodalités chantristes", "correct": false }
+    ],
+    "explication": "Les confraternite (confréries), fondées entre le XVe et le XVIe siècle, perpétuent un catholicisme populaire et les chants sacrés en langue corse, notamment durant la Semaine sainte.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment appelle-t-on la tradition corse du Nouvel An, « La Strenna » ou « A Strina », où l’on rend visite aux habitants pour leur chanter bonne année ?",
+    "reponses": [
+      { "texte": "A Macagna", "correct": false },
+      { "texte": "A Strina", "correct": true },
+      { "texte": "U Giru di Capu d’Annu", "correct": false },
+      { "texte": "A Fola di u Veghju", "correct": false }
+    ],
+    "explication": "A Strina est une coutume festive : groupes d’amis ou familles se rendent chez les uns et les autres pour chanter des vœux de bonne année, recevant parfois en échange friandises ou boissons.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat, parfois surnommé « minestrone corse », mélange haricots, légumes, pâtes et lard pour un résultat à la fois nourrissant et savoureux ?",
+    "reponses": [
+      { "texte": "Zuppa corsa", "correct": true },
+      { "texte": "Bouillabaisse insulaire", "correct": false },
+      { "texte": "Stufatu di veau", "correct": false },
+      { "texte": "Aziminu", "correct": false }
+    ],
+    "explication": "La zuppa corsa est une soupe copieuse composée d’haricots, de légumes variés, de lard (ou charcuterie) et parfois de pâtes. Elle tient une place importante dans les repas hivernaux.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle poitrine de porc salée, séchée et poivrée, est souvent cuisinée avec des œufs ou des légumes dans la cuisine corse ?",
+    "reponses": [
+      { "texte": "La panzetta", "correct": true },
+      { "texte": "La panzanella", "correct": false },
+      { "texte": "Le lonzu", "correct": false },
+      { "texte": "Le prisuttu", "correct": false }
+    ],
+    "explication": "La panzetta est une pièce de viande issue de la poitrine de porc. Elle est salée, épicée et séchée, puis se prépare de multiples façons, par exemple dans des omelettes ou poêlées avec des légumes.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle liqueur sucrée, élaborée à partir de baies de myrte macérées dans de l’alcool, parfume parfois desserts et cocktails insulaires ?",
+    "reponses": [
+      { "texte": "Liqueur de cédrat", "correct": false },
+      { "texte": "Liqueur de myrte", "correct": true },
+      { "texte": "Eau-de-vie de châtaigne", "correct": false },
+      { "texte": "Cap Corse apéritif", "correct": false }
+    ],
+    "explication": "La liqueur de myrte (chjama « licor di mortula » en corse) se distingue par ses arômes intenses et sucrés. Elle est obtenue après macération de baies dans l’alcool, puis sucrée selon les goûts.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel compositeur et chef d’orchestre corse, né en 1901, incorpora des éléments de la culture insulaire dans ses œuvres classiques ?",
+    "reponses": [
+      { "texte": "Henri Tomasi", "correct": true },
+      { "texte": "Tino Rossi", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Giuseppe Verdi", "correct": false }
+    ],
+    "explication": "Henri Tomasi (1901-1971) est un compositeur et chef d’orchestre qui puisa dans les sonorités et la culture de son île d’origine pour enrichir ses créations musicales.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel festival estival, né à Patrimonio, met à l’honneur la guitare dans toute sa diversité et accueille des musiciens venus du monde entier ?",
+    "reponses": [
+      { "texte": "Le Festival des Cinq Cordes", "correct": false },
+      { "texte": "Les Nuits de la Guitare", "correct": true },
+      { "texte": "Les Polyphonies Citadines", "correct": false },
+      { "texte": "A Fiera di a Guitarra", "correct": false }
+    ],
+    "explication": "Les Nuits de la Guitare à Patrimonio sont un rendez-vous incontournable pour les amateurs de guitare. Ce festival de renom a vu passer de grands artistes internationaux.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle troupe, se consacre à la promotion du théâtre en langue corse, proposant pièces et ateliers pédagogiques ?",
+    "reponses": [
+      { "texte": "Teatru di a Gravona", "correct": false },
+      { "texte": "A Truppa Corsa", "correct": true },
+      { "texte": "Spettaculu di Bastia", "correct": false },
+      { "texte": "Arte Pulifonica", "correct": false }
+    ],
+    "explication": "A Truppa Corsa s’est fixée pour mission de faire vivre la culture théâtrale corse, à travers des pièces originales ou adaptées, présentées en langue corse dans toute l’île.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel cérémonial religieux, se déroule la nuit de Noël et allie chants liturgiques en corse et prières familiales ?",
+    "reponses": [
+      { "texte": "A Venuta", "correct": false },
+      { "texte": "A Messa di a Notte", "correct": true },
+      { "texte": "A Vigilia", "correct": false },
+      { "texte": "U Presepiu", "correct": false }
+    ],
+    "explication": "A Messa di a Notte, célébrée dans la nuit du 24 décembre, mêle chants traditionnels corses et rituels de Noël, créant une atmosphère solennelle et chaleureuse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment se nomme l’ancienne pratique de dressage et de chasse avec des rapaces, dite « a falconeria corsa », jadis exercée dans certaines micro-régions ?",
+    "reponses": [
+      { "texte": "A Falasca", "correct": false },
+      { "texte": "A Falconeria corsa", "correct": true },
+      { "texte": "A Muntagnera", "correct": false },
+      { "texte": "A Pasturella", "correct": false }
+    ],
+    "explication": "A Falconeria corsa consiste en l’éducation de rapaces pour la chasse, une tradition rare et exigeante qui persistait autrefois dans des zones rurales, bien que peu répandue aujourd’hui.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle fête patronale célébrée chaque 8 septembre honore la Vierge au sanctuaire de Lavasina, attirant pèlerins et fidèles de toute la Balagne ?",
+    "reponses": [
+      { "texte": "A Santa di Niolu", "correct": false },
+      { "texte": "A Festa di a Madonna di Lavasina", "correct": true },
+      { "texte": "A Fiera di a Castagna", "correct": false },
+      { "texte": "A Festa di l’Assunta", "correct": false }
+    ],
+    "explication": "A Festa di a Madonna di Lavasina est un grand pèlerinage annuel, l’un des moments forts de la religiosité corse, marquant la dévotion à la Vierge.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle danse traditionnelle, met en scène des mouvements d’épaules et de hanches, souvent exécutés par couples ?",
+    "reponses": [
+      { "texte": "A Spallata", "correct": true },
+      { "texte": "A Moresca", "correct": false },
+      { "texte": "U Caracolu", "correct": false },
+      { "texte": "A Danzitella", "correct": false }
+    ],
+    "explication": "A Spallata est une danse corse rythmée, se pratiquant généralement à deux, et mettant en valeur les épaules (spalle) par des mouvements caractéristiques.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat longuement mijoté, appelé « tianu », associe du veau, des tomates, des oignons, des olives et du vin pour une saveur typiquement corse ?",
+    "reponses": [
+      { "texte": "U stufatu di capra", "correct": false },
+      { "texte": "Le tianu de veau aux olives", "correct": true },
+      { "texte": "Aziminu", "correct": false },
+      { "texte": "La zuppa corsa", "correct": false }
+    ],
+    "explication": "Le tianu de veau aux olives se cuit lentement avec un mélange de légumes, d’olives et de vin, relevé par des herbes du maquis, pour un ragoût à la fois tendre et parfumé.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle tartelette sucrée, proche du fiadone, se compose d’une base de pâte fine garnie de brocciu et de citron ?",
+    "reponses": [
+      { "texte": "La migliacciola", "correct": false },
+      { "texte": "L’imbrucciata", "correct": true },
+      { "texte": "La castagnina", "correct": false },
+      { "texte": "Le canistrellu", "correct": false }
+    ],
+    "explication": "L’imbrucciata est un dessert réalisé avec une pâte fine puis garni de brocciu sucré et parfumé au citron. Elle se présente sous forme de petites tartelettes, très appréciées dans le sud de l’île.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel apéritif corse, créé par Louis-Napoléon Mattei, associe un vin local, du quinquina et des plantes aromatiques ?",
+    "reponses": [
+      { "texte": "Le Cap Corse Mattei", "correct": true },
+      { "texte": "La liqueur de myrte", "correct": false },
+      { "texte": "Le muscat du Cap Corse", "correct": false },
+      { "texte": "Le ratafia corse", "correct": false }
+    ],
+    "explication": "Le Cap Corse Mattei est un apéritif historique élaboré avec du vin, du quinquina et divers aromates, se dégustant traditionnellement frais ou en cocktail.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel écrivain et linguiste corse, né en 1954, a publié de nombreuses œuvres en langue corse, dont « Chroniques insulaires » ?",
+    "reponses": [
+      { "texte": "Marcu Biancarelli", "correct": false },
+      { "texte": "Ghjacumu Thiers", "correct": true },
+      { "texte": "René Fregni", "correct": false },
+      { "texte": "Michele Ogliastri", "correct": false }
+    ],
+    "explication": "Ghjacumu Thiers est un auteur contemporain majeur pour la littérature corse, écrivant romans et essais qui valorisent la langue et la culture insulaires.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelles journées festives, organisées à Ajaccio chaque mois d’août depuis 1989, célèbrent Napoléon Ier à travers des défilés, concerts et reconstitutions historiques ?",
+    "reponses": [
+      { "texte": "Les Journées Impériales", "correct": false },
+      { "texte": "Le Festival Bonaparte", "correct": false },
+      { "texte": "Les Journées Napoléoniennes", "correct": true },
+      { "texte": "La Semaine Impériale d’Ajaccio", "correct": false }
+    ],
+    "explication": "Les Journées Napoléoniennes commémorent la naissance de Napoléon. Animations, parades et costumes d’époque retracent son épopée et son lien avec la ville d’Ajaccio.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel album collectif, sorti en 2015 sous la direction de Patrick Fiori, rassemble une trentaine d’artistes revisitant des chants traditionnels corses ?",
+    "reponses": [
+      { "texte": "A Filetta Nova", "correct": false },
+      { "texte": "Corsu Mezu Mezu", "correct": true },
+      { "texte": "Ribombu di Corsica", "correct": false },
+      { "texte": "Corsica Bella", "correct": false }
+    ],
+    "explication": "« Corsu Mezu Mezu » a réuni de nombreux artistes insulaires et hexagonaux pour revisiter des classiques corses, donnant un large écho médiatique à la culture vocale de l’île.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle procession du Samedi saint, s’effectue en spirale dans les églises de certains villages pour symboliser le cycle de la vie ?",
+    "reponses": [
+      { "texte": "U Catenacciu", "correct": false },
+      { "texte": "La Granitula", "correct": true },
+      { "texte": "A Cerca", "correct": false },
+      { "texte": "A Spallata", "correct": false }
+    ],
+    "explication": "La Granitula est une marche en spirale, puis en sens inverse, représentant le cheminement de la vie vers la mort et la résurrection, tradition propre à certains villages corses.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rituel, se déroule au printemps dans certaines régions pour bénir les bœufs et assurer de bonnes récoltes ?",
+    "reponses": [
+      { "texte": "A Santa di Niolu", "correct": false },
+      { "texte": "A Benedizzione di i Boe", "correct": true },
+      { "texte": "A Fiera di a Campagna", "correct": false },
+      { "texte": "U Giru di i Pastori", "correct": false }
+    ],
+    "explication": "Dans certaines communes montagnardes, on invoque la protection divine sur les bœufs et bêtes de somme en vue des travaux agricoles, perpétuant une coutume agropastorale ancestrale.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle pratique, consiste à plonger symboliquement un enfant dans l’eau de mer pour le protéger et lui porter chance ?",
+    "reponses": [
+      { "texte": "A Merendella di l’Infanzia", "correct": false },
+      { "texte": "U Battesimu di Mare", "correct": true },
+      { "texte": "A Purificazione di l’Acqua", "correct": false },
+      { "texte": "A Strina d’estate", "correct": false }
+    ],
+    "explication": "U Battesimu di Mare est une coutume balanaise consistant à tremper l’enfant dans la mer, hors baptême religieux, afin de le fortifier et de le lier aux éléments naturels de l’île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel usage matrimonial, requiert du père de la mariée qu’il prononce un discours en langue corse devant les convives ?",
+    "reponses": [
+      { "texte": "A Caracolu di Nozze", "correct": false },
+      { "texte": "U Babbu di a Sposa", "correct": true },
+      { "texte": "A Benvinuta di i Sposi", "correct": false },
+      { "texte": "U Vitu di l’Acquistu", "correct": false }
+    ],
+    "explication": "U Babbu di a Sposa, moment formel du mariage corse, voit le père de la mariée prendre la parole pour souhaiter bonheur et prospérité au nouveau couple, affirmant l’importance de la famille.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle confiture, confectionnée à partir d’un agrume local au parfum intense, accompagne souvent fromages et pâtisseries dans l’île ?",
+    "reponses": [
+      { "texte": "La confiture de cédrat", "correct": true },
+      { "texte": "La confiture de figue", "correct": false },
+      { "texte": "La confiture de châtaigne", "correct": false },
+      { "texte": "La confiture de clémentine", "correct": false }
+    ],
+    "explication": "Le cédrat, agrume ancien, donne une confiture au goût à la fois acidulé et sucré, prisée en accompagnement de fromages ou pour garnir des desserts.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel pain sucré, agrémenté de graines d’anis, est élaboré autour de la période pascale et parfois orné d’un œuf dur ?",
+    "reponses": [
+      { "texte": "Le caccavellu", "correct": true },
+      { "texte": "Le campanile", "correct": false },
+      { "texte": "La focaccia dolce", "correct": false },
+      { "texte": "La torta di pasqua", "correct": false }
+    ],
+    "explication": "Le caccavellu est un pain de fête traditionnel, souvent façonné en couronne, auquel on ajoute des graines d’anis et parfois un ou plusieurs œufs durs au centre.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage corsé, réputé pour sa forte odeur, est consommé à un stade avancé de fermentation et renferme de petits organismes vivants ?",
+    "reponses": [
+      { "texte": "Le Brocciu", "correct": false },
+      { "texte": "Le Casgiu merzu", "correct": true },
+      { "texte": "Le Niolo", "correct": false },
+      { "texte": "Le bastelicacciu", "correct": false }
+    ],
+    "explication": "Le Casgiu merzu est un fromage traditionnel très particulier, apprécié de certains amateurs pour son goût puissant, dû à la présence de larves.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel musée, installé dans l’ancien Palais des Gouverneurs au nord de l’île, expose l’histoire et le patrimoine d’une importante cité portuaire ?",
+    "reponses": [
+      { "texte": "Le Musée de Bastia", "correct": true },
+      { "texte": "Le Musée Fesch", "correct": false },
+      { "texte": "Le Musée de la Corse", "correct": false },
+      { "texte": "Le Musée Bonaparte", "correct": false }
+    ],
+    "explication": "Le Musée de Bastia, sis dans l’ancien Palais des Gouverneurs, propose un parcours retraçant l’histoire de la ville et de sa région, depuis ses origines jusqu’à nos jours.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rendez-vous annuel, appelé « BD à Bastia », offre au printemps des expositions, rencontres et ateliers autour de la bande dessinée ?",
+    "reponses": [
+      { "texte": "Le Salon de la BD d’Ajaccio", "correct": false },
+      { "texte": "BD à Bastia", "correct": true },
+      { "texte": "Le Rendez-vous des Illustrateurs", "correct": false },
+      { "texte": "Les Rencontres Graphiques de Corte", "correct": false }
+    ],
+    "explication": "BD à Bastia est un festival dédié au 9e art : durant plusieurs jours, expositions, rencontres d’auteurs et animations attirent de nombreux passionnés de bande dessinée.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rassemblement printanier, dans les villages de montagne, consiste à accompagner un troupeau vers les estives dans la joie et la convivialité ?",
+    "reponses": [
+      { "texte": "A pastorizia", "correct": false },
+      { "texte": "A transumanza", "correct": true },
+      { "texte": "A vendemmia", "correct": false },
+      { "texte": "U macciu pastoral", "correct": false }
+    ],
+    "explication": "La transhumance ou « a transumanza » est une pratique ancienne : au printemps, bergers et villageois conduisent les bêtes vers des pâturages en altitude, parfois accompagnés de chants et de repas festifs.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel mode de résolution pacifique, soumis à la médiation de sages ou de notables, était employé pour mettre fin aux querelles familiales ?",
+    "reponses": [
+      { "texte": "Le duel rituel", "correct": false },
+      { "texte": "La « paci »", "correct": true },
+      { "texte": "La vendetta renouvelée", "correct": false },
+      { "texte": "L’appel au podestat", "correct": false }
+    ],
+    "explication": "La « paci » (paix) était négociée par des intermédiaires respectés, lesquels organisaient un accord visant à clore définitivement une querelle ou un cycle de vengeance.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle procession nocturne, connue dans certaines localités, voit les participants munis de lanternes progresser à travers le village en entonnant des chants sacrés ?",
+    "reponses": [
+      { "texte": "A Luminaria", "correct": true },
+      { "texte": "A Cerca", "correct": false },
+      { "texte": "A Veglia Corsa", "correct": false },
+      { "texte": "U Macciu di Notte", "correct": false }
+    ],
+    "explication": "A Luminaria est un rituel où les habitants défilent avec des lumières, priant ou chantant des hymnes religieux. Cette coutume consolide la cohésion et la spiritualité locales.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle foire organisée chaque été dans une localité du nord de l’île est consacrée à la dégustation de différents vins et rassemble producteurs et visiteurs ?",
+    "reponses": [
+      { "texte": "A Fiera di l’Alivu", "correct": false },
+      { "texte": "A Fiera di u Vinu", "correct": true },
+      { "texte": "A Fiera di a Petrusella", "correct": false },
+      { "texte": "A Fiera di a Pisticcina", "correct": false }
+    ],
+    "explication": "A Fiera di u Vinu, dédiée à la promotion des vins corses, permet de rencontrer les vignerons, découvrir leurs cuvées et partager la passion de la viticulture insulaire.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel événement annuel, nommé « BD à Bastia », réunit chaque printemps illustrateurs, auteurs et passionnés autour d’expositions et de rencontres ?",
+    "reponses": [
+      { "texte": "Le Salon du Roman Policier Ajaccien", "correct": false },
+      { "texte": "BD à Bastia", "correct": true },
+      { "texte": "Le Rendez-vous des Livres de Corte", "correct": false },
+      { "texte": "A Fiera di a Lingua", "correct": false }
+    ],
+    "explication": "BD à Bastia met en lumière la bande dessinée et l’illustration, invitant chaque année des artistes de renom pour animer conférences, expositions et ateliers créatifs.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel mets d’Ajaccio, préparé avec du poisson séché réhydraté et mijoté avec tomates, oignons et parfois pommes de terre, est très apprécié en hiver ?",
+    "reponses": [
+      { "texte": "Le stocaficcu à l’aiaccina", "correct": true },
+      { "texte": "La soupe paysanne au fromage", "correct": false },
+      { "texte": "Le tianu de la Gravona", "correct": false },
+      { "texte": "Le ragoût de daube corse", "correct": false }
+    ],
+    "explication": "Spécialité ajaccienne, le stocaficcu à l’aiaccina se réalise avec du stockfisch (cabillaud séché) réhydraté, cuit lentement avec tomates et aromates, pour un plat nourrissant et parfumé.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle appellation, créée en 1976, concerne des vins de Balagne élaborés à partir des cépages Sciaccarellu ou Niellucciu, reconnus pour leur finesse ?",
+    "reponses": [
+      { "texte": "L’AOP Sartène", "correct": false },
+      { "texte": "L’AOP Figari", "correct": false },
+      { "texte": "L’AOP Porto-Vecchio", "correct": false },
+      { "texte": "L’AOP Calvi", "correct": true }
+    ],
+    "explication": "La zone AOP Calvi produit des vins rouges, rosés et blancs, bénéficiant d’un terroir ensoleillé et d’une situation géographique proche de la mer, assurant une grande élégance aromatique.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage, fabriqué autour du village de Bastelica, se distingue par sa croûte épaisse, sa pâte ferme et son goût prononcé ?",
+    "reponses": [
+      { "texte": "Le Niolo", "correct": false },
+      { "texte": "Le bastelicacciu", "correct": true },
+      { "texte": "Le Casgiu merzu", "correct": false },
+      { "texte": "Le Balaninu", "correct": false }
+    ],
+    "explication": "Le bastelicacciu est un fromage robuste, typique de la région de Bastelica, souvent consommé après quelques semaines d’affinage pour un goût soutenu.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle formation vocale, créée dans les années 2000, fait rayonner la polyphonie insulaire à travers des concerts en Europe et dans le monde ?",
+    "reponses": [
+      { "texte": "Surghjenti", "correct": false },
+      { "texte": "A Passione", "correct": false },
+      { "texte": "Barbara Furtuna", "correct": true },
+      { "texte": "Soledonna", "correct": false }
+    ],
+    "explication": "Barbara Furtuna est un ensemble qui puise dans la tradition du chant polyphonique et se produit sur de nombreuses scènes internationales, valorisant la culture corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel festival, organisé chaque été dans un village de Haute-Corse, met à l’honneur courts et longs métrages en plein air au cœur de la montagne ?",
+    "reponses": [
+      { "texte": "Le Festival de la Vallée du Fango", "correct": false },
+      { "texte": "Les Journées Napoléoniennes de Corte", "correct": false },
+      { "texte": "Le Festival du Film de Lama", "correct": true },
+      { "texte": "La Semaine Cinématographique d’Oletta", "correct": false }
+    ],
+    "explication": "Le Festival du Film de Lama allie cinéma et cadre pittoresque. Les projections en plein air offrent une expérience unique, entre culture cinématographique et paysages corses.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel groupe, né dans la région de Vico, associe instruments folk et arrangements modernes, proposant un répertoire mêlant compositions et chants traditionnels ?",
+    "reponses": [
+      { "texte": "Diana di l’Alba", "correct": false },
+      { "texte": "I Surghjenti", "correct": true },
+      { "texte": "Voce Ventu", "correct": false },
+      { "texte": "A Filetta", "correct": false }
+    ],
+    "explication": "I Surghjenti est un groupe emblématique ayant débuté à la fin des années 1970, reconnu pour ses mélodies modernes s’appuyant sur la tradition musicale corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rendez-vous festif organisé dans un village de l’Alta Rocca présente des courses asines réunissant habitants et visiteurs chaque année ?",
+    "reponses": [
+      { "texte": "La Fiera di l’Asinu d’Arbellara", "correct": true },
+      { "texte": "A Corsa di e Caprette", "correct": false },
+      { "texte": "U Palio di i Cavaddu", "correct": false },
+      { "texte": "A Passiata di i Porci", "correct": false }
+    ],
+    "explication": "La Fiera di l’Asinu d’Arbellara propose des compétitions ludiques de courses d’ânes, associées à un marché local, créant une ambiance conviviale et typiquement rurale.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle célébration, le 19 mars, met en valeur les artisans et les familles, commémorant un saint protecteur de la famille et du travail ?",
+    "reponses": [
+      { "texte": "La fête de Santa Maria", "correct": false },
+      { "texte": "La fête de Saint-Joseph", "correct": true },
+      { "texte": "A Madonna di a Serra", "correct": false },
+      { "texte": "A Festa di San Petru", "correct": false }
+    ],
+    "explication": "La fête de Saint-Joseph (San Ghjisè) est un temps fort pour les croyants et les artisans corses : bénédiction, expositions et partage sont au cœur de cette journée.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle célébration liturgique, dans certains villages ruraux, met à l’honneur l’office de la nuit de Noël en costume pastoral et chants traditionnels ?",
+    "reponses": [
+      { "texte": "A Messa di i Pastori", "correct": true },
+      { "texte": "A Strina di Natale", "correct": false },
+      { "texte": "L’Uffiziu di a Notte Sanda", "correct": false },
+      { "texte": "A Ciaramedda di a Notti", "correct": false }
+    ],
+    "explication": "A Messa di i Pastori, célébrée le 24 décembre au soir ou à minuit, fait revivre une atmosphère pastorale, inspirée par la tradition des bergers venus rendre hommage à l’enfant Jésus.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle foire estivale se tient à Montegrossu et valorise l’huile locale, les arts et la gastronomie ?",
+    "reponses": [
+      { "texte": "A Fiera di l’Alivu", "correct": true },
+      { "texte": "A Fiera di a Serra", "correct": false },
+      { "texte": "A Fiera di l’Ortu", "correct": false },
+      { "texte": "A Fiera di u Mele", "correct": false }
+    ],
+    "explication": "A Fiera di l’Alivu, qui se déroule à Montegrossu, célèbre la production oléicole. Dégustations, démonstrations et stands d’artisanat s’y succèdent dans une ambiance festive.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat de pâtes farcies à base d’un fromage local et d'épinards se cuit au four dans une sauce tomate relevée d’herbes aromatiques ?",
+    "reponses": [
+      { "texte": "Les conchiglioni à la brousse", "correct": false },
+      { "texte": "Les cannelloni au brocciu", "correct": true },
+      { "texte": "La lasagne à la charcuterie", "correct": false },
+      { "texte": "Les ravioli au brocciu cru", "correct": false }
+    ],
+    "explication": "Les cannelloni au brocciu se composent de tubes de pâtes garnis d’un mélange de brocciu, épinards et aromates. Ils mijotent dans une sauce tomate parfumée au romarin ou au thym.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quels biscuits moelleux sont confectionnés avec de la farine de châtaigne et souvent des amandes concassées ?",
+    "reponses": [
+      { "texte": "Les canistrelli", "correct": false },
+      { "texte": "Les paste di castagna", "correct": true },
+      { "texte": "Les nicci fourrés", "correct": false },
+      { "texte": "Les frappe sucrées", "correct": false }
+    ],
+    "explication": "Les paste di castagna, petites gourmandises à base de farine de châtaigne et d’amandes, se dégustent avec un café ou un thé, offrant une texture fondante et un léger goût de noisette.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle eau-de-vie insulaire, issue du marc de raisin et parfois parfumée aux figues, est consommée en digestif dans certains foyers corses ?",
+    "reponses": [
+      { "texte": "Le rappu", "correct": true },
+      { "texte": "Le Pastis corse", "correct": false },
+      { "texte": "La liqueur de myrte", "correct": false },
+      { "texte": "Le Cap Corse rouge", "correct": false }
+    ],
+    "explication": "Le rappu est une eau-de-vie élaborée à partir de la distillation du marc de raisin. On y ajoute parfois des figues macérées, ce qui lui confère des notes fruitées et sucrées.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel label musical, fondé dans les années 1970, a soutenu la production d’albums insulaires en langue corse, encourageant la nouvelle scène artistique ?",
+    "reponses": [
+      { "texte": "Corsica Dischi", "correct": false },
+      { "texte": "Ricordu", "correct": true },
+      { "texte": "Muvra Records", "correct": false },
+      { "texte": "Maîtrise d’A Filetta", "correct": false }
+    ],
+    "explication": "Ricordu a grandement contribué à la valorisation de la musique corse. Des groupes et chanteurs emblématiques y ont enregistré leurs albums, participant au renouveau culturel de l’île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel roman paru en 2012, écrit par un auteur insulaire, explore la violence contemporaine et la notion de mort dans le contexte villageois ?",
+    "reponses": [
+      { "texte": "Murtoriu", "correct": true },
+      { "texte": "Colomba", "correct": false },
+      { "texte": "Orphelins de Sang", "correct": false },
+      { "texte": "Le Sermon sur la chute de Rome", "correct": false }
+    ],
+    "explication": "« Murtoriu » de l’écrivain Marc Biancarelli décrit la Corse moderne, entre tensions et aspirations, tout en questionnant les valeurs identitaires et le rapport à la mort.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel collectif féminin, nommé pour évoquer la lumière, est composé de chanteuses unissant polyphonie traditionnelle et créations contemporaines ?",
+    "reponses": [
+      { "texte": "I Surghjenti", "correct": false },
+      { "texte": "Soledonna", "correct": true },
+      { "texte": "Voce di Luna", "correct": false },
+      { "texte": "Cantà Bellezza", "correct": false }
+    ],
+    "explication": "Soledonna est une formation qui réunit des voix féminines autour de chants corses, naviguant entre répertoire traditionnel et nouvelles compositions.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle coutume crée un lien symbolique quasi familial entre les parrains et leur filleul, renforçant la solidarité dans l’île ?",
+    "reponses": [
+      { "texte": "U fraternizzu", "correct": false },
+      { "texte": "U comparaticu", "correct": true },
+      { "texte": "A fratellenza", "correct": false },
+      { "texte": "A cunfidenza", "correct": false }
+    ],
+    "explication": "Le comparaticu scelle une relation privilégiée entre parrain, marraine et enfant. Au-delà du baptême, il établit un pacte d’entraide entre familles.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle animation consiste à briser un pot en terre suspendu, les yeux bandés, lors de kermesses villageoises ?",
+    "reponses": [
+      { "texte": "A pignatta", "correct": true },
+      { "texte": "A palumetta", "correct": false },
+      { "texte": "A balluccia", "correct": false },
+      { "texte": "U girandulone", "correct": false }
+    ],
+    "explication": "Dans cette animation ludique, les participants tentent de casser la jarre remplie de bonbons ou petits cadeaux, créant une joyeuse ambiance de fête.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle pratique, célébrée dans certains villages autour du printemps, voit s’allumer de grands feux collectifs pour marquer le changement de saison ?",
+    "reponses": [
+      { "texte": "A festa di a primavera", "correct": false },
+      { "texte": "I lumeri", "correct": true },
+      { "texte": "A fiammata", "correct": false },
+      { "texte": "U falò di Pasqua", "correct": false }
+    ],
+    "explication": "I lumeri (les feux) sont allumés à la fin de l’hiver, souvent accompagnés de chants et de mets partagés, pour célébrer l’arrivée des beaux jours dans la convivialité.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel vêtement masculin, une coiffe allongée, autrefois portée au quotidien et lors de processions, symbolise l’identité vestimentaire corse ?",
+    "reponses": [
+      { "texte": "A caracuta", "correct": false },
+      { "texte": "A berreta", "correct": true },
+      { "texte": "U cappellu di paglia", "correct": false },
+      { "texte": "A scufietta", "correct": false }
+    ],
+    "explication": "La berreta est un bonnet souvent de couleur noire ou rouge, que l’on portait dans la vie quotidienne comme pour les cérémonies, et qui reflète une part de la culture vestimentaire insulaire.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle friture, issue de la côte orientale, se compose d’une pâte autour d’un mélange de poisson salé ou d’anchois, dégustée à l’apéritif avec du vin local ?",
+    "reponses": [
+      { "texte": "Les crispeddi", "correct": true },
+      { "texte": "Les nicci", "correct": false },
+      { "texte": "Les canistrelli salés", "correct": false },
+      { "texte": "Les bastelle frites", "correct": false }
+    ],
+    "explication": "Les crispeddi, typiques de la côte est, sont farcies d’un hachis de poisson ou d’anchois, puis frites. Elles se savourent chaudes, souvent accompagnées d’un verre de vin.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle production apicole, à l’arôme délicat et légèrement floral, se récolte au début de l’année lorsque les premières fleurs sauvages apparaissent ?",
+    "reponses": [
+      { "texte": "Le miel de maquis de printemps", "correct": true },
+      { "texte": "Le miel de châtaignier", "correct": false },
+      { "texte": "Le miel d’arbousier", "correct": false },
+      { "texte": "Le miel de lavande maritime", "correct": false }
+    ],
+    "explication": "Ce miel se caractérise par des notes florales légères et une douceur marquée, issu des premiers épanouissements de la flore insulaire après l’hiver.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle boisson artisanale, obtenue en faisant macérer un petit fruit rouge des arbustes insulaires, présente un goût acidulé et se consomme en digestif ?",
+    "reponses": [
+      { "texte": "La liqueur d’arbouse", "correct": true },
+      { "texte": "La liqueur de cédrat", "correct": false },
+      { "texte": "Le cap corse sucré", "correct": false },
+      { "texte": "Le rappu épicé", "correct": false }
+    ],
+    "explication": "Cette liqueur est élaborée à partir d’un fruit rouge typique des arbustes de l’île. Son goût légèrement acidulé et sa texture douce en font un digestif apprécié dans certaines zones rurales.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel peintre originaire du nord de l’île, actif au début du XXe siècle, immortalisa de nombreuses scènes côtières grâce à des toiles baignées de lumière méditerranéenne ?",
+    "reponses": [
+      { "texte": "Lucien Peri", "correct": true },
+      { "texte": "Marius Jorioz", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Olivier Lota", "correct": false }
+    ],
+    "explication": "Lucien Peri, né à Bastia, représenta souvent le littoral corse dans ses peintures, traduisant la clarté et la palette de couleurs spécifique à la Méditerranée.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle localité littorale organise à l’automne un grand rassemblement autour de l’écologie, du sport, des arts et d’animations liées au vent ?",
+    "reponses": [
+      { "texte": "L’Île-Rousse", "correct": false },
+      { "texte": "Calvi", "correct": true },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Saint-Florent", "correct": false }
+    ],
+    "explication": "Chaque année, un important festival y est consacré à la protection de l’environnement, aux sports de plein air et aux activités culturelles, profitant du relief venteux de la côte.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel institut, rattaché à l’université située dans la partie centrale de l’île, s’engage dans la recherche et la promotion de la langue et du patrimoine régional ?",
+    "reponses": [
+      { "texte": "L’Institut d’Études Corses", "correct": true },
+      { "texte": "Le Centre d’Art Insulaire", "correct": false },
+      { "texte": "L’Académie Musicale Bastiaise", "correct": false },
+      { "texte": "Le Pôle Napoléonien d’Ajaccio", "correct": false }
+    ],
+    "explication": "Implanté au cœur de la citadelle universitaire, cet institut réunit chercheurs et enseignants pour valoriser le patrimoine culturel et la langue vernaculaire au travers de diverses initiatives.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle semaine d’évènements, déployée simultanément dans plusieurs communes, met à l’honneur la pratique orale et écrite du parler local à travers animations et ateliers ?",
+    "reponses": [
+      { "texte": "A Semaine di a Lingua", "correct": true },
+      { "texte": "A Fiera di u Libru Corsu", "correct": false },
+      { "texte": "Le Rendez-vous du Patrimoine", "correct": false },
+      { "texte": "A Festa di i Vucati", "correct": false }
+    ],
+    "explication": "Cet événement s’étale sur plusieurs jours, proposant débats, concerts, interventions en milieu scolaire et diverses activités, afin de promouvoir l’usage et la transmission du parler insulaire.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle croyance implique certaines personnes capables de discerner en rêve le futur décès d’un individu, conférant à ces voyants un statut particulier dans la communauté ?",
+    "reponses": [
+      { "texte": "La mazzeratura", "correct": true },
+      { "texte": "La stregoneria", "correct": false },
+      { "texte": "Le macchiajolu", "correct": false },
+      { "texte": "Le segnu di i santi", "correct": false }
+    ],
+    "explication": "La mazzeratura est ancrée dans le folklore. Les personnes dites « mazzeri » auraient, selon la tradition, des rêves prémonitoires où ils voient la future victime d’un décès à venir.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle marche collective diurne, traversant plusieurs sanctuaires avec des cantiques et litanies, se conclut par un repas communautaire ?",
+    "reponses": [
+      { "texte": "A Cerca", "correct": true },
+      { "texte": "La Granitula", "correct": false },
+      { "texte": "U Macciu", "correct": false },
+      { "texte": "A Moresca", "correct": false }
+    ],
+    "explication": "A Cerca amène les fidèles à se rendre de chapelle en chapelle, récitant des prières et chantant ensemble, avant un moment de convivialité finale autour d’un repas partagé.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rassemblement a pour thème la découverte de la flore et la gastronomie printanière, offrant balades botaniques et dégustations de recettes en plein air ?",
+    "reponses": [
+      { "texte": "A Fiera di i Fiori", "correct": false },
+      { "texte": "A Festa di a Primavera", "correct": false },
+      { "texte": "A Merendella in Fiore", "correct": true },
+      { "texte": "A Sagra di u Veranu", "correct": false }
+    ],
+    "explication": "Lors de cette manifestation, on propose randonnées à la découverte des plantes comestibles, ateliers culinaires, et repas au grand air pour célébrer le renouveau de la nature.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel mets, très recherché sur la côte en début d’année, consiste en la dégustation d’une partie orange extraite d’un invertébré vivant sur les rochers ?",
+    "reponses": [
+      { "texte": "I ricci (oursins)", "correct": true },
+      { "texte": "E patelle (berniques)", "correct": false },
+      { "texte": "I gamberi (crevettes)", "correct": false },
+      { "texte": "I scampi (langoustines)", "correct": false }
+    ],
+    "explication": "La partie orange de l’animal, recueillie avec précaution, est consommée crue et accompagne souvent un morceau de pain et un verre de vin blanc.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel agrume à peau fine, récolté de décembre à février dans la Plaine Orientale, est protégé par une indication géographique à l’échelle européenne ?",
+    "reponses": [
+      { "texte": "La clémentine de Corse", "correct": true },
+      { "texte": "Le cédrat de Balagne", "correct": false },
+      { "texte": "Le citron de Propriano", "correct": false },
+      { "texte": "L’orange sanguine d’Ajaccio", "correct": false }
+    ],
+    "explication": "La clémentine, douce et facile à éplucher, bénéficie d’une IGP depuis 2007 et se distingue par ses qualités gustatives réputées.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel dessert glacé, créé avec le jus d’une baie pourpre et de la glace pilée, s’apprécie en période estivale pour sa fraîcheur parfumée ?",
+    "reponses": [
+      { "texte": "Le granité à la myrte", "correct": true },
+      { "texte": "Le sorbet à la châtaigne", "correct": false },
+      { "texte": "La glace au cédrat", "correct": false },
+      { "texte": "Le sorbet au citron", "correct": false }
+    ],
+    "explication": "Ce granité mêle l’essence parfumée de la baie au sucre et à la glace, offrant un rafraîchissement idéal lors des fortes chaleurs de l’été.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel acteur, très impliqué dans la transmission artistique, a créé un centre de formation théâtrale en Balagne et met en scène diverses productions ?",
+    "reponses": [
+      { "texte": "Robin Renucci", "correct": true },
+      { "texte": "Daniel Auteuil", "correct": false },
+      { "texte": "Jean-Marie Bigardini", "correct": false },
+      { "texte": "Charles Tordjman", "correct": false }
+    ],
+    "explication": "Il a fondé, dans une micro-région située au nord-ouest de l’île, un espace dédié à la pratique et à la pédagogie du théâtre, valorisant la culture locale.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel prix littéraire, décerné par une association régionale, récompense un ouvrage en lien avec l’identité insulaire ou écrit en langue locale ?",
+    "reponses": [
+      { "texte": "Le Prix Musanostra", "correct": true },
+      { "texte": "Le Grand Prix du Nebbio", "correct": false },
+      { "texte": "Le Prix Vincensini", "correct": false },
+      { "texte": "Le Goncourt régional", "correct": false }
+    ],
+    "explication": "Remis annuellement, il met en lumière des auteurs qui abordent, en français ou en corse, des thèmes relatifs au territoire, à son histoire ou à sa culture.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel événement automnal, autour du 30 novembre, comporte un défilé animé dans les rues avec des masques et des costumes pour faire du bruit et chasser le mauvais œil ?",
+    "reponses": [
+      { "texte": "Sant’Andria", "correct": true },
+      { "texte": "A Caracutula", "correct": false },
+      { "texte": "U Macciu di Nuvole", "correct": false },
+      { "texte": "A Pagliaghja", "correct": false }
+    ],
+    "explication": "Au cours de cette manifestation, les habitants paradent en groupes, faisant un vacarme festif pour écarter les influences néfastes et marquer l’entrée dans la saison hivernale.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle représentation de la Nativité, faite de figurines miniatures en liège ou en terre cuite, est parfois l’objet d’un concours d’originalité à Noël ?",
+    "reponses": [
+      { "texte": "U presepiu", "correct": true },
+      { "texte": "A candelara", "correct": false },
+      { "texte": "U giru di Natale", "correct": false },
+      { "texte": "A strina", "correct": false }
+    ],
+    "explication": "Le presepiu (la crèche) peut prendre des formes variées et regrouper des personnages, animaux et décors inspirés du quotidien insulaire, conférant une touche locale à la Nativité.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle danse collective, avec un jeu scénique illustrant un enlèvement fictif de la mariée, se pratique lors de certaines fêtes villageoises ?",
+    "reponses": [
+      { "texte": "La Moresca di a sposa", "correct": true },
+      { "texte": "A Spallata", "correct": false },
+      { "texte": "U Caracolu", "correct": false },
+      { "texte": "La Paghiella danzata", "correct": false }
+    ],
+    "explication": "Cette chorégraphie, rythmée par des chants, met en scène un prétendu kidnapping, clos par la réconciliation et la joie partagée, symbole de l’union festive.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel chant, repris en chœur par les confréries dans les églises, invoque la patronne protectrice et figure parmi les hymnes emblématiques de l’île ?",
+    "reponses": [
+      { "texte": "Dio vi salvi Regina", "correct": true },
+      { "texte": "A paghjella sacra", "correct": false },
+      { "texte": "Salve Corsica", "correct": false },
+      { "texte": "A passionata", "correct": false }
+    ],
+    "explication": "Dio vi salvi Regina est un chant d’hommage et de dévotion à la Vierge, transmis de génération en génération et porteur d’un fort sentiment d’appartenance.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rite hivernal, organisé lors de randonnées botaniques et d’ateliers culinaires, met à l’honneur la végétation naissante et la cuisine en extérieur ?",
+    "reponses": [
+      { "texte": "A Merendella in Fiore", "correct": true },
+      { "texte": "La Granitula d’inguernu", "correct": false },
+      { "texte": "U falò di a fine veranu", "correct": false },
+      { "texte": "A Candela di e castagne", "correct": false }
+    ],
+    "explication": "Cette rencontre festive permet de découvrir les jeunes pousses, d’apprendre à les cuisiner et de partager un repas dans un cadre naturel propice à la convivialité.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel petit gâteau moelleux, cuit sur des feuilles de châtaignier, associe dans sa pâte du brocciu et parfois un zeste de citron ?",
+      "reponses": [
+        { "texte": "Les falculelle", "correct": true },
+        { "texte": "Les migliacci", "correct": false },
+        { "texte": "Les frappes", "correct": false },
+        { "texte": "Les canistrelli", "correct": false }
+      ],
+      "explication": "Les falculelle, traditionnelles de la région de Corte, se préparent avec du brocciu, de la semoule ou de la farine, puis cuisent sur des feuilles de châtaignier, leur donnant un arôme particulier.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel produit sucré, souvent présenté sous forme de barres, associe miel local et amandes ou noisettes, et se retrouve fréquemment dans les foires artisanales ?",
+      "reponses": [
+        { "texte": "Le nougat corse", "correct": true },
+        { "texte": "Les canistrelli sucrés", "correct": false },
+        { "texte": "Le pain d’épices insulaire", "correct": false },
+        { "texte": "Les frappe au miel", "correct": false }
+      ],
+      "explication": "Le nougat corse peut se décliner en version croquante ou plus moelleuse, généralement élaboré à base de miel de l’île et d’amandes, parfois de noisettes issues de productions locales.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel festival musical itinérant, baptisé du nom d’une micro-région du nord-ouest de l’île, propose chaque été des concerts de musique classique dans les églises environnantes ?",
+      "reponses": [
+        { "texte": "Sorru in Musica", "correct": true },
+        { "texte": "Campanile di Canti", "correct": false },
+        { "texte": "Basta Pianu", "correct": false },
+        { "texte": "Girandole Musicale", "correct": false }
+      ],
+      "explication": "Sorru in Musica se déroule dans la région des Deux-Sorru. Les églises et chapelles locales accueillent musiciens et solistes reconnus, offrant une atmosphère intime et patrimoniale.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel établissement, situé à Levie, expose des vestiges préhistoriques et médiévaux découverts dans la micro-région de l’Alta Rocca ?",
+      "reponses": [
+        { "texte": "Le Musée de l’Alta Rocca", "correct": true },
+        { "texte": "Le Musée Fesch", "correct": false },
+        { "texte": "Le Palais des Gouverneurs", "correct": false },
+        { "texte": "Le Musée de la Corse", "correct": false }
+      ],
+      "explication": "Le Musée de l’Alta Rocca rassemble des pièces issues de fouilles archéologiques (Cucuruzzu, Capula) ainsi qu’un espace ethnographique, reflétant l’histoire plurimillénaire de la région.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel événement regroupant artisans fromagers, se tient chaque printemps à Venaco et récompense les meilleures productions ovines ou caprines ?",
+      "reponses": [
+        { "texte": "A fiera di u casgiu", "correct": true },
+        { "texte": "A fiera di a castagna", "correct": false },
+        { "texte": "A fiera di l’alivu", "correct": false },
+        { "texte": "A fiera di a bannia", "correct": false }
+      ],
+      "explication": "A fiera di u casgiu met à l’honneur la diversité des fromages corses. Les visiteurs peuvent découvrir, déguster et acheter des produits locaux dans une ambiance festive.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel four collectif, existant dans certains villages montagnards, est allumé pour des fêtes locales où chacun vient cuire pains et autres plats ?",
+      "reponses": [
+        { "texte": "U fournu cumunitariu", "correct": true },
+        { "texte": "U fucone di paese", "correct": false },
+        { "texte": "A fornace di a muntagna", "correct": false },
+        { "texte": "A stazzona di pane", "correct": false }
+      ],
+      "explication": "U fournu cumunitariu est un patrimoine vivant. Pour de grandes occasions, il est chauffé, et chaque famille y fait cuire pains, pizzas ou tourtes, renforçant la convivialité.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel espace ajaccien, rénové sous le Second Empire, recèle un important fonds de manuscrits et d’ouvrages anciens sur l’histoire et la littérature insulaires ?",
+      "reponses": [
+        { "texte": "La Bibliothèque Fesch", "correct": true },
+        { "texte": "La Bibliothèque Lantivy", "correct": false },
+        { "texte": "Le Centre Culturel Napoléonien", "correct": false },
+        { "texte": "La Cinémathèque de la Corse", "correct": false }
+      ],
+      "explication": "La Bibliothèque Fesch, intégrée au Palais du même nom, abrite un fonds patrimonial dédié à la Corse et à divers domaines, avec des documents rares et précieux.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel rendez-vous artistique, proposé sur un littoral en été, présente des œuvres éphémères et divers ateliers créatifs en plein air ?",
+      "reponses": [
+        { "texte": "Mare in Festa", "correct": true },
+        { "texte": "Arte Mare (Bastia)", "correct": false },
+        { "texte": "L’Expo Sud’Arte", "correct": false },
+        { "texte": "Corsic’Art Mundi", "correct": false }
+      ],
+      "explication": "Mare in Festa transforme le bord de mer en une galerie temporaire, où se mêlent sculptures, peintures, et animations autour de la création artistique pour tous les publics.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle réunion, désignée par une expression évoquant le partage des cartes, voit les villageois se défier à des jeux de cartes en soirée ?",
+      "reponses": [
+        { "texte": "A rotta di a carte", "correct": true },
+        { "texte": "U tavulinu di i giucadori", "correct": false },
+        { "texte": "A scopa di paese", "correct": false },
+        { "texte": "A sfilata di e carte", "correct": false }
+      ],
+      "explication": "A rotta di a carte correspond à un moment convivial, souvent au café ou sur la place, où chacun tente sa chance tout en plaisantant avec ses partenaires de jeu.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel art du trait d’esprit, connu pour ses plaisanteries parfois moqueuses mais sans malveillance, participe à la sociabilité dans l’île ?",
+      "reponses": [
+        { "texte": "A macagna", "correct": true },
+        { "texte": "A scapata", "correct": false },
+        { "texte": "U rimbeccu", "correct": false },
+        { "texte": "A punzecchiatura", "correct": false }
+      ],
+      "explication": "A macagna est une forme d’humour local, faite de railleries légères et de taquineries bon enfant, renforçant la complicité entre amis et voisins.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel gâteau fondant, réalisé avec de la farine de châtaigne, du chocolat et parfois des noix, se retrouve dans certaines boulangeries de l’île ?",
+      "reponses": [
+        { "texte": "Le castagnolu", "correct": false },
+        { "texte": "Le fondant châtaigne-chocolat", "correct": true },
+        { "texte": "La pisticcina", "correct": false },
+        { "texte": "Le moelleux caffè-latte", "correct": false }
+      ],
+      "explication": "Ce dessert associe le chocolat à la farine de châtaigne, conférant un goût unique et une texture moelleuse, souvent agrémenté de fruits secs pour davantage de caractère.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle marinade piquante, préparée avec de l’ail, de l’huile d’olive et du piment, accompagne parfois les viandes grillées dans l’île ?",
+      "reponses": [
+        { "texte": "A teppa", "correct": false },
+        { "texte": "A sapara", "correct": false },
+        { "texte": "La zingana", "correct": true },
+        { "texte": "U sughju piccante", "correct": false }
+      ],
+      "explication": "La zingana (parfois appelée zingue) est un condiment relevé qui donne du caractère aux pièces de viande, et peut également s’employer en badigeon sur le sanglier rôti.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel aliment, transformé en farine, sert à confectionner des crêpes fines, nommées nicci, qui se dégustent souvent avec un fromage frais ?",
+      "reponses": [
+        { "texte": "La châtaigne", "correct": true },
+        { "texte": "Le maïs", "correct": false },
+        { "texte": "Le seigle", "correct": false },
+        { "texte": "Le pois chiche", "correct": false }
+      ],
+      "explication": "Les nicci, galettes souples issues de la Castagniccia, combinent farine de châtaigne et eau ; elles se cuisent sur un testo ou dans des poêles plates avant d’être servies chaudes.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel historien et conteur local, auteur de plusieurs ouvrages sur le patrimoine, s’est illustré dans la transmission orale des légendes insulaires ?",
+      "reponses": [
+        { "texte": "Angelo Rinaldi", "correct": false },
+        { "texte": "Dumenicu Tognotti", "correct": false },
+        { "texte": "François Lemoyne", "correct": false },
+        { "texte": "Antone Vesperini", "correct": true }
+      ],
+      "explication": "Antone Vesperini, à travers ses récits et ses articles, perpétue les traditions orales corses, maintenant vivantes mythes et légendes dans la mémoire collective.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel village montagneux accueille chaque année une semaine de résidences artistiques, ouvertes au public, valorisant peintres, sculpteurs et photographes ?",
+      "reponses": [
+        { "texte": "Vizzavona", "correct": false },
+        { "texte": "Olmi-Cappella", "correct": false },
+        { "texte": "Evisa", "correct": false },
+        { "texte": "Pigna", "correct": true }
+      ],
+      "explication": "Perché en Balagne, Pigna dispose d’ateliers d’art et invite régulièrement des créateurs en résidence, soutenant une démarche de partage et de rencontre artistique.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel film en langue locale, produit durant les années 2000, met en scène la vie d’une famille isolée et aborde les défis de la modernité ?",
+      "reponses": [
+        { "texte": "Tierra di Corsa", "correct": false },
+        { "texte": "Corti, la cité", "correct": false },
+        { "texte": "L’Attrachju", "correct": true },
+        { "texte": "Mare Nostrum", "correct": false }
+      ],
+      "explication": "L’Attrachju, tourné partiellement en corse, illustre le quotidien d’un foyer confronté aux changements de leur époque, tout en restant profondément ancré dans les traditions.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel rassemblement annuel dans la plaine orientale, dédié aux produits du terroir, propose démonstrations, dégustations et concours gastronomiques ?",
+      "reponses": [
+        { "texte": "A Fiera di a Plaine", "correct": false },
+        { "texte": "A Fiera di Aléria", "correct": true },
+        { "texte": "A Fiera di i Sapori", "correct": false },
+        { "texte": "A Fiera di a Muntagna", "correct": false }
+      ],
+      "explication": "A Fiera di Aléria met à l’honneur la production locale, qu’il s’agisse de vins, fromages, charcuteries ou encore de spécialités sucrées, dans une ambiance conviviale.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel défilé costumé, organisé dans le sud de l’île à l’occasion du Mardi gras, est marqué par des chars à thème et des groupes de danseurs ?",
+      "reponses": [
+        { "texte": "U Caracutu d’Invernu", "correct": false },
+        { "texte": "A Cursa di i Carri", "correct": false },
+        { "texte": "Le Carnaval d’Ajaccio", "correct": true },
+        { "texte": "La Farandula di Bonifacio", "correct": false }
+      ],
+      "explication": "Le Carnaval d’Ajaccio fait défiler des chars décorés et des troupes costumées dans les rues, accompagnés d’animations musicales qui créent une ambiance festive et familiale.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel groupe folklorique, actif dans plusieurs villages, présente des démonstrations de danses anciennes lors de fêtes patronales et manifestations culturelles ?",
+      "reponses": [
+        { "texte": "I Trapassi", "correct": false },
+        { "texte": "I Morescanti", "correct": false },
+        { "texte": "A Cunfraterna di a Taddia", "correct": false },
+        { "texte": "A Tradizione Paesana", "correct": true }
+      ],
+      "explication": "A Tradizione Paesana rassemble des passionnés souhaitant préserver le patrimoine gestuel et musical. Les danses, parfois très anciennes, sont régulièrement montrées au public.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle préparation à base de poivrons doux, d’oignons, d’huile d’olive et de fines herbes s’accommode parfaitement avec la charcuterie locale ?",
+      "reponses": [
+        { "texte": "La caponata insulaire", "correct": false },
+        { "texte": "La piperade corse", "correct": true },
+        { "texte": "Le tianu de légumes", "correct": false },
+        { "texte": "La ratatouille Niolu", "correct": false }
+      ],
+      "explication": "La piperade corse reprend le principe de la version basque : poivrons, oignons, tomate et herbes, créant un condiment coloré servi chaud ou froid.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel amuse-bouche, parfois proposé en apéritif, consiste à couper en dés une préparation de pulenta de châtaigne pour la faire dorer à la poêle et la servir avec fromages ou charcuterie ?",
+      "reponses": [
+        { "texte": "Les croquettes di farina bona", "correct": false },
+        { "texte": "La pulendina fritta", "correct": true },
+        { "texte": "Les bastelle au brocciu", "correct": false },
+        { "texte": "Le pain perduto insulaire", "correct": false }
+      ],
+      "explication": "La pulendina fritta est élaborée à partir de pulenta de châtaigne que l’on fait refroidir, puis découpe avant de la dorer à la poêle. Elle se déguste chaude, accompagnée de fromage ou de charcuterie.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel ancien cépage, cultivé autour de la région d’Ajaccio, produit un vin rouge plutôt léger et aromatique, prisé pour son caractère épicé ?",
+      "reponses": [
+        { "texte": "Le Barbarossa", "correct": false },
+        { "texte": "Le Sciaccarellu", "correct": true },
+        { "texte": "Le Montanaccio", "correct": false },
+        { "texte": "Le Genovese", "correct": false }
+      ],
+      "explication": "Le Sciaccarellu est un cépage corse ancien, principalement présent dans l’aire d’appellation Ajaccio. Il donne des rouges élégants, aux notes poivrées et épicées.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel entremets, mentionné dans des ouvrages anciens, réunit des dés de figatellu poêlés, de la pulenta de châtaigne et une sauce à base de vin rouge réduit ?",
+      "reponses": [
+        { "texte": "La fricassée nustrale", "correct": false },
+        { "texte": "U pasticciu corse", "correct": false },
+        { "texte": "U spuntinu di figatellu", "correct": true },
+        { "texte": "La zingana al maiale", "correct": false }
+      ],
+      "explication": "U spuntinu di figatellu se déguste souvent comme plat familial : le mariage du figatellu, de la pulenta et d’une sauce au vin local donne un ensemble typique et gourmand.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel photographe actif dès les années 1970, connu pour ses clichés en noir et blanc, a immortalisé la vie pastorale et les villages de l’intérieur ?",
+      "reponses": [
+        { "texte": "Michel Luccioni", "correct": true },
+        { "texte": "Antoine Giacomoni", "correct": false },
+        { "texte": "Alain Pistoresi", "correct": false },
+        { "texte": "Charles Geronimi", "correct": false }
+      ],
+      "explication": "Michel Luccioni a parcouru les zones rurales de l’île, photographiant bergers, artisans et paysages authentiques, témoignant d’un mode de vie en mutation.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel roman en langue corse, publié au milieu des années 2000, raconte le destin d’un berger de la vallée du Niolu confronté à l’exode rural ?",
+      "reponses": [
+        { "texte": "A Vucata di u Ventu", "correct": false },
+        { "texte": "Eternu", "correct": true },
+        { "texte": "Tempu Passatu", "correct": false },
+        { "texte": "A Casedda di l’Altu", "correct": false }
+      ],
+      "explication": "« Eternu » plonge le lecteur dans la vie traditionnelle de la montagne corse et soulève la question des mutations socioculturelles affectant les jeunes générations.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel label, fondé dans les années 1980, prit la suite de structures comme Ricordu pour produire et diffuser des albums de jeunes artistes insulaires ?",
+      "reponses": [
+        { "texte": "Strada Music", "correct": true },
+        { "texte": "Tempi Fà Records", "correct": false },
+        { "texte": "Voce Mediterranea", "correct": false },
+        { "texte": "Cors’Audiu", "correct": false }
+      ],
+      "explication": "Strada Music est l’un des labels qui ont contribué à révéler de nouveaux talents insulaires, favorisant le renouveau et la diversité de la scène musicale corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle coutume, pratiquée lors de certaines fêtes religieuses, consiste à tresser des brindilles afin de fabriquer un berceau décoratif présenté durant la cérémonie ?",
+      "reponses": [
+        { "texte": "A culla cuncata", "correct": true },
+        { "texte": "U cestu di i santi", "correct": false },
+        { "texte": "A ripa d’altare", "correct": false },
+        { "texte": "U brigliatu festosu", "correct": false }
+      ],
+      "explication": "A culla cuncata symbolise la protection et la prospérité, le berceau ainsi fabriqué étant parfois placé à l’église pour la durée de la fête, puis ramené au foyer.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel concours organisé dans la vallée de la Gravona réunit des bergers et paysans qui font sonner leurs cloches de troupeau, la plus belle résonance étant primée ?",
+      "reponses": [
+        { "texte": "U Scontru di i Campanacci", "correct": true },
+        { "texte": "A Chjamata di i Pastori", "correct": false },
+        { "texte": "U Raduno di i Sonadori", "correct": false },
+        { "texte": "A Girandola di u Monte", "correct": false }
+      ],
+      "explication": "U Scontru di i Campanacci valorise un savoir-faire pastoral : la sélection et l’accord de cloches pour obtenir un son harmonieux et puissant, symbole d’identité rurale.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle activité traditionnelle, pratiquée autrefois sur la côte occidentale, consistait à récolter des éponges en plongée pour alimenter le commerce local ?",
+      "reponses": [
+        { "texte": "A spugnatura", "correct": true },
+        { "texte": "A pescata di roccia", "correct": false },
+        { "texte": "U racoltu di l’alghe rosse", "correct": false },
+        { "texte": "A caccia di u corallu", "correct": false }
+      ],
+      "explication": "A spugnatura impliquait l’immersion en mer pour collecter des éponges, utilisées dans l’artisanat et le commerce. Cette pratique est aujourd’hui en déclin, mais reste ancrée dans l’histoire maritime.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel lieu préhistorique, mis au jour dans les années 1970, abrite des menhirs et un écomusée retraçant l’évolution du milieu rural insulaire ?",
+      "reponses": [
+        { "texte": "Cauria", "correct": true },
+        { "texte": "Filitosa", "correct": false },
+        { "texte": "Capula", "correct": false },
+        { "texte": "U Frate", "correct": false }
+      ],
+      "explication": "Le site de Cauria, situé près de Sartène, expose des monolithes et témoigne d’une occupation très ancienne de la région, complété par un parcours muséographique sur la vie rurale.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel élément historique renforce le sentiment de méfiance présent dans la culture corse ?",
+    "reponses": [
+      { "texte": "La pauvreté agricole", "correct": false },
+      { "texte": "Les famines récurrentes", "correct": false },
+      { "texte": "Les invasions successives", "correct": true },
+      { "texte": "L'isolement volontaire", "correct": false }
+    ],
+    "explication": "L’histoire de la Corse a été marquée par de nombreuses invasions. Cette situation a forgé un sentiment de méfiance et d’autoprotection chez les insulaires.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel comportement peut être perçu comme une défense symbolique de l’identité corse ?",
+    "reponses": [
+      { "texte": "Le refus d’apprendre le français", "correct": false },
+      { "texte": "La création de groupes d'autodéfense", "correct": false },
+      { "texte": "Le camouflage des panneaux en corse", "correct": false },
+      { "texte": "La barbouille des panneaux en français", "correct": true }
+    ],
+    "explication": "Certains panneaux en français sont barrés de peinture en signe de protestation pour rappeler que la langue corse reste vivante.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment qualifie-t-on la structure familiale élargie traditionnelle en Corse ?",
+    "reponses": [
+      { "texte": "La tribu", "correct": false },
+      { "texte": "Le clan", "correct": true },
+      { "texte": "La confrérie", "correct": false },
+      { "texte": "Le cercle de sang", "correct": false }
+    ],
+    "explication": "Le clan corse est une famille élargie incluant les membres du village. Il s’agit d’un groupe soudé, souvent fermé, défendant ses intérêts.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel trait est souvent considéré comme une valeur fondatrice de la société corse ?",
+    "reponses": [
+      { "texte": "Le courage militaire", "correct": false },
+      { "texte": "L’attachement au territoire", "correct": false },
+      { "texte": "Le respect de la parole donnée", "correct": true },
+      { "texte": "La capacité à commercer", "correct": false }
+    ],
+    "explication": "Le sens de l’honneur et le respect de la parole donnée sont au cœur des valeurs traditionnelles corses.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel type de structure familiale corse assigne généralement les terres du littoral aux filles ?",
+    "reponses": [
+      { "texte": "La structure agnatique", "correct": false },
+      { "texte": "La structure égalitaire", "correct": false },
+      { "texte": "La tradition patriarcale", "correct": true },
+      { "texte": "La tradition néo-matriarcale", "correct": false }
+    ],
+    "explication": "Dans la tradition patriarcale corse, les garçons héritaient des maisons et les filles recevaient les terres côtières, alors peu valorisées.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle pratique de vengeance était historiquement liée à l’honneur bafoué en Corse ?",
+    "reponses": [
+      { "texte": "La vendetta", "correct": true },
+      { "texte": "L'ostracisme", "correct": false },
+      { "texte": "Le duel judiciaire", "correct": false },
+      { "texte": "Le bannissement", "correct": false }
+    ],
+    "explication": "La vendetta est une réponse violente à l’atteinte à l’honneur, souvent pratiquée autrefois en Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel élément contribue à l’impression d’un « mur invisible » entre Corses et visiteurs ?",
+    "reponses": [
+      { "texte": "La langue corse parlée uniquement entre locaux", "correct": false },
+      { "texte": "Le refus de vendre aux touristes", "correct": false },
+      { "texte": "La méfiance envers les étrangers s’immisçant dans les affaires locales", "correct": true },
+      { "texte": "La rareté des infrastructures touristiques", "correct": false }
+    ],
+    "explication": "Les non-Corses sont souvent tolérés tant qu’ils ne s’immiscent pas dans les affaires locales, ce qui crée une séparation invisible.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment est perçue l'habitude d’apporter quelque chose à une invitation en Corse ?",
+    "reponses": [
+      { "texte": "Cela peut être considéré comme offensant", "correct": true },
+      { "texte": "C’est une coutume locale très appréciée", "correct": false },
+      { "texte": "C’est obligatoire", "correct": false },
+      { "texte": "Cela est vu comme une marque d'élégance", "correct": false }
+    ],
+    "explication": "Apporter quelque chose peut être mal interprété, comme si l'on doutait de la générosité des hôtes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle attitude est déconseillée lors d’un séjour en Corse ?",
+    "reponses": [
+      { "texte": "Se comporter en pays conquis", "correct": true },
+      { "texte": "Prendre le temps de vivre", "correct": false },
+      { "texte": "Dire bonjour en arrivant", "correct": false },
+      { "texte": "Boire un verre avec des Corses", "correct": false }
+    ],
+    "explication": "Il est fortement déconseillé de critiquer la Corse ou d’adopter une attitude dominatrice.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Que signifie 'payer sa tournée' selon les usages corses ?",
+    "reponses": [
+      { "texte": "Chacun paie un verre pour tous à tour de rôle", "correct": true },
+      { "texte": "On divise la note en parts égales", "correct": false },
+      { "texte": "Le plus riche paie pour tout le monde", "correct": false },
+      { "texte": "On ne paie que pour ce que l'on a consommé", "correct": false }
+    ],
+    "explication": "L'usage corse veut que chacun offre une tournée plutôt que de partager la note.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "À quelle époque la vendetta était-elle la plus répandue en Corse ?",
+    "reponses": [
+      { "texte": "Entre le XVIe et le XVIIIe siècle", "correct": true },
+      { "texte": "Au XIXe siècle", "correct": false },
+      { "texte": "Pendant l’Antiquité", "correct": false },
+      { "texte": "Depuis le XXe siècle", "correct": false }
+    ],
+    "explication": "La vendetta était très répandue entre le XVIe et le XVIIIe siècle.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelles étaient les causes les plus fréquentes de vendetta ?",
+    "reponses": [
+      { "texte": "Atteintes à l'honneur", "correct": true },
+      { "texte": "Vols de bétail uniquement", "correct": false },
+      { "texte": "Conflits religieux", "correct": false },
+      { "texte": "Accidents de chasse", "correct": false }
+    ],
+    "explication": "L’atteinte à l’honneur était l’un des motifs principaux des vendettas.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle était la règle fondamentale d’une vendetta ?",
+    "reponses": [
+      { "texte": "Chaque mort devait être vengée par une autre", "correct": true },
+      { "texte": "On devait appeler la police", "correct": false },
+      { "texte": "Une compensation financière suffisait", "correct": false },
+      { "texte": "Le pardon était systématique", "correct": false }
+    ],
+    "explication": "Selon la logique de la vendetta, chaque mort en appelait une autre tant que la vengeance n’était pas accomplie.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Que faisaient les hommes tant que la vengeance n’était pas accomplie ?",
+    "reponses": [
+      { "texte": "Ils ne coupaient ni leurs cheveux ni leur barbe", "correct": true },
+      { "texte": "Ils jeûnaient", "correct": false },
+      { "texte": "Ils portaient du noir", "correct": false },
+      { "texte": "Ils se couvraient le visage", "correct": false }
+    ],
+    "explication": "Dans le rituel de la vendetta, les hommes gardaient cheveux et barbe longs jusqu'à la vengeance.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Que faisait-on de la chemise ensanglantée du mort dans certaines familles ?",
+    "reponses": [
+      { "texte": "On la conservait jusqu’à la vengeance", "correct": true },
+      { "texte": "On l'enterrait avec lui", "correct": false },
+      { "texte": "On la brûlait immédiatement", "correct": false },
+      { "texte": "On la donnait à l’église", "correct": false }
+    ],
+    "explication": "La chemise ensanglantée était conservée comme symbole du devoir de vengeance.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans quelles régions corses la vendetta était-elle peu ou pas pratiquée ?",
+    "reponses": [
+      { "texte": "Cap Corse et Balagne", "correct": true },
+      { "texte": "Sud de la Corse", "correct": false },
+      { "texte": "Haute-Corse uniquement", "correct": false },
+      { "texte": "Plaine orientale", "correct": false }
+    ],
+    "explication": "Le Cap Corse et la Balagne ont été peu touchés par le phénomène des vendettas.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est l'origine principale de la langue corse ?",
+    "reponses": [
+      { "texte": "L'italien", "correct": true },
+      { "texte": "Le français", "correct": false },
+      { "texte": "Le grec", "correct": false },
+      { "texte": "Le latin d'Espagne", "correct": false }
+    ],
+    "explication": "La langue corse tire ses racines de l'italien, bien qu'elle ait aussi été influencée par d'autres langues.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel événement marque une reconnaissance officielle de la langue corse ?",
+    "reponses": [
+      { "texte": "Son inclusion dans la loi Deixonne en 1974", "correct": true },
+      { "texte": "Sa diffusion dans les écoles dès 1920", "correct": false },
+      { "texte": "La création de l'Université de Corte", "correct": false },
+      { "texte": "Un traité signé avec la France en 1815", "correct": false }
+    ],
+    "explication": "La reconnaissance officielle intervient tardivement en 1974 avec l'inclusion du corse dans la loi Deixonne.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Parmi les lettres suivantes, laquelle existe dans l'alphabet corse ?",
+    "reponses": [
+      { "texte": "ghj", "correct": true },
+      { "texte": "k", "correct": false },
+      { "texte": "w", "correct": false },
+      { "texte": "x", "correct": false }
+    ],
+    "explication": "Les groupes de lettres comme 'ghj' et 'chj' sont présents en corse, contrairement à k, w, x ou y.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle influence n’est PAS citée comme ayant marqué la langue corse ?",
+    "reponses": [
+      { "texte": "L'allemand", "correct": true },
+      { "texte": "L’ibère", "correct": false },
+      { "texte": "La ligure", "correct": false },
+      { "texte": "La génoise", "correct": false }
+    ],
+    "explication": "La langue corse a été influencée par l’italien, l’ibère, la ligure et la génoise, mais pas par l’allemand.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment se prononce généralement la lettre 'c' en corse ?",
+    "reponses": [
+      { "texte": "Comme 'tch'", "correct": true },
+      { "texte": "Comme 'ss'", "correct": false },
+      { "texte": "Comme 'k'", "correct": false },
+      { "texte": "Comme 'sh'", "correct": false }
+    ],
+    "explication": "En corse, la lettre 'c' se prononce souvent comme 'tch'.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Que signifie la graphie 'Purti-Vechju' ?",
+    "reponses": [
+      { "texte": "Porto-Vecchio", "correct": true },
+      { "texte": "Bonifacio", "correct": false },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Ajaccio", "correct": false }
+    ],
+    "explication": "'Purti-Vechju' est la forme corse de la ville de Porto-Vecchio.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est un trait phonétique du corse ?",
+    "reponses": [
+      { "texte": "La dernière voyelle d’un mot est souvent chuintante", "correct": true },
+      { "texte": "Les voyelles sont toujours accentuées", "correct": false },
+      { "texte": "Les consonnes ne sont jamais doublées", "correct": false },
+      { "texte": "La langue évite les diphtongues", "correct": false }
+    ],
+    "explication": "La dernière voyelle est très souvent chuintante ou étouffée dans la langue corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle prononciation est correcte en corse ?",
+    "reponses": [
+      { "texte": "'ch' se prononce comme 'g'", "correct": true },
+      { "texte": "'u' se prononce comme 'eu'", "correct": false },
+      { "texte": "'c' se prononce comme 's'", "correct": false },
+      { "texte": "'g' se prononce comme 'j'", "correct": false }
+    ],
+    "explication": "En règle générale, 'ch' se prononce comme 'g' en corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle lettre ne fait pas partie de l’alphabet corse ?",
+    "reponses": [
+      { "texte": "y", "correct": true },
+      { "texte": "ghj", "correct": false },
+      { "texte": "chj", "correct": false },
+      { "texte": "u", "correct": false }
+    ],
+    "explication": "Les lettres k, w, x, y ne sont pas utilisées en corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Pourquoi la langue corse joue-t-elle un rôle important pour les Corses ?",
+    "reponses": [
+      { "texte": "Elle est liée au sentiment identitaire", "correct": true },
+      { "texte": "Elle est obligatoire dans les administrations", "correct": false },
+      { "texte": "Elle a été imposée par l'État", "correct": false },
+      { "texte": "Elle remplace totalement le français", "correct": false }
+    ],
+    "explication": "La langue corse occupe une place centrale dans l'identité culturelle des Corses.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la religion majoritaire en Corse ?",
+    "reponses": [
+      { "texte": "Catholique romaine", "correct": true },
+      { "texte": "Protestante", "correct": false },
+      { "texte": "Musulmane", "correct": false },
+      { "texte": "Orthodoxe", "correct": false }
+    ],
+    "explication": "La Corse est majoritairement de tradition catholique romaine, avec une forte présence de pratiques religieuses visibles.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "À Cargèse, quelle église particulière peut-on trouver ?",
+    "reponses": [
+      { "texte": "Une église grecque orthodoxe", "correct": true },
+      { "texte": "Une synagogue", "correct": false },
+      { "texte": "Une église anglicane", "correct": false },
+      { "texte": "Un temple bouddhiste", "correct": false }
+    ],
+    "explication": "Cargèse abrite une église de rite grec orthodoxe, une particularité notable en Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle procession est associée à la ville de Sartène pendant la Semaine sainte ?",
+    "reponses": [
+      { "texte": "U Catenacciu", "correct": true },
+      { "texte": "La Trinité", "correct": false },
+      { "texte": "Le Calvariu", "correct": false },
+      { "texte": "La Via Crucis", "correct": false }
+    ],
+    "explication": "La procession de U Catenacciu à Sartène est l'une des plus célèbres de Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle ville organise la procession des cinq confréries ?",
+    "reponses": [
+      { "texte": "Bonifacio", "correct": true },
+      { "texte": "Corte", "correct": false },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Calvi", "correct": false }
+    ],
+    "explication": "Bonifacio est connue pour la procession des cinq confréries pendant la Semaine sainte.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle fête implique la bénédiction des barques de pêcheurs ?",
+    "reponses": [
+      { "texte": "La Saint-Érasme", "correct": true },
+      { "texte": "La Saint-Jean", "correct": false },
+      { "texte": "La Toussaint", "correct": false },
+      { "texte": "L'Assomption", "correct": false }
+    ],
+    "explication": "La Saint-Érasme donne lieu à la bénédiction des barques de pêcheurs à Ajaccio, Bastia et Calvi.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle pratique est souvent associée à la religion en Corse ?",
+    "reponses": [
+      { "texte": "La magie et les superstitions", "correct": true },
+      { "texte": "L'athéisme militant", "correct": false },
+      { "texte": "Le végétarisme religieux", "correct": false },
+      { "texte": "Le silence rituel", "correct": false }
+    ],
+    "explication": "En Corse, la religion catholique cohabite avec des pratiques liées à la magie et à diverses superstitions.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel événement religieux a lieu en août dans l'Alta Rocca ?",
+    "reponses": [
+      { "texte": "Le pèlerinage à Notre-Dame-des-Neiges", "correct": true },
+      { "texte": "Le festival de la Saint-Michel", "correct": false },
+      { "texte": "La procession de Saint-Paul", "correct": false },
+      { "texte": "La bénédiction de l'eau", "correct": false }
+    ],
+    "explication": "Un pèlerinage à Notre-Dame-des-Neiges a lieu début août dans l'Alta Rocca.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel lieu ne célèbre pas particulièrement la Semaine sainte selon le texte ?",
+    "reponses": [
+      { "texte": "Porto-Vecchio", "correct": true },
+      { "texte": "Calvi", "correct": false },
+      { "texte": "Bastia", "correct": false },
+      { "texte": "Corte", "correct": false }
+    ],
+    "explication": "Porto-Vecchio n'est pas mentionné parmi les villes qui célèbrent la Semaine sainte dans le texte.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel style architectural a été introduit en Corse sous l'influence génoise ?",
+    "reponses": [
+      { "texte": "Le style gothique", "correct": false },
+      { "texte": "Le style baroque", "correct": true },
+      { "texte": "Le style Renaissance", "correct": false },
+      { "texte": "Le style néo-classique", "correct": false }
+    ],
+    "explication": "Le style baroque s’est développé en Corse sous l'influence génoise, avec près de 150 églises arborant ses caractéristiques.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Combien de tours littorales d'origine génoise subsistent aujourd'hui en Corse ?",
+    "reponses": [
+      { "texte": "85", "correct": false },
+      { "texte": "60", "correct": false },
+      { "texte": "67", "correct": true },
+      { "texte": "45", "correct": false }
+    ],
+    "explication": "Sur les 85 tours littorales construites à l’époque génoise, 67 sont encore visibles aujourd'hui.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel musée corse possède une collection exceptionnelle de primitifs italiens ?",
+    "reponses": [
+      { "texte": "Le musée de Bastia", "correct": false },
+      { "texte": "Le musée de Bonifacio", "correct": false },
+      { "texte": "Le musée Fesch d'Ajaccio", "correct": true },
+      { "texte": "Le musée de Corte", "correct": false }
+    ],
+    "explication": "Le musée Fesch d'Ajaccio abrite une collection prestigieuse de primitifs italiens, héritage des influences artistiques italiennes.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle forme de chant corse est exclusivement interprétée par des femmes lors des veillées funèbres ?",
+    "reponses": [
+      { "texte": "Le lamentu", "correct": false },
+      { "texte": "Le voceru", "correct": true },
+      { "texte": "Le paghjella", "correct": false },
+      { "texte": "Le chjam'e rispondi", "correct": false }
+    ],
+    "explication": "Le voceru est un chant funèbre interprété par des femmes pendant les veillées funèbres, exprimant tristesse et douleur.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel auteur a écrit 'Colomba', un célèbre roman dont l'action se déroule en Corse ?",
+    "reponses": [
+      { "texte": "Alphonse Daudet", "correct": false },
+      { "texte": "Prosper Mérimée", "correct": true },
+      { "texte": "Alexandre Dumas", "correct": false },
+      { "texte": "Guy de Maupassant", "correct": false }
+    ],
+    "explication": "Prosper Mérimée est l’auteur de 'Colomba', publié en 1841, une œuvre emblématique se déroulant en Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle œuvre littéraire a été traduite en langue corse et adaptée au cinéma ?",
+    "reponses": [
+      { "texte": "Une vendetta", "correct": false },
+      { "texte": "L'Enquête corse", "correct": true },
+      { "texte": "Les Frères corses", "correct": false },
+      { "texte": "Colomba", "correct": false }
+    ],
+    "explication": "La bande dessinée 'L’Enquête corse' a connu un succès tel qu’elle a été traduite en corse et adaptée au cinéma.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel groupe n’est pas cité comme participant au renouveau de la musique vocale corse ?",
+    "reponses": [
+      { "texte": "I Muvrini", "correct": false },
+      { "texte": "Ghostone", "correct": false },
+      { "texte": "Canta U Populu Corsu", "correct": false },
+      { "texte": "Les Frères Corses", "correct": true }
+    ],
+    "explication": "Les Frères Corses est un titre d’Alexandre Dumas, pas un groupe musical. Ghostone, I Muvrini et Canta U Populu Corsu sont bien des groupes corses.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel style musical corse fonctionne sur un principe de question-réponse similaire au blues ?",
+    "reponses": [
+      { "texte": "Le paghjella", "correct": false },
+      { "texte": "Le chjam'e rispondi", "correct": true },
+      { "texte": "Le lamentu", "correct": false },
+      { "texte": "Le voceru", "correct": false }
+    ],
+    "explication": "Le chjam’e rispondi repose sur un système d’appel et de réponse, comme dans le blues ou les spirituals afro-américains.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quels artistes célèbres sont venus en Corse pour sa lumière ?",
+    "reponses": [
+      { "texte": "Picasso, Monet et Degas", "correct": false },
+      { "texte": "Matisse, Fernand Léger et Utrillo", "correct": true },
+      { "texte": "Van Gogh, Cézanne et Delacroix", "correct": false },
+      { "texte": "Manet, Seurat et Braque", "correct": false }
+    ],
+    "explication": "Matisse, Fernand Léger et Utrillo ont tous voyagé en Corse, attirés par la lumière unique de l'île pour leur peinture.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Pourquoi la Corse a-t-elle peu produit d’écrivains dans son histoire ?",
+    "reponses": [
+      { "texte": "À cause de l'isolement géographique", "correct": false },
+      { "texte": "À cause de la domination génoise", "correct": false },
+      { "texte": "À cause d'une tradition orale prédominante", "correct": true },
+      { "texte": "Par manque d'éducation", "correct": false }
+    ],
+    "explication": "La tradition orale dominante en Corse a freiné l’émergence d’une littérature écrite propre à l'île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "À partir de quoi est fabriqué le Brocciu corse ?",
+    "reponses": [
+      { "texte": "Du lait entier de vache", "correct": false },
+      { "texte": "De petit lait de brebis ou de chèvre", "correct": true },
+      { "texte": "De crème fraîche", "correct": false },
+      { "texte": "De lait fermenté", "correct": false }
+    ],
+    "explication": "Le Brocciu est un fromage frais corse fait à partir de petit lait de brebis ou de chèvre.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle spécialité corse est souvent servie grillée l’hiver avec du pain de campagne ?",
+    "reponses": [
+      { "texte": "Le Prisuttu", "correct": false },
+      { "texte": "Le Figatellu", "correct": true },
+      { "texte": "Le Lonzu", "correct": false },
+      { "texte": "La Pulenda", "correct": false }
+    ],
+    "explication": "Le Figatellu, une saucisse fumée au foie de porc, est souvent grillé et servi avec du pain en hiver.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "De quel ingrédient principal est composée la Pulenda ?",
+    "reponses": [
+      { "texte": "De pommes de terre", "correct": false },
+      { "texte": "De semoule de maïs", "correct": false },
+      { "texte": "De farine de châtaigne", "correct": true },
+      { "texte": "De farine de blé", "correct": false }
+    ],
+    "explication": "La Pulenda est une bouillie épaisse à base de farine de châtaigne, aliment de base traditionnel corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat est surnommé la bouillabaisse corse ?",
+    "reponses": [
+      { "texte": "Le civet de sanglier", "correct": false },
+      { "texte": "L'Aziminu", "correct": true },
+      { "texte": "La Pulenda", "correct": false },
+      { "texte": "Le Brocciu", "correct": false }
+    ],
+    "explication": "L’Aziminu est une soupe de poissons de roche, souvent qualifiée de bouillabaisse corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Combien de temps le Prisuttu est-il affiné ?",
+    "reponses": [
+      { "texte": "6 mois", "correct": false },
+      { "texte": "8 mois", "correct": false },
+      { "texte": "12 mois au minimum", "correct": true },
+      { "texte": "18 mois", "correct": false }
+    ],
+    "explication": "Le Prisuttu est un jambon corse sec affiné pendant au moins 12 mois dans l'air des montagnes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel ingrédient entre dans la composition du Figatellu ?",
+    "reponses": [
+      { "texte": "Du foie de porc", "correct": true },
+      { "texte": "Du foie de canard", "correct": false },
+      { "texte": "Du sanglier", "correct": false },
+      { "texte": "De l'agneau", "correct": false }
+    ],
+    "explication": "Le Figatellu est une saucisse corse à base de foie et de viande de porc.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage est utilisé pour préparer le fiadone, un dessert corse ?",
+    "reponses": [
+      { "texte": "Le Roquefort", "correct": false },
+      { "texte": "Le Brocciu", "correct": true },
+      { "texte": "Le Bleu d’Auvergne", "correct": false },
+      { "texte": "Le Brousse", "correct": false }
+    ],
+    "explication": "Le fiadone est un dessert typique de Corse préparé avec du Brocciu.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel biscuit corse est souvent parfumé à l’anis ou aux amandes ?",
+    "reponses": [
+      { "texte": "Le Canistrelli", "correct": true },
+      { "texte": "Le Fiadone", "correct": false },
+      { "texte": "Le Financier", "correct": false },
+      { "texte": "Le Calisson", "correct": false }
+    ],
+    "explication": "Les Canistrelli sont des biscuits secs corses, parfumés au citron, à l’anis ou aux amandes.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle charcuterie corse est faite à partir de filet de porc séché ?",
+    "reponses": [
+      { "texte": "Le Figatellu", "correct": false },
+      { "texte": "Le Lonzu", "correct": true },
+      { "texte": "Le Prisuttu", "correct": false },
+      { "texte": "La Coppa", "correct": false }
+    ],
+    "explication": "Le Lonzu est une charcuterie corse préparée avec le filet de porc, salé et séché.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat corse est un ragoût mijoté de gibier ?",
+    "reponses": [
+      { "texte": "La Pulenda", "correct": false },
+      { "texte": "L’Aziminu", "correct": false },
+      { "texte": "Le civet de sanglier", "correct": true },
+      { "texte": "Le Prisuttu", "correct": false }
+    ],
+    "explication": "Le civet de sanglier est un plat corse mijoté au vin rouge et aux herbes, emblématique de la tradition de chasse de l'île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat est traditionnellement servi en Corse le dimanche de Pâques ?",
+    "reponses": [
+      { "texte": "Cabri rôti ou agneau", "correct": true },
+      { "texte": "Veau aux olives", "correct": false },
+      { "texte": "Poisson grillé", "correct": false },
+      { "texte": "Lasagnes aux épinards", "correct": false }
+    ],
+    "explication": "Le dimanche de Pâques, les Corses mangent traditionnellement du cabri ou de l’agneau rôti.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel dessert corse parfumé à l’anis est associé à Pâques ?",
+    "reponses": [
+      { "texte": "Campanile", "correct": true },
+      { "texte": "Fiadone", "correct": false },
+      { "texte": "Frappes", "correct": false },
+      { "texte": "Beignets au brocciu", "correct": false }
+    ],
+    "explication": "Le campanile est un pain sucré parfumé à l’anis et à l’eau-de-vie, traditionnellement dégusté à Pâques.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rituel a lieu devant l’église du village corse la veille de Noël ?",
+    "reponses": [
+      { "texte": "Allumage du bûcher appelé Rocchiu", "correct": true },
+      { "texte": "Défilé des bergers", "correct": false },
+      { "texte": "Messe de l’aube", "correct": false },
+      { "texte": "Chant traditionnel des enfants", "correct": false }
+    ],
+    "explication": "Le 'Rocchiu' est un grand bûcher allumé la veille de Noël devant l’église, une tradition vivante en Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel encas est typique après la messe de minuit en Corse ?",
+    "reponses": [
+      { "texte": "Figatelli grillés, beignets de courgettes et fiadone", "correct": true },
+      { "texte": "Sardines farcies et vin chaud", "correct": false },
+      { "texte": "Soupe de potiron et clémentines", "correct": false },
+      { "texte": "Tourte aux herbes et fromage", "correct": false }
+    ],
+    "explication": "Après la messe de minuit, les Corses dégustent souvent figatelli grillés, fritelle, châtaignes grillées et fiadone.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat accompagne traditionnellement l'agneau rôti à Noël en Corse ?",
+    "reponses": [
+      { "texte": "Polenta", "correct": true },
+      { "texte": "Pommes dauphines", "correct": false },
+      { "texte": "Riz safrané", "correct": false },
+      { "texte": "Pâtes au pesto", "correct": false }
+    ],
+    "explication": "La polenta est souvent servie avec l’agneau rôti lors du repas de Noël corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel dessert typique à base de châtaigne est servi à Noël en Corse ?",
+    "reponses": [
+      { "texte": "Ceppu di Natale Castagniu", "correct": true },
+      { "texte": "Tiramisù à la clémentine", "correct": false },
+      { "texte": "Gâteau à la figue", "correct": false },
+      { "texte": "Gâteau de riz", "correct": false }
+    ],
+    "explication": "Le 'Ceppu di Natale Castagniu' est une bûche de Noël corse à la châtaigne.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle tradition est respectée à Noël avec une assiette supplémentaire ?",
+    "reponses": [
+      { "texte": "U piattu di u puvarettu", "correct": true },
+      { "texte": "A ciambella di Natale", "correct": false },
+      { "texte": "U pani di l’amicizia", "correct": false },
+      { "texte": "A suppa di carità", "correct": false }
+    ],
+    "explication": "‘U piattu di u puvarettu’ est l’assiette du pauvre, ajoutée symboliquement à la table de Noël en Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel plat est souvent servi lors des mariages en Corse ?",
+    "reponses": [
+      { "texte": "Veau à la broche", "correct": true },
+      { "texte": "Chapon farci", "correct": false },
+      { "texte": "Soupe corse aux herbes", "correct": false },
+      { "texte": "Gratin de courgettes", "correct": false }
+    ],
+    "explication": "Lors des mariages en Corse, le veau à la broche est un plat central souvent dégusté dans une ambiance festive.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment la pièce montée est-elle traditionnellement coupée lors d’un mariage corse ?",
+    "reponses": [
+      { "texte": "Avec un sabre", "correct": true },
+      { "texte": "Avec un couteau spécial de famille", "correct": false },
+      { "texte": "À la main", "correct": false },
+      { "texte": "Avec des ciseaux de cuisine", "correct": false }
+    ],
+    "explication": "En Corse, la tradition veut que la pièce montée soit découpée au sabre lors des mariages.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage corse est fabriqué à partir de lait de brebis ou de chèvre et très utilisé en cuisine ?",
+    "reponses": [
+      { "texte": "Brocciu", "correct": true },
+      { "texte": "Reblochon", "correct": false },
+      { "texte": "Roquefort", "correct": false },
+      { "texte": "Cantal", "correct": false }
+    ],
+    "explication": "Le brocciu est un fromage corse emblématique, utilisé aussi bien en plats salés que sucrés.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est l'ingrédient principal du figatellu corse ?",
+    "reponses": [
+      { "texte": "Le foie de porc", "correct": true },
+      { "texte": "Le filet mignon", "correct": false },
+      { "texte": "Le jambon cru", "correct": false },
+      { "texte": "La graisse de canard", "correct": false }
+    ],
+    "explication": "Le figatellu est une saucisse à base de foie de porc, souvent accompagnée de pulenta.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Pourquoi les figatelli servis en été sont-ils souvent décongelés ?",
+    "reponses": [
+      { "texte": "Ils ne sont plus produits après avril ou mai", "correct": true },
+      { "texte": "Il faut 12 mois pour les affiner", "correct": false },
+      { "texte": "La loi interdit leur production en été", "correct": false },
+      { "texte": "Ils doivent être conservés dans le sable", "correct": false }
+    ],
+    "explication": "Le figatellu est un produit hivernal et sa production cesse au printemps.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel produit charcutier n’a pas encore obtenu d’AOP en Corse ?",
+    "reponses": [
+      { "texte": "Le figatellu", "correct": true },
+      { "texte": "La coppa", "correct": false },
+      { "texte": "Le lonzu", "correct": false },
+      { "texte": "Le prisuttu", "correct": false }
+    ],
+    "explication": "L’AOP ne concerne pour l’instant que la coppa, le prisuttu et le lonzu.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la particularité de la race porcine 'Nustrale' ?",
+    "reponses": [
+      { "texte": "Elle est rustique, de petite taille et à croissance lente", "correct": true },
+      { "texte": "Elle produit du lait", "correct": false },
+      { "texte": "Elle ne peut vivre qu’en plaine", "correct": false },
+      { "texte": "Elle a un pelage entièrement blanc", "correct": false }
+    ],
+    "explication": "La Nustrale est une race locale robuste, bien adaptée aux montagnes corses.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Qu'est-ce que le lonzu ?",
+    "reponses": [
+      { "texte": "Un filet de porc entouré de gras", "correct": true },
+      { "texte": "Une échine de bœuf fumée", "correct": false },
+      { "texte": "Une terrine de foie de volaille", "correct": false },
+      { "texte": "Un jambon cru affiné", "correct": false }
+    ],
+    "explication": "Le lonzu est un filet de porc traditionnel conservant une couche de gras.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la durée minimale de séchage du prisuttu ?",
+    "reponses": [
+      { "texte": "8 mois", "correct": true },
+      { "texte": "2 mois", "correct": false },
+      { "texte": "1 an", "correct": false },
+      { "texte": "3 semaines", "correct": false }
+    ],
+    "explication": "Le prisuttu est un jambon sec qui doit être séché au minimum 8 mois.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Pourquoi certains cochons corses sont-ils appelés 'sauvages' à tort ?",
+    "reponses": [
+      { "texte": "Ils appartiennent à des éleveurs malgré leur liberté de mouvement", "correct": true },
+      { "texte": "Ils sont croisés avec des sangliers", "correct": false },
+      { "texte": "Ils ne vivent que dans les forêts", "correct": false },
+      { "texte": "Ils ont été abandonnés par des bergers", "correct": false }
+    ],
+    "explication": "Même en liberté, ces cochons ont un propriétaire qui sait où ils sont.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel label peut prêter à confusion concernant la charcuterie corse ?",
+    "reponses": [
+      { "texte": "L’IGP « Île de Beauté »", "correct": true },
+      { "texte": "Le Label Rouge", "correct": false },
+      { "texte": "La DOP", "correct": false },
+      { "texte": "La mention artisanale", "correct": false }
+    ],
+    "explication": "L’IGP n’assure pas l’origine corse de la viande, contrairement à l’AOP.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le principal risque sanitaire lié au figatellu mal consommé ?",
+    "reponses": [
+      { "texte": "L’hépatite E", "correct": true },
+      { "texte": "La salmonellose", "correct": false },
+      { "texte": "La trichinose", "correct": false },
+      { "texte": "Le botulisme", "correct": false }
+    ],
+    "explication": "Le figatellu peut transmettre l’hépatite E s’il est mal cuit ou mal conservé.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la méthode de fabrication de la coppa corse ?",
+    "reponses": [
+      { "texte": "Échine salée, séchée, en boyau naturel, poivrée", "correct": true },
+      { "texte": "Foie de porc fermenté", "correct": false },
+      { "texte": "Jambon fumé sans affinage", "correct": false },
+      { "texte": "Rôti de porc bouilli", "correct": false }
+    ],
+    "explication": "La coppa est une charcuterie salée, poivrée, et affinée dans un boyau naturel.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Combien coûte environ un kilo de charcuterie artisanale corse ?",
+    "reponses": [
+      { "texte": "Entre 32 et 48 euros", "correct": true },
+      { "texte": "Moins de 10 euros", "correct": false },
+      { "texte": "Environ 16 euros", "correct": false },
+      { "texte": "Plus de 100 euros", "correct": false }
+    ],
+    "explication": "La charcuterie artisanale peut coûter deux à trois fois plus cher que l’industrielle.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel label européen est équivalent à l’AOC française ?",
+    "reponses": [
+      { "texte": "L’AOP", "correct": true },
+      { "texte": "L’IGP", "correct": false },
+      { "texte": "La DLUO", "correct": false },
+      { "texte": "Le sigle BIO", "correct": false }
+    ],
+    "explication": "L’AOP est la version européenne de l’Appellation d’Origine Contrôlée (AOC).",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Combien de producteurs BIO de charcuterie corse sont mentionnés ?",
+    "reponses": [
+      { "texte": "Environ six", "correct": true },
+      { "texte": "Plus d’une centaine", "correct": false },
+      { "texte": "Aucun", "correct": false },
+      { "texte": "Trente-cinq", "correct": false }
+    ],
+    "explication": "Seule une petite poignée de producteurs BIO est recensée : environ six.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle viande est utilisée dans la charcuterie corse authentique ?",
+    "reponses": [
+      { "texte": "Celle de porcs élevés en Corse", "correct": true },
+      { "texte": "Des porcs importés de Bretagne", "correct": false },
+      { "texte": "Du bœuf corse", "correct": false },
+      { "texte": "Du gibier sauvage", "correct": false }
+    ],
+    "explication": "La véritable charcuterie corse provient de porcs élevés localement.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le risque en fin de saison estivale pour les amateurs de charcuterie corse ?",
+    "reponses": [
+      { "texte": "Trouver uniquement des produits industriels", "correct": true },
+      { "texte": "Tomber sur des viandes avariées", "correct": false },
+      { "texte": "Ne pas trouver de pain pour accompagner", "correct": false },
+      { "texte": "Subir une pénurie de vin corse", "correct": false }
+    ],
+    "explication": "La demande excède largement l’offre artisanale en été, et beaucoup de commerces n'ont plus de véritable charcuterie corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage frais est emblématique de la Corse et utilisé dans de nombreux plats ?",
+    "reponses": [
+      { "texte": "Le brocciu", "correct": true },
+      { "texte": "Le roquefort", "correct": false },
+      { "texte": "Le brie", "correct": false },
+      { "texte": "Le reblochon", "correct": false }
+    ],
+    "explication": "Le brocciu est un fromage frais corse à base de petit-lait de brebis ou de chèvre.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la spécialité sucrée corse à base de brocciu et de citron ?",
+    "reponses": [
+      { "texte": "Le fiadone", "correct": true },
+      { "texte": "Le canistrelli", "correct": false },
+      { "texte": "Le fritellu", "correct": false },
+      { "texte": "Le pastizzu", "correct": false }
+    ],
+    "explication": "Le fiadone est une tarte corse faite de brocciu et de citron, parfois alcoolisée.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle appellation garantit la qualité du miel corse ?",
+    "reponses": [
+      { "texte": "AOP « Mele di Corsica »", "correct": true },
+      { "texte": "IGP Miel Méditerranéen", "correct": false },
+      { "texte": "Label Rouge", "correct": false },
+      { "texte": "BIO Corse", "correct": false }
+    ],
+    "explication": "Le miel corse bénéficie d'une AOP appelée « Mele di Corsica », grâce à sa richesse botanique.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Depuis quand l’huile d’olive corse bénéficie-t-elle d’une AOP ?",
+    "reponses": [
+      { "texte": "2004", "correct": true },
+      { "texte": "1995", "correct": false },
+      { "texte": "2010", "correct": false },
+      { "texte": "2018", "correct": false }
+    ],
+    "explication": "L’huile d’olive corse bénéficie de l’AOP depuis 2004.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fruit corse possède une IGP et représente la majorité de la production française ?",
+    "reponses": [
+      { "texte": "La clémentine", "correct": true },
+      { "texte": "La figue", "correct": false },
+      { "texte": "La prune", "correct": false },
+      { "texte": "La cerise", "correct": false }
+    ],
+    "explication": "La clémentine corse, produite principalement sur la plaine orientale, a une IGP.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel vin corse est un vin doux naturel issu d’une AOC ?",
+    "reponses": [
+      { "texte": "Muscat-du-cap-corse", "correct": true },
+      { "texte": "Patrimonio", "correct": false },
+      { "texte": "Ajaccio rouge", "correct": false },
+      { "texte": "Clos Reginu", "correct": false }
+    ],
+    "explication": "Le muscat-du-cap-corse est un vin doux naturel bénéficiant d’une AOC spécifique.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel apéritif corse est fait à base de quinquina et de décoctions de plantes ?",
+    "reponses": [
+      { "texte": "Le Cap Corse", "correct": true },
+      { "texte": "Le Casanis", "correct": false },
+      { "texte": "Le pastis Dami", "correct": false },
+      { "texte": "La cédratine", "correct": false }
+    ],
+    "explication": "Le Cap Corse est un apéritif typique à base de plantes aromatiques, d’oranges et de quinquina.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle eau minérale gazeuse corse est très réputée ?",
+    "reponses": [
+      { "texte": "Orezza", "correct": true },
+      { "texte": "Saint-Georges", "correct": false },
+      { "texte": "Zilia", "correct": false },
+      { "texte": "Monte d'Oro", "correct": false }
+    ],
+    "explication": "L’eau gazeuse d’Orezza est une grande eau de table produite en Castagniccia.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le cépage typique des vins rouges d’Ajaccio ?",
+    "reponses": [
+      { "texte": "Sciacarello", "correct": true },
+      { "texte": "Nielluccio", "correct": false },
+      { "texte": "Grenache", "correct": false },
+      { "texte": "Syrah", "correct": false }
+    ],
+    "explication": "Le sciacarello est un cépage emblématique des rouges produits dans l’AOC Ajaccio.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel dessert corse est parfumé à l’anis et servi surtout dans le nord de l’île ?",
+    "reponses": [
+      { "texte": "Le pastizzu", "correct": true },
+      { "texte": "Le fiadone", "correct": false },
+      { "texte": "Le canistrelli", "correct": false },
+      { "texte": "Le fritellu", "correct": false }
+    ],
+    "explication": "Le pastizzu est un gâteau parfumé à l’anis, traditionnel du nord de la Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle variété d’olive, arrivée dans les années 1950, est la plus commune en Provence ?",
+    "reponses": [
+      { "texte": "La picholine", "correct": true },
+      { "texte": "La ghjermana", "correct": false },
+      { "texte": "La sabina", "correct": false },
+      { "texte": "La curtinese", "correct": false }
+    ],
+    "explication": "La picholine, très répandue en Provence, a été introduite tardivement en Corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Combien de variétés de miel corse sont officiellement reconnues ?",
+    "reponses": [
+      { "texte": "Six", "correct": true },
+      { "texte": "Deux", "correct": false },
+      { "texte": "Dix", "correct": false },
+      { "texte": "Quatre", "correct": false }
+    ],
+    "explication": "Il existe six variétés de miel corse bénéficiant de l’AOP Mele di Corsica.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la particularité de la récolte des olives corses ?",
+    "reponses": [
+      { "texte": "Elle se fait à maturité avancée", "correct": true },
+      { "texte": "Elle se fait uniquement en été", "correct": false },
+      { "texte": "Elle est récoltée à la main sur toute l’île", "correct": false },
+      { "texte": "Elle utilise des drones agricoles", "correct": false }
+    ],
+    "explication": "Les olives corses sont récoltées à maturité avancée pour développer pleinement leurs arômes.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel domaine a reçu un prix international pour son huile d’olive en 2018 ?",
+    "reponses": [
+      { "texte": "Oltremonti", "correct": true },
+      { "texte": "Peraldi", "correct": false },
+      { "texte": "Gentile", "correct": false },
+      { "texte": "Saparale", "correct": false }
+    ],
+    "explication": "Le domaine Oltremonti, situé à Bravone, a été distingué à New York en 2018.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle liqueur corse est produite à base de cédrat ?",
+    "reponses": [
+      { "texte": "La cédratine", "correct": true },
+      { "texte": "La Bonapartine", "correct": false },
+      { "texte": "La myrte", "correct": false },
+      { "texte": "La menthe", "correct": false }
+    ],
+    "explication": "La cédratine est une liqueur corse à base de cédrat, un agrume typique.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment est appelée la veillée funèbre dans la tradition corse ?",
+    "reponses": [
+      { "texte": "A veghja", "correct": true },
+      { "texte": "U lamentu", "correct": false },
+      { "texte": "A festa", "correct": false },
+      { "texte": "U passaghju", "correct": false }
+    ],
+    "explication": "La veillée funèbre est appelée 'A veghja' en Corse. C’est un moment de recueillement et de partage entre proches.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Pourquoi masque-t-on les miroirs dans les maisons corses lors d’un décès ?",
+    "reponses": [
+      { "texte": "Pour éviter que l’esprit du défunt ne s’y enferme", "correct": true },
+      { "texte": "Par superstition liée à la malchance", "correct": false },
+      { "texte": "Pour préserver la lumière naturelle", "correct": false },
+      { "texte": "Pour protéger les visiteurs", "correct": false }
+    ],
+    "explication": "Les miroirs sont recouverts pour empêcher que l’âme du défunt ne s’y retrouve prisonnière.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rôle jouent les lamenti dans les funérailles corses ?",
+    "reponses": [
+      { "texte": "Ils expriment le deuil et rendent hommage au défunt", "correct": true },
+      { "texte": "Ils marquent la fin de la veillée funèbre", "correct": false },
+      { "texte": "Ils accompagnent le corps au cimetière", "correct": false },
+      { "texte": "Ils célèbrent la naissance d’un nouveau membre", "correct": false }
+    ],
+    "explication": "Les lamenti sont des chants funèbres qui traduisent la douleur du deuil et rendent hommage au défunt.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la fonction du son des cloches au moment du décès en Corse ?",
+    "reponses": [
+      { "texte": "Chasser les mauvais esprits", "correct": true },
+      { "texte": "Avertir le village du décès", "correct": false },
+      { "texte": "Appeler les proches au recueillement", "correct": false },
+      { "texte": "Accompagner le prêtre", "correct": false }
+    ],
+    "explication": "Le son rapide des cloches est censé éloigner les esprits malveillants et guider l’âme vers l’au-delà.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel geste est fait avec un cierge juste avant le décès en Corse ?",
+    "reponses": [
+      { "texte": "Un proche fait un signe de croix au-dessus du mourant", "correct": true },
+      { "texte": "Le cierge est planté dans la terre", "correct": false },
+      { "texte": "Le cierge est laissé sur le rebord d'une fenêtre", "correct": false },
+      { "texte": "On fait brûler le cierge sous le lit", "correct": false }
+    ],
+    "explication": "Le cierge est passé au-dessus du corps en faisant un signe de croix pour accompagner le passage de l’âme.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Qui sont traditionnellement les porteurs du cercueil en Corse ?",
+    "reponses": [
+      { "texte": "Les hommes de la famille", "correct": true },
+      { "texte": "Le prêtre et les enfants", "correct": false },
+      { "texte": "Les voisins du défunt", "correct": false },
+      { "texte": "Les membres du conseil municipal", "correct": false }
+    ],
+    "explication": "Le port du cercueil est généralement confié aux hommes proches du défunt dans un esprit de respect et de tradition.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel rituel symbolise le passage de l’âme dans certaines régions corses ?",
+    "reponses": [
+      { "texte": "Le caracolu", "correct": true },
+      { "texte": "Le lamentu", "correct": false },
+      { "texte": "L’incensu", "correct": false },
+      { "texte": "L’invitu", "correct": false }
+    ],
+    "explication": "Le caracolu est un rituel de passage symbolique de l’âme vers l’au-delà dans certaines régions corses.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le rôle du repas commémoratif en Corse après les funérailles ?",
+    "reponses": [
+      { "texte": "Créer un moment de solidarité et de partage entre proches", "correct": true },
+      { "texte": "Faire des offrandes aux morts", "correct": false },
+      { "texte": "Accueillir les nouveaux membres dans la famille", "correct": false },
+      { "texte": "Clôturer les rites religieux", "correct": false }
+    ],
+    "explication": "Les repas commémoratifs permettent aux proches de se soutenir mutuellement et d’honorer la mémoire du défunt.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment sont éclairées les maisons corses pendant les trois jours suivant un décès ?",
+    "reponses": [
+      { "texte": "Par des torches, des lampes à huile ou des bougies", "correct": true },
+      { "texte": "Par des lanternes électriques uniquement", "correct": false },
+      { "texte": "Par des cierges plantés au sol", "correct": false },
+      { "texte": "Par la lumière naturelle", "correct": false }
+    ],
+    "explication": "Après un décès, la maison reste sombre et est uniquement éclairée par des lumières traditionnelles comme les bougies.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Qui chante traditionnellement les lamenti dans les funérailles corses ?",
+    "reponses": [
+      { "texte": "Les femmes de la famille ou de la communauté", "correct": true },
+      { "texte": "Les enfants du village", "correct": false },
+      { "texte": "Le maire du village", "correct": false },
+      { "texte": "Le prêtre seul", "correct": false }
+    ],
+    "explication": "Les lamenti sont traditionnellement chantés par les femmes, souvent très proches du défunt, exprimant le chagrin collectif.",
+    "difficulte": "Facile",
+    "image": null
+  }
+
+
+
+]
+
+
+
+  
+
+
+
+
+
+

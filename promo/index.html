@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corsica Quiz - L'application ultime sur la Corse</title>
+  <style>
+    body.animated-bg {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      animation: gradientShift 10s ease infinite;
+      background: linear-gradient(270deg, #001f3f, #0074D9, #7FDBFF, #39CCCC);
+      background-size: 800% 800%;
+      color: #fff;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .navbar {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .navbar .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .navbar nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .navbar nav a:hover {
+      color: #FFD700;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    .hero .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      padding: 12px 24px;
+      background: #FF851B;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: #FF4136;
+    }
+
+    .modes-section, .testimonials-section, .download-section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .mode-card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .mode-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .mode-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #FFD700;
+    }
+
+    .mode-card p {
+      font-size: 1rem;
+      color: #f0f0f0;
+    }
+
+    .testimonials blockquote {
+      font-style: italic;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 16px;
+      margin: 20px auto;
+      max-width: 700px;
+      border-left: 4px solid #FFDC00;
+    }
+
+    .download-button {
+      padding: 14px 30px;
+      background: #2ECC40;
+      color: #fff;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px #2ECC40;
+    }
+
+    .footer {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .footer a {
+      color: #7FDBFF;
+      text-decoration: underline;
+    }
+
+    .captures-section {
+      padding: 80px 20px;
+      background: rgba(255,255,255,0.05);
+      text-align: center;
+    }
+
+    .captures-section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .captures-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .capture-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    }
+
+    .capture-item p {
+      margin-top: 8px;
+      font-size: 1rem;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="animated-bg">
+  <header class="navbar gradient-bg">
+    <div class="container">
+      <h1 class="logo">Corsica Quiz</h1>
+      <img src="images/logoappli.png" alt="Logo Corsica Quiz" style="height: 70px; margin-top: 10px;">
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="#modes">Modes de jeu</a>
+        <a href="cgu.html">CGU</a>
+        <a href="#download">Télécharger</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-bg" data-aos="fade-up">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <h2>Testez vos connaissances sur la Corse à travers une aventure ludique et immersive</h2>
+      <a href="#modes" class="cta-button">Explorer les modes de jeu</a>
+    </div>
+  </section>
+
+  <section id="modes" class="modes-section fancy-bg">
+    <div class="container">
+      <h2 data-aos="fade-right">Modes de jeu</h2>
+      <div class="mode-grid">
+        <div class="mode-card" data-aos="flip-left">
+          <h3>Quiz Classique</h3>
+          <p>Entraînez-vous avec des questions à thème sur l’histoire, la gastronomie, la faune, la flore et bien plus !</p>
+        </div>
+        <div class="mode-card" data-aos="flip-left" data-aos-delay="100">
+          <h3>Défis Quiz</h3>
+          <p>Répondez à un maximum de questions en 5 minutes. Vitesse et précision vous mèneront au sommet !</p>
+        </div>
+        <div class="mode-card" data-aos="flip-left" data-aos-delay="200">
+          <h3>Duel en ligne</h3>
+          <p>Affrontez d’autres joueurs et que le meilleur l’emporte !</p>
+        </div>
+        <div class="mode-card" data-aos="flip-left" data-aos-delay="300">
+          <h3>Classement</h3>
+          <p>Suivez votre progression, votre précision, vos victoires, et entrez dans la légende.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="captures-section" data-aos="fade-up">
+    <div class="container">
+      <h2>Captures d'écran</h2>
+      <div class="captures-grid">
+        <div class="capture-item">
+          <img src="images/1.jpeg" alt="Duels">
+          <p>Duels</p>
+        </div>
+        <div class="capture-item">
+          <img src="images/2.jpg" alt="Défi Quiz">
+          <p>Défi Quiz</p>
+        </div>
+        <div class="capture-item">
+          <img src="images/3.jpg" alt="Connexion">
+          <p>Connexion</p>
+        </div>
+        <div class="capture-item">
+          <img src="images/4.jpg" alt="Classement">
+          <p>Classement</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="download-section sun-gradient" data-aos="zoom-in">
+    <div class="container">
+      <h2>Téléchargez l’application maintenant</h2>
+      <a href="#" class="download-button">Disponible sur Google Play</a>
+    </div>
+  </section>
+
+  <footer class="footer dark-bg">
+    <div class="container">
+      <p>&copy; 2025 Corsica Quiz — Tous droits réservés.</p>
+      <p><a href="cgu.html">Conditions Générales d’Utilisation</a></p>
+      <p><a href="regles.html">Règles de confidentialité</a></p>
+    </div>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1889 @@
+[
+  {
+    "categorie": "Personnalités",
+    "question": "Quel héros corse du XVIIIe siècle a proclamé la première constitution démocratique de l'Europe moderne en 1755 ?",
+    "reponses": [
+      { "texte": "Pascal Paoli", "correct": true },
+      { "texte": "Napoléon Bonaparte", "correct": false },
+      { "texte": "Carlo Andrea Pozzo di Borgo", "correct": false },
+      { "texte": "Hyacinthe Paoli", "correct": false }
+    ],
+    "explication": "Pascal Paoli est une figure emblématique de l’indépendance corse. Il mit en place une république démocratique avec une constitution écrite en 1755, bien avant la Révolution française.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse fut Président de l'Assemblée de Corse et leader du mouvement autonomiste ?",
+    "reponses": [
+      { "texte": "Jean-Guy Talamoni", "correct": true },
+      { "texte": "Simeoni Edmond", "correct": false },
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Michel Rocard", "correct": false }
+    ],
+    "explication": "Jean-Guy Talamoni est une figure majeure du nationalisme corse et a présidé l'Assemblée de Corse de 2015 à 2021.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel célèbre chanteur corse, fondateur du groupe I Muvrini, est engagé pour la culture et la langue corse ?",
+    "reponses": [
+      { "texte": "Jean-François Bernardini", "correct": true },
+      { "texte": "Patrick Fiori", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Tino Rossi", "correct": false }
+    ],
+    "explication": "Jean-François Bernardini est le leader du groupe I Muvrini, qui mêle musique traditionnelle et moderne tout en défendant la langue corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain et avocat corse est l’auteur du livre \"Le Sermon sur la chute de Rome\" ?",
+    "reponses": [
+      { "texte": "Jérôme Ferrari", "correct": true },
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Alain Di Meglio", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false }
+    ],
+    "explication": "Jérôme Ferrari est un écrivain corse ayant reçu le prix Goncourt en 2012 pour son roman \"Le Sermon sur la chute de Rome\".",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur bastiais, connu pour sa voix de crooner, a marqué la chanson française dans les années 1930 à 1950 ?",
+    "reponses": [
+      { "texte": "Tino Rossi", "correct": true },
+      { "texte": "Fernandel", "correct": false },
+      { "texte": "Luis Mariano", "correct": false },
+      { "texte": "Léo Ferré", "correct": false }
+    ],
+    "explication": "Tino Rossi, originaire de Bastia, est célèbre pour des chansons comme \"Petit Papa Noël\" et reste une icône de la chanson française.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel résistant corse fut exécuté par les nazis à Bastia en 1943 pour ses actions dans le Front National ?",
+    "reponses": [
+      { "texte": "Jean Nicoli", "correct": true },
+      { "texte": "Pascal Paoli", "correct": false },
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Jean-Pierre Gendroni", "correct": false }
+    ],
+    "explication": "Jean Nicoli fut un enseignant et résistant corse actif dans le Front National. Il a été capturé puis exécuté par les nazis le 30 août 1943.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel joueur corse de football a marqué l'histoire du SC Bastia dans les années 1970, notamment lors de l'épopée européenne ?",
+    "reponses": [
+      { "texte": "Claude Papi", "correct": true },
+      { "texte": "Antoine Kombouaré", "correct": false },
+      { "texte": "Patrick Vieira", "correct": false },
+      { "texte": "Jean Tigana", "correct": false }
+    ],
+    "explication": "Claude Papi est considéré comme l’un des plus grands joueurs corses. Il a été le meneur de jeu du SC Bastia lors de la finale de la Coupe UEFA 1978.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse, père d’un actuel président du Conseil exécutif de Corse, est connu pour son engagement autonomiste ?",
+    "reponses": [
+      { "texte": "Edmond Simeoni", "correct": true },
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "François Alfonsi", "correct": false },
+      { "texte": "Joseph Talamoni", "correct": false }
+    ],
+    "explication": "Edmond Simeoni est l’une des figures fondatrices du nationalisme corse moderne. Il est le père de Gilles Simeoni, actuel président du Conseil exécutif.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a popularisé la chanson \"Corsica\" en duo avec Patrick Fiori ?",
+    "reponses": [
+      { "texte": "Petru Guelfucci", "correct": true },
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Jean-François Bernardini", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false }
+    ],
+    "explication": "Petru Guelfucci est un chanteur emblématique de la musique corse, connu notamment pour sa chanson \"Corsica\".",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel avocat et homme politique corse a dirigé le Conseil exécutif de Corse à partir de 2015 ?",
+    "reponses": [
+      { "texte": "Gilles Simeoni", "correct": true },
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Charles Pasqua", "correct": false },
+      { "texte": "Jean-Paul de Rocca Serra", "correct": false }
+    ],
+    "explication": "Gilles Simeoni, avocat de formation, a été élu président du Conseil exécutif de Corse en 2015. Il est une figure centrale de l’autonomisme modéré.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse a publié l’ouvrage \"Prisonnière de l’île\" relatant la vie d’une femme dans la Corse rurale ?",
+    "reponses": [
+      { "texte": "Marie Ferranti", "correct": false },
+      { "texte": "Angèle Paoli", "correct": true },
+      { "texte": "Michèle Acquaviva-Pache", "correct": false },
+      { "texte": "Lucie Desideri", "correct": false }
+    ],
+    "explication": "Angèle Paoli est une poétesse et romancière corse dont l’œuvre explore souvent les racines et la condition féminine insulaire.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel député corse, membre de la famille Zuccarelli, a longtemps été maire de Bastia ?",
+    "reponses": [
+      { "texte": "Gilles Simeoni", "correct": false },
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Émile Zuccarelli", "correct": true },
+      { "texte": "François Alfonsi", "correct": false }
+    ],
+    "explication": "Émile Zuccarelli a été député, ministre, et maire de Bastia pendant plusieurs mandats. Il est une figure importante de la vie politique bastiaise.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel médecin et militant corse a participé activement à la libération de la Corse durant la Seconde Guerre mondiale ?",
+    "reponses": [
+      { "texte": "Antoine Bonfanti", "correct": false },
+      { "texte": "Jean Nicoli", "correct": false },
+      { "texte": "Michel Castellani", "correct": false },
+      { "texte": "Paul Ruffi", "correct": true }
+    ],
+    "explication": "Paul Ruffi, médecin corse, fut un acteur essentiel de la Résistance dans l’île, notamment durant l’insurrection de 1943.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste corse est aussi connu pour ses talents de conteur et ses récits humoristiques en langue corse ?",
+    "reponses": [
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Tintin Pasquale", "correct": true },
+      { "texte": "Patrick Fiori", "correct": false },
+      { "texte": "Paul Mancini", "correct": false }
+    ],
+    "explication": "Tintin Pasquale est une figure emblématique de la culture orale corse, célèbre pour ses contes en langue corse pleins d’humour et de poésie.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel militaire corse fut surnommé « le Tigre de la Méditerranée » au XVIe siècle ?",
+    "reponses": [
+      { "texte": "Sampiero Corso", "correct": false },
+      { "texte": "Vincentello d’Istria", "correct": false },
+      { "texte": "Pascal Paoli", "correct": false },
+      { "texte": "Andrea Doria", "correct": true }
+    ],
+    "explication": "Andrea Doria, d’origine génoise mais ayant combattu en Corse, fut surnommé ainsi pour ses exploits en Méditerranée.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse a fondé le parti Rinnovu ?",
+    "reponses": [
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Paul-Félix Benedetti", "correct": true },
+      { "texte": "Gilles Simeoni", "correct": false },
+      { "texte": "Michel Stefani", "correct": false }
+    ],
+    "explication": "Paul-Félix Benedetti est une figure du nationalisme corse et fondateur du parti indépendantiste Rinnovu.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel entraîneur corse a mené l'équipe d'Ajaccio en Ligue 1 au début des années 2000 ?",
+    "reponses": [
+      { "texte": "Pascal Olmeta", "correct": false },
+      { "texte": "Olivier Pantaloni", "correct": true },
+      { "texte": "Frédéric Antonetti", "correct": false },
+      { "texte": "Claude Puel", "correct": false }
+    ],
+    "explication": "Olivier Pantaloni est l’un des entraîneurs les plus emblématiques de l’AC Ajaccio.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel musicien corse, compositeur et chef d’orchestre, est l’auteur de nombreux opéras ?",
+    "reponses": [
+      { "texte": "Henri Tomasi", "correct": true },
+      { "texte": "Jean-François Bernardini", "correct": false },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Jean Mattei", "correct": false }
+    ],
+    "explication": "Henri Tomasi est l’un des compositeurs corses les plus reconnus à l’international.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle résistante corse fut l’une des premières femmes à siéger à l’Assemblée consultative d'Alger en 1944 ?",
+    "reponses": [
+      { "texte": "Danielle Casanova", "correct": false },
+      { "texte": "Nadine Griffon", "correct": false },
+      { "texte": "Lucie Aubrac", "correct": false },
+      { "texte": "Colomba Pasquini", "correct": true }
+    ],
+    "explication": "Colomba Pasquini, originaire de Corse, a activement participé à la Résistance et fut une figure pionnière dans l’engagement politique féminin.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme de théâtre corse a fondé le centre culturel Una Volta à Bastia ?",
+    "reponses": [
+      { "texte": "Pierre Salvadori", "correct": false },
+      { "texte": "Nando Acquaviva", "correct": false },
+      { "texte": "Jean-Pierre Lanfranchi", "correct": true },
+      { "texte": "François Berlinghi", "correct": false }
+    ],
+    "explication": "Jean-Pierre Lanfranchi est un acteur majeur de la culture bastiaise, fondateur du centre culturel Una Volta.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel romancier corse est l’auteur de \"Murtoriu\" et \"Prisonnier du temps\" ?",
+    "reponses": [
+      { "texte": "Marc Biancarelli", "correct": true },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false },
+      { "texte": "Jérôme Ferrari", "correct": false }
+    ],
+    "explication": "Marc Biancarelli écrit en corse et en français. Il est l’une des plumes les plus influentes de la littérature corse contemporaine.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel réalisateur corse est connu pour les films \"Les Apprentis\" ou \"Hors de prix\" ?",
+    "reponses": [
+      { "texte": "Claude Berri", "correct": false },
+      { "texte": "Pierre Salvadori", "correct": true },
+      { "texte": "Jacques Tati", "correct": false },
+      { "texte": "Jean-Pierre Bacri", "correct": false }
+    ],
+    "explication": "Pierre Salvadori, né à Tunis mais élevé en Corse, est un cinéaste à succès connu pour ses comédies sensibles.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel footballeur corse est passé par l’OM et a terminé sa carrière à Bastia ?",
+    "reponses": [
+      { "texte": "Julien Sablé", "correct": false },
+      { "texte": "François Modesto", "correct": true },
+      { "texte": "Pascal Olmeta", "correct": false },
+      { "texte": "Cyril Jeunechamp", "correct": false }
+    ],
+    "explication": "François Modesto est un défenseur central corse qui a évolué à Monaco, l’Olympiakos, puis est revenu terminer sa carrière à Bastia.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel groupe corse a été fondé en 1989 et est connu pour son style polyphonique moderne ?",
+    "reponses": [
+      { "texte": "Barbara Furtuna", "correct": true },
+      { "texte": "Canta U Populu Corsu", "correct": false },
+      { "texte": "I Muvrini", "correct": false },
+      { "texte": "A Filetta", "correct": false }
+    ],
+    "explication": "Barbara Furtuna a modernisé le chant polyphonique traditionnel en le mêlant à d’autres influences musicales.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a fondé le groupe \"Canta U Populu Corsu\" en 1973 ?",
+    "reponses": [
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Michel Mallory", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Ghjuvan Francescu Bernardini", "correct": true }
+    ],
+    "explication": "Ghjuvan Francescu Bernardini a été un des fondateurs de \"Canta U Populu Corsu\", groupe phare du renouveau culturel corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel célèbre gardien corse a joué pour l’Olympique de Marseille et l’équipe de France dans les années 1990 ?",
+    "reponses": [
+      { "texte": "Pascal Olmeta", "correct": true },
+      { "texte": "Fabien Barthez", "correct": false },
+      { "texte": "Lionel Letizi", "correct": false },
+      { "texte": "Cédric Carrasso", "correct": false }
+    ],
+    "explication": "Pascal Olmeta est un gardien emblématique, connu pour sa carrière à l'OM et ses engagements pour la jeunesse corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel noble corse fut nommé vice-roi de Corse par la Couronne d’Aragon au XVe siècle ?",
+    "reponses": [
+      { "texte": "Vincentello d’Istria", "correct": true },
+      { "texte": "Andrea Doria", "correct": false },
+      { "texte": "Sampiero Corso", "correct": false },
+      { "texte": "Leonardo de Cinarca", "correct": false }
+    ],
+    "explication": "Vincentello d’Istria a dirigé la Corse pour le compte des Aragonais au XVe siècle, dans un contexte de luttes féodales.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel acteur corse joue dans la série télévisée à succès \"Mafiosa\" ?",
+    "reponses": [
+      { "texte": "Éric Fraticelli", "correct": false },
+      { "texte": "Didier Ferrari", "correct": false },
+      { "texte": "Thierry Neuvic", "correct": true },
+      { "texte": "Stéphane Ferrara", "correct": false }
+    ],
+    "explication": "Thierry Neuvic incarne Tony Campana dans la série \"Mafiosa\", série tournée en Corse avec de nombreux acteurs locaux.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel député européen corse est connu pour son engagement en faveur de la langue corse ?",
+    "reponses": [
+      { "texte": "François Alfonsi", "correct": true },
+      { "texte": "Michel Castellani", "correct": false },
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Jean Zuccarelli", "correct": false }
+    ],
+    "explication": "François Alfonsi est un député européen membre du Parti de la Nation Corse, défenseur de la diversité linguistique.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste corse a popularisé la comédie \"Permis de construire\" et incarne Tony dans \"Les Municipaux\" ?",
+    "reponses": [
+      { "texte": "Christian Clavier", "correct": false },
+      { "texte": "Éric Fraticelli", "correct": true },
+      { "texte": "Didier Bourdon", "correct": false },
+      { "texte": "François-Xavier Demaison", "correct": false }
+    ],
+    "explication": "Éric Fraticelli est un humoriste et réalisateur corse célèbre pour ses rôles dans \"Les Municipaux\" et \"Permis de construire\".",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel juriste corse, professeur de droit, est connu pour ses travaux sur la Constitution corse de 1755 ?",
+    "reponses": [
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Michel Rocard", "correct": false },
+      { "texte": "Jean-Marie Arrighi", "correct": true },
+      { "texte": "Jean-Guy Talamoni", "correct": false }
+    ],
+    "explication": "Jean-Marie Arrighi est un universitaire corse, spécialiste de l’histoire du droit et de la Constitution de Paoli.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel journaliste et écrivain corse est l’auteur de \"Malamorte\" ?",
+    "reponses": [
+      { "texte": "Antoine Albertini", "correct": true },
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false },
+      { "texte": "Jérôme Ferrari", "correct": false }
+    ],
+    "explication": "Antoine Albertini, journaliste bastiais, est l’auteur de romans noirs et d’enquêtes sur la criminalité corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel général corse servit Napoléon et participa à la bataille d'Austerlitz ?",
+    "reponses": [
+      { "texte": "Jean-Baptiste Cervoni", "correct": true },
+      { "texte": "André Masséna", "correct": false },
+      { "texte": "Michel Ney", "correct": false },
+      { "texte": "Louis Lannes", "correct": false }
+    ],
+    "explication": "Jean-Baptiste Cervoni, né à Soveria, est un général corse qui a combattu pour Napoléon, notamment à Austerlitz.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste corse a été l’un des fondateurs du groupe polyphonique A Filetta ?",
+    "reponses": [
+      { "texte": "Jean-Claude Acquaviva", "correct": true },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Jean Mattei", "correct": false },
+      { "texte": "Paul Mancini", "correct": false }
+    ],
+    "explication": "Jean-Claude Acquaviva a cofondé A Filetta, un des groupes phares du chant polyphonique corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique d’origine corse est devenu ministre de l’Intérieur en 1993 ?",
+    "reponses": [
+      { "texte": "Jean-Charles Marchiani", "correct": false },
+      { "texte": "Claude Érignac", "correct": false },
+      { "texte": "Paul Quilès", "correct": false },
+      { "texte": "Charles Pasqua", "correct": true }
+    ],
+    "explication": "Charles Pasqua, d’origine corse, fut ministre de l’Intérieur et une figure du gaullisme.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle femme corse, résistante et déportée, a donné son nom à un lycée de Bastia ?",
+    "reponses": [
+      { "texte": "Danielle Casanova", "correct": true },
+      { "texte": "Colomba Pasquini", "correct": false },
+      { "texte": "Lucie Aubrac", "correct": false },
+      { "texte": "Hélène Terré", "correct": false }
+    ],
+    "explication": "Danielle Casanova, née à Ajaccio, fut déportée à Auschwitz pour ses actions dans la Résistance.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel pilote corse est reconnu pour ses performances au rallye de Monte-Carlo dans les années 1990 ?",
+    "reponses": [
+      { "texte": "François Delecour", "correct": false },
+      { "texte": "Philippe Bugalski", "correct": false },
+      { "texte": "Gilles Panizzi", "correct": false },
+      { "texte": "Pascal Trojani", "correct": true }
+    ],
+    "explication": "Pascal Trojani est un pilote insulaire connu dans le monde du rallye, notamment pour ses participations au Tour de Corse et Monte-Carlo.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse fut député puis président du Conseil Général de Haute-Corse ?",
+    "reponses": [
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Paul Giacobbi", "correct": true },
+      { "texte": "Simon Renucci", "correct": false },
+      { "texte": "Michel Castellani", "correct": false }
+    ],
+    "explication": "Paul Giacobbi a été une figure politique majeure en Haute-Corse, tant au niveau local que national.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel judoka d’origine corse a représenté la France aux Jeux olympiques de Sydney en 2000 ?",
+    "reponses": [
+      { "texte": "David Douillet", "correct": false },
+      { "texte": "Pascal Gentil", "correct": false },
+      { "texte": "Larbi Benboudaoud", "correct": true },
+      { "texte": "Teddy Riner", "correct": false }
+    ],
+    "explication": "Larbi Benboudaoud, d’origine corse par sa mère, a remporté une médaille d’argent en judo aux JO de Sydney.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a interprété \"Le temps des cerises\" dans une version corse très populaire ?",
+    "reponses": [
+      { "texte": "Patrick Fiori", "correct": false },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": true },
+      { "texte": "Jean-Charles Papi", "correct": false }
+    ],
+    "explication": "Antoine Ciosi est un chanteur traditionnel corse ayant popularisé de nombreuses chansons françaises adaptées en langue corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle femme corse légendaire aurait combattu pour venger son père à la fin du XVe siècle ?",
+    "reponses": [
+      { "texte": "Colomba Bartoli", "correct": true },
+      { "texte": "Maria Gentile", "correct": false },
+      { "texte": "Lucia Poggi", "correct": false },
+      { "texte": "Francesca d’Ornano", "correct": false }
+    ],
+    "explication": "Colomba Bartoli est une héroïne de la tradition orale corse, souvent citée dans les récits populaires.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse, aussi comédien, a sorti l’album « Mezzogiorno » en 2011 ?",
+    "reponses": [
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Patrick Fiori", "correct": false },
+      { "texte": "Jean-François Bernardini", "correct": false },
+      { "texte": "Michel Mallory", "correct": true }
+    ],
+    "explication": "Michel Mallory, né à Bastia, a été auteur pour Johnny Hallyday et a aussi mené une carrière solo.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse a écrit le roman « Colomba », inspiré d’une vendetta familiale ?",
+    "reponses": [
+      { "texte": "Prosper Mérimée", "correct": true },
+      { "texte": "Jérôme Ferrari", "correct": false },
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false }
+    ],
+    "explication": "Bien que non corse, Prosper Mérimée s’est inspiré d’un séjour sur l’île pour écrire « Colomba », devenu un classique de la littérature française.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel ancien joueur professionnel corse a été entraîneur du Stade Rennais puis du FC Metz ?",
+    "reponses": [
+      { "texte": "Frédéric Antonetti", "correct": true },
+      { "texte": "Claude Puel", "correct": false },
+      { "texte": "Pascal Olmeta", "correct": false },
+      { "texte": "Michel Der Zakarian", "correct": false }
+    ],
+    "explication": "Originaire de Venzolasca, Frédéric Antonetti est un entraîneur corse reconnu dans le football français.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel maire d’Ajaccio a été député de Corse-du-Sud entre 2002 et 2012 ?",
+    "reponses": [
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Simon Renucci", "correct": true },
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Jean-Guy Talamoni", "correct": false }
+    ],
+    "explication": "Simon Renucci, homme politique socialiste, a été maire d’Ajaccio pendant plus de 10 ans et député de la 1ère circonscription.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a remporté l’émission « Graines de Star » avant de connaître une carrière nationale ?",
+    "reponses": [
+      { "texte": "Jean-Charles Papi", "correct": true },
+      { "texte": "Petru Guelfucci", "correct": false },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Patrick Fiori", "correct": false }
+    ],
+    "explication": "Jean-Charles Papi a été révélé par l’émission « Graines de Star » dans les années 90, avant de se consacrer à la musique corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel joueur de rugby professionnel a des origines corses et a évolué au Stade Toulousain ?",
+    "reponses": [
+      { "texte": "Clément Poitrenaud", "correct": false },
+      { "texte": "Frédéric Michalak", "correct": false },
+      { "texte": "Romain Ntamack", "correct": false },
+      { "texte": "Yannick Jauzion", "correct": true }
+    ],
+    "explication": "Yannick Jauzion, bien que né dans le Sud-Ouest, est attaché à ses racines corses du côté maternel.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel intellectuel corse a cofondé la revue littéraire A Pian’ d’Avretu ?",
+    "reponses": [
+      { "texte": "Alain Di Meglio", "correct": true },
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Angèle Paoli", "correct": false },
+      { "texte": "Paul Giffon", "correct": false }
+    ],
+    "explication": "Alain Di Meglio est un auteur et universitaire corse, militant pour la promotion de la langue corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel haut magistrat corse fut conseiller à la Cour de cassation et spécialiste du droit des collectivités ?",
+    "reponses": [
+      { "texte": "Jean-Michel Arnaud", "correct": false },
+      { "texte": "Pierre Chaubon", "correct": false },
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Pierre Alessandri", "correct": true }
+    ],
+    "explication": "Pierre Alessandri a eu un rôle important dans l’étude du droit territorial et de l’organisation institutionnelle corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel prêtre corse a caché des juifs à Bastia pendant l’occupation italienne ?",
+    "reponses": [
+      { "texte": "Don Dominique Poli", "correct": false },
+      { "texte": "Don Paul Casanova", "correct": true },
+      { "texte": "Don Claude Venturi", "correct": false },
+      { "texte": "Don Joseph Vesperini", "correct": false }
+    ],
+    "explication": "Don Paul Casanova a sauvé plusieurs familles juives en les cachant dans son presbytère pendant l’occupation.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur d’origine corse a représenté la France à l’Eurovision en 1993 ?",
+    "reponses": [
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Patrick Fiori", "correct": true },
+      { "texte": "Michel Mallory", "correct": false },
+      { "texte": "Jean-François Bernardini", "correct": false }
+    ],
+    "explication": "Patrick Fiori, originaire de la région d’Ajaccio, a interprété \"Mama Corsica\" à l’Eurovision en 1993.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel historien corse a écrit une biographie majeure de Pascal Paoli ?",
+    "reponses": [
+      { "texte": "Michel Vergé-Franceschi", "correct": true },
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Alain Di Meglio", "correct": false },
+      { "texte": "Pierre Alessandri", "correct": false }
+    ],
+    "explication": "Michel Vergé-Franceschi est un historien reconnu, spécialiste de l’histoire corse et de la marine.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel joueur corse a été capitaine de l’équipe de France de handball dans les années 1990 ?",
+    "reponses": [
+      { "texte": "Jackson Richardson", "correct": true },
+      { "texte": "Bertrand Gille", "correct": false },
+      { "texte": "Didier Dinart", "correct": false },
+      { "texte": "Olivier Girault", "correct": false }
+    ],
+    "explication": "Né à La Réunion mais issu d’une famille corse, Jackson Richardson a été une figure emblématique des « Barjots ». ",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse est connu pour son livre \"La Corse, une île et un peuple\" ?",
+    "reponses": [
+      { "texte": "Jean-Claude Rogliano", "correct": true },
+      { "texte": "Jérôme Ferrari", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Alain Di Meglio", "correct": false }
+    ],
+    "explication": "Jean-Claude Rogliano est un écrivain et essayiste dont les ouvrages ont contribué à la reconnaissance de l’identité corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel prêtre corse a combattu dans le maquis durant la libération de l’île ?",
+    "reponses": [
+      { "texte": "Don Dominique Poli", "correct": true },
+      { "texte": "Don Paul Casanova", "correct": false },
+      { "texte": "Don Joseph Vesperini", "correct": false },
+      { "texte": "Don Antoine Mattei", "correct": false }
+    ],
+    "explication": "Don Dominique Poli, prêtre et résistant, s’est engagé dans la lutte contre l’occupation pendant la Seconde Guerre mondiale.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse a été président de l’Assemblée de Corse de 2004 à 2010 ?",
+    "reponses": [
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Camille de Rocca Serra", "correct": true },
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Michel Stefani", "correct": false }
+    ],
+    "explication": "Camille de Rocca Serra a été président de l’Assemblée de Corse, membre de l’UMP et député de Corse-du-Sud.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel juriste corse a rédigé plusieurs ouvrages sur l’autonomie territoriale ?",
+    "reponses": [
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Paul-Félix Benedetti", "correct": false },
+      { "texte": "Pierre Chaubon", "correct": true },
+      { "texte": "François Alfonsi", "correct": false }
+    ],
+    "explication": "Pierre Chaubon était un juriste et universitaire spécialiste de la décentralisation et des institutions insulaires.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur d’origine corse a collaboré avec Florent Pagny sur l’album \"Châtelet les Halles\" ?",
+    "reponses": [
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Patrick Fiori", "correct": true },
+      { "texte": "Michel Fugain", "correct": false },
+      { "texte": "Jean-François Bernardini", "correct": false }
+    ],
+    "explication": "Patrick Fiori, connu pour son timbre unique, a collaboré à plusieurs reprises avec des artistes de la chanson française.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel poète corse du XXe siècle est reconnu pour son œuvre en langue corse ?",
+    "reponses": [
+      { "texte": "Petru Santucci", "correct": false },
+      { "texte": "Ghjacumu Fusina", "correct": true },
+      { "texte": "Alain Di Meglio", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false }
+    ],
+    "explication": "Ghjacumu Fusina est un poète et professeur dont les œuvres ont été écrites exclusivement en langue corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel auteur corse a dirigé la revue littéraire \"Stantari\" ?",
+    "reponses": [
+      { "texte": "Alain Di Meglio", "correct": true },
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Jean-Baptiste Rafaelli", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false }
+    ],
+    "explication": "Alain Di Meglio a été un pilier de la création littéraire insulaire, notamment à travers son travail avec \"Stantari\".",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel footballeur d’origine corse a joué au SC Bastia et au Sporting Portugal ?",
+    "reponses": [
+      { "texte": "Claude Papi", "correct": false },
+      { "texte": "François Modesto", "correct": false },
+      { "texte": "Yohan Bocognano", "correct": false },
+      { "texte": "Giovanni Sio", "correct": true }
+    ],
+    "explication": "Giovanni Sio, né à Saint-Sébastien-sur-Loire de parents corses, a débuté à Bastia avant de rejoindre le Sporting Portugal.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel groupe corse de polyphonie sacrée a participé à de nombreux festivals internationaux ?",
+    "reponses": [
+      { "texte": "Barbara Furtuna", "correct": true },
+      { "texte": "Canta U Populu Corsu", "correct": false },
+      { "texte": "I Muvrini", "correct": false },
+      { "texte": "A Filetta", "correct": false }
+    ],
+    "explication": "Barbara Furtuna est un groupe corse qui s’est spécialisé dans la polyphonie sacrée avec une ouverture vers le monde.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse contemporain a écrit « Orphelins de sang » ?",
+    "reponses": [
+      { "texte": "Antoine Albertini", "correct": true },
+      { "texte": "Jérôme Ferrari", "correct": false },
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false }
+    ],
+    "explication": "Antoine Albertini est également journaliste et s'intéresse aux thèmes de la violence et des trafics en Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel élu corse a présidé la communauté d'agglomération du Pays Ajaccien ?",
+    "reponses": [
+      { "texte": "Laurent Marcangeli", "correct": true },
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "François Alfonsi", "correct": false },
+      { "texte": "Michel Castellani", "correct": false }
+    ],
+    "explication": "Laurent Marcangeli, maire d'Ajaccio, a également présidé la communauté d’agglomération regroupant plusieurs communes du Pays Ajaccien.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel réalisateur corse a dirigé le film « Permis de construire » sorti en 2022 ?",
+    "reponses": [
+      { "texte": "Didier Bourdon", "correct": false },
+      { "texte": "Éric Fraticelli", "correct": true },
+      { "texte": "Christian Clavier", "correct": false },
+      { "texte": "Jean Dujardin", "correct": false }
+    ],
+    "explication": "Éric Fraticelli, également acteur et humoriste, a réalisé « Permis de construire », une comédie tournée en Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chef de réseau de Résistance en Corse est mort en déportation en 1944 ?",
+    "reponses": [
+      { "texte": "Jean Nicoli", "correct": false },
+      { "texte": "Daniel Casanova", "correct": false },
+      { "texte": "Jean-Pierre Gendroni", "correct": false },
+      { "texte": "Michel Bozzi", "correct": true }
+    ],
+    "explication": "Michel Bozzi était un résistant bastiais, arrêté par les Allemands et déporté. Il meurt en 1944 dans un camp.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle joueuse corse a été internationale française de volley-ball ?",
+    "reponses": [
+      { "texte": "Amandine Giudicelli", "correct": true },
+      { "texte": "Carole Bambara", "correct": false },
+      { "texte": "Sophie Ramon", "correct": false },
+      { "texte": "Julie Bianchi", "correct": false }
+    ],
+    "explication": "Amandine Giudicelli, originaire de Haute-Corse, a porté le maillot de l'équipe de France féminine de volley.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a intégré les Enfoirés dès 1999 ?",
+    "reponses": [
+      { "texte": "Patrick Fiori", "correct": true },
+      { "texte": "Tino Rossi", "correct": false },
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Michel Mallory", "correct": false }
+    ],
+    "explication": "Patrick Fiori est un fidèle membre des Enfoirés depuis la fin des années 1990.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel romancier corse a publié « L’Âme des Corses » ?",
+    "reponses": [
+      { "texte": "Jean-Baptiste Marcaggi", "correct": true },
+      { "texte": "Paul Silvani", "correct": false },
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false }
+    ],
+    "explication": "Jean-Baptiste Marcaggi a écrit ce texte marquant à la fin du XIXe siècle, analysant la psychologie des Corses.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste corse est célèbre pour ses caricatures diffusées dans la presse locale ?",
+    "reponses": [
+      { "texte": "Rafi", "correct": true },
+      { "texte": "Tintin Pasquale", "correct": false },
+      { "texte": "Jean-Pierre Lanfranchi", "correct": false },
+      { "texte": "Claude Mattei", "correct": false }
+    ],
+    "explication": "Rafi (Raphaël Federici) est un dessinateur satirique corse reconnu pour son style incisif et humoristique.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel militaire corse est devenu ministre de la Guerre sous la Seconde République ?",
+    "reponses": [
+      { "texte": "Jean-Baptiste Cervoni", "correct": false },
+      { "texte": "Jean-Thomas Arrighi de Casanova", "correct": false },
+      { "texte": "Achille Fould", "correct": false },
+      { "texte": "Jean-Baptiste Philibert Vaillant", "correct": true }
+    ],
+    "explication": "Originaire de Bastia, Vaillant devient maréchal de France et ministre de la Guerre en 1851.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel ancien footballeur corse a remporté la Ligue des Champions avec l’Olympique de Marseille en 1993 ?",
+    "reponses": [
+      { "texte": "Pascal Olmeta", "correct": true },
+      { "texte": "François Modesto", "correct": false },
+      { "texte": "Jean-Michel Cavalli", "correct": false },
+      { "texte": "Claude Papi", "correct": false }
+    ],
+    "explication": "Pascal Olmeta, gardien remplaçant à l’OM, faisait partie de l’effectif vainqueur en 1993.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste visuel corse est connu pour ses installations lumineuses et son travail avec la lumière ?",
+    "reponses": [
+      { "texte": "Antoine Orsini", "correct": false },
+      { "texte": "Jean-Claude Agostini", "correct": false },
+      { "texte": "Antoine Bonfanti", "correct": false },
+      { "texte": "Antoine Giacomoni", "correct": true }
+    ],
+    "explication": "Antoine Giacomoni, photographe corse, s’est fait connaître par ses portraits lumineux dans les années 80-90.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel député corse est également enseignant-chercheur en économie à Corte ?",
+    "reponses": [
+      { "texte": "Michel Castellani", "correct": true },
+      { "texte": "François Alfonsi", "correct": false },
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Camille de Rocca Serra", "correct": false }
+    ],
+    "explication": "Michel Castellani est député de la 1ʳᵉ circonscription de Haute-Corse et enseignant à l’université de Corte.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle autrice corse a reçu le Prix du Livre Corse en 2018 ?",
+    "reponses": [
+      { "texte": "Marie Ferranti", "correct": true },
+      { "texte": "Angèle Paoli", "correct": false },
+      { "texte": "Michèle Acquaviva-Pache", "correct": false },
+      { "texte": "Lucie Desideri", "correct": false }
+    ],
+    "explication": "Marie Ferranti, originaire de Saint-Florent, est reconnue pour ses romans historiques et méditerranéens.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel compositeur corse est aussi connu pour son œuvre « Concerto pour guitare » ?",
+    "reponses": [
+      { "texte": "Henri Tomasi", "correct": true },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Michel Mallory", "correct": false }
+    ],
+    "explication": "Henri Tomasi, né à Marseille de parents corses, a composé plusieurs œuvres pour orchestre dont un concerto pour guitare.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel résistant corse a été président du Conseil départemental de la Haute-Corse après la guerre ?",
+    "reponses": [
+      { "texte": "Daniel Casanova", "correct": false },
+      { "texte": "Jean Nicoli", "correct": false },
+      { "texte": "Vincent Benedetti", "correct": true },
+      { "texte": "Joseph Pieraggi", "correct": false }
+    ],
+    "explication": "Vincent Benedetti fut un résistant important qui poursuivit ensuite une carrière politique locale.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel athlète corse a brillé au lancer du poids au niveau national ?",
+    "reponses": [
+      { "texte": "Jean-Pierre Leca", "correct": false },
+      { "texte": "Jean-Marc Morandini", "correct": false },
+      { "texte": "Tony Agostini", "correct": true },
+      { "texte": "Thierry Neuvic", "correct": false }
+    ],
+    "explication": "Tony Agostini, né à Ajaccio, a battu plusieurs records de France dans les années 1950 au lancer du poids.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel groupe corse fondé en 1975 a modernisé le chant polyphonique traditionnel ?",
+    "reponses": [
+      { "texte": "I Muvrini", "correct": true },
+      { "texte": "A Filetta", "correct": false },
+      { "texte": "Barbara Furtuna", "correct": false },
+      { "texte": "Canta U Populu Corsu", "correct": false }
+    ],
+    "explication": "I Muvrini est un groupe corse célèbre qui a su mélanger tradition et modernité pour faire connaître la polyphonie insulaire.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel animateur et journaliste corse est connu pour ses chroniques sur France 3 Corse ViaStella ?",
+    "reponses": [
+      { "texte": "Jean-Philippe Scapula", "correct": false },
+      { "texte": "François Tiberi", "correct": false },
+      { "texte": "Jean-Pierre Acquaviva", "correct": true },
+      { "texte": "Jean-Charles Luciani", "correct": false }
+    ],
+    "explication": "Jean-Pierre Acquaviva est une figure emblématique du paysage audiovisuel corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel gouverneur génois fut assassiné à Bastia en 1736 par des insurgés corses ?",
+    "reponses": [
+      { "texte": "Andrea Spinola", "correct": true },
+      { "texte": "Giovanni Doria", "correct": false },
+      { "texte": "Filippo Neri", "correct": false },
+      { "texte": "Bartolomeo Lomellini", "correct": false }
+    ],
+    "explication": "Andrea Spinola fut l'une des victimes de la rébellion populaire contre la domination génoise.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel auteur corse a écrit en langue corse la pièce \"U Chjam’è Rispondi\" ?",
+    "reponses": [
+      { "texte": "Dumenicu Carlotti", "correct": true },
+      { "texte": "Marc Biancarelli", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false },
+      { "texte": "Ghjacumu Fusina", "correct": false }
+    ],
+    "explication": "Dumenicu Carlotti est l’un des dramaturges corses ayant le plus contribué à la production théâtrale en langue corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel entraîneur corse a été à la tête du club de Lille en 2021 ?",
+    "reponses": [
+      { "texte": "Frédéric Antonetti", "correct": false },
+      { "texte": "Claude Puel", "correct": false },
+      { "texte": "Pascal Dupraz", "correct": false },
+      { "texte": "Christophe Galtier", "correct": true }
+    ],
+    "explication": "Christophe Galtier, bien que né à Marseille, est d’origine corse et a remporté le championnat de France avec Lille en 2021.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel sénateur corse est aussi avocat et a milité pour une fiscalité spécifique à l'île ?",
+    "reponses": [
+      { "texte": "Jean-Jacques Panunzi", "correct": true },
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Gilles Simeoni", "correct": false },
+      { "texte": "Jean Zuccarelli", "correct": false }
+    ],
+    "explication": "Jean-Jacques Panunzi est sénateur de Corse-du-Sud, ancien président du Conseil départemental, et avocat de profession.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel comédien corse incarne souvent des personnages burlesques dans des web-séries ?",
+    "reponses": [
+      { "texte": "Éric Fraticelli", "correct": false },
+      { "texte": "Jean-Marie Porto-Vecchio", "correct": false },
+      { "texte": "Didier Ferrari", "correct": true },
+      { "texte": "Patrick Fiori", "correct": false }
+    ],
+    "explication": "Didier Ferrari est un humoriste corse connu pour ses sketchs satiriques diffusés sur Internet et dans \"Scènes de ménage corse\".",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel auteur corse a fondé le festival de théâtre \"Teatru di a Corsica\" ?",
+    "reponses": [
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Ghjuvan Francescu Luciani", "correct": false },
+      { "texte": "Guy Cimino", "correct": true },
+      { "texte": "Jean-Claude Rogliano", "correct": false }
+    ],
+    "explication": "Guy Cimino est un acteur et auteur qui a œuvré pour le théâtre corse contemporain avec la création du festival Teatru di a Corsica.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel jeune résistant corse est mort à 17 ans lors des combats pour la libération de Bastia ?",
+    "reponses": [
+      { "texte": "Pierre Griffi", "correct": false },
+      { "texte": "Jean-Baptiste Poli", "correct": true },
+      { "texte": "Dominique Casanova", "correct": false },
+      { "texte": "Michel Tomasi", "correct": false }
+    ],
+    "explication": "Jean-Baptiste Poli est l’un des plus jeunes héros de la Résistance en Corse, mort au combat à 17 ans.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse est également professeur de philosophie à Corte ?",
+    "reponses": [
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Marc Biancarelli", "correct": true },
+      { "texte": "Alain Di Meglio", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false }
+    ],
+    "explication": "Marc Biancarelli enseigne à l’Université de Corse et publie de nombreux romans en corse et en français.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel coureur cycliste corse a été champion de France amateur dans les années 2000 ?",
+    "reponses": [
+      { "texte": "Yannick Martinez", "correct": false },
+      { "texte": "Julien El Fares", "correct": false },
+      { "texte": "Julien Loubet", "correct": true },
+      { "texte": "Antoine Devilliers", "correct": false }
+    ],
+    "explication": "Julien Loubet est un coureur cycliste originaire de Corse qui s'est distingué au niveau national.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel compagnon d'armes de Pascal Paoli a participé à la bataille de Ponte-Novu ?",
+    "reponses": [
+      { "texte": "Ghjuvan Petru Gaffori", "correct": false },
+      { "texte": "Matteu Buttafocu", "correct": false },
+      { "texte": "Francescu Antonmarchi", "correct": false },
+      { "texte": "Jacques Pierre Abbatucci", "correct": true }
+    ],
+    "explication": "Jacques Pierre Abbatucci était l’un des officiers les plus fidèles de Paoli lors des combats contre les troupes françaises.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse a remporté le Prix France Télévisions pour \"Où j’ai laissé mon âme\" ?",
+    "reponses": [
+      { "texte": "Jérôme Ferrari", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Jean-Paul Ceccaldi", "correct": false },
+      { "texte": "Jérôme Ferrari", "correct": true }
+    ],
+    "explication": "Jérôme Ferrari est l’un des auteurs corses contemporains les plus récompensés, avec plusieurs prix prestigieux.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse a été ministre de l’Aménagement du territoire ?",
+    "reponses": [
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Émile Zuccarelli", "correct": true },
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Jean-Guy Talamoni", "correct": false }
+    ],
+    "explication": "Émile Zuccarelli a occupé plusieurs postes ministériels, notamment dans les gouvernements de gauche des années 1990.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel auteur corse a écrit en langue corse des poèmes inspirés du maquis ?",
+    "reponses": [
+      { "texte": "Ghjacumu Fusina", "correct": true },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Jean-Baptiste Marcaggi", "correct": false },
+      { "texte": "Jean-Marie Arrighi", "correct": false }
+    ],
+    "explication": "Ghjacumu Fusina est un poète majeur de la littérature corse contemporaine, avec des thèmes liés à la nature et la mémoire.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel réalisateur corse a cofondé la société de production Stella Productions ?",
+    "reponses": [
+      { "texte": "Éric Fraticelli", "correct": true },
+      { "texte": "Thierry Neuvic", "correct": false },
+      { "texte": "Didier Ferrari", "correct": false },
+      { "texte": "Jean-Pierre Lanfranchi", "correct": false }
+    ],
+    "explication": "Éric Fraticelli s’est également lancé dans la production audiovisuelle avec Stella Productions, axée sur les projets insulaires.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse est célèbre pour avoir chanté « Ti ringraziu » ?",
+    "reponses": [
+      { "texte": "Jean-Charles Papi", "correct": true },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Michel Mallory", "correct": false }
+    ],
+    "explication": "Jean-Charles Papi a marqué la chanson corse moderne avec des titres engagés comme « Ti ringraziu ».",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel cycliste corse a remporté le Tour de Corse en 2018 ?",
+    "reponses": [
+      { "texte": "Antoine Devilliers", "correct": false },
+      { "texte": "Julien Loubet", "correct": false },
+      { "texte": "Thibault Dapelo", "correct": true },
+      { "texte": "Christophe Caponi", "correct": false }
+    ],
+    "explication": "Thibault Dapelo est un jeune espoir du cyclisme insulaire, vainqueur du Tour de Corse amateur en 2018.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel résistante corse est morte a Auschwitz à 34 ans ?",
+    "reponses": [
+      { "texte": "Danielle Casanova", "correct": true },
+      { "texte": "Jeanne Nicoli", "correct": false },
+      { "texte": "Palomba Benedetti", "correct": false },
+      { "texte": "Antonia Poli", "correct": false }
+    ],
+    "explication": "Danielle Casanova est morte en déportation à Auschwitz en 1943 pour son engagement dans la Résistance.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel élu corse a été président du Conseil général de Haute-Corse entre 2007 et 2015 ?",
+    "reponses": [
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Paul Giacobbi", "correct": true },
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Camille de Rocca Serra", "correct": false }
+    ],
+    "explication": "Paul Giacobbi a dirigé la Haute-Corse durant plusieurs années, en parallèle de son mandat de député.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel roi d'origine corse régna brièvement sur l'île en 1736 ?",
+    "reponses": [
+      { "texte": "Théodore de Neuhoff", "correct": true },
+      { "texte": "Pascal Paoli", "correct": false },
+      { "texte": "Andrea Doria", "correct": false },
+      { "texte": "Jean-Baptiste Cervoni", "correct": false }
+    ],
+    "explication": "Théodore de Neuhoff fut proclamé roi de Corse en 1736 avec le soutien des insurgés corses, mais son règne fut de courte durée.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a interprété \"Mama Corsica\" à l’Eurovision ?",
+    "reponses": [
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Patrick Fiori", "correct": true },
+      { "texte": "Michel Mallory", "correct": false },
+      { "texte": "Jean-Charles Papi", "correct": false }
+    ],
+    "explication": "Patrick Fiori a représenté la France à l’Eurovision en 1993 avec la chanson \"Mama Corsica\".",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste corse est célèbre pour ses peintures sur le thème de la Corse rurale ?",
+    "reponses": [
+      { "texte": "Jean Canavaggio", "correct": false },
+      { "texte": "Tony Casalonga", "correct": false },
+      { "texte": "Lucien Peri", "correct": true },
+      { "texte": "Jean-Marc Simeoni", "correct": false }
+    ],
+    "explication": "Lucien Peri est reconnu pour ses peintures représentant des scènes de la vie rurale corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel auteur corse a publié « Terra d’Omi » ?",
+    "reponses": [
+      { "texte": "Marc Biancarelli", "correct": true },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Jean-Claude Rogliano", "correct": false },
+      { "texte": "Marie Ferranti", "correct": false }
+    ],
+    "explication": "Marc Biancarelli est un écrivain corse reconnu, auteur de plusieurs œuvres en langue corse comme \"Terra d’Omi\".",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel avocat corse fut aussi président du Conseil régional de Corse dans les années 1990 ?",
+    "reponses": [
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Jean-Paul de Rocca Serra", "correct": true },
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Michel Castellani", "correct": false }
+    ],
+    "explication": "Jean-Paul de Rocca Serra a présidé le Conseil régional de Corse, représentant la droite modérée.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse a collaboré avec Sting sur des chants polyphoniques ?",
+    "reponses": [
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Jean-Claude Acquaviva", "correct": true },
+      { "texte": "Patrick Fiori", "correct": false }
+    ],
+    "explication": "Jean-Claude Acquaviva, membre fondateur du groupe A Filetta, a collaboré avec Sting dans des projets mêlant polyphonie et musiques du monde.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel footballeur corse a joué au sein de l'équipe nationale de Belgique ?",
+    "reponses": [
+      { "texte": "Jean-François Larios", "correct": false },
+      { "texte": "Corentin Fiore", "correct": true },
+      { "texte": "François Modesto", "correct": false },
+      { "texte": "Julien Sablé", "correct": false }
+    ],
+    "explication": "Corentin Fiore, né d'un père belge et d'une mère corse, a porté les couleurs des équipes jeunes de la Belgique.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel homme politique corse a été élu maire de Bastia en 2014 ?",
+    "reponses": [
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Gilles Simeoni", "correct": true },
+      { "texte": "Jean-Guy Talamoni", "correct": false },
+      { "texte": "Michel Castellani", "correct": false }
+    ],
+    "explication": "Gilles Simeoni, figure de l'autonomisme corse, a remporté les élections municipales de Bastia en 2014.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel auteur corse a écrit le roman \"Una Tarra, un Populu\" ?",
+    "reponses": [
+      { "texte": "Ghjacumu Fusina", "correct": true },
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Marie Ferranti", "correct": false }
+    ],
+    "explication": "Ghjacumu Fusina est un poète et écrivain corse reconnu pour ses œuvres en langue corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel instituteur corse fut fusillé à Ajaccio par les forces d’occupation en 1943 ?",
+    "reponses": [
+      { "texte": "Dominique Nicoli", "correct": false },
+      { "texte": "Jean Nicoli", "correct": true },
+      { "texte": "Vincent Benedetti", "correct": false },
+      { "texte": "Jean-Baptiste Poli", "correct": false }
+    ],
+    "explication": "Jean Nicoli, engagé dans la Résistance, a été exécuté pour ses actions contre l’occupation italienne.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel écrivain corse a publié \"Les Saisons de la solitude\" ?",
+    "reponses": [
+      { "texte": "Jean-Claude Rogliano", "correct": true },
+      { "texte": "Antoine Albertini", "correct": false },
+      { "texte": "Jérôme Ferrari", "correct": false },
+      { "texte": "Marc Biancarelli", "correct": false }
+    ],
+    "explication": "Jean-Claude Rogliano est l’un des auteurs corses majeurs des XXe et XXIe siècles.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel religieux corse a participé à la rédaction de la Constitution de 1755 ?",
+    "reponses": [
+      { "texte": "Don Gregoriu Salvini", "correct": true },
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Michel Castellani", "correct": false },
+      { "texte": "Andrea Doria", "correct": false }
+    ],
+    "explication": "Don Gregoriu Salvini était un proche de Pascal Paoli et participa activement à l’organisation de la République corse.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel acteur corse a tenu le rôle principal dans le film \"Les Francis\" ?",
+    "reponses": [
+      { "texte": "Thierry Neuvic", "correct": true },
+      { "texte": "Éric Fraticelli", "correct": false },
+      { "texte": "Jean Dujardin", "correct": false },
+      { "texte": "Jean Reno", "correct": false }
+    ],
+    "explication": "Thierry Neuvic est un acteur reconnu qui a tourné dans plusieurs films et séries, notamment \"Les Francis\" tourné en Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste corse a composé la bande originale du film \"Le Hussard sur le toit\" ?",
+    "reponses": [
+      { "texte": "Henri Tomasi", "correct": false },
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Jean-Claude Petit", "correct": true }
+    ],
+    "explication": "Jean-Claude Petit est un compositeur ayant des racines corses, auteur de nombreuses musiques de films célèbres.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel juriste corse a contribué à la réforme de la collectivité territoriale unique en 2018 ?",
+    "reponses": [
+      { "texte": "Jean-Marie Arrighi", "correct": false },
+      { "texte": "Pierre Chaubon", "correct": true },
+      { "texte": "Jean Zuccarelli", "correct": false },
+      { "texte": "Paul Giacobbi", "correct": false }
+    ],
+    "explication": "Pierre Chaubon a été chargé de mission pour réfléchir à l’organisation institutionnelle de la Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel chanteur corse est connu pour sa chanson 'U lamentu di u prighjuneri' ?",
+    "reponses": [
+      { "texte": "Petru Guelfucci", "correct": true },
+      { "texte": "Jean-Charles Papi", "correct": false },
+      { "texte": "I Muvrini", "correct": false },
+      { "texte": "Tino Rossi", "correct": false }
+    ],
+    "explication": "Petru Guelfucci est une figure emblématique de la chanson corse, notamment avec 'U lamentu di u prighjuneri'.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel célèbre acteur français, originaire de Corse, a joué dans 'La Vérité si je mens !' ?",
+    "reponses": [
+      { "texte": "Richard Anconina", "correct": true },
+      { "texte": "Jean Dujardin", "correct": false },
+      { "texte": "Christian Clavier", "correct": false },
+      { "texte": "Gérard Darmon", "correct": false }
+    ],
+    "explication": "Richard Anconina, d'origine corse par sa mère, a marqué le public dans 'La Vérité si je mens !'.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel écrivain corse a publié 'Le Pain des Fosses' ?",
+    "reponses": [
+      { "texte": "Marie Ferranti", "correct": true },
+      { "texte": "Émile Combes", "correct": false },
+      { "texte": "Jean Giono", "correct": false },
+      { "texte": "Claude Pujade-Renaud", "correct": false }
+    ],
+    "explication": "Marie Ferranti est une auteure corse reconnue, notamment pour 'Le Pain des Fosses'.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel chanteur corse a été surnommé 'le crooner corse' ?",
+    "reponses": [
+      { "texte": "Tino Rossi", "correct": true },
+      { "texte": "Petru Santu Guelfucci", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Henri Tomasi", "correct": false }
+    ],
+    "explication": "Tino Rossi est connu pour sa voix douce et son style romantique, ce qui lui a valu ce surnom.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel peintre corse est célèbre pour ses paysages méditerranéens lumineux ?",
+    "reponses": [
+      { "texte": "Antoine Dominici", "correct": true },
+      { "texte": "Claude Monet", "correct": false },
+      { "texte": "Henri Matisse", "correct": false },
+      { "texte": "Paul Cézanne", "correct": false }
+    ],
+    "explication": "Antoine Dominici est un peintre corse connu pour ses paysages colorés inspirés de la Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel journaliste corse présente régulièrement des émissions sur France 3 Corse ViaStella ?",
+    "reponses": [
+      { "texte": "Jean-Pierre Acquaviva", "correct": true },
+      { "texte": "Frédéric Lopez", "correct": false },
+      { "texte": "Julien Bugier", "correct": false },
+      { "texte": "Laurent Delahousse", "correct": false }
+    ],
+    "explication": "Jean-Pierre Acquaviva est un visage bien connu des téléspectateurs de France 3 Corse ViaStella.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel homme politique corse a été président du conseil exécutif de Corse entre 2015 et 2021 ?",
+    "reponses": [
+      { "texte": "Gilles Simeoni", "correct": true },
+      { "texte": "Paul Giacobbi", "correct": false },
+      { "texte": "Émile Zuccarelli", "correct": false },
+      { "texte": "Jean-Guy Talamoni", "correct": false }
+    ],
+    "explication": "Gilles Simeoni est une figure politique importante de la Corse contemporaine.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel ancien footballeur corse a joué pour le Sporting Club de Bastia dans les années 70 ?",
+    "reponses": [
+      { "texte": "Claude Papi", "correct": true },
+      { "texte": "Pascal Olmeta", "correct": false },
+      { "texte": "Frédéric Antonetti", "correct": false },
+      { "texte": "César Luis Menotti", "correct": false }
+    ],
+    "explication": "Claude Papi est une légende du SC Bastia, très respectée en Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel chanteur corse, également homme politique, a défendu la culture corse par ses chansons ?",
+    "reponses": [
+      { "texte": "Antoine Ciosi", "correct": true },
+      { "texte": "Patrick Fiori", "correct": false },
+      { "texte": "Tino Rossi", "correct": false },
+      { "texte": "Francis Cabrel", "correct": false }
+    ],
+    "explication": "Antoine Ciosi est reconnu pour son engagement artistique et politique en faveur de la culture corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quelle femme politique corse a été députée européenne pour la France de 1994 à 1999 ?",
+    "reponses": [
+      { "texte": "Françoise Mattei", "correct": true },
+      { "texte": "Simone Veil", "correct": false },
+      { "texte": "Rachida Dati", "correct": false },
+      { "texte": "Marie-France Garaud", "correct": false }
+    ],
+    "explication": "Françoise Mattei, originaire de Corse, a siégé au Parlement européen dans les années 90.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel célèbre ténor corse est connu pour avoir chanté dans le monde entier ?",
+    "reponses": [
+      { "texte": "José Luccioni", "correct": true },
+      { "texte": "Pavarotti", "correct": false },
+      { "texte": "Placido Domingo", "correct": false },
+      { "texte": "Andrea Bocelli", "correct": false }
+    ],
+    "explication": "José Luccioni est un ténor corse de renommée internationale, très apprécié dans le monde lyrique.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "personnalités",
+    "question": "Quel comédien a incarné Napoléon Bonaparte dans le film 'Monsieur N.' en 2003 ?",
+    "reponses": [
+      { "texte": "Philippe Torreton", "correct": true },
+      { "texte": "Christian Clavier", "correct": false },
+      { "texte": "Pierre Niney", "correct": false },
+      { "texte": "Jean Reno", "correct": false }
+    ],
+    "explication": "Philippe Torreton a incarné Napoléon dans 'Monsieur N.' dont l'histoire est consacrée à l'exil à Sainte-Hélène et la mort de Napoléon ainsi qu'aux interrogations qui ont suivi.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel rôle Paulin Colonna d’Istria a-t-il joué pendant la Seconde Guerre mondiale ?",
+    "reponses": [
+      { "texte": "Organisateur de la Résistance en Corse", "correct": true },
+      { "texte": "Ambassadeur en Chine", "correct": false },
+      { "texte": "Chef d’aviation en Amérique du Sud", "correct": false },
+      { "texte": "Ministre des affaires étrangères", "correct": false }
+    ],
+    "explication": "Paulin Colonna d’Istria a été chargé d’organiser la Résistance en Corse dès 1943 sous le nom de Paul Cesari.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Dans quel pays Jean Toussaint Fieschi a-t-il été nommé général ?",
+    "reponses": [
+      { "texte": "Chine", "correct": true },
+      { "texte": "Venezuela", "correct": false },
+      { "texte": "Italie", "correct": false },
+      { "texte": "France", "correct": false }
+    ],
+    "explication": "Fieschi est devenu général dans l’armée chinoise et a conseillé le maréchal Tchang Kaï-chek.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel artiste a rédigé la préface de la première exposition de Pierre Vellutini ?",
+    "reponses": [
+      { "texte": "Marcel Pagnol", "correct": true },
+      { "texte": "Bernard Buffet", "correct": false },
+      { "texte": "César", "correct": false },
+      { "texte": "Jean Cocteau", "correct": false }
+    ],
+    "explication": "Marcel Pagnol a écrit la préface du catalogue de la première exposition publique de Vellutini en 1968.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle fonction René Tomasini a-t-il exercée dans le gouvernement Chirac ?",
+    "reponses": [
+      { "texte": "Secrétaire d’État chargé des relations avec le Parlement", "correct": true },
+      { "texte": "Ministre de l’Intérieur", "correct": false },
+      { "texte": "Député européen", "correct": false },
+      { "texte": "Attaché militaire", "correct": false }
+    ],
+    "explication": "René Tomasini a été secrétaire d’État sous le gouvernement de Jacques Chirac entre 1974 et 1976.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Combien de matchs professionnels Jean-Luc Ettori a-t-il disputés avec l’AS Monaco ?",
+    "reponses": [
+      { "texte": "602", "correct": true },
+      { "texte": "318", "correct": false },
+      { "texte": "451", "correct": false },
+      { "texte": "525", "correct": false }
+    ],
+    "explication": "Jean-Luc Ettori a joué 602 matchs avec l’AS Monaco, un record dans l’histoire du football français.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel grand prix artistique Pierre Vellutini a-t-il remporté ?",
+    "reponses": [
+      { "texte": "De nombreux Grands Prix de peinture", "correct": true },
+      { "texte": "Le prix Goncourt", "correct": false },
+      { "texte": "La Palme d’Or", "correct": false },
+      { "texte": "Le César du meilleur décorateur", "correct": false }
+    ],
+    "explication": "Pierre Vellutini a reçu de nombreux prix de peinture et est reconnu comme un grand peintre corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quelle fut la première mission internationale de Jean Toussaint Fieschi ?",
+    "reponses": [
+      { "texte": "Chef de mission militaire au Venezuela", "correct": true },
+      { "texte": "Attaché militaire à Rome", "correct": false },
+      { "texte": "Professeur à Pékin", "correct": false },
+      { "texte": "Ambassadeur à Tokyo", "correct": false }
+    ],
+    "explication": "En 1920, il fut chef de mission militaire au Venezuela où il développa l’aviation maritime et postale.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "À quel moment Pierre Vellutini a-t-il présenté sa première exposition publique ?",
+    "reponses": [
+      { "texte": "En mai 1968", "correct": true },
+      { "texte": "En 1945, après la guerre", "correct": false },
+      { "texte": "Dans les années 1950", "correct": false },
+      { "texte": "À sa retraite", "correct": false }
+    ],
+    "explication": "Malgré sa reconnaissance artistique, sa première exposition publique n’a eu lieu qu’en mai 1968.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel est le lien entre Jean-Luc Ettori et la Corse ?",
+    "reponses": [
+      { "texte": "Sa famille est originaire de Petreto Bicchisano", "correct": true },
+      { "texte": "Il y a été formé au football", "correct": false },
+      { "texte": "Il a joué pour un club corse", "correct": false },
+      { "texte": "Il est né à Ajaccio", "correct": false }
+    ],
+    "explication": "Bien qu’il soit né à Marseille, ses parents et sa famille sont de Petreto Bicchisano en Corse.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Personnalités",
+    "question": "Quel rôle Jean Toussaint Fieschi a-t-il eu à la mairie de Lyon ?",
+    "reponses": [
+      { "texte": "Adjoint chargé de la police, des affaires sociales et du sport", "correct": true },
+      { "texte": "Maire de Lyon", "correct": false },
+      { "texte": "Conseiller en urbanisme", "correct": false },
+      { "texte": "Délégué à la culture", "correct": false }
+    ],
+    "explication": "En 1953, il devient l’adjoint d’Edouard Herriot à la mairie de Lyon, en charge de la police, du sport et des affaires sociales.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "question": "Quel chanteur corse a vendu plus de 250 millions de disques et a été décoré de la Légion d'honneur ?",
+    "reponses": [
+      { "texte": "Tino Rossi", "correct": true },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Patrick Fiori", "correct": false },
+      { "texte": "Petru Guelfucci", "correct": false }
+    ],
+    "explication": "Tino Rossi, né à Ajaccio, est l’un des chanteurs français les plus populaires avec plus de 250 millions de disques vendus.",
+    "difficulte": "Facile",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel artiste corse a représenté la France à l’Eurovision avec la chanson « Mama Corsica » ?",
+    "reponses": [
+      { "texte": "Jean-Luc Ettori", "correct": false },
+      { "texte": "Tino Rossi", "correct": false },
+      { "texte": "Patrick Fiori", "correct": true },
+      { "texte": "Jean-Paul Poletti", "correct": false }
+    ],
+    "explication": "Patrick Fiori a participé à l’Eurovision en 1993 avec « Mama Corsica », représentant la France.",
+    "difficulte": "Facile",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel groupe corse, fondé par les frères Bernardini, signifie « les petits mouflons » ?",
+    "reponses": [
+      { "texte": "Canta U Populu Corsu", "correct": false },
+      { "texte": "A Filetta", "correct": false },
+      { "texte": "I Muvrini", "correct": true },
+      { "texte": "L’Alba", "correct": false }
+    ],
+    "explication": "I Muvrini signifie « les petits mouflons », un symbole de la culture corse.",
+    "difficulte": "Facile",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel chanteur de Corte est aussi devenu maire de sa ville natale en 2001 ?",
+    "reponses": [
+      { "texte": "Tino Rossi", "correct": false },
+      { "texte": "Petru Guelfucci", "correct": true },
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Antoine Ciosi", "correct": false }
+    ],
+    "explication": "Petru Guelfucci, chanteur corse engagé, a été élu maire de Corte en 2001.",
+    "difficulte": "Moyen",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel groupe fondé en 1973 a été étroitement associé au mouvement nationaliste corse ?",
+    "reponses": [
+      { "texte": "Canta U Populu Corsu", "correct": true },
+      { "texte": "I Surghjenti", "correct": false },
+      { "texte": "Voce Ventu", "correct": false },
+      { "texte": "A Filetta", "correct": false }
+    ],
+    "explication": "Canta U Populu Corsu est connu pour son engagement politique et son soutien à la culture corse.",
+    "difficulte": "Moyen",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel chanteur est le fondateur du groupe « Chjami Aghjalesi » ?",
+    "reponses": [
+      { "texte": "Michel Ettori", "correct": false },
+      { "texte": "Félix Marten", "correct": false },
+      { "texte": "Jean-Paul Poletti", "correct": true },
+      { "texte": "Jean-Luc Geronimi", "correct": false }
+    ],
+    "explication": "Jean-Paul Poletti a fondé « Chjami Aghjalesi » et est un acteur majeur de la polyphonie corse.",
+    "difficulte": "Facile",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel groupe de chant polyphonique a collaboré avec Sting et Bruno Coulais ?",
+    "reponses": [
+      { "texte": "A Filetta", "correct": true },
+      { "texte": "Voce Ventu", "correct": false },
+      { "texte": "I Muvrini", "correct": false },
+      { "texte": "Diana di l’Alba", "correct": false }
+    ],
+    "explication": "A Filetta, célèbre pour ses polyphonies corses, a collaboré avec Sting et Bruno Coulais.",
+    "difficulte": "Moyen",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel groupe corse a remporté un prix aux Victoires de la Musique en 1996 ?",
+    "reponses": [
+      { "texte": "A Filetta", "correct": false },
+      { "texte": "Diana di l’Alba", "correct": true },
+      { "texte": "I Surghjenti", "correct": false },
+      { "texte": "Voce Ventu", "correct": false }
+    ],
+    "explication": "Diana di l’Alba a été récompensé pour la meilleure formation vocale aux Victoires de la Musique en 1996.",
+    "difficulte": "Difficile",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quel pionnier de la musique corse moderne a formé le groupe « Félix Marten et son ensemble » ?",
+    "reponses": [
+      { "texte": "Jean-Paul Poletti", "correct": false },
+      { "texte": "Félix Marten", "correct": true },
+      { "texte": "Antoine Ciosi", "correct": false },
+      { "texte": "Jean-Luc Geronimi", "correct": false }
+    ],
+    "explication": "Félix Marten est l’un des premiers chanteurs corses à moderniser la chanson corse.",
+    "difficulte": "Moyen",
+    "categorie": "Personnalités",
+    "image": null
+  },
+  {
+    "question": "Quelle chanteuse corse a débuté avec A Filetta avant une carrière solo remarquée ?",
+    "reponses": [
+      { "texte": "Voce Ventu", "correct": false },
+      { "texte": "Diana di l’Alba", "correct": false },
+      { "texte": "Patrizia Gattaceca", "correct": true },
+      { "texte": "Petru Guelfucci", "correct": false }
+    ],
+    "explication": "Patrizia Gattaceca a commencé avec A Filetta avant de poursuivre une carrière solo influente.",
+    "difficulte": "Difficile",
+    "categorie": "Personnalités",
+    "image": null
+  }
+
+
+]
