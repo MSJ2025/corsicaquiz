@@ -20,7 +20,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   StreamSubscription<List<String>>? _favSub;
   List<Map<String, dynamic>> _favoriteUsers = [];
   bool _loading = true;
-  bool _isSendingRequest = false;
+
   bool _loggedIn = true;
 
   @override
