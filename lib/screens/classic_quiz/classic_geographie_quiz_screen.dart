@@ -15,18 +15,29 @@ class ClassicGeographieQuizScreen extends StatefulWidget {
   State<ClassicGeographieQuizScreen> createState() => _ClassicGeographieQuizScreenState();
 }
 
-class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScreen> {
+class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScreen> with TickerProviderStateMixin {
   final flutter_map.MapController _mapController = flutter_map.MapController();
   List<dynamic> _cities = [];
   int _current = 0;
   int _score = 0;
   latlong2.LatLng? _selected;
   bool _answered = false;
+  late AnimationController _controller;
+  late Animation<double> _avatarPosition;
+  String _userAvatar = '1.png';
 
   @override
   void initState() {
     super.initState();
     _loadCities();
+    _loadUserAvatar();
+    _controller = AnimationController(
+      vsync: this,
+      duration: Duration(milliseconds: 200),
+    );
+    _avatarPosition = Tween<double>(begin: 12.0, end: 0.0).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
+    );
   }
 
   Future<void> _loadCities() async {
@@ -45,6 +56,19 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
         final current = snap['glands'] ?? 0;
         tx.update(ref, {'glands': current + _score});
       });
+    }
+  }
+
+  void _loadUserAvatar() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      final doc = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
+      if (doc.exists) {
+        final data = doc.data();
+        setState(() {
+          _userAvatar = data?['avatar'] ?? '1.png';
+        });
+      }
     }
   }
 
@@ -68,7 +92,12 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
       ),
     );
 
-    if (distance < 10) _score++;
+    if (distance < 10) {
+      _score++;
+      _controller.stop();
+      _controller.animateTo((_score + 1) / 12,
+          duration: Duration(milliseconds: 700), curve: Curves.easeInOut);
+    }
 
     Future.delayed(Duration(seconds: 2), () {
       if (_current < _cities.length - 1) {
@@ -114,6 +143,75 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
               )
             ],
           ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildVerticalScoreBar() {
+    return Align(
+      alignment: Alignment.centerRight,
+      child: Container(
+        width: 60,
+        height: double.infinity,
+        margin: EdgeInsets.only(right: 0),
+        child: Stack(
+          children: [
+            Positioned.fill(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: List.generate(12, (index) {
+                  final reverseIndex = 11 - index;
+                  final glandReached = reverseIndex < _score;
+                  return Expanded(
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        if (!glandReached)
+                          AnimatedOpacity(
+                            opacity: 1.0,
+                            duration: Duration(milliseconds: 500),
+                            child: Image.asset(
+                              'assets/images/gland.png',
+                              height: 35,
+                            ),
+                          ),
+                        if (_score == reverseIndex || (_score == 0 && reverseIndex == 0))
+                          AnimatedBuilder(
+                            animation: _avatarPosition,
+                            builder: (context, child) {
+                              return AnimatedOpacity(
+                                duration: Duration(milliseconds: 400),
+                                opacity: 1.0,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(color: Colors.orange, width: 3),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.black.withOpacity(0.3),
+                                        blurRadius: 4,
+                                        offset: Offset(0, 2),
+                                      ),
+                                    ],
+                                  ),
+                                  padding: EdgeInsets.all(4),
+                                  child: CircleAvatar(
+                                    radius: 20,
+                                    backgroundImage: AssetImage('assets/images/avatars/$_userAvatar'),
+                                    backgroundColor: Colors.white,
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
+                      ],
+                    ),
+                  );
+                }),
+              ),
+            ),
+          ],
         ),
       ),
     );
@@ -172,6 +270,12 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
             ],
           ),
           Positioned(
+            top: 0,
+            bottom: 0,
+            right: 0,
+            child: _buildVerticalScoreBar(),
+          ),
+          Positioned(
             bottom: 20,
             left: 20,
             right: 20,
@@ -193,5 +297,11 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
         ],
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 }
