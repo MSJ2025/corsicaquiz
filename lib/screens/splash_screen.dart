@@ -40,6 +40,9 @@ class _SplashScreenState extends State<SplashScreen> {
         messages: UpgraderMessages(code: 'fr'),
         countryCode: 'FR',
         debugLogging: true,
+        showIgnore: false,
+        showLater: false,
+        canDismissDialog: false,
       ),
       child: Scaffold(
         body: Stack(
