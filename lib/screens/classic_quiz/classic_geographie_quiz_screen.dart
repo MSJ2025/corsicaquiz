@@ -137,12 +137,16 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
             mapController: _mapController,
             options: flutter_map.MapOptions(
               initialCenter: latlong2.LatLng(42.039604, 9.012893),
-              initialZoom: 7.5,
+              initialZoom: 8.5,
+              minZoom: 5,
+              maxZoom: 18,
               onTap: _onTap,
             ),
             children: [
               flutter_map.TileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                urlTemplate:
+                    'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
+                subdomains: ['a', 'b', 'c', 'd'],
                 userAgentPackageName: 'com.example.app',
               ),
               if (_selected != null)
