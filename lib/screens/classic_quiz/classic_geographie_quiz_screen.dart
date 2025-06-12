@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_map/flutter_map.dart' as flutter_map;
 import 'package:latlong2/latlong.dart' as latlong2;
 import 'package:lottie/lottie.dart';
+import 'package:just_audio/just_audio.dart';
 import 'classic_quiz_menu_screen.dart';
 
 class ClassicGeographieQuizScreen extends StatefulWidget {
@@ -73,7 +74,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
   }
 
-  void _onTap(dynamic pos, latlong2.LatLng latlng) {
+  void _onTap(dynamic pos, latlong2.LatLng latlng) async {
     if (_answered || _cities.isEmpty) return;
     final city = _cities[_current];
 
@@ -100,6 +101,13 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
       _controller.animateTo((_score + 1) / 12,
           duration: Duration(milliseconds: 700), curve: Curves.easeInOut);
     }
+    final player = AudioPlayer();
+    try {
+      await player.setAsset(distance < 10 ? 'assets/sons/quiz/correct.mp3' : 'assets/sons/quiz/pig.mp3');
+      player.play();
+    } catch (e) {
+      debugPrint('Erreur de lecture du son : $e');
+    }
 
     Future.delayed(Duration(seconds: 2), () {
       if (_current < _cities.length - 1) {
@@ -117,6 +125,13 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
 
   Future<void> _finishQuiz() async {
     await _updateGlandsInDatabase();
+    final bellPlayer = AudioPlayer();
+    try {
+      await bellPlayer.setAsset('assets/sons/quiz/bell.mp3');
+      bellPlayer.play();
+    } catch (e) {
+      debugPrint("Erreur de lecture du son bell : $e");
+    }
     showDialog(
       context: context,
       barrierDismissible: false,
