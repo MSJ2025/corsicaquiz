@@ -209,14 +209,14 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
     });
   }
 
-  void _checkAnswer(bool isCorrect, String explanation) async {
+  void _checkAnswer(bool isCorrect, Map<String, dynamic> question) async {
     if (_answered) return;
 
     _playGunSound(); // 🔫 Joue le son du tir
 
     setState(() {
       _answered = true;
-      _explanation = explanation;
+      _explanation = question['explication'];
       if (isCorrect) {
         _score++;
         _controller.stop();
@@ -304,7 +304,7 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
                         ),
                         SizedBox(height: 12),
                         Text(
-                          explanation,
+                          _explanation ?? '',
                           style: GoogleFonts.poppins(
                             fontSize: 16,
                             color: Colors.black87,
@@ -314,6 +314,12 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
                       ],
                     ),
                   ),
+                ),
+                SizedBox(height: 12),
+                TextButton.icon(
+                  onPressed: () => _signalerProbleme(question),
+                  icon: const Icon(Icons.report_problem_outlined),
+                  label: const Text('Signaler un problème'),
                 ),
                 SizedBox(height: 24),
                 Container(
@@ -490,7 +496,7 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
                   }
 
                   _showImpactsOnButton(panelKey, i, details);
-                  _checkAnswer(isCorrect, currentQuestion['explication']);
+                  _checkAnswer(isCorrect, currentQuestion as Map<String, dynamic>);
                   setState(() {
                     selectedIndex = i;
                   });
@@ -578,6 +584,51 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
     } catch (e) {
       debugPrint("Erreur de lecture du son de tir : $e");
     }
+  }
+
+  void _signalerProbleme(Map<String, dynamic> question) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        TextEditingController controller = TextEditingController();
+        return AlertDialog(
+          title: const Text('Signaler un problème'),
+          content: TextField(
+            controller: controller,
+            maxLines: 5,
+            decoration: const InputDecoration(
+              hintText: 'Décrivez le problème rencontré avec cette question',
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () async {
+                final message = controller.text.trim();
+                if (message.isNotEmpty) {
+                  await FirebaseFirestore.instance
+                      .collection('signalements_questions')
+                      .add({
+                    'timestamp': Timestamp.now(),
+                    'question': question['question'],
+                    'categorie': question['categorie'],
+                    'explication': question['explication'],
+                    'reponses': question['reponses'],
+                    'message': message,
+                  });
+                }
+                Navigator.of(context).pop();
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('Merci ! Le problème a été signalé.'),
+                  ),
+                );
+              },
+              child: const Text('Envoyer'),
+            ),
+          ],
+        );
+      },
+    );
   }
 
   @override
