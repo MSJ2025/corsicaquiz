@@ -18,6 +18,7 @@ import '../services/duel_service.dart';
 import '/screens/proposition_question_screen.dart';
 import '/screens/questions_selection_screen.dart';
 import 'favorites_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final User user;
@@ -166,7 +167,12 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               child: IconButton(
                 icon: Icon(Icons.settings, color: Colors.blueGrey, size: 40),
                 onPressed: () {
-                  _showSettingsModal(context);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => SettingsScreen(user: widget.user),
+                    ),
+                  );
                 },
               ),
             ),

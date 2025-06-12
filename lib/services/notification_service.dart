@@ -39,4 +39,9 @@ class NotificationService {
     );
     await _localNotif.show(0, title, body, details);
   }
+
+  static Future<void> disable() async {
+    await _localNotif.cancelAll();
+    await FirebaseMessaging.instance.deleteToken();
+  }
 }
