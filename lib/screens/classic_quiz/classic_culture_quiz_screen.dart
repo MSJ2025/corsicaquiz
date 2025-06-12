@@ -9,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
+import '/services/ad_service.dart';
 
 
 class ClassicCultureQuizScreen extends StatefulWidget {
@@ -62,6 +63,7 @@ class _ClassicCultureQuizScreenState extends State<ClassicCultureQuizScreen> wit
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
+                    AdService.showInterstitial();
                     Navigator.pop(context);
                     Navigator.pushReplacement(
                       context,

@@ -7,6 +7,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'domain_selection_screen.dart';
 import 'duel_game_screen.dart';
 import '../../services/duel_service.dart';
+import '/services/ad_service.dart';
 
 class DuelResultScreen extends StatefulWidget {
   final String duelId;
@@ -445,7 +446,10 @@ class _DuelResultScreenState extends State<DuelResultScreen> {
                           SizedBox(
                             width: double.infinity,
                             child: ElevatedButton.icon(
-                              onPressed: () => Navigator.popUntil(context, (route) => route.isFirst),
+                              onPressed: () {
+                                AdService.showInterstitial();
+                                Navigator.popUntil(context, (route) => route.isFirst);
+                              },
                               icon: const Icon(Icons.home),
                               label: const Text('Retour à l\'accueil'),
                               style: ElevatedButton.styleFrom(
