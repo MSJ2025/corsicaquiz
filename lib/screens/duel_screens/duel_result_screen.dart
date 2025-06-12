@@ -6,6 +6,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import 'domain_selection_screen.dart';
 import 'duel_game_screen.dart';
+import '../../services/duel_service.dart';
 
 class DuelResultScreen extends StatefulWidget {
   final String duelId;
@@ -24,6 +25,7 @@ class _DuelResultScreenState extends State<DuelResultScreen> {
   @override
   void initState() {
     super.initState();
+    DuelService().updateLastOpened(widget.duelId);
     // Load duel data and record stats once
     _duelFuture = FirebaseFirestore.instance
       .collection('duels')
@@ -156,6 +158,7 @@ class _DuelResultScreenState extends State<DuelResultScreen> {
       'to': opponentId,
       'status': 'pending',
       'createdAt': FieldValue.serverTimestamp(),
+      'updatedAt': FieldValue.serverTimestamp(),
       'questions': allQuestions,
       'domainesEnvoyeur': selectedDomains,
       'player1': {
@@ -171,6 +174,8 @@ class _DuelResultScreenState extends State<DuelResultScreen> {
         'currentIndex': 0,
       },
       'participants': [myId, opponentId],
+      'lastOpened_$myId': FieldValue.serverTimestamp(),
+      'lastOpened_$opponentId': null,
     };
 
     final duelRef = await FirebaseFirestore.instance.collection('duels').add(duelData);
