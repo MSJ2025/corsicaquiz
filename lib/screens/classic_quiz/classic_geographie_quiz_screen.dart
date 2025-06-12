@@ -22,6 +22,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   int _score = 0;
   latlong2.LatLng? _selected;
   bool _answered = false;
+  bool _showRadius = false;
   late AnimationController _controller;
   late Animation<double> _avatarPosition;
   String _userAvatar = '1.png';
@@ -81,8 +82,9 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     final distance = latlong2.Distance().as(latlong2.LengthUnit.Kilometer, tapPoint, cityPoint);
 
     setState(() {
-      _selected = latlong2.LatLng(latlng.latitude, latlng.longitude);  // latlong2.LatLng pour affichage
+      _selected = latlong2.LatLng(latlng.latitude, latlng.longitude); // latlong2.LatLng pour affichage
       _answered = true;
+      _showRadius = true;
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
@@ -105,6 +107,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
           _current++;
           _selected = null;
           _answered = false;
+          _showRadius = false;
         });
       } else {
         _finishQuiz();
@@ -254,7 +257,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                   markers: [
                     flutter_map.Marker(
                       point: _selected!,
-                      child: Icon(Icons.location_on, color: Colors.red, size: 40),
+                      child: Icon(Icons.my_location, color: Colors.redAccent, size: 36),
                     ),
                   ],
                 ),
@@ -263,9 +266,26 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                   markers: [
                     flutter_map.Marker(
                       point: realPoint,
-                      child: Icon(Icons.flag, color: Colors.blue, size: 40),
+                      child: Icon(Icons.place, color: Colors.blueAccent, size: 36),
                     ),
                   ],
+                ),
+              if (_showRadius)
+                AnimatedOpacity(
+                  duration: Duration(milliseconds: 500),
+                  opacity: _showRadius ? 1.0 : 0.0,
+                  child: flutter_map.CircleLayer(
+                    circles: [
+                      flutter_map.CircleMarker(
+                        point: realPoint,
+                        useRadiusInMeter: true,
+                        radius: 10000,
+                        color: Colors.blueAccent.withOpacity(0.1),
+                        borderColor: Colors.blueAccent,
+                        borderStrokeWidth: 2,
+                      ),
+                    ],
+                  ),
                 ),
             ],
           ),
