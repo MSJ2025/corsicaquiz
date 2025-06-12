@@ -66,6 +66,8 @@
         <key>REVERSED_CLIENT_ID</key>
         <string>com.googleusercontent.apps.109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi</string>
     </dict>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-4176691748354941~7193192759</string>
     <key>NSFaceIDUsageDescription</key>
     <string>Utilisation de Face ID pour se connecter avec Apple.</string>
     <key>NSAppTransportSecurity</key>

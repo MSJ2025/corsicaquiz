@@ -10,6 +10,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
+import '/services/ad_service.dart';
 
 
 class HistoryQuizScreen extends StatefulWidget {
@@ -378,6 +379,7 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
                     'duration': 60, // durée initiale
                     'questions_answered': _askedQuestions.length,
                   }).then((_) {
+                    AdService.showInterstitial();
                     Navigator.of(context).popUntil((route) => route.isFirst);
                     Navigator.pushReplacementNamed(context, '/defis_quiz_menu');
                   });

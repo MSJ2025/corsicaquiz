@@ -5,6 +5,9 @@
         android:label="corsicaquiz"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4176691748354941~7193192759"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

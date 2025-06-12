@@ -9,6 +9,7 @@ import 'package:just_audio/just_audio.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
+import '/services/ad_service.dart';
 
 class ClassicHistoireQuizScreen extends StatefulWidget {
   @override
@@ -61,6 +62,7 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
+                    AdService.showInterstitial();
                     Navigator.pop(context);
                     Navigator.pushReplacement(
                       context,

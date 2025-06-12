@@ -8,6 +8,7 @@ import 'package:latlong2/latlong.dart' as latlong2;
 import 'package:lottie/lottie.dart';
 import 'package:just_audio/just_audio.dart';
 import 'classic_quiz_menu_screen.dart';
+import '/services/ad_service.dart';
 
 class ClassicGeographieQuizScreen extends StatefulWidget {
   ClassicGeographieQuizScreen({super.key});
@@ -151,6 +152,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
+                  AdService.showInterstitial();
                   Navigator.pop(context);
                   Navigator.pushReplacement(
                     context,
