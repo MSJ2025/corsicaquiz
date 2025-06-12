@@ -6,6 +6,8 @@ import 'duel_result_screen.dart';
 import 'package:lottie/lottie.dart';
 import 'opponent_domain_selection_screen.dart';
 import 'domain_selection_screen.dart';
+import '../../widgets/simple_badge.dart';
+import '../../services/duel_service.dart';
 
 Future<String?> getUserAvatar(String uid) async {
   final doc = await FirebaseFirestore.instance.collection('users').doc(uid).get();
@@ -22,6 +24,9 @@ class DuelDashboardScreen extends StatefulWidget {
 class _DuelDashboardScreenState extends State<DuelDashboardScreen> {
   User? currentUser;
   String? currentUserAvatar;
+  int _acceptedUnread = 0;
+  int _pendingUnread = 0;
+  int _historyUnread = 0;
 
   @override
   void initState() {
@@ -55,22 +60,22 @@ class _DuelDashboardScreenState extends State<DuelDashboardScreen> {
           ),
           title: const Text('Mes Duels', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24)),
           centerTitle: true,
-          bottom: const TabBar(
+          bottom: TabBar(
             indicatorColor: Colors.orangeAccent,
             labelColor: Colors.deepOrange,
             unselectedLabelColor: Colors.orangeAccent,
             tabs: [
-              Tab(text: 'Acceptés'),
-              Tab(text: 'En attente'),
-              Tab(text: 'Historique'),
+              Tab(child: SimpleBadge(child: const Text('Acceptés'), count: _acceptedUnread)),
+              Tab(child: SimpleBadge(child: const Text('En attente'), count: _pendingUnread)),
+              Tab(child: SimpleBadge(child: const Text('Historique'), count: _historyUnread)),
             ],
           ),
         ),
         body: TabBarView(
-          children: const [
-            AcceptedDuelsWidget(),
-            PendingDuelsWidget(),
-            HistoryDuelsWidget(),
+          children: [
+            AcceptedDuelsWidget(onUnreadCount: (c) => setState(() => _acceptedUnread = c)),
+            PendingDuelsWidget(onUnreadCount: (c) => setState(() => _pendingUnread = c)),
+            HistoryDuelsWidget(onUnreadCount: (c) => setState(() => _historyUnread = c)),
           ],
         ),
       ),
@@ -78,9 +83,15 @@ class _DuelDashboardScreenState extends State<DuelDashboardScreen> {
   }
 }
 
-class AcceptedDuelsWidget extends StatelessWidget {
-  const AcceptedDuelsWidget({Key? key}) : super(key: key);
+class AcceptedDuelsWidget extends StatefulWidget {
+  final ValueChanged<int> onUnreadCount;
+  const AcceptedDuelsWidget({Key? key, required this.onUnreadCount}) : super(key: key);
 
+  @override
+  State<AcceptedDuelsWidget> createState() => _AcceptedDuelsWidgetState();
+}
+
+class _AcceptedDuelsWidgetState extends State<AcceptedDuelsWidget> {
   @override
   Widget build(BuildContext context) {
     final currentUser = FirebaseAuth.instance.currentUser;
@@ -96,7 +107,8 @@ class AcceptedDuelsWidget extends StatelessWidget {
       builder: (context, snapshot) {
         if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
 
-        final duels = snapshot.data!.docs.where((doc) {
+        final docs = snapshot.data!.docs;
+        final duels = docs.where((doc) {
           final data = doc.data() as Map<String, dynamic>;
           final status = data['status'];
           if (status != 'accepted') return false;
@@ -111,6 +123,21 @@ class AcceptedDuelsWidget extends StatelessWidget {
               : (data['player2']?['currentIndex'] ?? 0);
           return currentIndex < total;
         }).toList();
+
+        final uid = currentUser.uid;
+        final unread = docs.where((d) {
+          final data = d.data() as Map<String, dynamic>;
+          final updated = data['updatedAt'] as Timestamp?;
+          final opened = data['lastOpened_$uid'] as Timestamp?;
+          return updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
+        }).length;
+        widget.onUnreadCount(unread);
+
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          for (final d in duels) {
+            DuelService().updateLastOpened(d.id);
+          }
+        });
 
         if (duels.isEmpty) return Center(
           child: Column(
@@ -129,6 +156,9 @@ class AcceptedDuelsWidget extends StatelessWidget {
           itemBuilder: (context, index) {
             final duel = duels[index];
             final data = duel.data() as Map<String, dynamic>;
+            final updated = data['updatedAt'] as Timestamp?;
+            final opened = data['lastOpened_${currentUser.uid}'] as Timestamp?;
+            final isUnread = updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
             final opponentUid = data['from'] == currentUser?.uid
                 ? (data['player2']?['uid'] ?? '')
                 : (data['player1']?['uid'] ?? '');
@@ -197,7 +227,14 @@ class AcceptedDuelsWidget extends StatelessWidget {
                   subtitle: const Text('Contre toi',
                     style: TextStyle(color: Colors.black54),
                   ),
-                  trailing: const Icon(Icons.arrow_forward_ios_rounded, color: Colors.blueAccent),
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      if (isUnread)
+                        const Icon(Icons.fiber_new, color: Colors.red, size: 20),
+                      const Icon(Icons.arrow_forward_ios_rounded, color: Colors.blueAccent),
+                    ],
+                  ),
                   onTap: () {
                     Navigator.push(
                       context,
@@ -216,9 +253,15 @@ class AcceptedDuelsWidget extends StatelessWidget {
   }
 }
 
-class PendingDuelsWidget extends StatelessWidget {
-  const PendingDuelsWidget({Key? key}) : super(key: key);
+class PendingDuelsWidget extends StatefulWidget {
+  final ValueChanged<int> onUnreadCount;
+  const PendingDuelsWidget({Key? key, required this.onUnreadCount}) : super(key: key);
 
+  @override
+  State<PendingDuelsWidget> createState() => _PendingDuelsWidgetState();
+}
+
+class _PendingDuelsWidgetState extends State<PendingDuelsWidget> {
   @override
   Widget build(BuildContext context) {
     final currentUser = FirebaseAuth.instance.currentUser;
@@ -233,13 +276,32 @@ class PendingDuelsWidget extends StatelessWidget {
         if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
 
         final requests = snapshot.data!.docs;
+        final uid = currentUser?.uid;
+        final unread = requests.where((d) {
+          final data = d.data() as Map<String, dynamic>;
+          final updated = data['updatedAt'] as Timestamp?;
+          final opened = uid != null ? data['lastOpened_$uid'] as Timestamp? : null;
+          return updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
+        }).length;
+        widget.onUnreadCount(unread);
         if (requests.isEmpty) return const Center(child: Text("Aucun défi en attente."));
+
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (uid != null) {
+            for (final r in requests) {
+              DuelService().updateLastOpened(r.id);
+            }
+          }
+        });
 
         return ListView.builder(
           itemCount: requests.length,
           itemBuilder: (context, index) {
             final request = requests[index];
             final data = request.data() as Map<String, dynamic>;
+            final updated = data['updatedAt'] as Timestamp?;
+            final opened = uid != null ? data['lastOpened_$uid'] as Timestamp? : null;
+            final isUnread = updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
             final fromUser = data['from'];
             return Card(
               elevation: 10,
@@ -283,6 +345,8 @@ class PendingDuelsWidget extends StatelessWidget {
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
+                    if (isUnread)
+                      const Icon(Icons.fiber_new, color: Colors.red, size: 20),
                     IconButton(
                       icon: const Icon(Icons.check, color: Colors.green),
                     onPressed: () async {
@@ -312,6 +376,7 @@ class PendingDuelsWidget extends StatelessWidget {
                               .update({
                                 'domainesReceveur': selectedDomains,
                                 'status': 'accepted',
+                                'updatedAt': FieldValue.serverTimestamp(),
                               });
                           ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Duel accepté avec sélection des domaines.")));
                         } else {
@@ -340,9 +405,15 @@ class PendingDuelsWidget extends StatelessWidget {
   }
 }
 
-class HistoryDuelsWidget extends StatelessWidget {
-  const HistoryDuelsWidget({Key? key}) : super(key: key);
+class HistoryDuelsWidget extends StatefulWidget {
+  final ValueChanged<int> onUnreadCount;
+  const HistoryDuelsWidget({Key? key, required this.onUnreadCount}) : super(key: key);
 
+  @override
+  State<HistoryDuelsWidget> createState() => _HistoryDuelsWidgetState();
+}
+
+class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
   @override
   Widget build(BuildContext context) {
     final User? currentUser = FirebaseAuth.instance.currentUser;
@@ -357,7 +428,8 @@ class HistoryDuelsWidget extends StatelessWidget {
       builder: (context, snapshot) {
         if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
 
-        final docs = snapshot.data!.docs.where((doc) {
+        final allDocs = snapshot.data!.docs;
+        final docs = allDocs.where((doc) {
           final data = doc.data() as Map<String, dynamic>;
           final total = (data['questions'] as List?)?.length ?? 0;
           if (total == 0) return false;
@@ -365,6 +437,21 @@ class HistoryDuelsWidget extends StatelessWidget {
           final current2 = data['player2']?['currentIndex'] ?? 0;
           return current1 >= total && current2 >= total;
         }).toList();
+        final uid = currentUser?.uid;
+        final unread = allDocs.where((d) {
+          final data = d.data() as Map<String, dynamic>;
+          final updated = data['updatedAt'] as Timestamp?;
+          final opened = uid != null ? data['lastOpened_$uid'] as Timestamp? : null;
+          return updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
+        }).length;
+        widget.onUnreadCount(unread);
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (uid != null) {
+            for (final d in docs) {
+              DuelService().updateLastOpened(d.id);
+            }
+          }
+        });
 
         if (docs.isEmpty) return const Center(child: Text("Aucun duel terminé pour le moment."));
 
@@ -373,6 +460,9 @@ class HistoryDuelsWidget extends StatelessWidget {
           itemBuilder: (context, index) {
             final duel = docs[index];
             final data = duel.data() as Map<String, dynamic>;
+            final updated = data['updatedAt'] as Timestamp?;
+            final opened = uid != null ? data['lastOpened_$uid'] as Timestamp? : null;
+            final isUnread = updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
             final opponentUid = data['from'] == currentUser?.uid
                 ? (data['player2']?['uid'] ?? '')
                 : (data['player1']?['uid'] ?? '');
@@ -441,7 +531,14 @@ class HistoryDuelsWidget extends StatelessWidget {
                   style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 18, color: Colors.black87),
                 ),
                 subtitle: Text(resultText),
-                trailing: const Icon(Icons.arrow_forward_ios_rounded, color: Colors.deepPurpleAccent),
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (isUnread)
+                      const Icon(Icons.fiber_new, color: Colors.red, size: 20),
+                    const Icon(Icons.arrow_forward_ios_rounded, color: Colors.deepPurpleAccent),
+                  ],
+                ),
                 onTap: () {
                   Navigator.push(
                     context,

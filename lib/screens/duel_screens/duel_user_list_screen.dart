@@ -124,6 +124,7 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
       'to': opponentId,
       'status': 'pending',
       'createdAt': FieldValue.serverTimestamp(),
+      'updatedAt': FieldValue.serverTimestamp(),
       'questions': allQuestions,
       'domainesEnvoyeur': selectedDomains, // Ce champ contient les 6 domaines sélectionnés par le créateur
       'player1': {
@@ -139,6 +140,8 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
         'currentIndex': 0,
       },
       'participants': [myId, opponentId],
+      'lastOpened_$myId': FieldValue.serverTimestamp(),
+      'lastOpened_$opponentId': null,
     };
 
     final duelRef = await FirebaseFirestore.instance.collection('duels').add(duelData);

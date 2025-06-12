@@ -13,6 +13,8 @@ import '/screens/duel_screens/duel_menu_screen.dart';
 import '/screens/classement/classement_screen.dart';
 import '/screens/etude_questions.dart';
 import 'signalements_questions_screen.dart';
+import '../widgets/simple_badge.dart';
+import '../services/duel_service.dart';
 import '/screens/proposition_question_screen.dart';
 import '/screens/questions_selection_screen.dart';
 import 'favorites_screen.dart';
@@ -210,13 +212,20 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         },
                       ),
                       SizedBox(height: 25),
-                      _buildGameModeButton(
-                        context,
-                        icon: Icons.people,
-                        text: "Duel en Ligne",
-                        backgroundImage: 'assets/images/boiscartoon.png',
-                        onTap: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => DuelMenuScreen()));
+                      StreamBuilder<int>(
+                        stream: DuelService().totalUnreadDuels(widget.user.uid),
+                        builder: (context, snapshot) {
+                          final count = snapshot.data ?? 0;
+                          return _buildGameModeButton(
+                            context,
+                            icon: Icons.people,
+                            text: "Duel en Ligne",
+                            backgroundImage: 'assets/images/boiscartoon.png',
+                            badgeCount: count,
+                            onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => DuelMenuScreen()));
+                            },
+                          );
                         },
                       ),
                       SizedBox(height: 25),
@@ -497,15 +506,17 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
         required String text,
         required String backgroundImage,
         required VoidCallback onTap,
+        int badgeCount = 0,
       }) {
     return StatefulBuilder(
       builder: (context, setState) {
-        return _AnimatedFloatingButton(
+        final btn = _AnimatedFloatingButton(
           icon: icon,
           text: text,
           backgroundImage: backgroundImage,
           onTap: onTap,
         );
+        return SimpleBadge(child: btn, count: badgeCount);
       },
     );
   }

@@ -7,6 +7,8 @@ import 'duel_user_list_screen.dart';
 import 'duel_dashboard_screen.dart';
 import 'accepted_duels_screen.dart';
 import '../favorites_screen.dart';
+import '../../widgets/simple_badge.dart';
+import '../../services/duel_service.dart';
 
 
 class DuelMenuScreen extends StatefulWidget {
@@ -137,17 +139,24 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
                   label: 'Trouver un adversaire',
                 ),
                 const SizedBox(height: 16),
-                _CustomButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const DuelDashboardScreen(),
-                      ),
+                StreamBuilder<int>(
+                  stream: DuelService().totalUnreadDuels(FirebaseAuth.instance.currentUser!.uid),
+                  builder: (context, snapshot) {
+                    final count = snapshot.data ?? 0;
+                    return _CustomButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const DuelDashboardScreen(),
+                          ),
+                        );
+                      },
+                      label: 'Duels à jouer',
+                      badgeCount: count,
+                      backgroundColor: Colors.blueAccent,
                     );
                   },
-                  label: 'Duels à jouer',
-                  backgroundColor: Colors.blueAccent,
                 ),
                 _CustomButton(
                   onPressed: () {
@@ -173,11 +182,13 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
 class _CustomButton extends StatelessWidget {
   final VoidCallback onPressed;
   final String label;
+  final int badgeCount;
   final Color backgroundColor;
 
   const _CustomButton({
     required this.onPressed,
     required this.label,
+    this.badgeCount = 0,
     this.backgroundColor = Colors.blue,
   });
 
@@ -198,9 +209,12 @@ class _CustomButton extends StatelessWidget {
         style: TextButton.styleFrom(
           padding: EdgeInsets.symmetric(horizontal: 30, vertical: 16),
         ),
-        child: Text(
-          label,
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+        child: SimpleBadge(
+          count: badgeCount,
+          child: Text(
+            label,
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+          ),
         ),
       ),
     );

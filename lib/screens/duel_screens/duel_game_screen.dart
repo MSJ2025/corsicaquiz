@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '/services/duel_question_service.dart';
+import '/services/duel_service.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -33,6 +34,7 @@ class _DuelGameScreenState extends State<DuelGameScreen> with SingleTickerProvid
 @override
 void initState() {
   super.initState();
+  DuelService().updateLastOpened(widget.duelId);
 
   _shakeController = AnimationController(
     vsync: this,
@@ -114,7 +116,10 @@ void initState() {
     debugPrint("✅ Questions générées : $duelQuestions");
     debugPrint("🛠 Questions locales mappées : $duelQuestions");
 
-    await docRef.update({'questions': duelQuestions});
+    await docRef.update({
+      'questions': duelQuestions,
+      'updatedAt': FieldValue.serverTimestamp(),
+    });
 
     if (duelQuestions.isEmpty) {
       final localQuestions = await DuelQuestionService().getBalancedQuestionsFromDomains([]);
@@ -126,6 +131,7 @@ void initState() {
 
       await FirebaseFirestore.instance.collection('duels').doc(widget.duelId).update({
         'questions': duelQuestions,
+        'updatedAt': FieldValue.serverTimestamp(),
       });
     }
 
@@ -173,10 +179,12 @@ void initState() {
       '$userField.answers.$currentIndex': selectedAnswer,
       '$userField.currentIndex': currentIndex + 1,
       '$userField.score': FieldValue.increment(isCorrect ? 1 : 0),
+      'updatedAt': FieldValue.serverTimestamp(),
     });
 
     await FirebaseFirestore.instance.collection('duels').doc(widget.duelId).update({
-      'finishedBy': FieldValue.arrayUnion([currentUser!.uid])
+      'finishedBy': FieldValue.arrayUnion([currentUser!.uid]),
+      'updatedAt': FieldValue.serverTimestamp(),
     });
 
     await player.setAsset('assets/sons/quiz/woosh.mp3');
@@ -257,11 +265,13 @@ void initState() {
             (data['player2']?['currentIndex'] ?? 0) >= (data['questions']?.length ?? 0)) {
           transaction.update(FirebaseFirestore.instance.collection('duels').doc(widget.duelId), {
             'isCompleted': true,
+            'updatedAt': FieldValue.serverTimestamp(),
           });
         }
 
         transaction.update(FirebaseFirestore.instance.collection('duels').doc(widget.duelId), {
           'resultRecorded': true,
+          'updatedAt': FieldValue.serverTimestamp(),
         });
       });
     }
