@@ -6,6 +6,7 @@ import 'login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '/services/profile_service.dart';
 import '/services/winner_service.dart'; // Ajout de l'import pour WinnerService
+import '/services/presence_service.dart';
 import '/screens/home_screen.dart';
 import '/screens/profile_screen.dart';
 import 'package:upgrader/upgrader.dart';
@@ -27,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
     final user = FirebaseAuth.instance.currentUser;
     if (!mounted) return;
     if (user != null) {
+      PresenceService().init(user.uid);
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => HomeScreen(user: user)));
     } else {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => LoginScreen()));
