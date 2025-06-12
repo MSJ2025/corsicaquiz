@@ -8,7 +8,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '/screens/defisQuiz_menu_screen.dart';
 import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
 import 'package:lottie/lottie.dart';
-import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
 import '/screens/duel_screens/duel_menu_screen.dart';
 import '/screens/classement/classement_screen.dart';
 import '/screens/etude_questions.dart';
