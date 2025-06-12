@@ -121,8 +121,13 @@ class AuthService {
   }
 
   // 🔹 Déconnexion
-  Future<void> signOut() async {
+  Future<void> signOut({FirebaseFirestore? firestore}) async {
     try {
+      final db = firestore ?? FirebaseFirestore.instance;
+      await db
+          .collection('users')
+          .doc(_auth.currentUser!.uid)
+          .update({'online': false});
       _presence.dispose();
       await _auth.signOut();
       if (await _googleSignIn.isSignedIn()) {
