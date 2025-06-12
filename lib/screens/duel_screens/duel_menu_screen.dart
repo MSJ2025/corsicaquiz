@@ -6,6 +6,7 @@ import '/screens/home_screen.dart';
 import 'duel_user_list_screen.dart';
 import 'duel_dashboard_screen.dart';
 import 'accepted_duels_screen.dart';
+import '../favorites_screen.dart';
 
 
 class DuelMenuScreen extends StatefulWidget {
@@ -146,6 +147,17 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
                     );
                   },
                   label: 'Duels à jouer',
+                  backgroundColor: Colors.blueAccent,
+                ),
+                _CustomButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const FavoritesScreen()),
+                    );
+                  },
+                  label: 'Mes favoris',
                   backgroundColor: Colors.blueAccent,
                 ),
                 const SizedBox(height: 16),
