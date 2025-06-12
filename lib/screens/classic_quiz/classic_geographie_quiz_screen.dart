@@ -166,6 +166,51 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     );
   }
 
+  void _signalerProbleme(Map<String, dynamic> question) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        TextEditingController controller = TextEditingController();
+        return AlertDialog(
+          title: const Text('Signaler un problème'),
+          content: TextField(
+            controller: controller,
+            maxLines: 5,
+            decoration: const InputDecoration(
+              hintText: 'Décrivez le problème rencontré avec cette question',
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () async {
+                final message = controller.text.trim();
+                if (message.isNotEmpty) {
+                  await FirebaseFirestore.instance
+                      .collection('signalements_questions')
+                      .add({
+                    'timestamp': Timestamp.now(),
+                    'question': question['question'],
+                    'categorie': question['categorie'],
+                    'explication': question['explication'],
+                    'reponses': question['reponses'],
+                    'message': message,
+                  });
+                }
+                Navigator.of(context).pop();
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('Merci ! Le problème a été signalé.'),
+                  ),
+                );
+              },
+              child: const Text('Envoyer'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   Widget _buildVerticalScoreBar() {
     return Align(
       alignment: Alignment.centerRight,
