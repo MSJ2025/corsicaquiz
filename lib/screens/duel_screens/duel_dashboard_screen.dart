@@ -131,7 +131,9 @@ class _AcceptedDuelsWidgetState extends State<AcceptedDuelsWidget> {
           final opened = data['lastOpened_$uid'] as Timestamp?;
           return updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
         }).length;
-        widget.onUnreadCount(unread);
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          widget.onUnreadCount(unread);
+        });
 
         WidgetsBinding.instance.addPostFrameCallback((_) {
           for (final d in duels) {
@@ -283,7 +285,9 @@ class _PendingDuelsWidgetState extends State<PendingDuelsWidget> {
           final opened = uid != null ? data['lastOpened_$uid'] as Timestamp? : null;
           return updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
         }).length;
-        widget.onUnreadCount(unread);
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          widget.onUnreadCount(unread);
+        });
         if (requests.isEmpty) return const Center(child: Text("Aucun défi en attente."));
 
         WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -444,7 +448,9 @@ class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
           final opened = uid != null ? data['lastOpened_$uid'] as Timestamp? : null;
           return updated != null && (opened == null || opened.toDate().isBefore(updated.toDate()));
         }).length;
-        widget.onUnreadCount(unread);
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          widget.onUnreadCount(unread);
+        });
         WidgetsBinding.instance.addPostFrameCallback((_) {
           if (uid != null) {
             for (final d in docs) {
