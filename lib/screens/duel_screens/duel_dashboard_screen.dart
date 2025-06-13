@@ -92,6 +92,16 @@ class AcceptedDuelsWidget extends StatefulWidget {
 }
 
 class _AcceptedDuelsWidgetState extends State<AcceptedDuelsWidget> {
+  String? myAvatar;
+
+  @override
+  void initState() {
+    super.initState();
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid != null) {
+      getUserAvatar(uid).then((a) => setState(() => myAvatar = a));
+    }
+  }
   @override
   Widget build(BuildContext context) {
     final currentUser = FirebaseAuth.instance.currentUser;
@@ -135,11 +145,7 @@ class _AcceptedDuelsWidgetState extends State<AcceptedDuelsWidget> {
           widget.onUnreadCount(unread);
         });
 
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          for (final d in duels) {
-            DuelService().updateLastOpened(d.id);
-          }
-        });
+        // Ne marque plus automatiquement les duels comme lus ici
 
         if (duels.isEmpty) return Center(
           child: Column(
@@ -191,35 +197,24 @@ class _AcceptedDuelsWidgetState extends State<AcceptedDuelsWidget> {
                         );
                       }
                       final opponentAvatar = (snapshot.data!.data() as Map<String, dynamic>)['avatar'];
-                      final currentUser = FirebaseAuth.instance.currentUser;
 
-                      return FutureBuilder<DocumentSnapshot>(
-                        future: FirebaseFirestore.instance.collection('users').doc(currentUser!.uid).get(),
-                        builder: (context, userSnapshot) {
-                          String? userAvatar;
-                          if (userSnapshot.hasData && userSnapshot.data!.exists) {
-                            userAvatar = (userSnapshot.data!.data() as Map<String, dynamic>)['avatar'];
-                          }
-
-                          return Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              CircleAvatar(
-                                radius: 20,
-                                backgroundImage: userAvatar != null
-                                    ? AssetImage("assets/images/avatars/$userAvatar")
-                                    : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
-                              ),
-                              const SizedBox(width: 4),
-                              CircleAvatar(
-                                radius: 20,
-                                backgroundImage: opponentAvatar != null
-                                    ? AssetImage("assets/images/avatars/$opponentAvatar")
-                                    : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
-                              ),
-                            ],
-                          );
-                        },
+                      return Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundImage: myAvatar != null
+                                ? AssetImage('assets/images/avatars/$myAvatar')
+                                : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
+                          ),
+                          const SizedBox(width: 4),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundImage: opponentAvatar != null
+                                ? AssetImage("assets/images/avatars/$opponentAvatar")
+                                : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
+                          ),
+                        ],
                       );
                     },
                   ),
@@ -290,13 +285,7 @@ class _PendingDuelsWidgetState extends State<PendingDuelsWidget> {
         });
         if (requests.isEmpty) return const Center(child: Text("Aucun défi en attente."));
 
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (uid != null) {
-            for (final r in requests) {
-              DuelService().updateLastOpened(r.id);
-            }
-          }
-        });
+
 
         return ListView.builder(
           itemCount: requests.length,
@@ -418,6 +407,16 @@ class HistoryDuelsWidget extends StatefulWidget {
 }
 
 class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
+  String? myAvatar;
+
+  @override
+  void initState() {
+    super.initState();
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid != null) {
+      getUserAvatar(uid).then((a) => setState(() => myAvatar = a));
+    }
+  }
   @override
   Widget build(BuildContext context) {
     final User? currentUser = FirebaseAuth.instance.currentUser;
@@ -425,7 +424,8 @@ class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
         .collection('duels')
         .where('status', isEqualTo: 'accepted')
         .where('participants', arrayContains: currentUser?.uid)
-        .orderBy('createdAt', descending: true);
+        .orderBy('createdAt', descending: true)
+        .limit(20);
 
     return StreamBuilder<QuerySnapshot>(
       stream: query.snapshots(),
@@ -450,13 +450,6 @@ class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
         }).length;
         WidgetsBinding.instance.addPostFrameCallback((_) {
           widget.onUnreadCount(unread);
-        });
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (uid != null) {
-            for (final d in docs) {
-              DuelService().updateLastOpened(d.id);
-            }
-          }
         });
 
         if (docs.isEmpty) return const Center(child: Text("Aucun duel terminé pour le moment."));
@@ -501,35 +494,24 @@ class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
                       );
                     }
                     final opponentAvatar = (snapshot.data!.data() as Map<String, dynamic>)['avatar'];
-                    final currentUser = FirebaseAuth.instance.currentUser;
 
-                    return FutureBuilder<DocumentSnapshot>(
-                      future: FirebaseFirestore.instance.collection('users').doc(currentUser!.uid).get(),
-                      builder: (context, userSnapshot) {
-                        String? userAvatar;
-                        if (userSnapshot.hasData && userSnapshot.data!.exists) {
-                          userAvatar = (userSnapshot.data!.data() as Map<String, dynamic>)['avatar'];
-                        }
-
-                        return Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            CircleAvatar(
-                              radius: 20,
-                              backgroundImage: userAvatar != null
-                                  ? AssetImage("assets/images/avatars/$userAvatar")
-                                  : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
-                            ),
-                            const SizedBox(width: 4),
-                            CircleAvatar(
-                              radius: 20,
-                              backgroundImage: opponentAvatar != null
-                                  ? AssetImage("assets/images/avatars/$opponentAvatar")
-                                  : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
-                            ),
-                          ],
-                        );
-                      },
+                    return Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        CircleAvatar(
+                          radius: 20,
+                          backgroundImage: myAvatar != null
+                              ? AssetImage('assets/images/avatars/$myAvatar')
+                              : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
+                        ),
+                        const SizedBox(width: 4),
+                        CircleAvatar(
+                          radius: 20,
+                          backgroundImage: opponentAvatar != null
+                              ? AssetImage("assets/images/avatars/$opponentAvatar")
+                              : const AssetImage('assets/images/avatars/avatar_placeholder.png'),
+                        ),
+                      ],
                     );
                   },
                 ),
