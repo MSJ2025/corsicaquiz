@@ -45,9 +45,7 @@ void initState() {
       .chain(CurveTween(curve: Curves.elasticIn))
       .animate(_shakeController);
 
-  player.setAsset('assets/sons/quiz/quizmusic.mp3');
   player.setLoopMode(LoopMode.one);
-  player.play();
   _loadDuel();
 }
 
@@ -190,9 +188,6 @@ void initState() {
     await player.setAsset('assets/sons/quiz/woosh.mp3');
     await player.play();
     await Future.delayed(Duration(milliseconds: 300));
-
-    await player.setAsset('assets/sons/quiz/quizmusic.mp3');
-    player.play();
 
     setState(() {
       currentIndex++;

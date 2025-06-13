@@ -8,6 +8,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '/services/winner_service.dart';
 import 'services/notification_service.dart';
 import 'services/ad_service.dart';
+import 'services/background_music_service.dart';
 import 'theme_notifier.dart';
 
 void main() async {
@@ -18,6 +19,7 @@ void main() async {
   await NotificationService.init();
   await ThemeNotifier.loadTheme();
   await AdService.init();
+  await BackgroundMusicService.instance.play();
 
   runApp(const MyApp());
 }
