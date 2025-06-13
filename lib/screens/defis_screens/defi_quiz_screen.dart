@@ -62,7 +62,6 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
     _loadQuestions();
     _audioPlayer = AudioPlayer();
     _audioPlayer.setReleaseMode(ReleaseMode.loop);
-    _audioPlayer.play(AssetSource('sons/quiz/quizmusic.mp3'));
     _timerSound.setReleaseMode(ReleaseMode.loop);
     _scorePulseController = AnimationController(
       vsync: this,

@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../services/auth_service.dart';
 import '../services/notification_service.dart';
+import '../services/background_music_service.dart';
 import '../theme_notifier.dart';
 import 'about_screen.dart';
 import 'etude_questions.dart';
@@ -26,6 +27,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   final AuthService _auth = AuthService();
   bool _incognito = false;
   bool _notifications = true;
+  bool _music = true;
 
   @override
   void initState() {
@@ -43,6 +45,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     }
     final prefs = await SharedPreferences.getInstance();
     _notifications = prefs.getBool('notifications_enabled') ?? true;
+    _music = prefs.getBool('music_enabled') ?? true;
     setState(() {});
   }
 
@@ -62,6 +65,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
       await NotificationService.init();
     } else {
       await NotificationService.disable();
+    }
+  }
+
+  Future<void> _toggleMusic(bool value) async {
+    setState(() => _music = value);
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('music_enabled', value);
+    if (value) {
+      await BackgroundMusicService.instance.play();
+    } else {
+      await BackgroundMusicService.instance.pause();
     }
   }
 
@@ -152,6 +166,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
             title: const Text('Notifications'),
             value: _notifications,
             onChanged: _toggleNotifications,
+          ),
+          SwitchListTile(
+            title: const Text('Musique de fond'),
+            value: _music,
+            onChanged: _toggleMusic,
           ),
           SwitchListTile(
             title: const Text('Thème sombre'),

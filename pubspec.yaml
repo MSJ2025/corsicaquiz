@@ -102,6 +102,7 @@ flutter:
    - assets/data/questions_geographie.json
    - assets/images/avatars/
    - assets/lottie/
+   - assets/sons/
    - assets/sons/quiz/
    - assets/videos/
 
