@@ -2329,7 +2329,7 @@
     "image": null
   },
   {
-    "categorie": "Révolution française et Empire",
+    "categorie": "Histoire de la Corse",
     "question": "Quel fut le sort de la Corse pendant la Révolution française en 1793 ?",
     "reponses": [
       { "texte": "Elle se déclara indépendante sous l'influence de Paoli", "correct": true },
@@ -2342,7 +2342,7 @@
     "image": null
   },
   {
-    "categorie": "Révolution française et Empire",
+    "categorie": "Histoire de la Corse",
     "question": "Quel rôle joua Napoléon Bonaparte dans la politique corse à ses débuts ?",
     "reponses": [
       { "texte": "Il soutenait les Jacobins contre Paoli", "correct": true },
@@ -2355,7 +2355,7 @@
     "image": null
   },
   {
-    "categorie": "XIXe siècle",
+    "categorie": "Histoire de la Corse",
     "question": "Quelle révolte marqua la Corse en 1830, lors de l’arrivée au pouvoir de Louis-Philippe ?",
     "reponses": [
       { "texte": "La révolte des prêtres contre la laïcité", "correct": false },
@@ -2368,7 +2368,7 @@
     "image": null
   },
   {
-    "categorie": "Seconde Guerre mondiale",
+    "categorie": "Histoire de la Corse",
     "question": "Quelle est la particularité de la Libération de la Corse en 1943 ?",
     "reponses": [
       { "texte": "C’est le premier territoire français métropolitain libéré", "correct": true },
@@ -2381,7 +2381,7 @@
     "image": null
   },
   {
-    "categorie": "Institution corse",
+    "categorie": "Histoire de la Corse",
     "question": "Quel organe de gouvernement Paoli met-il en place lors de la République corse ?",
     "reponses": [
       { "texte": "Un Directoire à la française", "correct": false },
@@ -2394,7 +2394,7 @@
     "image": null
   },
   {
-    "categorie": "XIXe siècle",
+    "categorie": "Histoire de la Corse",
     "question": "Quelle activité économique se développe massivement en Corse au XIXe siècle ?",
     "reponses": [
       { "texte": "L’extraction minière", "correct": false },
@@ -2407,7 +2407,7 @@
     "image": null
   },
   {
-    "categorie": "République de Paoli",
+    "categorie": "Histoire de la Corse",
     "question": "Comment étaient désignés les membres du gouvernement sous Paoli ?",
     "reponses": [
       { "texte": "Par tirage au sort", "correct": false },
@@ -2420,7 +2420,7 @@
     "image": null
   },
   {
-    "categorie": "Seconde Guerre mondiale",
+    "categorie": "Histoire de la Corse",
     "question": "Quel rôle les femmes corses jouèrent-elles durant la Résistance ?",
     "reponses": [
       { "texte": "Elles furent principalement cantonnées aux soins médicaux", "correct": false },
@@ -2433,7 +2433,7 @@
     "image": null
   },
   {
-    "categorie": "Époque contemporaine",
+    "categorie": "Histoire de la Corse",
     "question": "Quel événement marque une nouvelle vague d'émigration corse au XIXe siècle ?",
     "reponses": [
       { "texte": "La guerre de 1870", "correct": false },
@@ -2446,7 +2446,7 @@
     "image": null
   },
   {
-    "categorie": "XIXe siècle",
+    "categorie": "Histoire de la Corse",
     "question": "Quel lien unit souvent la politique locale corse au XIXe siècle ?",
     "reponses": [
       { "texte": "Les partis socialistes", "correct": false },
@@ -2459,7 +2459,7 @@
     "image": null
   },
   {
-    "categorie": "Préhistoire",
+    "categorie": "Histoire de la Corse",
     "question": "Quel est le nom donné au plus ancien squelette humain découvert en Corse, datant d'environ -6570 av. J.-C. ?",
     "reponses": [
       {"texte": "La Dame de Bonifacio", "correct": true},
@@ -2472,7 +2472,7 @@
     "image": null
   },
   {
-    "categorie": "Antiquité",
+    "categorie": "Histoire de la Corse",
     "question": "Quel célèbre philosophe romain fut exilé en Corse entre 41 et 49 ap. J.-C. ?",
     "reponses": [
       {"texte": "Sénèque", "correct": true},
@@ -2485,7 +2485,7 @@
     "image": null
   },
   {
-    "categorie": "Santé et société",
+    "categorie": "Histoire de la Corse",
     "question": "Quelle maladie a contribué à la désertification de certaines zones du littoral corse au Moyen Âge et jusqu’au XXe siècle ?",
     "reponses": [
       {"texte": "La malaria", "correct": true},
@@ -2498,7 +2498,7 @@
     "image": null
   },
   {
-    "categorie": "Migrations",
+    "categorie": "Histoire de la Corse",
     "question": "Quel groupe de population grecque a été accueilli en Corse à partir de 1676, principalement à Cargèse ?",
     "reponses": [
       {"texte": "Les Grecs de Vitylo", "correct": true},
@@ -2511,7 +2511,7 @@
     "image": null
   },
   {
-    "categorie": "Période moderne",
+    "categorie": "Histoire de la Corse",
     "question": "Quel aventurier fut élu roi de Corse en 1736 par les chefs insurgés corses ?",
     "reponses": [
       {"texte": "Théodore de Neuhoff", "correct": true},
@@ -2524,7 +2524,7 @@
     "image": null
   },
   {
-    "categorie": "Révolution et Empire",
+    "categorie": "Histoire de la Corse",
     "question": "Quel statut politique la Corse adopte-t-elle entre 1794 et 1796 sous influence britannique ?",
     "reponses": [
       {"texte": "Royaume anglo-corse", "correct": true},
@@ -2537,7 +2537,7 @@
     "image": null
   },
   {
-    "categorie": "XIXe siècle",
+    "categorie": "Histoire de la Corse",
     "question": "Quels arrêtés fiscaux sont adoptés en 1801 pour alléger la fiscalité en Corse ?",
     "reponses": [
       {"texte": "Les arrêtés Miot", "correct": true},
@@ -2550,7 +2550,7 @@
     "image": null
   },
   {
-    "categorie": "Écologie et environnement",
+    "categorie": "Histoire de la Corse",
     "question": "Quel scandale environnemental lié à une entreprise italienne touche la Corse dans les années 1970 ?",
     "reponses": [
       {"texte": "L'affaire des boues rouges", "correct": true},
@@ -2563,7 +2563,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire contemporaine",
+    "categorie": "Histoire de la Corse",
     "question": "Quel préfet de la Corse a été assassiné en 1998, marquant un tournant dans la lutte contre le FLNC ?",
     "reponses": [
       {"texte": "Claude Érignac", "correct": true},
@@ -2576,7 +2576,7 @@
     "image": null
   },
   {
-    "categorie": "Actualité",
+    "categorie": "Histoire de la Corse",
     "question": "Que prévoit la mission parlementaire lancée en 2025 concernant l’avenir institutionnel de la Corse ?",
     "reponses": [
       {"texte": "Un possible pouvoir législatif propre", "correct": true},

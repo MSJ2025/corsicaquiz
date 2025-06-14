@@ -378,7 +378,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
           ),
         ],
       ),
-    );
+    ));
   }
 
   @override

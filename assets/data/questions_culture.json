@@ -1199,10 +1199,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel dessert glacé, créé avec le jus d’une baie pourpre et de la glace pilée, s’apprécie en période estivale pour sa fraîcheur parfumée ?",
     "reponses": [
-      { "texte": "Le granité à la myrte", "correct": true },
       { "texte": "Le sorbet à la châtaigne", "correct": false },
       { "texte": "La glace au cédrat", "correct": false },
-      { "texte": "Le sorbet au citron", "correct": false }
+      { "texte": "Le sorbet au citron", "correct": false },
+      { "texte": "Le granité à la myrte", "correct": true }
     ],
     "explication": "Ce granité mêle l’essence parfumée de la baie au sucre et à la glace, offrant un rafraîchissement idéal lors des fortes chaleurs de l’été.",
     "difficulte": "Moyen",
@@ -1212,10 +1212,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel acteur, très impliqué dans la transmission artistique, a créé un centre de formation théâtrale en Balagne et met en scène diverses productions ?",
     "reponses": [
-      { "texte": "Robin Renucci", "correct": true },
       { "texte": "Daniel Auteuil", "correct": false },
       { "texte": "Jean-Marie Bigardini", "correct": false },
-      { "texte": "Charles Tordjman", "correct": false }
+      { "texte": "Charles Tordjman", "correct": false },
+      { "texte": "Robin Renucci", "correct": true }
     ],
     "explication": "Il a fondé, dans une micro-région située au nord-ouest de l’île, un espace dédié à la pratique et à la pédagogie du théâtre, valorisant la culture locale.",
     "difficulte": "Moyen",
@@ -1238,8 +1238,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel événement automnal, autour du 30 novembre, comporte un défilé animé dans les rues avec des masques et des costumes pour faire du bruit et chasser le mauvais œil ?",
     "reponses": [
-      { "texte": "Sant’Andria", "correct": true },
       { "texte": "A Caracutula", "correct": false },
+      { "texte": "Sant’Andria", "correct": true },
       { "texte": "U Macciu di Nuvole", "correct": false },
       { "texte": "A Pagliaghja", "correct": false }
     ],
@@ -1251,9 +1251,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle représentation de la Nativité, faite de figurines miniatures en liège ou en terre cuite, est parfois l’objet d’un concours d’originalité à Noël ?",
     "reponses": [
-      { "texte": "U presepiu", "correct": true },
       { "texte": "A candelara", "correct": false },
       { "texte": "U giru di Natale", "correct": false },
+      { "texte": "U presepiu", "correct": true },
       { "texte": "A strina", "correct": false }
     ],
     "explication": "Le presepiu (la crèche) peut prendre des formes variées et regrouper des personnages, animaux et décors inspirés du quotidien insulaire, conférant une touche locale à la Nativité.",
@@ -1264,8 +1264,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle danse collective, avec un jeu scénique illustrant un enlèvement fictif de la mariée, se pratique lors de certaines fêtes villageoises ?",
     "reponses": [
-      { "texte": "La Moresca di a sposa", "correct": true },
       { "texte": "A Spallata", "correct": false },
+      { "texte": "La Moresca di a sposa", "correct": true },
       { "texte": "U Caracolu", "correct": false },
       { "texte": "La Paghiella danzata", "correct": false }
     ],
@@ -1277,9 +1277,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel chant, repris en chœur par les confréries dans les églises, invoque la patronne protectrice et figure parmi les hymnes emblématiques de l’île ?",
     "reponses": [
-      { "texte": "Dio vi salvi Regina", "correct": true },
       { "texte": "A paghjella sacra", "correct": false },
       { "texte": "Salve Corsica", "correct": false },
+      { "texte": "Dio vi salvi Regina", "correct": true },
       { "texte": "A passionata", "correct": false }
     ],
     "explication": "Dio vi salvi Regina est un chant d’hommage et de dévotion à la Vierge, transmis de génération en génération et porteur d’un fort sentiment d’appartenance.",
@@ -1290,10 +1290,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel rite hivernal, organisé lors de randonnées botaniques et d’ateliers culinaires, met à l’honneur la végétation naissante et la cuisine en extérieur ?",
     "reponses": [
-      { "texte": "A Merendella in Fiore", "correct": true },
       { "texte": "La Granitula d’inguernu", "correct": false },
       { "texte": "U falò di a fine veranu", "correct": false },
-      { "texte": "A Candela di e castagne", "correct": false }
+      { "texte": "A Candela di e castagne", "correct": false },
+      { "texte": "A Merendella in Fiore", "correct": true }
     ],
     "explication": "Cette rencontre festive permet de découvrir les jeunes pousses, d’apprendre à les cuisiner et de partager un repas dans un cadre naturel propice à la convivialité.",
     "difficulte": "Moyen",
@@ -1316,10 +1316,10 @@
       "categorie": "Culture - Gastronomie - Traditions",
       "question": "Quel produit sucré, souvent présenté sous forme de barres, associe miel local et amandes ou noisettes, et se retrouve fréquemment dans les foires artisanales ?",
       "reponses": [
-        { "texte": "Le nougat corse", "correct": true },
         { "texte": "Les canistrelli sucrés", "correct": false },
         { "texte": "Le pain d’épices insulaire", "correct": false },
-        { "texte": "Les frappe au miel", "correct": false }
+        { "texte": "Les frappe au miel", "correct": false },
+        { "texte": "Le nougat corse", "correct": true }
       ],
       "explication": "Le nougat corse peut se décliner en version croquante ou plus moelleuse, généralement élaboré à base de miel de l’île et d’amandes, parfois de noisettes issues de productions locales.",
       "difficulte": "Facile",
@@ -1342,10 +1342,10 @@
       "categorie": "Culture - Gastronomie - Traditions",
       "question": "Quel établissement, situé à Levie, expose des vestiges préhistoriques et médiévaux découverts dans la micro-région de l’Alta Rocca ?",
       "reponses": [
-        { "texte": "Le Musée de l’Alta Rocca", "correct": true },
         { "texte": "Le Musée Fesch", "correct": false },
         { "texte": "Le Palais des Gouverneurs", "correct": false },
-        { "texte": "Le Musée de la Corse", "correct": false }
+        { "texte": "Le Musée de la Corse", "correct": false },
+        { "texte": "Le Musée de l’Alta Rocca", "correct": true }
       ],
       "explication": "Le Musée de l’Alta Rocca rassemble des pièces issues de fouilles archéologiques (Cucuruzzu, Capula) ainsi qu’un espace ethnographique, reflétant l’histoire plurimillénaire de la région.",
       "difficulte": "Moyen",
@@ -1368,8 +1368,8 @@
       "categorie": "Culture - Gastronomie - Traditions",
       "question": "Quel four collectif, existant dans certains villages montagnards, est allumé pour des fêtes locales où chacun vient cuire pains et autres plats ?",
       "reponses": [
-        { "texte": "U fournu cumunitariu", "correct": true },
         { "texte": "U fucone di paese", "correct": false },
+        { "texte": "U fournu cumunitariu", "correct": true },
         { "texte": "A fornace di a muntagna", "correct": false },
         { "texte": "A stazzona di pane", "correct": false }
       ],
@@ -1381,9 +1381,9 @@
       "categorie": "Culture - Gastronomie - Traditions",
       "question": "Quel espace ajaccien, rénové sous le Second Empire, recèle un important fonds de manuscrits et d’ouvrages anciens sur l’histoire et la littérature insulaires ?",
       "reponses": [
-        { "texte": "La Bibliothèque Fesch", "correct": true },
         { "texte": "La Bibliothèque Lantivy", "correct": false },
         { "texte": "Le Centre Culturel Napoléonien", "correct": false },
+        { "texte": "La Bibliothèque Fesch", "correct": true },
         { "texte": "La Cinémathèque de la Corse", "correct": false }
       ],
       "explication": "La Bibliothèque Fesch, intégrée au Palais du même nom, abrite un fonds patrimonial dédié à la Corse et à divers domaines, avec des documents rares et précieux.",
@@ -1394,8 +1394,8 @@
       "categorie": "Culture - Gastronomie - Traditions",
       "question": "Quel rendez-vous artistique, proposé sur un littoral en été, présente des œuvres éphémères et divers ateliers créatifs en plein air ?",
       "reponses": [
-        { "texte": "Mare in Festa", "correct": true },
         { "texte": "Arte Mare (Bastia)", "correct": false },
+        { "texte": "Mare in Festa", "correct": true },
         { "texte": "L’Expo Sud’Arte", "correct": false },
         { "texte": "Corsic’Art Mundi", "correct": false }
       ],
@@ -1420,9 +1420,9 @@
       "categorie": "Culture - Gastronomie - Traditions",
       "question": "Quel art du trait d’esprit, connu pour ses plaisanteries parfois moqueuses mais sans malveillance, participe à la sociabilité dans l’île ?",
       "reponses": [
-        { "texte": "A macagna", "correct": true },
         { "texte": "A scapata", "correct": false },
         { "texte": "U rimbeccu", "correct": false },
+        { "texte": "A macagna", "correct": true },
         { "texte": "A punzecchiatura", "correct": false }
       ],
       "explication": "A macagna est une forme d’humour local, faite de railleries légères et de taquineries bon enfant, renforçant la complicité entre amis et voisins.",
@@ -1797,9 +1797,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle attitude est déconseillée lors d’un séjour en Corse ?",
     "reponses": [
-      { "texte": "Se comporter en pays conquis", "correct": true },
       { "texte": "Prendre le temps de vivre", "correct": false },
       { "texte": "Dire bonjour en arrivant", "correct": false },
+      { "texte": "Se comporter en pays conquis", "correct": true },
       { "texte": "Boire un verre avec des Corses", "correct": false }
     ],
     "explication": "Il est fortement déconseillé de critiquer la Corse ou d’adopter une attitude dominatrice.",
@@ -1810,10 +1810,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Que signifie 'payer sa tournée' selon les usages corses ?",
     "reponses": [
-      { "texte": "Chacun paie un verre pour tous à tour de rôle", "correct": true },
       { "texte": "On divise la note en parts égales", "correct": false },
       { "texte": "Le plus riche paie pour tout le monde", "correct": false },
-      { "texte": "On ne paie que pour ce que l'on a consommé", "correct": false }
+      { "texte": "On ne paie que pour ce que l'on a consommé", "correct": false },
+      { "texte": "Chacun paie un verre pour tous à tour de rôle", "correct": true }
     ],
     "explication": "L'usage corse veut que chacun offre une tournée plutôt que de partager la note.",
     "difficulte": "Facile",
@@ -1823,9 +1823,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "À quelle époque la vendetta était-elle la plus répandue en Corse ?",
     "reponses": [
-      { "texte": "Entre le XVIe et le XVIIIe siècle", "correct": true },
       { "texte": "Au XIXe siècle", "correct": false },
       { "texte": "Pendant l’Antiquité", "correct": false },
+      { "texte": "Entre le XVIe et le XVIIIe siècle", "correct": true },
       { "texte": "Depuis le XXe siècle", "correct": false }
     ],
     "explication": "La vendetta était très répandue entre le XVIe et le XVIIIe siècle.",
@@ -1836,9 +1836,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelles étaient les causes les plus fréquentes de vendetta ?",
     "reponses": [
-      { "texte": "Atteintes à l'honneur", "correct": true },
       { "texte": "Vols de bétail uniquement", "correct": false },
       { "texte": "Conflits religieux", "correct": false },
+      { "texte": "Atteintes à l'honneur", "correct": true },
       { "texte": "Accidents de chasse", "correct": false }
     ],
     "explication": "L’atteinte à l’honneur était l’un des motifs principaux des vendettas.",
@@ -1849,9 +1849,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle était la règle fondamentale d’une vendetta ?",
     "reponses": [
-      { "texte": "Chaque mort devait être vengée par une autre", "correct": true },
       { "texte": "On devait appeler la police", "correct": false },
       { "texte": "Une compensation financière suffisait", "correct": false },
+      { "texte": "Chaque mort devait être vengée par une autre", "correct": true },
       { "texte": "Le pardon était systématique", "correct": false }
     ],
     "explication": "Selon la logique de la vendetta, chaque mort en appelait une autre tant que la vengeance n’était pas accomplie.",
@@ -1862,10 +1862,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Que faisaient les hommes tant que la vengeance n’était pas accomplie ?",
     "reponses": [
-      { "texte": "Ils ne coupaient ni leurs cheveux ni leur barbe", "correct": true },
       { "texte": "Ils jeûnaient", "correct": false },
       { "texte": "Ils portaient du noir", "correct": false },
-      { "texte": "Ils se couvraient le visage", "correct": false }
+      { "texte": "Ils se couvraient le visage", "correct": false },
+      { "texte": "Ils ne coupaient ni leurs cheveux ni leur barbe", "correct": true }
     ],
     "explication": "Dans le rituel de la vendetta, les hommes gardaient cheveux et barbe longs jusqu'à la vengeance.",
     "difficulte": "Difficile",
@@ -1875,8 +1875,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Que faisait-on de la chemise ensanglantée du mort dans certaines familles ?",
     "reponses": [
-      { "texte": "On la conservait jusqu’à la vengeance", "correct": true },
       { "texte": "On l'enterrait avec lui", "correct": false },
+      { "texte": "On la conservait jusqu’à la vengeance", "correct": true },
       { "texte": "On la brûlait immédiatement", "correct": false },
       { "texte": "On la donnait à l’église", "correct": false }
     ],
@@ -1888,10 +1888,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Dans quelles régions corses la vendetta était-elle peu ou pas pratiquée ?",
     "reponses": [
-      { "texte": "Cap Corse et Balagne", "correct": true },
       { "texte": "Sud de la Corse", "correct": false },
       { "texte": "Haute-Corse uniquement", "correct": false },
-      { "texte": "Plaine orientale", "correct": false }
+      { "texte": "Plaine orientale", "correct": false },
+      { "texte": "Cap Corse et Balagne", "correct": true }
     ],
     "explication": "Le Cap Corse et la Balagne ont été peu touchés par le phénomène des vendettas.",
     "difficulte": "Moyen",
@@ -1901,9 +1901,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle est l'origine principale de la langue corse ?",
     "reponses": [
-      { "texte": "L'italien", "correct": true },
       { "texte": "Le français", "correct": false },
       { "texte": "Le grec", "correct": false },
+      { "texte": "L'italien", "correct": true },
       { "texte": "Le latin d'Espagne", "correct": false }
     ],
     "explication": "La langue corse tire ses racines de l'italien, bien qu'elle ait aussi été influencée par d'autres langues.",
@@ -1914,8 +1914,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel événement marque une reconnaissance officielle de la langue corse ?",
     "reponses": [
-      { "texte": "Son inclusion dans la loi Deixonne en 1974", "correct": true },
       { "texte": "Sa diffusion dans les écoles dès 1920", "correct": false },
+      { "texte": "Son inclusion dans la loi Deixonne en 1974", "correct": true },
       { "texte": "La création de l'Université de Corte", "correct": false },
       { "texte": "Un traité signé avec la France en 1815", "correct": false }
     ],
@@ -1927,9 +1927,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Parmi les lettres suivantes, laquelle existe dans l'alphabet corse ?",
     "reponses": [
-      { "texte": "ghj", "correct": true },
       { "texte": "k", "correct": false },
       { "texte": "w", "correct": false },
+      { "texte": "ghj", "correct": true },
       { "texte": "x", "correct": false }
     ],
     "explication": "Les groupes de lettres comme 'ghj' et 'chj' sont présents en corse, contrairement à k, w, x ou y.",
@@ -1940,9 +1940,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle influence n’est PAS citée comme ayant marqué la langue corse ?",
     "reponses": [
-      { "texte": "L'allemand", "correct": true },
       { "texte": "L’ibère", "correct": false },
       { "texte": "La ligure", "correct": false },
+      { "texte": "L'allemand", "correct": true },
       { "texte": "La génoise", "correct": false }
     ],
     "explication": "La langue corse a été influencée par l’italien, l’ibère, la ligure et la génoise, mais pas par l’allemand.",
@@ -1953,9 +1953,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Comment se prononce généralement la lettre 'c' en corse ?",
     "reponses": [
-      { "texte": "Comme 'tch'", "correct": true },
       { "texte": "Comme 'ss'", "correct": false },
       { "texte": "Comme 'k'", "correct": false },
+      { "texte": "Comme 'tch'", "correct": true },
       { "texte": "Comme 'sh'", "correct": false }
     ],
     "explication": "En corse, la lettre 'c' se prononce souvent comme 'tch'.",
@@ -1966,9 +1966,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Que signifie la graphie 'Purti-Vechju' ?",
     "reponses": [
-      { "texte": "Porto-Vecchio", "correct": true },
       { "texte": "Bonifacio", "correct": false },
       { "texte": "Bastia", "correct": false },
+      { "texte": "Porto-Vecchio", "correct": true },
       { "texte": "Ajaccio", "correct": false }
     ],
     "explication": "'Purti-Vechju' est la forme corse de la ville de Porto-Vecchio.",
@@ -1979,8 +1979,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel est un trait phonétique du corse ?",
     "reponses": [
-      { "texte": "La dernière voyelle d’un mot est souvent chuintante", "correct": true },
       { "texte": "Les voyelles sont toujours accentuées", "correct": false },
+      { "texte": "La dernière voyelle d’un mot est souvent chuintante", "correct": true },
       { "texte": "Les consonnes ne sont jamais doublées", "correct": false },
       { "texte": "La langue évite les diphtongues", "correct": false }
     ],
@@ -1992,10 +1992,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle prononciation est correcte en corse ?",
     "reponses": [
-      { "texte": "'ch' se prononce comme 'g'", "correct": true },
       { "texte": "'u' se prononce comme 'eu'", "correct": false },
       { "texte": "'c' se prononce comme 's'", "correct": false },
-      { "texte": "'g' se prononce comme 'j'", "correct": false }
+      { "texte": "'g' se prononce comme 'j'", "correct": false },
+      { "texte": "'ch' se prononce comme 'g'", "correct": true }
     ],
     "explication": "En règle générale, 'ch' se prononce comme 'g' en corse.",
     "difficulte": "Difficile",
@@ -2005,9 +2005,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle lettre ne fait pas partie de l’alphabet corse ?",
     "reponses": [
-      { "texte": "y", "correct": true },
       { "texte": "ghj", "correct": false },
       { "texte": "chj", "correct": false },
+      { "texte": "y", "correct": true },
       { "texte": "u", "correct": false }
     ],
     "explication": "Les lettres k, w, x, y ne sont pas utilisées en corse.",
@@ -2018,9 +2018,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Pourquoi la langue corse joue-t-elle un rôle important pour les Corses ?",
     "reponses": [
-      { "texte": "Elle est liée au sentiment identitaire", "correct": true },
       { "texte": "Elle est obligatoire dans les administrations", "correct": false },
       { "texte": "Elle a été imposée par l'État", "correct": false },
+      { "texte": "Elle est liée au sentiment identitaire", "correct": true },
       { "texte": "Elle remplace totalement le français", "correct": false }
     ],
     "explication": "La langue corse occupe une place centrale dans l'identité culturelle des Corses.",
@@ -2031,8 +2031,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle est la religion majoritaire en Corse ?",
     "reponses": [
-      { "texte": "Catholique romaine", "correct": true },
       { "texte": "Protestante", "correct": false },
+      { "texte": "Catholique romaine", "correct": true },
       { "texte": "Musulmane", "correct": false },
       { "texte": "Orthodoxe", "correct": false }
     ],
@@ -2057,9 +2057,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle procession est associée à la ville de Sartène pendant la Semaine sainte ?",
     "reponses": [
-      { "texte": "U Catenacciu", "correct": true },
       { "texte": "La Trinité", "correct": false },
       { "texte": "Le Calvariu", "correct": false },
+      { "texte": "U Catenacciu", "correct": true },
       { "texte": "La Via Crucis", "correct": false }
     ],
     "explication": "La procession de U Catenacciu à Sartène est l'une des plus célèbres de Corse.",
@@ -2070,9 +2070,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle ville organise la procession des cinq confréries ?",
     "reponses": [
-      { "texte": "Bonifacio", "correct": true },
       { "texte": "Corte", "correct": false },
       { "texte": "Bastia", "correct": false },
+      { "texte": "Bonifacio", "correct": true },
       { "texte": "Calvi", "correct": false }
     ],
     "explication": "Bonifacio est connue pour la procession des cinq confréries pendant la Semaine sainte.",
@@ -2083,9 +2083,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle fête implique la bénédiction des barques de pêcheurs ?",
     "reponses": [
-      { "texte": "La Saint-Érasme", "correct": true },
       { "texte": "La Saint-Jean", "correct": false },
       { "texte": "La Toussaint", "correct": false },
+      { "texte": "La Saint-Érasme", "correct": true },
       { "texte": "L'Assomption", "correct": false }
     ],
     "explication": "La Saint-Érasme donne lieu à la bénédiction des barques de pêcheurs à Ajaccio, Bastia et Calvi.",
@@ -2096,9 +2096,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle pratique est souvent associée à la religion en Corse ?",
     "reponses": [
-      { "texte": "La magie et les superstitions", "correct": true },
       { "texte": "L'athéisme militant", "correct": false },
       { "texte": "Le végétarisme religieux", "correct": false },
+      { "texte": "La magie et les superstitions", "correct": true },
       { "texte": "Le silence rituel", "correct": false }
     ],
     "explication": "En Corse, la religion catholique cohabite avec des pratiques liées à la magie et à diverses superstitions.",
@@ -2109,10 +2109,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel événement religieux a lieu en août dans l'Alta Rocca ?",
     "reponses": [
-      { "texte": "Le pèlerinage à Notre-Dame-des-Neiges", "correct": true },
       { "texte": "Le festival de la Saint-Michel", "correct": false },
       { "texte": "La procession de Saint-Paul", "correct": false },
-      { "texte": "La bénédiction de l'eau", "correct": false }
+      { "texte": "La bénédiction de l'eau", "correct": false },
+      { "texte": "Le pèlerinage à Notre-Dame-des-Neiges", "correct": true }
     ],
     "explication": "Un pèlerinage à Notre-Dame-des-Neiges a lieu début août dans l'Alta Rocca.",
     "difficulte": "Moyen",
@@ -2122,10 +2122,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel lieu ne célèbre pas particulièrement la Semaine sainte selon le texte ?",
     "reponses": [
-      { "texte": "Porto-Vecchio", "correct": true },
       { "texte": "Calvi", "correct": false },
       { "texte": "Bastia", "correct": false },
-      { "texte": "Corte", "correct": false }
+      { "texte": "Corte", "correct": false },
+      { "texte": "Porto-Vecchio", "correct": true }
     ],
     "explication": "Porto-Vecchio n'est pas mentionné parmi les villes qui célèbrent la Semaine sainte dans le texte.",
     "difficulte": "Difficile",
@@ -2408,8 +2408,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel dessert corse parfumé à l’anis est associé à Pâques ?",
     "reponses": [
-      { "texte": "Campanile", "correct": true },
       { "texte": "Fiadone", "correct": false },
+      { "texte": "Campanile", "correct": true },
       { "texte": "Frappes", "correct": false },
       { "texte": "Beignets au brocciu", "correct": false }
     ],
@@ -2421,9 +2421,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel rituel a lieu devant l’église du village corse la veille de Noël ?",
     "reponses": [
-      { "texte": "Allumage du bûcher appelé Rocchiu", "correct": true },
       { "texte": "Défilé des bergers", "correct": false },
       { "texte": "Messe de l’aube", "correct": false },
+      { "texte": "Allumage du bûcher appelé Rocchiu", "correct": true },
       { "texte": "Chant traditionnel des enfants", "correct": false }
     ],
     "explication": "Le 'Rocchiu' est un grand bûcher allumé la veille de Noël devant l’église, une tradition vivante en Corse.",
@@ -2434,9 +2434,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel encas est typique après la messe de minuit en Corse ?",
     "reponses": [
-      { "texte": "Figatelli grillés, beignets de courgettes et fiadone", "correct": true },
       { "texte": "Sardines farcies et vin chaud", "correct": false },
       { "texte": "Soupe de potiron et clémentines", "correct": false },
+      { "texte": "Figatelli grillés, beignets de courgettes et fiadone", "correct": true },
       { "texte": "Tourte aux herbes et fromage", "correct": false }
     ],
     "explication": "Après la messe de minuit, les Corses dégustent souvent figatelli grillés, fritelle, châtaignes grillées et fiadone.",
@@ -2447,10 +2447,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel plat accompagne traditionnellement l'agneau rôti à Noël en Corse ?",
     "reponses": [
-      { "texte": "Polenta", "correct": true },
       { "texte": "Pommes dauphines", "correct": false },
       { "texte": "Riz safrané", "correct": false },
-      { "texte": "Pâtes au pesto", "correct": false }
+      { "texte": "Pâtes au pesto", "correct": false },
+      { "texte": "Polenta", "correct": true }
     ],
     "explication": "La polenta est souvent servie avec l’agneau rôti lors du repas de Noël corse.",
     "difficulte": "Facile",
@@ -2460,9 +2460,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel dessert typique à base de châtaigne est servi à Noël en Corse ?",
     "reponses": [
-      { "texte": "Ceppu di Natale Castagniu", "correct": true },
       { "texte": "Tiramisù à la clémentine", "correct": false },
       { "texte": "Gâteau à la figue", "correct": false },
+      { "texte": "Ceppu di Natale Castagniu", "correct": true },
       { "texte": "Gâteau de riz", "correct": false }
     ],
     "explication": "Le 'Ceppu di Natale Castagniu' est une bûche de Noël corse à la châtaigne.",
@@ -2473,10 +2473,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle tradition est respectée à Noël avec une assiette supplémentaire ?",
     "reponses": [
-      { "texte": "U piattu di u puvarettu", "correct": true },
       { "texte": "A ciambella di Natale", "correct": false },
       { "texte": "U pani di l’amicizia", "correct": false },
-      { "texte": "A suppa di carità", "correct": false }
+      { "texte": "A suppa di carità", "correct": false },
+      { "texte": "U piattu di u puvarettu", "correct": true }
     ],
     "explication": "‘U piattu di u puvarettu’ est l’assiette du pauvre, ajoutée symboliquement à la table de Noël en Corse.",
     "difficulte": "Moyen",
@@ -2486,8 +2486,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel plat est souvent servi lors des mariages en Corse ?",
     "reponses": [
-      { "texte": "Veau à la broche", "correct": true },
       { "texte": "Chapon farci", "correct": false },
+      { "texte": "Veau à la broche", "correct": true },
       { "texte": "Soupe corse aux herbes", "correct": false },
       { "texte": "Gratin de courgettes", "correct": false }
     ],
@@ -2499,10 +2499,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Comment la pièce montée est-elle traditionnellement coupée lors d’un mariage corse ?",
     "reponses": [
-      { "texte": "Avec un sabre", "correct": true },
       { "texte": "Avec un couteau spécial de famille", "correct": false },
       { "texte": "À la main", "correct": false },
-      { "texte": "Avec des ciseaux de cuisine", "correct": false }
+      { "texte": "Avec des ciseaux de cuisine", "correct": false },
+      { "texte": "Avec un sabre", "correct": true }
     ],
     "explication": "En Corse, la tradition veut que la pièce montée soit découpée au sabre lors des mariages.",
     "difficulte": "Facile",
@@ -2512,8 +2512,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel fromage corse est fabriqué à partir de lait de brebis ou de chèvre et très utilisé en cuisine ?",
     "reponses": [
-      { "texte": "Brocciu", "correct": true },
       { "texte": "Reblochon", "correct": false },
+      { "texte": "Brocciu", "correct": true },
       { "texte": "Roquefort", "correct": false },
       { "texte": "Cantal", "correct": false }
     ],
@@ -2525,10 +2525,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel est l'ingrédient principal du figatellu corse ?",
     "reponses": [
-      { "texte": "Le foie de porc", "correct": true },
       { "texte": "Le filet mignon", "correct": false },
       { "texte": "Le jambon cru", "correct": false },
-      { "texte": "La graisse de canard", "correct": false }
+      { "texte": "La graisse de canard", "correct": false },
+      { "texte": "Le foie de porc", "correct": true }
     ],
     "explication": "Le figatellu est une saucisse à base de foie de porc, souvent accompagnée de pulenta.",
     "difficulte": "Facile",
@@ -2538,9 +2538,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Pourquoi les figatelli servis en été sont-ils souvent décongelés ?",
     "reponses": [
-      { "texte": "Ils ne sont plus produits après avril ou mai", "correct": true },
       { "texte": "Il faut 12 mois pour les affiner", "correct": false },
       { "texte": "La loi interdit leur production en été", "correct": false },
+      { "texte": "Ils ne sont plus produits après avril ou mai", "correct": true },
       { "texte": "Ils doivent être conservés dans le sable", "correct": false }
     ],
     "explication": "Le figatellu est un produit hivernal et sa production cesse au printemps.",
@@ -2577,9 +2577,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Qu'est-ce que le lonzu ?",
     "reponses": [
-      { "texte": "Un filet de porc entouré de gras", "correct": true },
       { "texte": "Une échine de bœuf fumée", "correct": false },
       { "texte": "Une terrine de foie de volaille", "correct": false },
+      { "texte": "Un filet de porc entouré de gras", "correct": true },
       { "texte": "Un jambon cru affiné", "correct": false }
     ],
     "explication": "Le lonzu est un filet de porc traditionnel conservant une couche de gras.",
@@ -2590,8 +2590,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle est la durée minimale de séchage du prisuttu ?",
     "reponses": [
-      { "texte": "8 mois", "correct": true },
       { "texte": "2 mois", "correct": false },
+      { "texte": "8 mois", "correct": true },
       { "texte": "1 an", "correct": false },
       { "texte": "3 semaines", "correct": false }
     ],
@@ -2616,9 +2616,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel label peut prêter à confusion concernant la charcuterie corse ?",
     "reponses": [
-      { "texte": "L’IGP « Île de Beauté »", "correct": true },
       { "texte": "Le Label Rouge", "correct": false },
       { "texte": "La DOP", "correct": false },
+      { "texte": "L’IGP « Île de Beauté »", "correct": true },
       { "texte": "La mention artisanale", "correct": false }
     ],
     "explication": "L’IGP n’assure pas l’origine corse de la viande, contrairement à l’AOP.",
@@ -2629,10 +2629,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel est le principal risque sanitaire lié au figatellu mal consommé ?",
     "reponses": [
-      { "texte": "L’hépatite E", "correct": true },
       { "texte": "La salmonellose", "correct": false },
       { "texte": "La trichinose", "correct": false },
-      { "texte": "Le botulisme", "correct": false }
+      { "texte": "Le botulisme", "correct": false },
+      { "texte": "L’hépatite E", "correct": true }
     ],
     "explication": "Le figatellu peut transmettre l’hépatite E s’il est mal cuit ou mal conservé.",
     "difficulte": "Difficile",
@@ -2668,10 +2668,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel label européen est équivalent à l’AOC française ?",
     "reponses": [
-      { "texte": "L’AOP", "correct": true },
       { "texte": "L’IGP", "correct": false },
       { "texte": "La DLUO", "correct": false },
-      { "texte": "Le sigle BIO", "correct": false }
+      { "texte": "Le sigle BIO", "correct": false },
+      { "texte": "L’AOP", "correct": true }
     ],
     "explication": "L’AOP est la version européenne de l’Appellation d’Origine Contrôlée (AOC).",
     "difficulte": "Facile",
@@ -2694,9 +2694,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle viande est utilisée dans la charcuterie corse authentique ?",
     "reponses": [
-      { "texte": "Celle de porcs élevés en Corse", "correct": true },
       { "texte": "Des porcs importés de Bretagne", "correct": false },
       { "texte": "Du bœuf corse", "correct": false },
+      { "texte": "Celle de porcs élevés en Corse", "correct": true },
       { "texte": "Du gibier sauvage", "correct": false }
     ],
     "explication": "La véritable charcuterie corse provient de porcs élevés localement.",
@@ -2720,8 +2720,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel fromage frais est emblématique de la Corse et utilisé dans de nombreux plats ?",
     "reponses": [
-      { "texte": "Le brocciu", "correct": true },
       { "texte": "Le roquefort", "correct": false },
+      { "texte": "Le brocciu", "correct": true },
       { "texte": "Le brie", "correct": false },
       { "texte": "Le reblochon", "correct": false }
     ],
@@ -2733,9 +2733,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle est la spécialité sucrée corse à base de brocciu et de citron ?",
     "reponses": [
-      { "texte": "Le fiadone", "correct": true },
       { "texte": "Le canistrelli", "correct": false },
       { "texte": "Le fritellu", "correct": false },
+      { "texte": "Le fiadone", "correct": true },
       { "texte": "Le pastizzu", "correct": false }
     ],
     "explication": "Le fiadone est une tarte corse faite de brocciu et de citron, parfois alcoolisée.",
@@ -2759,10 +2759,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Depuis quand l’huile d’olive corse bénéficie-t-elle d’une AOP ?",
     "reponses": [
-      { "texte": "2004", "correct": true },
       { "texte": "1995", "correct": false },
       { "texte": "2010", "correct": false },
-      { "texte": "2018", "correct": false }
+      { "texte": "2018", "correct": false },
+      { "texte": "2004", "correct": true }
     ],
     "explication": "L’huile d’olive corse bénéficie de l’AOP depuis 2004.",
     "difficulte": "Moyen",
@@ -2824,10 +2824,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel est le cépage typique des vins rouges d’Ajaccio ?",
     "reponses": [
-      { "texte": "Sciacarello", "correct": true },
       { "texte": "Nielluccio", "correct": false },
       { "texte": "Grenache", "correct": false },
-      { "texte": "Syrah", "correct": false }
+      { "texte": "Syrah", "correct": false },
+      { "texte": "Sciacarello", "correct": true }
     ],
     "explication": "Le sciacarello est un cépage emblématique des rouges produits dans l’AOC Ajaccio.",
     "difficulte": "Difficile",
@@ -2837,8 +2837,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel dessert corse est parfumé à l’anis et servi surtout dans le nord de l’île ?",
     "reponses": [
-      { "texte": "Le pastizzu", "correct": true },
       { "texte": "Le fiadone", "correct": false },
+      { "texte": "Le pastizzu", "correct": true },
       { "texte": "Le canistrelli", "correct": false },
       { "texte": "Le fritellu", "correct": false }
     ],
@@ -2850,9 +2850,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle variété d’olive, arrivée dans les années 1950, est la plus commune en Provence ?",
     "reponses": [
-      { "texte": "La picholine", "correct": true },
       { "texte": "La ghjermana", "correct": false },
       { "texte": "La sabina", "correct": false },
+      { "texte": "La picholine", "correct": true },
       { "texte": "La curtinese", "correct": false }
     ],
     "explication": "La picholine, très répandue en Provence, a été introduite tardivement en Corse.",
@@ -2863,9 +2863,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Combien de variétés de miel corse sont officiellement reconnues ?",
     "reponses": [
-      { "texte": "Six", "correct": true },
       { "texte": "Deux", "correct": false },
       { "texte": "Dix", "correct": false },
+      { "texte": "Six", "correct": true },
       { "texte": "Quatre", "correct": false }
     ],
     "explication": "Il existe six variétés de miel corse bénéficiant de l’AOP Mele di Corsica.",
@@ -2889,10 +2889,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel domaine a reçu un prix international pour son huile d’olive en 2018 ?",
     "reponses": [
-      { "texte": "Oltremonti", "correct": true },
       { "texte": "Peraldi", "correct": false },
       { "texte": "Gentile", "correct": false },
-      { "texte": "Saparale", "correct": false }
+      { "texte": "Saparale", "correct": false },
+      { "texte": "Oltremonti", "correct": true }
     ],
     "explication": "Le domaine Oltremonti, situé à Bravone, a été distingué à New York en 2018.",
     "difficulte": "Difficile",
@@ -2902,9 +2902,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle liqueur corse est produite à base de cédrat ?",
     "reponses": [
-      { "texte": "La cédratine", "correct": true },
       { "texte": "La Bonapartine", "correct": false },
       { "texte": "La myrte", "correct": false },
+      { "texte": "La cédratine", "correct": true },
       { "texte": "La menthe", "correct": false }
     ],
     "explication": "La cédratine est une liqueur corse à base de cédrat, un agrume typique.",
@@ -2915,8 +2915,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Comment est appelée la veillée funèbre dans la tradition corse ?",
     "reponses": [
-      { "texte": "A veghja", "correct": true },
       { "texte": "U lamentu", "correct": false },
+      { "texte": "A veghja", "correct": true },
       { "texte": "A festa", "correct": false },
       { "texte": "U passaghju", "correct": false }
     ],
@@ -2954,8 +2954,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quelle est la fonction du son des cloches au moment du décès en Corse ?",
     "reponses": [
-      { "texte": "Chasser les mauvais esprits", "correct": true },
       { "texte": "Avertir le village du décès", "correct": false },
+      { "texte": "Chasser les mauvais esprits", "correct": true },
       { "texte": "Appeler les proches au recueillement", "correct": false },
       { "texte": "Accompagner le prêtre", "correct": false }
     ],
@@ -2980,9 +2980,9 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Qui sont traditionnellement les porteurs du cercueil en Corse ?",
     "reponses": [
-      { "texte": "Les hommes de la famille", "correct": true },
       { "texte": "Le prêtre et les enfants", "correct": false },
       { "texte": "Les voisins du défunt", "correct": false },
+      { "texte": "Les hommes de la famille", "correct": true },
       { "texte": "Les membres du conseil municipal", "correct": false }
     ],
     "explication": "Le port du cercueil est généralement confié aux hommes proches du défunt dans un esprit de respect et de tradition.",
@@ -2993,8 +2993,8 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Quel rituel symbolise le passage de l’âme dans certaines régions corses ?",
     "reponses": [
-      { "texte": "Le caracolu", "correct": true },
       { "texte": "Le lamentu", "correct": false },
+      { "texte": "Le caracolu", "correct": true },
       { "texte": "L’incensu", "correct": false },
       { "texte": "L’invitu", "correct": false }
     ],
@@ -3032,10 +3032,10 @@
     "categorie": "Culture - Gastronomie - Traditions",
     "question": "Qui chante traditionnellement les lamenti dans les funérailles corses ?",
     "reponses": [
-      { "texte": "Les femmes de la famille ou de la communauté", "correct": true },
       { "texte": "Les enfants du village", "correct": false },
       { "texte": "Le maire du village", "correct": false },
-      { "texte": "Le prêtre seul", "correct": false }
+      { "texte": "Le prêtre seul", "correct": false },
+      { "texte": "Les femmes de la famille ou de la communauté", "correct": true }
     ],
     "explication": "Les lamenti sont traditionnellement chantés par les femmes, souvent très proches du défunt, exprimant le chagrin collectif.",
     "difficulte": "Facile",

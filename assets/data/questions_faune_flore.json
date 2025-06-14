@@ -406,8 +406,8 @@
     "categorie": "Faune et flore",
     "question": "Quel arbre, planté dans certaines forêts corses, est souvent utilisé pour son bois et sa croissance rapide ?",
     "reponses": [
-      { "texte": "Le pin maritime", "correct": true },
       { "texte": "Le mélèze", "correct": false },
+      { "texte": "Le pin maritime", "correct": true },
       { "texte": "Le frêne", "correct": false },
       { "texte": "Le cèdre de l’Atlas", "correct": false }
     ],
@@ -432,10 +432,10 @@
     "categorie": "Faune et flore",
     "question": "Quel petit oiseau, au plumage rougeâtre, chante souvent au lever du soleil en Corse ?",
     "reponses": [
-      { "texte": "Le rougegorge familier", "correct": true },
       { "texte": "La bergeronnette grise", "correct": false },
       { "texte": "Le merle noir", "correct": false },
-      { "texte": "La linotte mélodieuse", "correct": false }
+      { "texte": "La linotte mélodieuse", "correct": false },
+      { "texte": "Le rougegorge familier", "correct": true }
     ],
     "explication": "Le rougegorge est très reconnaissable à sa poitrine rouge et son chant mélodieux. On l’observe dans les jardins et sous-bois.",
     "difficulte": "Facile",
@@ -445,8 +445,8 @@
     "categorie": "Faune et flore",
     "question": "Quel coquillage, apprécié pour sa chair, est souvent pêché près des rochers corses ?",
     "reponses": [
-      { "texte": "La patelle", "correct": true },
       { "texte": "La coque", "correct": false },
+      { "texte": "La patelle", "correct": true },
       { "texte": "La palourde", "correct": false },
       { "texte": "La moule perlière", "correct": false }
     ],
@@ -458,9 +458,9 @@
     "categorie": "Faune et flore",
     "question": "Quel insecte, proche du papillon, est actif surtout à la tombée du jour en Corse ?",
     "reponses": [
-      { "texte": "Le sphinx colibri", "correct": true },
       { "texte": "La luciole", "correct": false },
       { "texte": "La guêpe noire", "correct": false },
+      { "texte": "Le sphinx colibri", "correct": true },
       { "texte": "Le criquet provençal", "correct": false }
     ],
     "explication": "Le sphinx colibri vole rapidement d’une fleur à l’autre, en vol stationnaire. Il est très actif le soir en été.",
@@ -471,9 +471,9 @@
     "categorie": "Faune et flore",
     "question": "Quel arbuste du maquis corse est reconnaissable à ses fleurs blanches et son parfum fort ?",
     "reponses": [
-      { "texte": "Le ciste", "correct": true },
       { "texte": "Le buis", "correct": false },
       { "texte": "Le houx", "correct": false },
+      { "texte": "Le ciste", "correct": true },
       { "texte": "Le lilas", "correct": false }
     ],
     "explication": "Le ciste est une plante emblématique du maquis. Ses fleurs ne durent qu’un jour mais sont très abondantes en été.",
@@ -484,8 +484,8 @@
     "categorie": "Faune et flore",
     "question": "Quel insecte, parfois gênant pour l’homme, est essentiel dans la chaîne alimentaire en zone humide ?",
     "reponses": [
-      { "texte": "Le moustique", "correct": true },
       { "texte": "Le hanneton", "correct": false },
+      { "texte": "Le moustique", "correct": true },
       { "texte": "Le charançon", "correct": false },
       { "texte": "La fourmi noire", "correct": false }
     ],
@@ -510,9 +510,9 @@
     "categorie": "Faune et flore",
     "question": "Quel type de sol favorise la croissance des plantes aromatiques du maquis corse ?",
     "reponses": [
-      { "texte": "Le sol siliceux", "correct": true },
       { "texte": "Le sol calcaire", "correct": false },
       { "texte": "Le sol argileux", "correct": false },
+      { "texte": "Le sol siliceux", "correct": true },
       { "texte": "Le sol tourbeux", "correct": false }
     ],
     "explication": "Les sols siliceux, acides et secs, favorisent les plantes typiques du maquis comme le thym, le romarin ou la lavande.",
@@ -523,8 +523,8 @@
     "categorie": "Faune et flore",
     "question": "Quel papillon noir à taches rouges est commun dans les prairies corses au printemps ?",
     "reponses": [
-      { "texte": "La zygène", "correct": true },
       { "texte": "La piéride du chou", "correct": false },
+      { "texte": "La zygène", "correct": true },
       { "texte": "Le machaon", "correct": false },
       { "texte": "Le citron", "correct": false }
     ],
@@ -536,9 +536,9 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante aromatique du maquis est utilisée dans la préparation du fromage corse ?",
     "reponses": [
-      { "texte": "Le nepita", "correct": true },
       { "texte": "Le basilic", "correct": false },
       { "texte": "Le thym citronné", "correct": false },
+      { "texte": "Le nepita", "correct": true },
       { "texte": "La menthe", "correct": false }
     ],
     "explication": "Le nepita, parfois appelée menthe sauvage corse, est utilisée pour parfumer certains fromages corses comme le brocciu.",
@@ -601,9 +601,9 @@
     "categorie": "Faune et flore",
     "question": "Quel arbre produit un fruit très utilisé dans les confitures et les desserts corses ?",
     "reponses": [
-      { "texte": "Le figuier", "correct": true },
       { "texte": "Le pommier sauvage", "correct": false },
       { "texte": "Le noisetier", "correct": false },
+      { "texte": "Le figuier", "correct": true },
       { "texte": "Le cormier", "correct": false }
     ],
     "explication": "La figue est cultivée depuis l’Antiquité en Corse. Séchée ou fraîche, elle est omniprésente dans la cuisine insulaire.",
@@ -718,10 +718,10 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante aquatique flottante est typique des étangs d'eau douce corses ?",
     "reponses": [
-      { "texte": "La lentille d’eau", "correct": true },
       { "texte": "La salicorne", "correct": false },
       { "texte": "Le tamaris", "correct": false },
-      { "texte": "La lavande de mer", "correct": false }
+      { "texte": "La lavande de mer", "correct": false },
+      { "texte": "La lentille d’eau", "correct": true }
     ],
     "explication": "La lentille d’eau se multiplie rapidement à la surface des plans d’eau, jouant un rôle écologique important.",
     "difficulte": "Moyen",
@@ -731,9 +731,9 @@
     "categorie": "Faune et flore",
     "question": "Quelle fleur à pétales violets pousse dans les clairières et les bords de chemins corses au printemps ?",
     "reponses": [
-      { "texte": "La pervenche", "correct": true },
       { "texte": "Le coquelicot", "correct": false },
       { "texte": "La marguerite", "correct": false },
+      { "texte": "La pervenche", "correct": true },
       { "texte": "L’anémone pulsatille", "correct": false }
     ],
     "explication": "La pervenche est une plante vivace à feuillage persistant et floraison colorée, présente dans le maquis et les zones humides.",
@@ -757,10 +757,10 @@
     "categorie": "Faune et flore",
     "question": "Quel arbuste aux fruits rouges est typique du maquis et fleurit en automne ?",
     "reponses": [
-      { "texte": "L’arbousier", "correct": true },
       { "texte": "Le genévrier", "correct": false },
       { "texte": "Le chèvrefeuille", "correct": false },
-      { "texte": "Le nerprun", "correct": false }
+      { "texte": "Le nerprun", "correct": false },
+      { "texte": "L’arbousier", "correct": true }
     ],
     "explication": "L’arbousier est reconnaissable à ses fruits rouges et à ses fleurs blanches, qui apparaissent en même temps.",
     "difficulte": "Facile",
@@ -783,9 +783,9 @@
     "categorie": "Faune et flore",
     "question": "Quel poisson plat est bien camouflé sur les fonds sableux autour de la Corse ?",
     "reponses": [
-      { "texte": "La sole", "correct": true },
       { "texte": "Le maquereau", "correct": false },
       { "texte": "Le bar", "correct": false },
+      { "texte": "La sole", "correct": true },
       { "texte": "La sardine", "correct": false }
     ],
     "explication": "La sole est un poisson plat qui se fond dans le sable, rendant sa détection difficile pour les prédateurs comme pour les pêcheurs.",
@@ -796,10 +796,10 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante libère un parfum agréable mais est toxique si ingérée ?",
     "reponses": [
-      { "texte": "Le laurier rose", "correct": true },
       { "texte": "Le romarin", "correct": false },
       { "texte": "L'origan", "correct": false },
-      { "texte": "La sarriette", "correct": false }
+      { "texte": "La sarriette", "correct": false },
+      { "texte": "Le laurier rose", "correct": true }
     ],
     "explication": "Le laurier rose est une plante décorative, mais toutes ses parties sont toxiques, y compris pour les animaux domestiques.",
     "difficulte": "Moyen",
@@ -809,9 +809,9 @@
     "categorie": "Faune et flore",
     "question": "Quel arbre feuillu domine les forêts de la Castagniccia ?",
     "reponses": [
-      { "texte": "Le châtaignier", "correct": true },
       { "texte": "Le hêtre", "correct": false },
       { "texte": "Le pin d’Alep", "correct": false },
+      { "texte": "Le châtaignier", "correct": true },
       { "texte": "Le frêne", "correct": false }
     ],
     "explication": "La Castagniccia tire son nom des vastes forêts de châtaigniers, cultivés depuis le Moyen Âge pour leur fruit nourrissant.",
@@ -991,10 +991,10 @@
     "categorie": "Faune et flore",
     "question": "Quel amphibien chante dans les mares temporaires corses après la pluie ?",
     "reponses": [
-      { "texte": "La rainette méridionale", "correct": true },
       { "texte": "La grenouille verte", "correct": false },
       { "texte": "Le crapaud calamite", "correct": false },
-      { "texte": "Le triton palmé", "correct": false }
+      { "texte": "Le triton palmé", "correct": false },
+      { "texte": "La rainette méridionale", "correct": true }
     ],
     "explication": "La rainette méridionale est un petit amphibien au chant aigu. On l'entend souvent au printemps après une pluie.",
     "difficulte": "Moyen",
@@ -1004,10 +1004,10 @@
     "categorie": "Faune et flore",
     "question": "Quel papillon diurne aux ailes colorées fréquente les jardins et les clairières corses ?",
     "reponses": [
-      { "texte": "Le flambé", "correct": true },
       { "texte": "Le sphinx", "correct": false },
       { "texte": "La noctuelle", "correct": false },
-      { "texte": "Le bombyx", "correct": false }
+      { "texte": "Le bombyx", "correct": false },
+      { "texte": "Le flambé", "correct": true }
     ],
     "explication": "Le flambé est un grand papillon noir et blanc à queues allongées. Il est très élégant en vol.",
     "difficulte": "Facile",
@@ -1043,10 +1043,10 @@
     "categorie": "Faune et flore",
     "question": "Quel poisson coloré vit autour des herbiers de posidonie et est très territorial ?",
     "reponses": [
-      { "texte": "Le serran écriture", "correct": true },
       { "texte": "La rascasse brune", "correct": false },
       { "texte": "La dorade grise", "correct": false },
-      { "texte": "Le bar commun", "correct": false }
+      { "texte": "Le bar commun", "correct": false },
+      { "texte": "Le serran écriture", "correct": true }
     ],
     "explication": "Le serran écriture est un poisson méditerranéen très coloré qui défend activement son territoire près des fonds rocheux et herbiers.",
     "difficulte": "Moyen",
@@ -1121,9 +1121,9 @@
     "categorie": "Faune et flore",
     "question": "Quel lézard, à la robe souvent vert vif, est une espèce protégée visible en Corse ?",
     "reponses": [
-      { "texte": "Le lézard de Tyrrhénie", "correct": true },
       { "texte": "Le lézard ocellé", "correct": false },
       { "texte": "Le gecko diurne", "correct": false },
+      { "texte": "Le lézard de Tyrrhénie", "correct": true },
       { "texte": "Le lézard catalan", "correct": false }
     ],
     "explication": "Le lézard de Tyrrhénie (Podarcis tiliguerta) est typique de Corse et Sardaigne, avec des colorations éclatantes variables.",
@@ -1147,9 +1147,9 @@
     "categorie": "Faune et flore",
     "question": "Quel champignon, très prisé en automne, est orange et pousse sous les pins corses ?",
     "reponses": [
-      { "texte": "Le lactaire délicieux", "correct": true },
       { "texte": "La girolle", "correct": false },
       { "texte": "La russule", "correct": false },
+      { "texte": "Le lactaire délicieux", "correct": true },
       { "texte": "Le pied-bleu", "correct": false }
     ],
     "explication": "Le lactaire délicieux est un champignon comestible qui pousse en symbiose avec les pins, très populaire en Corse.",
@@ -1186,9 +1186,9 @@
     "categorie": "Faune et flore",
     "question": "Quel oiseau noir au chant puissant est très territorial au printemps ?",
     "reponses": [
-      { "texte": "Le merle noir", "correct": true },
       { "texte": "La pie bavarde", "correct": false },
       { "texte": "La corneille mantelée", "correct": false },
+      { "texte": "Le merle noir", "correct": true },
       { "texte": "Le choucas des tours", "correct": false }
     ],
     "explication": "Le merle noir est l’un des oiseaux les plus familiers de Corse. Le mâle chante dès l’aube pour marquer son territoire.",
@@ -1199,8 +1199,8 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante vivace, aux fleurs en étoile, pousse dans les éboulis rocheux en altitude ?",
     "reponses": [
-      { "texte": "L’edelweiss corse", "correct": true },
       { "texte": "La gentiane", "correct": false },
+      { "texte": "L’edelweiss corse", "correct": true },
       { "texte": "La campanule", "correct": false },
       { "texte": "L’anémone des Alpes", "correct": false }
     ],
@@ -1225,9 +1225,9 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante du maquis corse donne des baies rouges toxiques pour l’homme ?",
     "reponses": [
-      { "texte": "Le nerprun", "correct": true },
       { "texte": "Le groseillier sauvage", "correct": false },
       { "texte": "La ronce", "correct": false },
+      { "texte": "Le nerprun", "correct": true },
       { "texte": "Le rosier sauvage", "correct": false }
     ],
     "explication": "Le nerprun produit de petites baies rouges qui sont toxiques pour l’homme mais consommées par certains oiseaux.",
@@ -1316,10 +1316,10 @@
     "categorie": "Faune et flore",
     "question": "Quel étang corse est classé réserve naturelle et abrite de nombreuses espèces d’oiseaux migrateurs ?",
     "reponses": [
-      { "texte": "L’étang de Biguglia", "correct": true },
       { "texte": "L’étang de Tanchiccia", "correct": false },
       { "texte": "L’étang d’Urbino", "correct": false },
-      { "texte": "L’étang de Diane", "correct": false }
+      { "texte": "L’étang de Diane", "correct": false },
+      { "texte": "L’étang de Biguglia", "correct": true }
     ],
     "explication": "L’étang de Biguglia, au sud de Bastia, est une réserve naturelle classée Natura 2000, refuge pour flamants, hérons et canards.",
     "difficulte": "Moyen",
@@ -1329,10 +1329,10 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante rampante produit des fruits rouges sucrés, comestibles à la fin de l’été ?",
     "reponses": [
-      { "texte": "La ronce sauvage", "correct": true },
       { "texte": "La fraise des bois", "correct": false },
       { "texte": "Le nerprun", "correct": false },
-      { "texte": "Le houx", "correct": false }
+      { "texte": "Le houx", "correct": false },
+      { "texte": "La ronce sauvage", "correct": true }
     ],
     "explication": "Les ronces produisent les mûres, très présentes en Corse à la fin de l’été, utilisées dans les confitures traditionnelles.",
     "difficulte": "Facile",
@@ -1368,8 +1368,8 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante succulente à fleurs jaunes colonise les toits et les murs des villages corses ?",
     "reponses": [
-      { "texte": "Le sedum", "correct": true },
       { "texte": "La joubarbe", "correct": false },
+      { "texte": "Le sedum", "correct": true },
       { "texte": "Le pourpier", "correct": false },
       { "texte": "La ficoïde", "correct": false }
     ],
@@ -1394,10 +1394,10 @@
     "categorie": "Faune et flore",
     "question": "Quel coléoptère aux élytres métalliques verts est souvent observé sur les fleurs en été ?",
     "reponses": [
-      { "texte": "La cétoine dorée", "correct": true },
       { "texte": "Le scarabée rhinocéros", "correct": false },
       { "texte": "La luciole", "correct": false },
-      { "texte": "Le charançon", "correct": false }
+      { "texte": "Le charançon", "correct": false },
+      { "texte": "La cétoine dorée", "correct": true }
     ],
     "explication": "La cétoine dorée est un pollinisateur actif qui se nourrit de pollen et de nectar.",
     "difficulte": "Moyen",
@@ -1420,10 +1420,10 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante grimpante, présente dans les zones boisées corses, est parfois utilisée en médecine traditionnelle ?",
     "reponses": [
-      { "texte": "Le chèvrefeuille", "correct": true },
       { "texte": "La clématite", "correct": false },
       { "texte": "Le lierre terrestre", "correct": false },
-      { "texte": "La passiflore", "correct": false }
+      { "texte": "La passiflore", "correct": false },
+      { "texte": "Le chèvrefeuille", "correct": true }
     ],
     "explication": "Le chèvrefeuille corse est une plante grimpante aux fleurs parfumées, parfois utilisée pour ses propriétés expectorantes.",
     "difficulte": "Moyen",
@@ -1433,8 +1433,8 @@
     "categorie": "Faune et flore",
     "question": "Quel insecte corse, visible au printemps, est un coléoptère au corps allongé et antennes très longues ?",
     "reponses": [
-      { "texte": "Le capricorne", "correct": true },
       { "texte": "Le scarabée des bois", "correct": false },
+      { "texte": "Le capricorne", "correct": true },
       { "texte": "Le gendarme", "correct": false },
       { "texte": "Le criquet corse", "correct": false }
     ],
@@ -1446,9 +1446,9 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante du maquis corse, aux jeunes pousses tendres, est parfois consommée en omelette ?",
     "reponses": [
-      { "texte": "L’asperge sauvage", "correct": true },
       { "texte": "La bardane", "correct": false },
       { "texte": "Le pissenlit", "correct": false },
+      { "texte": "L’asperge sauvage", "correct": true },
       { "texte": "Le plantain", "correct": false }
     ],
     "explication": "L’asperge sauvage pousse à la fin de l’hiver et au début du printemps. Elle est récoltée pour ses jeunes tiges.",
@@ -1472,9 +1472,9 @@
     "categorie": "Faune et flore",
     "question": "Quel oiseau blanc avec une huppe est souvent observé dans les prairies corses au printemps ?",
     "reponses": [
-      { "texte": "La huppe fasciée", "correct": true },
       { "texte": "La pie-grièche", "correct": false },
       { "texte": "Le guêpier", "correct": false },
+      { "texte": "La huppe fasciée", "correct": true },
       { "texte": "Le traquet oreillard", "correct": false }
     ],
     "explication": "La huppe fasciée est facilement reconnaissable à sa huppe érectile et son chant caractéristique.",
@@ -1485,10 +1485,10 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante couvre souvent le sous-bois des forêts de châtaigniers corses ?",
     "reponses": [
-      { "texte": "La fougère aigle", "correct": true },
       { "texte": "Le genêt épineux", "correct": false },
       { "texte": "Le houx", "correct": false },
-      { "texte": "Le lierre rampant", "correct": false }
+      { "texte": "Le lierre rampant", "correct": false },
+      { "texte": "La fougère aigle", "correct": true }
     ],
     "explication": "La fougère aigle forme des tapis denses dans les zones humides et boisées, notamment sous les châtaigniers.",
     "difficulte": "Facile",
@@ -1511,8 +1511,8 @@
     "categorie": "Faune et flore",
     "question": "Quel oiseau aquatique au long bec incurvé filtre l’eau pour se nourrir ?",
     "reponses": [
-      { "texte": "L’avocette élégante", "correct": true },
       { "texte": "Le héron bihoreau", "correct": false },
+      { "texte": "L’avocette élégante", "correct": true },
       { "texte": "La spatule blanche", "correct": false },
       { "texte": "Le bécasseau minute", "correct": false }
     ],
@@ -1524,9 +1524,9 @@
     "categorie": "Faune et flore",
     "question": "Quelle plante du maquis, très odorante, est utilisée pour ses vertus antiseptiques et expectorantes ?",
     "reponses": [
-      { "texte": "La sarriette", "correct": true },
       { "texte": "La menthe poivrée", "correct": false },
       { "texte": "Le romarin", "correct": false },
+      { "texte": "La sarriette", "correct": true },
       { "texte": "Le thym commun", "correct": false }
     ],
     "explication": "La sarriette est une plante aromatique utilisée en infusion pour soulager les infections respiratoires et digestives.",
