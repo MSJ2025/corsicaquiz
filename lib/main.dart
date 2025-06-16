@@ -19,8 +19,8 @@ void main() async {
   await NotificationService.init();
   await ThemeNotifier.loadTheme();
   await AdService.init();
-  await BackgroundMusicService.instance.play();
-
+  BackgroundMusicService.instance.play();
+  git status
   runApp(const MyApp());
 }
 
