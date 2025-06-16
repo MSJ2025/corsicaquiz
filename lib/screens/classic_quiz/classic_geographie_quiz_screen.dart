@@ -45,8 +45,10 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
 
   Future<void> _loadCities() async {
     final data = await rootBundle.loadString('assets/data/questions_geographie.json');
+    final allCities = json.decode(data) as List<dynamic>;
+    allCities.shuffle();
     setState(() {
-      _cities = json.decode(data);
+      _cities = allCities.take(12).toList();
     });
   }
 
@@ -99,7 +101,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     if (distance < 10) {
       _score++;
       _controller.stop();
-      _controller.animateTo((_score + 1) / 12,
+      _controller.animateTo((_score + 1) / _cities.length,
           duration: Duration(milliseconds: 700), curve: Curves.easeInOut);
     }
     final player = AudioPlayer();
@@ -148,7 +150,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
               SizedBox(height: 10),
               Text('Quiz terminé !', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               SizedBox(height: 10),
-              Text('Score : $_score / 12', textAlign: TextAlign.center),
+              Text('Score : $_score / ${_cities.length}', textAlign: TextAlign.center),
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
@@ -225,8 +227,8 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
             Positioned.fill(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
-                children: List.generate(12, (index) {
-                  final reverseIndex = 11 - index;
+                children: List.generate(_cities.length, (index) {
+                  final reverseIndex = _cities.length - 1 - index;
                   final glandReached = reverseIndex < _score;
                   return Expanded(
                     child: Stack(
@@ -372,7 +374,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                   child: Text('Où se situe ${city['nom']} ?'),
                 ),
                 SizedBox(height: 8),
-                Text('Score : $_score / 12', style: TextStyle(color: Colors.white)),
+                Text('Score : $_score / ${_cities.length}', style: TextStyle(color: Colors.white)),
               ],
             ),
           ),
