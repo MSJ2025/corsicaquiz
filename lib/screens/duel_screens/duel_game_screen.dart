@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import '/services/duel_question_service.dart';
 import '/services/duel_service.dart';
 import 'package:just_audio/just_audio.dart';
+import '../../services/background_music_service.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 Map<String, dynamic> opponentAnswers = {};
@@ -34,6 +35,7 @@ class _DuelGameScreenState extends State<DuelGameScreen> with SingleTickerProvid
 @override
 void initState() {
   super.initState();
+  BackgroundMusicService.instance.pause();
   DuelService().updateLastOpened(widget.duelId);
 
   _shakeController = AnimationController(
@@ -51,6 +53,7 @@ void initState() {
 
   @override
   void dispose() {
+    BackgroundMusicService.instance.resume();
     player.stop();
     player.dispose();
     _shakeController.dispose();
