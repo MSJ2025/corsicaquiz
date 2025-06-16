@@ -369,7 +369,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                     color: Colors.white.withOpacity(0.8),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  child: Text('Où se situe ${city['ville']} ?'),
+                  child: Text('Où se situe ${city['nom']} ?'),
                 ),
                 SizedBox(height: 8),
                 Text('Score : $_score / 12', style: TextStyle(color: Colors.white)),
