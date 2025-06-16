@@ -20,7 +20,7 @@ void main() async {
   await ThemeNotifier.loadTheme();
   await AdService.init();
   BackgroundMusicService.instance.play();
-  git status
+
   runApp(const MyApp());
 }
 
