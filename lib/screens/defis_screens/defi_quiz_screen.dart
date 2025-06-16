@@ -277,6 +277,7 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
     _scorePulseController.forward(from: 0.0);
 
     Future.delayed(Duration(seconds: 1), () {
+      if (!mounted) return;
       setState(() {
         _showAnimation = false;
         if (_timeLeft > 0) {
@@ -300,6 +301,7 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
     });
 
     Future.delayed(Duration(milliseconds: 800), () {
+      if (!mounted) return;
       setState(() {
         _timerHighlight = false;
       });
