@@ -7,6 +7,7 @@ import 'package:flutter_map/flutter_map.dart' as flutter_map;
 import 'package:latlong2/latlong.dart' as latlong2;
 import 'package:lottie/lottie.dart';
 import 'package:just_audio/just_audio.dart';
+import '../../services/background_music_service.dart';
 import 'classic_quiz_menu_screen.dart';
 import '/services/ad_service.dart';
 
@@ -32,6 +33,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   @override
   void initState() {
     super.initState();
+    BackgroundMusicService.instance.pause();
     _loadCities();
     _loadUserAvatar();
     _controller = AnimationController(
@@ -383,6 +385,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
 
   @override
   void dispose() {
+    BackgroundMusicService.instance.resume();
     _controller.dispose();
     super.dispose();
   }

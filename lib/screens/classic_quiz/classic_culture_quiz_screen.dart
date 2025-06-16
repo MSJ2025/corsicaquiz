@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:just_audio/just_audio.dart';
+import '../../services/background_music_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
@@ -115,6 +116,7 @@ class _ClassicCultureQuizScreenState extends State<ClassicCultureQuizScreen> wit
   @override
   void initState() {
     super.initState();
+    BackgroundMusicService.instance.pause();
     FirebaseAnalytics.instance.logEvent(name: 'classic_culture_quiz_started');
     _player = AudioPlayer();
     _gunPlayer = AudioPlayer();
@@ -562,6 +564,7 @@ class _ClassicCultureQuizScreenState extends State<ClassicCultureQuizScreen> wit
 
   @override
   void dispose() {
+    BackgroundMusicService.instance.resume();
     _controller.dispose();
     _swingController.dispose();
     _player.dispose();
