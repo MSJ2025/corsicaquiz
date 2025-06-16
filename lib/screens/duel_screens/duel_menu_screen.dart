@@ -26,7 +26,8 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/videos/RocherVideo.mp4')
+    _controller =
+        VideoPlayerController.asset('assets/videos/RocherVideo_compressed.mp4')
       ..initialize().then((_) {
         _controller.setLooping(true);
         _controller.play();

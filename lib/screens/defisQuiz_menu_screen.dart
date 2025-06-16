@@ -74,7 +74,8 @@ class _ChallengeScreenState extends State<ChallengeScreen> with SingleTickerProv
 
     _animationsReady = true;
 
-    _videoController = VideoPlayerController.asset('assets/videos/DefiQuizVideo.mp4')
+    _videoController =
+        VideoPlayerController.asset('assets/videos/DefiQuizVideo_compressed.mp4')
       ..initialize().then((_) {
         _videoController.setVolume(0.0);
         _videoController.setLooping(true);

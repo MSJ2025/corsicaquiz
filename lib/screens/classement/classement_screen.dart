@@ -114,7 +114,8 @@ class _ClassementScreenState extends State<ClassementScreen> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/videos/ClassementVideo.mp4')
+    _controller = VideoPlayerController.asset(
+        'assets/videos/ClassementVideo_compressed.mp4')
       ..initialize().then((_) {
         _controller.setLooping(true);
         _controller.play();
