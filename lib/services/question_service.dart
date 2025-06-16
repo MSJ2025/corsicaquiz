@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 class QuestionService {
   Future<List<Map<String, dynamic>>> loadQuestions() async {
-    final String response = await rootBundle.loadString('assets/data/histoire.json');
+    final String response = await rootBundle.loadString('assets/data/questions_histoire.json');
     final List<dynamic> data = json.decode(response);
 
     return data.cast<Map<String, dynamic>>();
