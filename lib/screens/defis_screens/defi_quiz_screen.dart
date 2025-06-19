@@ -11,6 +11,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import '/services/ad_service.dart';
+import '../services/background_music_service.dart';
 
 
 class HistoryQuizScreen extends StatefulWidget {
@@ -58,6 +59,7 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
   @override
   void initState() {
     super.initState();
+    BackgroundMusicService.instance.pause();
     FirebaseAnalytics.instance.logEvent(name: 'defi_quiz_started');
     _loadQuestions();
     _audioPlayer = AudioPlayer();
@@ -404,6 +406,7 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
 
   @override
   void dispose() {
+    BackgroundMusicService.instance.resume();
     _timer?.cancel();
     _scoreBubbleController.dispose();
     _scorePulseController.dispose();
