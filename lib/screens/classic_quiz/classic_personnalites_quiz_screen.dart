@@ -9,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
 import '/services/ad_service.dart';
+import '../../services/background_music_service.dart';
 
 class ClassicPersonnalitesQuizScreen extends StatefulWidget {
   @override
@@ -114,6 +115,7 @@ class _ClassicPersonnalitesQuizScreenState extends State<ClassicPersonnalitesQui
   @override
   void initState() {
     super.initState();
+    BackgroundMusicService.instance.pause();
     _player = AudioPlayer();
     _gunPlayer = AudioPlayer();
     _playMusic();
@@ -561,6 +563,7 @@ class _ClassicPersonnalitesQuizScreenState extends State<ClassicPersonnalitesQui
 
   @override
   void dispose() {
+    BackgroundMusicService.instance.resume();
     _controller.dispose();
     _swingController.dispose();
     _player.dispose();

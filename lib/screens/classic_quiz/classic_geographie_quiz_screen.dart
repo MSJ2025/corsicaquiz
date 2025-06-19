@@ -9,6 +9,7 @@ import 'package:lottie/lottie.dart';
 import 'package:just_audio/just_audio.dart';
 import 'classic_quiz_menu_screen.dart';
 import '/services/ad_service.dart';
+import '../../services/background_music_service.dart';
 
 class ClassicGeographieQuizScreen extends StatefulWidget {
   ClassicGeographieQuizScreen({super.key});
@@ -32,6 +33,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   @override
   void initState() {
     super.initState();
+    BackgroundMusicService.instance.pause();
     _loadCities();
     _loadUserAvatar();
     _controller = AnimationController(
@@ -385,6 +387,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
 
   @override
   void dispose() {
+    BackgroundMusicService.instance.resume();
     _controller.dispose();
     super.dispose();
   }
