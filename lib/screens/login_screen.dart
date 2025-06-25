@@ -5,8 +5,6 @@ import 'dart:io';
 import '/services/profile_service.dart';
 import '../screens/home_screen.dart';
 import '../screens/profile_screen.dart';
-import '/services/ad_service.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class LoginScreen extends StatefulWidget {
   final AuthService? authService;
@@ -22,18 +20,11 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   bool _isLoading = false; // Indicateur de chargement
-  BannerAd? _bannerAd;
-  bool _bannerLoaded = false;
 
   @override
   void initState() {
     super.initState();
     _authService = widget.authService ?? AuthService();
-    _bannerAd = AdService.createBanner(() {
-      setState(() {
-        _bannerLoaded = true;
-      });
-    });
   }
 
   void _handleAuth() async {
@@ -372,18 +363,11 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
         ),
       ),
-      bottomNavigationBar: _bannerLoaded && _bannerAd != null
-          ? SizedBox(
-              height: _bannerAd!.size.height.toDouble(),
-              child: AdWidget(ad: _bannerAd!),
-            )
-          : null,
     );
   }
 
   @override
   void dispose() {
-    _bannerAd?.dispose();
     _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
