@@ -12,6 +12,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import '/services/ad_service.dart';
 import '/services/background_music_service.dart';
+import '/services/question_history_service.dart';
 
 
 class HistoryQuizScreen extends StatefulWidget {
@@ -31,6 +32,7 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
   Random _random = Random();
   Map<String, dynamic>? _currentQuestion;
   Set<String> _askedQuestions = {};
+  Set<String> _questionHistory = {};
   Offset? _tapPosition;
   bool _showAnimation = false;
   String _animationAsset = 'assets/lottie/starexplose_facile.json';
@@ -135,6 +137,9 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
 
   // ✅ Charge les questions du fichier JSON
   Future<void> _loadQuestions() async {
+    final history = await QuestionHistoryService().loadHistory();
+    _questionHistory = history.toSet();
+
     List<String> paths = [
       "assets/data/questions_histoire.json",
       "assets/data/questions_personnalites.json",
@@ -159,7 +164,10 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
   void _selectRandomCategory() {
     if (_questions.isNotEmpty) {
       List<String> availableCategories = _questions
-          .where((q) => !_askedQuestions.contains("${q['categorie'].toString().trim()}|${q['question'].toString().trim()}"))
+          .where((q) {
+            final key = "${q['categorie'].toString().trim()}|${q['question'].toString().trim()}";
+            return !_askedQuestions.contains(key) && !_questionHistory.contains(key);
+          })
           .map((q) => q['categorie'].toString())
           .toSet()
           .toList();
@@ -174,7 +182,8 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
           return _questions.any((q) =>
             q['categorie'] == _selectedCategory &&
             q['difficulte'] == diff &&
-            !_askedQuestions.contains("${q['categorie'].toString().trim()}|${q['question'].toString().trim()}")
+            !_askedQuestions.contains("${q['categorie'].toString().trim()}|${q['question'].toString().trim()}") &&
+            !_questionHistory.contains("${q['categorie'].toString().trim()}|${q['question'].toString().trim()}")
           );
         }).toList();
 
@@ -209,10 +218,13 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
 
   void _pickRandomQuestion(String difficulty) {
     List<Map<String, dynamic>> filteredQuestions = _questions
-        .where((q) =>
-            q['categorie'] == _selectedCategory &&
-            q['difficulte'] == difficulty &&
-            !_askedQuestions.contains("${q['categorie'].toString().trim()}|${q['question'].toString().trim()}"))
+        .where((q) {
+          final key = "${q['categorie'].toString().trim()}|${q['question'].toString().trim()}";
+          return q['categorie'] == _selectedCategory &&
+              q['difficulte'] == difficulty &&
+              !_askedQuestions.contains(key) &&
+              !_questionHistory.contains(key);
+        })
         .toList();
 
     if (filteredQuestions.isNotEmpty) {
@@ -221,7 +233,10 @@ class _HistoryQuizScreenState extends State<HistoryQuizScreen> with TickerProvid
         _selectedDifficulty = difficulty;
         _currentQuestion = selected;
         _answered = false;
-        _askedQuestions.add("${selected['categorie'].toString().trim()}|${selected['question'].toString().trim()}");
+        final key = "${selected['categorie'].toString().trim()}|${selected['question'].toString().trim()}";
+        _askedQuestions.add(key);
+        _questionHistory.add(key);
+        QuestionHistoryService().addQuestion(key);
       });
     } else {
       ScaffoldMessenger.of(context).showSnackBar(

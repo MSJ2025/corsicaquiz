@@ -10,6 +10,7 @@ import 'package:just_audio/just_audio.dart';
 import 'classic_quiz_menu_screen.dart';
 import '/services/ad_service.dart';
 import '../../services/background_music_service.dart';
+import '../../services/question_history_service.dart';
 
 class ClassicGeographieQuizScreen extends StatefulWidget {
   ClassicGeographieQuizScreen({super.key});
@@ -21,6 +22,7 @@ class ClassicGeographieQuizScreen extends StatefulWidget {
 class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScreen> with TickerProviderStateMixin {
   final flutter_map.MapController _mapController = flutter_map.MapController();
   List<dynamic> _cities = [];
+  Set<String> _questionHistory = {};
   int _current = 0;
   int _score = 0;
   latlong2.LatLng? _selected;
@@ -46,6 +48,9 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   }
 
   Future<void> _loadCities() async {
+    final history = await QuestionHistoryService().loadHistory();
+    _questionHistory = history.toSet();
+
     final data = await rootBundle
         .loadString('assets/data/questions_geographie.json');
     final allCities = json.decode(data) as List<dynamic>;
@@ -58,10 +63,20 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
         (allCities.where((c) => c['difficulte'] == 'Difficile').toList()
           ..shuffle());
 
+    String key(Map c) => "Geographie|${c['nom'].toString().trim()}";
+
+    List<dynamic> select(List<dynamic> source) {
+      final fresh = source.where((c) => !history.contains(key(c))).toList();
+      if (fresh.length < 4) {
+        fresh.addAll(source.where((c) => !fresh.contains(c)).take(4 - fresh.length));
+      }
+      return fresh.take(4).toList();
+    }
+
     final selectedCities = [
-      ...easyCities.take(4),
-      ...mediumCities.take(4),
-      ...hardCities.take(4)
+      ...select(easyCities),
+      ...select(mediumCities),
+      ...select(hardCities)
     ]
       ..shuffle();
 
@@ -98,6 +113,10 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   void _onTap(dynamic pos, latlong2.LatLng latlng) async {
     if (_answered || _cities.isEmpty) return;
     final city = _cities[_current];
+
+    final key = "Geographie|${city['nom'].toString().trim()}";
+    await QuestionHistoryService().addQuestion(key);
+    _questionHistory.add(key);
 
     final cityPoint = latlong2.LatLng(city['latitude'], city['longitude']);
     final tapPoint = latlong2.LatLng(latlng.latitude, latlng.longitude);
