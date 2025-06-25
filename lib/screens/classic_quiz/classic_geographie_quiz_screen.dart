@@ -46,11 +46,27 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   }
 
   Future<void> _loadCities() async {
-    final data = await rootBundle.loadString('assets/data/questions_geographie.json');
+    final data = await rootBundle
+        .loadString('assets/data/questions_geographie.json');
     final allCities = json.decode(data) as List<dynamic>;
-    allCities.shuffle();
+
+    final List<dynamic> easyCities =
+        (allCities.where((c) => c['difficulte'] == 'Facile').toList()..shuffle());
+    final List<dynamic> mediumCities =
+        (allCities.where((c) => c['difficulte'] == 'Moyen').toList()..shuffle());
+    final List<dynamic> hardCities =
+        (allCities.where((c) => c['difficulte'] == 'Difficile').toList()
+          ..shuffle());
+
+    final selectedCities = [
+      ...easyCities.take(4),
+      ...mediumCities.take(4),
+      ...hardCities.take(4)
+    ]
+      ..shuffle();
+
     setState(() {
-      _cities = allCities.take(12).toList();
+      _cities = selectedCities;
     });
   }
 
