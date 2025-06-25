@@ -11,6 +11,7 @@ import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import '/services/ad_service.dart';
 import '../../services/background_music_service.dart';
+import '../../services/question_history_service.dart';
 
 
 class ClassicFauneQuizScreen extends StatefulWidget {
@@ -86,6 +87,7 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
     );
   }
   List<dynamic> _questions = [];
+  Set<String> _questionHistory = {};
   int _currentIndex = 0;
   int _score = 0;
   bool _answered = false;
@@ -152,14 +154,27 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
   }
 
   Future<void> _loadQuestions() async {
+    final history = await QuestionHistoryService().loadHistory();
+    _questionHistory = history.toSet();
+
     final String response = await rootBundle.loadString('assets/data/questions_faune_flore.json');
     final List<dynamic> allQuestions = json.decode(response);
     final List<dynamic> easyQuestions = (allQuestions.where((q) => q['difficulte'] == 'Facile').toList()..shuffle());
     final List<dynamic> mediumQuestions = (allQuestions.where((q) => q['difficulte'] == 'Moyen').toList()..shuffle());
     final List<dynamic> hardQuestions = (allQuestions.where((q) => q['difficulte'] == 'Difficile').toList()..shuffle());
 
+    String key(Map q) => "${q['categorie'].toString().trim()}|${q['question'].toString().trim()}";
+
+    List<dynamic> select(List<dynamic> source) {
+      final fresh = source.where((q) => !history.contains(key(q))).toList();
+      if (fresh.length < 4) {
+        fresh.addAll(source.where((q) => !fresh.contains(q)).take(4 - fresh.length));
+      }
+      return fresh.take(4).toList();
+    }
+
     setState(() {
-      _questions = [...easyQuestions.take(4), ...mediumQuestions.take(4), ...hardQuestions.take(4)];
+      _questions = [...select(easyQuestions), ...select(mediumQuestions), ...select(hardQuestions)];
     });
   }
 
@@ -215,6 +230,10 @@ class _ClassicFauneQuizScreenState extends State<ClassicFauneQuizScreen> with Ti
 
   void _checkAnswer(bool isCorrect, Map<String, dynamic> question) async {
     if (_answered) return;
+
+    final key = "${question['categorie'].toString().trim()}|${question['question'].toString().trim()}";
+    await QuestionHistoryService().addQuestion(key);
+    _questionHistory.add(key);
 
     _playGunSound(); // 🔫 Joue le son du tir
 
