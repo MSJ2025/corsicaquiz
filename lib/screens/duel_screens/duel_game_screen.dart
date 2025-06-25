@@ -5,7 +5,7 @@ import '/services/duel_question_service.dart';
 import '/services/duel_service.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../services/background_music_service.dart';
+import '/services/background_music_service.dart';
 
 Map<String, dynamic> opponentAnswers = {};
 

@@ -11,7 +11,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import '/services/ad_service.dart';
-import '../services/background_music_service.dart';
+import '/services/background_music_service.dart';
 
 
 class HistoryQuizScreen extends StatefulWidget {

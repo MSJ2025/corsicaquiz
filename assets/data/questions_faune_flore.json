@@ -1675,10 +1675,525 @@
     "explication": "La salamandre de Corse (Salamandra corsica) est un amphibien noir tacheté de jaune, vivant dans des milieux humides d’altitude.",
     "difficulte": "Difficile",
     "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel animal corse est utilisé aujourd’hui pour la promenade et était autrefois un précieux auxiliaire agricole ?",
+    "reponses": [
+      { "texte": "Le cheval corse", "correct": false },
+      { "texte": "L’âne corse", "correct": true },
+      { "texte": "Le cochon corse", "correct": false },
+      { "texte": "Le tracteur de montagne", "correct": false }
+    ],
+    "explication": "L’âne corse était utilisé pour le transport et l’agriculture, il est aujourd’hui apprécié pour la promenade et comme animal de compagnie.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel animal, souvent confondu avec le sanglier, vagabonde à l’entrée des forêts et des villages corses ?",
+    "reponses": [
+      { "texte": "La truie italienne", "correct": false },
+      { "texte": "Le phacochère corse", "correct": false },
+      { "texte": "le porc vagabond", "correct": false },
+      { "texte": "Le cochon corse", "correct": true }
+    ],
+    "explication": "Le cochon corse, moins farouche que le sanglier, se rencontre souvent près des villages à la recherche de nourriture.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel oiseau corse, surnommé « l’Altore », fracasse des os sur les rochers pour se nourrir de moelle ?",
+    "reponses": [
+      { "texte": "Le gypaète barbu", "correct": true },
+      { "texte": "Le milan royal", "correct": false },
+      { "texte": "L’aigle royal", "correct": false },
+      { "texte": "La sittelle corse", "correct": false }
+    ],
+    "explication": "Le gypaète barbu est célèbre pour sa technique spectaculaire : il laisse tomber les os de haut afin d’accéder à la moelle.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel chien corse rustique est reconnu officiellement depuis 2003 et utilisé comme chien de berger ou de chasse ?",
+    "reponses": [
+      { "texte": "Le Sartenu", "correct": false },
+      { "texte": "Le Poggialu", "correct": false },
+      { "texte": "Le Cursinu", "correct": true },
+      { "texte": "Le Pascalpaolu", "correct": false }
+    ],
+    "explication": "Le Cursinu est une race corse polyvalente, adaptée à la vie rurale de l’île et reconnue en 2003.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel mammifère nocturne corse est protégé et doté de piquants pour se défendre des prédateurs ?",
+    "reponses": [
+      { "texte": "Le hérisson", "correct": true },
+      { "texte": "La genette", "correct": false },
+      { "texte": "La belette", "correct": false },
+      { "texte": "Le lérot", "correct": false }
+    ],
+    "explication": "Le hérisson corse, appelé u Ricciu, possède des épines dorsales comme défense naturelle.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel animal corse, véritable cauchemar des éleveurs, est célèbre pour sa ruse et sa longue queue touffue ?",
+    "reponses": [
+      { "texte": "Le toffu", "correct": false },
+      { "texte": "Le sanglier", "correct": false },
+      { "texte": "Le renard ", "correct": true },
+      { "texte": "La belette", "correct": false }
+    ],
+    "explication": "Le renard corse est redouté pour ses attaques sur les volailles et son intelligence légendaire.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel amphibien endémique corse respire par la peau et la bouche, et marche au fond de l’eau au lieu de nager ?",
+    "reponses": [
+      { "texte": "Le crapeau scaphandrier", "correct": false },
+      { "texte": "La grenouille sartenaise", "correct": false },
+      { "texte": "Le crapaud corse", "correct": false },
+      { "texte": "L’euprocte de Corse", "correct": true }
+    ],
+    "explication": "L’euprocte de Corse est un amphibien qui préfère marcher au fond des rivières plutôt que de nager.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel papillon emblématique de Corse, visible d’avril à juillet, vole avec légèreté jusqu’à 2000 mètres d’altitude ?",
+    "reponses": [
+      { "texte": "L'altinu corse", "correct": false },
+      { "texte": "Le sphinx colibri", "correct": false },
+      { "texte": "La zygène", "correct": false },
+      { "texte": "Le Porte-queue de Corse", "correct": true }
+    ],
+    "explication": "Le Porte-queue de Corse est un papillon cyrno-sarde reconnaissable à ses couleurs et sa légèreté en vol.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel reptile endémique, vert tacheté de noir, vit surtout sur le littoral et jusqu’à 1800 mètres d’altitude en Corse ?",
+    "reponses": [
+      { "texte": "Le lézard tyrrhénien", "correct": true },
+      { "texte": "Le gecko méditerranéen", "correct": false },
+      { "texte": "La couleuvre verte et jaune", "correct": false },
+      { "texte": "La vipère aspic", "correct": false }
+    ],
+    "explication": "La Tiliguerta ou lézard tyrrhénien est typique de Corse et de Sardaigne, avec un habitat très varié.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel mammifère corse est un robuste cousin sauvage du porc et est une figure emblématique de l’île ?",
+    "reponses": [
+      { "texte": "Le cochon corse", "correct": false },
+      { "texte": "Le mouflon", "correct": false },
+      { "texte": "Le sanglier", "correct": true },
+      { "texte": "Le porc cinu", "correct": false }
+    ],
+    "explication": "Le sanglier corse, u Cignale, est un animal sauvage très présent dans la culture et la chasse locale.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel animal sauvage peut être observé en liberté près du lac de Nino, broutant dans les pozzines ?",
+    "reponses": [
+      { "texte": "Le cheval", "correct": true },
+      { "texte": "La chèvre", "correct": false },
+      { "texte": "Le mouflon", "correct": false },
+      { "texte": "Le sanglier", "correct": false }
+    ],
+    "explication": "Des chevaux semi-sauvages vivent en liberté autour du lac de Nino, broutant dans les pozzines emblématiques du GR20.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Sur le plateau du Cuscionu, quel animal à cornes croisera-t-on souvent en liberté ou allaitant son veau ?",
+    "reponses": [
+      { "texte": "Le Dahu", "correct": false },
+      { "texte": "Le sanglier", "correct": false },
+      { "texte": "La vache ", "correct": true },
+      { "texte": "La brebis", "correct": false }
+    ],
+    "explication": "Les vaches corses sont présentes sur le GR20, notamment sur le plateau du Cuscionu, parfois avec leurs veaux.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel oiseau noir, souvent confondu avec un choucas, se reconnaît à son bec jaune et son cri particulier ?",
+    "reponses": [
+      { "texte": "Le chocard à bec jaune", "correct": true },
+      { "texte": "Le geai des chênes", "correct": false },
+      { "texte": "Le merle noir", "correct": false },
+      { "texte": "Le faucon pèlerin", "correct": false }
+    ],
+    "explication": "Le chocard à bec jaune, appelé parfois à tort choucas, signale sa présence par un cri aigu lorsque des rapaces approchent.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel grand mammifère, autrefois disparu, a été réintroduit dans la vallée d’Asinau au début des années 2000 ?",
+    "reponses": [
+      { "texte": "L'ours", "correct": false },
+      { "texte": "Le cerf", "correct": true },
+      { "texte": "Le mouflon", "correct": false },
+      { "texte": "Le sanglier", "correct": false }
+    ],
+    "explication": "Le cerf corse a été réintroduit après avoir disparu de l’île. On peut parfois l’entendre bramer à l’automne.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel petit oiseau, appelé aussi merle d’eau, chasse les insectes en plongeant dans les torrents du GR20 ?",
+    "reponses": [
+      { "texte": "Le bleu siflleur", "correct": false },
+      { "texte": "Le pinson des arbres", "correct": false },
+      { "texte": "La sittelle corse", "correct": false },
+      { "texte": "Le cingle plongeur", "correct": true }
+    ],
+    "explication": "Le cingle plongeur est adapté à la vie aquatique et chasse les insectes sous l’eau près des rivières de montagne.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel lézard endémique de Corse vit sur les pentes rocailleuses et exposées au soleil, avec un dos vert crocodile ?",
+    "reponses": [
+      { "texte": "Le lézard de corte", "correct": false },
+      { "texte": "Le lézard ocellé", "correct": false },
+      { "texte": "Le lézard de Bédriaga", "correct": true },
+      { "texte": "La couleuvre à collier", "correct": false }
+    ],
+    "explication": "Le lézard de Bédriaga se distingue par sa couleur verte et son habitat typique des pentes montagneuses et ensoleillées.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel amphibien endémique, discret, peut être observé du niveau de la mer jusqu’à plus de 2000 mètres d’altitude sur le GR20 ?",
+    "reponses": [
+      { "texte": "La salamandre de Corse", "correct": false },
+      { "texte": "L’euprocte de Corse", "correct": true },
+      { "texte": "La grenouille verte", "correct": false },
+      { "texte": "La rainette sarde", "correct": false }
+    ],
+    "explication": "L’euprocte de Corse est un petit amphibien qui vit dans les milieux aquatiques, même en altitude.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel animal, appelé aussi « chat renard corse », a été observé autour de la station d’Asco et ailleurs en montagne ?",
+    "reponses": [
+      { "texte": "Le chat sauvage", "correct": true },
+      { "texte": "Le loir gris", "correct": false },
+      { "texte": "La genette", "correct": false },
+      { "texte": "Le renard corse", "correct": false }
+    ],
+    "explication": "Le chat sauvage corse, surnommé « chat renard » en raison de son apparence, reste mystérieux et difficile à observer.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel rapace, aux très grandes ailes et queue longue, se nourrit exclusivement de carcasses d’animaux morts ?",
+    "reponses": [
+      { "texte": "Le milan royal", "correct": false },
+      { "texte": "La buse du prince", "correct": false },
+      { "texte": "Le gypaète barbu", "correct": true },
+      { "texte": "L’aigle royal", "correct": false }
+    ],
+    "explication": "Le gypaète barbu est l’un des plus grands rapaces européens et se nourrit uniquement d’os et de carcasses.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel animal est souvent aperçu en semi-liberté sur les pentes ou dans le maquis, pouvant peser plus de 200 kg ?",
+    "reponses": [
+      { "texte": "Le cochon corse", "correct": true },
+      { "texte": "La vache corse", "correct": false },
+      { "texte": "Le mouflon corse", "correct": false },
+      { "texte": "Le sanglier corse", "correct": false }
+    ],
+    "explication": "Le cochon corse (porcu nustrale) est robuste et se nourrit de châtaignes, contribuant à la charcuterie réputée de l’île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel type de végétation corse, célèbre pour ses odeurs, fleurit toute l’année et joue un rôle majeur dans l’écosystème insulaire ?",
+    "reponses": [
+      { "texte": "Le maquis", "correct": true },
+      { "texte": "La prairie", "correct": false },
+      { "texte": "La garrigue", "correct": false },
+      { "texte": "La pinède", "correct": false }
+    ],
+    "explication": "Le maquis est une formation végétale emblématique de la Corse, abritant une grande diversité d’arbustes et de plantes aromatiques.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle formation végétale alpine, composée de pelouses humides parsemées de trous d’eau, est particulièrement fragile en haute montagne corse ?",
+    "reponses": [
+      { "texte": "La pinède", "correct": false },
+      { "texte": "Les pozzines", "correct": true },
+      { "texte": "Le maquis", "correct": false },
+      { "texte": "La garrigue", "correct": false }
+    ],
+    "explication": "Les pozzines sont des pelouses herbeuses et humides, très sensibles au piétinement, qu’on trouve autour des lacs et rivières d’altitude.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel arbuste du maquis corse fournit une baie dont on tire une liqueur sucrée et appréciée localement ?",
+    "reponses": [
+      { "texte": "Le genévrier", "correct": false },
+      { "texte": "L’arbousier", "correct": false },
+      { "texte": "Le myrte", "correct": true },
+      { "texte": "Le ciste", "correct": false }
+    ],
+    "explication": "Le myrte produit des baies utilisées dans la fabrication de la liqueur de myrte, célèbre en Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle plante toxique de Corse, utilisée autrefois pour soigner les plaies, possède de grandes feuilles blanches ?",
+    "reponses": [
+      { "texte": "L’estrella", "correct": false },
+      { "texte": "L’hellébore", "correct": true },
+      { "texte": "La férule commune", "correct": false },
+      { "texte": "La grassette", "correct": false }
+    ],
+    "explication": "L’hellébore de Corse (a nocca) était autrefois réputée pour ses propriétés médicinales, malgré sa toxicité.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle plante du maquis, très appréciée en cuisine, pousse de 500 à 2000 mètres et doit être coupée sans être arrachée ?",
+    "reponses": [
+      { "texte": "Le thym", "correct": true },
+      { "texte": "Le romarin", "correct": false },
+      { "texte": "La lavande", "correct": false },
+      { "texte": "La sarriette", "correct": false }
+    ],
+    "explication": "Le thym corse (erba barona) parfume de nombreux plats et doit être cueilli avec précaution pour préserver la plante.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel arbuste endémique, au parfum résineux, était utilisé pour les toits des cabanes de bergers et pousse le long des torrents corses ?",
+    "reponses": [
+      { "texte": "Le boulot", "correct": false },
+      { "texte": "Le chêne vert", "correct": false },
+      { "texte": "Le genévrier", "correct": false },
+      { "texte": "L’aulne odorant", "correct": true }
+    ],
+    "explication": "L’aulne odorant de Corse, appelé u Bassu, pousse près des rivières et servait à la construction traditionnelle.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle plante rare, carnivore, piège les insectes grâce à des feuilles collantes et pousse dans les zones humides et froides de l’île ?",
+    "reponses": [
+      { "texte": "La grassette", "correct": true },
+      { "texte": "La pivoine de Corse", "correct": false },
+      { "texte": "Le serapias", "correct": false },
+      { "texte": "La férule commune", "correct": false }
+    ],
+    "explication": "La grassette est une petite plante carnivore, de plus en plus rare en Corse, qui digère les insectes attrapés sur ses feuilles.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel arbre majestueux de Corse, utilisé par les Romains pour leurs mâts, peut atteindre 50 mètres de haut et vivre jusqu’à 400 ans ?",
+    "reponses": [
+      { "texte": "Le pin laricio", "correct": true },
+      { "texte": "Le chêne murtole", "correct": false },
+      { "texte": "Le châtaignier", "correct": false },
+      { "texte": "L’olivier", "correct": false }
+    ],
+    "explication": "Le pin laricio est un emblème des forêts corses, reconnaissable à sa grande taille et son tronc droit.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle plante aquatique forme de grandes prairies sous-marines et joue un rôle clé dans l’équilibre écologique des plages corses ?",
+    "reponses": [
+      { "texte": "L'anémone", "correct": false },
+      { "texte": "La posidonie", "correct": true },
+      { "texte": "La zostère", "correct": false },
+      { "texte": "L’algue rouge", "correct": false }
+    ],
+    "explication": "La posidonie est une plante à fleurs sous-marine essentielle à la biodiversité et à la stabilité du littoral méditerranéen.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle plante rare de Corse, à fleurs bleues, pousse à l’ombre des rochers entre 1000 et 2500 mètres et dont la cueillette est interdite ?",
+    "reponses": [
+      { "texte": "L’ancolie de Bernard", "correct": true },
+      { "texte": "Le serapias", "correct": false },
+      { "texte": "La grassette", "correct": false },
+      { "texte": "La drosera rotundifolia", "correct": false }
+    ],
+    "explication": "L’ancolie de Bernard est une fleur bleue délicate protégée par la loi, très appréciée des amateurs de botanique.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Qu’est-ce qu’une espèce endémique en Corse ?",
+    "reponses": [
+      { "texte": "Une espèce introduite récemment sur l'île", "correct": false },
+      { "texte": "Une espèce qui vit partout en Méditerranée", "correct": false },
+      { "texte": "Une espèce présente uniquement dans une zone géographique restreinte", "correct": true },
+      { "texte": "Une espèce disparue depuis longtemps", "correct": false }
+    ],
+    "explication": "Une espèce endémique a une aire de répartition réduite et bien délimitée, parfois strictement limitée à la Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle espèce d'oiseau endémique, menacée malgré une population stable, vit uniquement en Corse sur quelques km² ?",
+    "reponses": [
+      { "texte": "La buse a col noir", "correct": false },
+      { "texte": "La sittelle corse", "correct": true },
+      { "texte": "Le chocard à bec jaune", "correct": false },
+      { "texte": "Le milan royal", "correct": false }
+    ],
+    "explication": "La sittelle corse est un oiseau rare dont la pérennité est menacée par la limitation de son habitat à la seule île.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel grand mammifère, emblématique de la Corse, fait l'objet d'un programme européen de conservation et de réintroduction ?",
+    "reponses": [
+      { "texte": "Le cane corso", "correct": false },
+      { "texte": "Le mouflon", "correct": true },
+      { "texte": "Le sanglier", "correct": false },
+      { "texte": "Le cerf élaphe", "correct": false }
+    ],
+    "explication": "Le mouflon de Corse bénéficie du programme Life pour restaurer et étendre ses populations dans l’île.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Où se trouvent aujourd'hui les deux principaux noyaux de population du mouflon de Corse ?",
+    "reponses": [
+      { "texte": "Dans la plaine orientale et la Balagne", "correct": false },
+      { "texte": "Sur le massif de Bavella et le massif du Cinto", "correct": true },
+      { "texte": "Autour d’Ajaccio et Bonifacio", "correct": false },
+      { "texte": "Sur la côte Ouest et Porto-Vecchio", "correct": false }
+    ],
+    "explication": "Les populations de mouflons sont concentrées au Sud (Bavella) et au Nord (Cinto), autour de réserves naturelles.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel papillon endémique de Corse et Sardaigne est menacé par les incendies, le parasitisme et les collectionneurs ?",
+    "reponses": [
+      { "texte": "Le Porte-queue de Corse", "correct": true },
+      { "texte": "La zygène", "correct": false },
+      { "texte": "La piéride du chou", "correct": false },
+      { "texte": "La luciole", "correct": false }
+    ],
+    "explication": "Le Porte-queue de Corse (Papilio hospiton) est un papillon rare qui subit de nombreuses menaces sur son territoire restreint.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Comment le suivi scientifique du Porte-queue de Corse est-il renforcé pour sa protection ?",
+    "reponses": [
+      { "texte": "Par la création d’un réseau d’observation et de collecte de données", "correct": true },
+      { "texte": "Par la chasse réglementée", "correct": false },
+      { "texte": "Par l’introduction de nouvelles espèces", "correct": false },
+      { "texte": "Par l’abandon de toute gestion", "correct": false }
+    ],
+    "explication": "Un réseau d’observation est mis en place pour étudier la répartition, la biologie et la densité du Porte-queue de Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel batracien endémique cyrno-sarde, très localisé, fait l’objet d’un suivi scientifique en Corse ?",
+    "reponses": [
+      { "texte": "Le crapaud commun", "correct": false },
+      { "texte": "Le discoglosse corse", "correct": true },
+      { "texte": "La grenouille verte", "correct": false },
+      { "texte": "L’euprocte de Corse", "correct": false }
+    ],
+    "explication": "Le discoglosse corse est une espèce de batracien endémique de Corse et de Sardaigne.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quelle espèce, réintroduite depuis les années 1980, était totalement disparue de Corse au début des années 1960 ?",
+    "reponses": [
+      { "texte": "La belette", "correct": false },
+      { "texte": "Le mouflon", "correct": false },
+      { "texte": "Le cerf", "correct": true },
+      { "texte": "Le sanglier", "correct": false }
+    ],
+    "explication": "Le cerf de Corse (Cervus elaphus corsicanus) a été réintroduit par le PNRC après avoir totalement disparu de l’île.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Quel est le principal danger pour les espèces endémiques strictes de Corse ?",
+    "reponses": [
+      { "texte": "Leur aire de répartition très réduite les rend vulnérables", "correct": true },
+      { "texte": "La concurrence du sanglier", "correct": false },
+      { "texte": "Le manque de nourriture", "correct": false },
+      { "texte": "La migration massive vers le continent", "correct": false }
+    ],
+    "explication": "Les espèces endémiques sont fragiles car la moindre perturbation de leur petit territoire peut mettre en péril leur survie.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Faune et flore",
+    "question": "Pourquoi la conservation de la faune endémique de Corse nécessite-t-elle une meilleure connaissance scientifique ?",
+    "reponses": [
+      { "texte": "Pour comprendre leur biologie et adapter les mesures de gestion", "correct": true },
+      { "texte": "Pour faciliter la chasse", "correct": false },
+      { "texte": "Pour développer l’agriculture intensive", "correct": false },
+      { "texte": "Pour augmenter le tourisme de masse", "correct": false }
+    ],
+    "explication": "Mieux connaître la biologie et la répartition des espèces endémiques est essentiel pour leur protection efficace.",
+    "difficulte": "Facile",
+    "image": null
   }
-
-
-
-
-
 ]

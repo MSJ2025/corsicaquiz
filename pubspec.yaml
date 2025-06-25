@@ -114,7 +114,7 @@ flutter_launcher_icons:
   image_path: assets/images/maure.png
   min_sdk_android: 21
   remove_alpha_ios: true
-  adaptive_icon_foreground: assets/images/maure.png
+  adaptive_icon_foreground: assets/images/maure_android.png
   adaptive_icon_background: "#00000000" # fond transparent
 
 

@@ -158,6 +158,7 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
                     );
                   },
                 ),
+                SizedBox(height: 16),
                 _CustomButton(
                   onPressed: () {
                     Navigator.push(

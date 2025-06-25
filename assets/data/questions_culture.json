@@ -3040,11 +3040,536 @@
     "explication": "Les lamenti sont traditionnellement chantés par les femmes, souvent très proches du défunt, exprimant le chagrin collectif.",
     "difficulte": "Facile",
     "image": null
+  },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel est le principal ingrédient de la pulenda, une spécialité corse traditionnelle ?",
+      "reponses": [
+        {"texte": "La farine de châtaigne", "correct": true},
+        {"texte": "La semoule de blé", "correct": false},
+        {"texte": "Le riz", "correct": false},
+        {"texte": "La farine de maïs", "correct": false}
+      ],
+      "explication": "La pulenda est un pain corse traditionnel préparé principalement à partir de farine de châtaigne, d’eau et de sel.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Laquelle de ces spécialités corses doit obligatoirement être consommée cuite à cœur pour éviter tout risque sanitaire ?",
+      "reponses": [
+        {"texte": "Le riatellu", "correct": false},
+        {"texte": "Le brocciu", "correct": false},
+        {"texte": "Le casgiu merzu", "correct": false},
+        {"texte": "Le figatellu", "correct": true}
+      ],
+      "explication": "Le figatellu, saucisse de foie de porc, doit impérativement être consommé bien cuit afin d’éviter les risques d’infection tels que la trichinellose ou l’hépatite E.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle appellation protège la farine de châtaigne corse au niveau européen ?",
+      "reponses": [
+        {"texte": "AOC (Appellation d’Origine Contrôlée)", "correct": false},
+        {"texte": "IGP (Indication Géographique Protégée)", "correct": false},
+        {"texte": "AOP (Appellation d’Origine Protégée)", "correct": true},
+        {"texte": "Label Rouge", "correct": false}
+      ],
+      "explication": "La farine de châtaigne corse bénéficie d’une AOP depuis 2010, ce qui la protège au niveau européen.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Dans quelle région corse trouve-t-on historiquement les plus vastes châtaigneraies ?",
+      "reponses": [
+        {"texte": "La Balagne", "correct": false},
+        {"texte": "La Castagniccia", "correct": true},
+        {"texte": "Le Taravu", "correct": false},
+        {"texte": "Le Cap Corse", "correct": false}
+      ],
+      "explication": "La Castagniccia est réputée pour ses vastes châtaigneraies, qui ont joué un rôle fondamental dans l’alimentation corse.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel fromage corse bénéficie d’une AOC depuis 1998 et d’une AOP depuis 2003 ?",
+      "reponses": [
+        {"texte": "Le brocciu", "correct": true},
+        {"texte": "Le casgiu merzu", "correct": false},
+        {"texte": "Le cabrettu", "correct": false},
+        {"texte": "Le niulincu", "correct": false}
+      ],
+      "explication": "Le brocciu est un fromage de lactosérum corse protégé par une AOC depuis 1998 et une AOP depuis 2003.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle huile bénéficie en Corse d’une Appellation d’Origine Contrôlée (AOC) depuis 2004 et d’une AOP depuis 2011 ?",
+      "reponses": [
+        {"texte": "Huile de colza", "correct": false},
+        {"texte": "Huile de tournesol", "correct": false},
+        {"texte": "Huile d’olive", "correct": true},
+        {"texte": "Huile de noix", "correct": false}
+      ],
+      "explication": "L’huile d’olive de Corse bénéficie d’une AOC depuis 2004 et d’une AOP depuis 2011.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Comment appelle-t-on le jambon sec corse, salé, séché et affiné à partir de porcs locaux ?",
+      "reponses": [
+        {"texte": "Pata negra", "correct": false},
+        {"texte": "Lonzu", "correct": false},
+        {"texte": "Prisuttu", "correct": true},
+        {"texte": "Coppa", "correct": false}
+      ],
+      "explication": "Le prisuttu est le jambon sec de Corse, salé, séché et affiné à partir de porcs élevés localement.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel dessert corse se distingue par sa forme de couronne et la présence d’œufs durs dans la pâte ?",
+      "reponses": [
+        {"texte": "Falculelle", "correct": false},
+        {"texte": "Canistrelli", "correct": false},
+        {"texte": "Caccavellu", "correct": true},
+        {"texte": "Fiadone", "correct": false}
+      ],
+      "explication": "Le caccavellu est un gâteau corse en couronne, traditionnellement préparé avec des œufs durs insérés dans la pâte.",
+      "difficulte": "Difficile",
+      "image": null
+    },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle spécialité corse est réalisée avec une pâte levée garnie de fromage de chèvre ou de brebis et cuite sur des feuilles de châtaignier ?",
+    "reponses": [
+      {"texte": "Migliacci", "correct": true},
+      {"texte": "Pulenda", "correct": false},
+      {"texte": "Fiadone", "correct": false},
+      {"texte": "Imbrucciata", "correct": false}
+    ],
+    "explication": "Les migliacci sont des préparations corses salées, composées de fromage et cuites sur des feuilles de châtaignier.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est l'ingrédient principal des canistrelli, les fameux biscuits corses ?",
+    "reponses": [
+      {"texte": "Farine de châtaigne", "correct": false},
+      {"texte": "Farine de blé", "correct": true},
+      {"texte": "Semoule de maïs", "correct": false},
+      {"texte": "Farine de pois chiche", "correct": false}
+    ],
+    "explication": "Les canistrelli sont des biscuits secs corses à base de farine de blé, souvent parfumés au vin blanc ou à l'anis.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle charcuterie corse, élaborée à partir d’échine de porc, doit être affinée pendant au moins 5 mois et bénéficie d’une AOP depuis 2013 ?",
+    "reponses": [
+      {"texte": "Figatellu", "correct": false},
+      {"texte": "Coppa", "correct": true},
+      {"texte": "Prisuttu", "correct": false},
+      {"texte": "Lonzu", "correct": false}
+    ],
+    "explication": "La coppa de Corse est affinée au minimum 5 mois et bénéficie d’une AOP européenne depuis 2013.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle fête corse a contribué à relancer la production du produit dans les années 1980, attirant plus de 30 000 visiteurs chaque année ?",
+    "reponses": [
+      {"texte": "Foire de l’olive de Montegrosso", "correct": false},
+      {"texte": "Foire du fromage de Venaco", "correct": false},
+      {"texte": "Foire de la châtaigne de Bocognano", "correct": true},
+      {"texte": "Fête du vin de Luri", "correct": false}
+    ],
+    "explication": "La Foire de la châtaigne de Bocognano, organisée depuis 1982, est le plus grand événement dédié à ce produit et a relancé la filière.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans quel type de contenant la farine de châtaigne corse est-elle traditionnellement vendue au consommateur pour préserver sa qualité ?",
+    "reponses": [
+      {"texte": "En bocaux en verre", "correct": false},
+      {"texte": "En sacs de 5 kg", "correct": false},
+      {"texte": "En petits sachets d’un kilo maximum", "correct": true},
+      {"texte": "En boîtes métalliques", "correct": false}
+    ],
+    "explication": "Pour garantir sa fraîcheur et éviter toute dégradation, la farine de châtaigne corse est vendue au détail dans des sachets de 1 kg maximum.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel dessert corse est traditionnellement composé de brocciu, de sucre, d’œufs et de citron ?",
+    "reponses": [
+      {"texte": "Fiadone", "correct": false},
+      {"texte": "Falculelle", "correct": true},
+      {"texte": "Canistrelli", "correct": false},
+      {"texte": "Caccavellu", "correct": false}
+    ],
+    "explication": "Les falculelle sont des petits gâteaux corses à base de brocciu, de sucre, d’œufs et de citron, cuits sur une feuille de châtaignier.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans quelle saison est-il conseillé de consommer le brocciu frais pour profiter de sa meilleure qualité ?",
+    "reponses": [
+      {"texte": "De juillet à septembre", "correct": false},
+      {"texte": "De mars à mai", "correct": true},
+      {"texte": "De novembre à janvier", "correct": false},
+      {"texte": "Toute l’année", "correct": false}
+    ],
+    "explication": "La période optimale pour consommer du brocciu frais est de mars à mai, pendant la pleine saison du lait de brebis et de chèvre.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le nom corse du fameux jambon sec élaboré à partir de porcs élevés en semi-liberté et nourris aux glands et châtaignes ?",
+    "reponses": [
+      {"texte": "Prisuttu", "correct": true},
+      {"texte": "Brocciu", "correct": false},
+      {"texte": "Coppa", "correct": false},
+      {"texte": "Figatellu", "correct": false}
+    ],
+    "explication": "Le prisuttu est le jambon sec corse, obtenu à partir de porcs élevés traditionnellement en semi-liberté.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le fromage corse célèbre pour être préparé avec des asticots qui accélèrent sa fermentation ?",
+    "reponses": [
+      {"texte": "Casgiu merzu", "correct": false},
+      {"texte": "Brocciu", "correct": false},
+      {"texte": "Casgiu merzu", "correct": true},
+      {"texte": "Tomme de brebis", "correct": false}
+    ],
+    "explication": "Le casgiu merzu, littéralement 'fromage pourri', est un fromage corse réputé pour être affiné grâce à la présence de larves.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle spécialité corse est un gâteau en forme de couronne où l’on trouve souvent des œufs durs insérés dans la pâte ?",
+    "reponses": [
+      {"texte": "Caccavellu", "correct": true},
+      {"texte": "Fiadone", "correct": false},
+      {"texte": "Falculelle", "correct": false},
+      {"texte": "Canistrelli", "correct": false}
+    ],
+    "explication": "Le caccavellu est un gâteau traditionnel corse de Pâques, reconnaissable à sa couronne et ses œufs durs.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans quelle commune corse se déroule chaque année la plus grande foire dédiée à la châtaigne ?",
+    "reponses": [
+      {"texte": "Venaco", "correct": false},
+      {"texte": "Figari", "correct": false},
+      {"texte": "Bocognano", "correct": true},
+      {"texte": "Sartène", "correct": false}
+    ],
+    "explication": "La Foire de la châtaigne de Bocognano est la plus grande manifestation insulaire consacrée à la châtaigne.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel biscuit sec, souvent parfumé à l’anis ou au vin blanc, est emblématique de la Corse ?",
+    "reponses": [
+      {"texte": "Vinucciu", "correct": false},
+      {"texte": "Cuggiulelle", "correct": false},
+      {"texte": "Canistrelli", "correct": true},
+      {"texte": "Migliacci", "correct": false}
+    ],
+    "explication": "Les canistrelli sont des biscuits traditionnels corses, secs et croquants, souvent aromatisés à l’anis ou au vin blanc.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel fromage corse à base de lactosérum peut être consommé frais ou affiné sous l'appellation 'passu' ?",
+    "reponses": [
+      {"texte": "Brocciu", "correct": false},
+      {"texte": "Brocciu", "correct": true},
+      {"texte": "Casgiu merzu", "correct": false},
+      {"texte": "Cabrettu", "correct": false}
+    ],
+    "explication": "Le brocciu est un fromage frais corse, qui peut aussi être affiné pour devenir brocciu passu.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans quelle région corse se situe historiquement la Castagniccia, connue pour ses vastes châtaigneraies ?",
+    "reponses": [
+      {"texte": "Nord de l’île", "correct": true},
+      {"texte": "Sud de l’île", "correct": false},
+      {"texte": "Plaine orientale", "correct": false},
+      {"texte": "Région d’Ajaccio", "correct": false}
+    ],
+    "explication": "La Castagniccia se situe dans le nord de la Corse, une région réputée pour ses forêts de châtaigniers.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle fête corse a vu la création de la Confrérie de la châtaigne et du marron lors de son 10e anniversaire ?",
+    "reponses": [
+      {"texte": "Foire du fromage de Venaco", "correct": false},
+      {"texte": "Journée du marron à Évisa", "correct": true},
+      {"texte": "Foire du vin de Luri", "correct": false},
+      {"texte": "Fête de la pulenda", "correct": false}
+    ],
+    "explication": "La Journée du marron à Évisa célèbre la châtaigne, et c’est lors de sa 10e édition qu’est née la Confrérie de la châtaigne.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle est la période traditionnelle de production et de consommation du figatellu corse ?",
+    "reponses": [
+      {"texte": "Printemps", "correct": false},
+      {"texte": "Été", "correct": false},
+      {"texte": "Novembre à mars", "correct": true},
+      {"texte": "Toute l’année", "correct": false}
+    ],
+    "explication": "Le figatellu, saucisse de foie de porc, est traditionnellement produit et consommé de novembre à mars.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel produit corse a obtenu une AOC en 2004 puis une AOP en 2011, et est récolté sur 297 communes insulaires?",
+      "reponses": [
+        {"texte": "Huile d’olive de Corse", "correct": true},
+        {"texte": "Vinaigre de Corse", "correct": false},
+        {"texte": "Huile de noix de Corse", "correct": false},
+        {"texte": "Huile de tournesol", "correct": false}
+      ],
+      "explication": "L’huile d’olive de Corse, appelée aussi Oliu di Corsica, bénéficie d’une AOC depuis 2004 et d’une AOP depuis 2011.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel est le cépage principal utilisé dans la production du muscat du Cap Corse?",
+      "reponses": [
+        {"texte": "Niellucciu", "correct": false},
+        {"texte": "Muscat blanc à petits grains", "correct": true},
+        {"texte": "Sciaccarellu", "correct": false},
+        {"texte": "Vermentinu", "correct": false}
+      ],
+      "explication": "Le muscat du Cap Corse est un vin doux naturel élaboré principalement à partir du cépage muscat blanc à petits grains.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Comment s’appelle la foire annuelle créée en 1989 et consacrée à un arbre Corse ?",
+      "reponses": [
+        {"texte": "Foire de la châtaigne de castagniccia", "correct": false},
+        {"texte": "Foire de l’olivier de Montegrosso", "correct": true},
+        {"texte": "Foire du fromage de Poggiale ", "correct": false},
+        {"texte": "Fête du marron de Sartène", "correct": false}
+      ],
+      "explication": "La Foire de l’olivier à Montegrosso est un rendez-vous incontournable pour les amateurs d’huile d’olive corse et des produits du terroir.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel vin corse bénéficie d’une appellation d’origine contrôlée depuis 1997 et est produit sur l’extrémité nord de l’île ?",
+      "reponses": [
+        {"texte": "Patrimonio", "correct": false},
+        {"texte": "Muscat du Cap Corse", "correct": true},
+        {"texte": "Liqueur de Myrte", "correct": false},
+        {"texte": "fiumicicoli", "correct": false}
+      ],
+      "explication": "Le muscat du Cap Corse est un vin doux naturel reconnu AOC depuis 1997 et produit dans 17 communes au nord de l’île.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle technique ancienne était utilisée pour presser les olives et obtenir l’huile en Corse avant l’arrivée des moulins modernes ?",
+      "reponses": [
+        {"texte": "Broyage avec des meules en granite", "correct": true},
+        {"texte": "Pressage au pied", "correct": false},
+        {"texte": "Centrifugation mécanique", "correct": false},
+        {"texte": "Broyage au pilon de bois", "correct": false}
+      ],
+      "explication": "Traditionnellement, les olives étaient broyées avec des meules en granite ou silex avant le pressurage.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quel climat caractérise la Corse et favorise la culture de l’olivier, avec de longs étés secs et peu de gelées ?",
+      "reponses": [
+        {"texte": "Climat océanique", "correct": false},
+        {"texte": "Climat continental", "correct": false},
+        {"texte": "Climat méditerranéen", "correct": true},
+        {"texte": "Climat montagnard", "correct": false}
+      ],
+      "explication": "Le climat méditerranéen, avec ses étés chauds et secs et ses hivers doux, est idéal pour l’olivier en Corse.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Quelle manifestation met à l’honneur les productions locales, l’oléiculture, mais aussi les métiers d’art et la gastronomie à Montegrosso ?",
+      "reponses": [
+        {"texte": "Foire de l’huile", "correct": false},
+        {"texte": "Foire de l’oléiculture", "correct": false},
+        {"texte": "Foire de l’olivier", "correct": true},
+        {"texte": "Foire du tournesol", "correct": false}
+      ],
+      "explication": "La Foire de l’olivier de Montegrosso regroupe oléiculteurs, artisans et producteurs pour valoriser le terroir corse.",
+      "difficulte": "Facile",
+      "image": null
+    },
+    {
+      "categorie": "Culture - Gastronomie - Traditions",
+      "question": "Dans quelle commune a été découvert un olivier millénaire sur un site préhistorique en Corse ?",
+      "reponses": [
+        {"texte": "Filitosa", "correct": true},
+        {"texte": "Aléria", "correct": false},
+        {"texte": "Corte", "correct": false},
+        {"texte": "Calvi", "correct": false}
+      ],
+      "explication": "À Filitosa, site archéologique majeur, on trouve un olivier considéré comme l’un des plus anciens de Méditerranée.",
+      "difficulte": "Moyen",
+      "image": null
+    },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Au XIXe siècle, quelle région de Corse était particulièrement réputée pour la richesse de ses oliveraies ?",
+    "reponses": [
+      {"texte": "La Balagne", "correct": true},
+      {"texte": "La Castagniccia", "correct": false},
+      {"texte": "Le Taravu", "correct": false},
+      {"texte": "Le Nebbiu", "correct": false}
+    ],
+    "explication": "La Balagne, au nord-ouest de la Corse, a longtemps été surnommée le ‘jardin de la Corse’ pour ses oliviers abondants.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Comment s’appelle la fête dédiée au vin organisée chaque année à Luri ?",
+    "reponses": [
+      {"texte": "Foire au fin", "correct": false},
+      {"texte": "Fiera di u Vinu", "correct": true},
+      {"texte": "Foire du fromage", "correct": false},
+      {"texte": "Fête de l’olive", "correct": false}
+    ],
+    "explication": "La Fiera di u Vinu de Luri est une fête du vin très populaire qui met en avant les vignerons du Cap Corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel animal joue un rôle important dans la dissémination naturelle des noyaux d’olives en Corse selon la tradition ?",
+    "reponses": [
+      {"texte": "Le renard", "correct": false},
+      {"texte": "La chèvre", "correct": false},
+      {"texte": "Le merle", "correct": true},
+      {"texte": "Le sanglier", "correct": false}
+    ],
+    "explication": "Le merle est reconnu pour avoir aidé à la dissémination des oliviers en Corse en consommant leurs fruits.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel est le principal facteur ayant causé le déclin de la production d’huile d’olive en Corse au XXe siècle ?",
+    "reponses": [
+      {"texte": "La sécheresse", "correct": false},
+      {"texte": "Le développement du tourisme", "correct": false},
+      {"texte": "Les incendies de forêts", "correct": false},
+      {"texte": "Les deux guerres mondiales", "correct": true}
+    ],
+    "explication": "La production d’huile d’olive a chuté au XXe siècle, en grande partie à cause des deux guerres mondiales et de leur impact sur l’économie.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans quelle localité a-t-on retrouvé des amphores antiques liées au commerce du vin et de l’huile d’olive corse ?",
+    "reponses": [
+      {"texte": "Aléria", "correct": false},
+      {"texte": "Ajaccio", "correct": false},
+      {"texte": "Calvi", "correct": false},
+      {"texte": "Finocchiarola", "correct": true}
+    ],
+    "explication": "Des gisements d’amphores romaines ont été découverts autour des îles Finocchiarola, témoignant du commerce antique du vin et de l’huile.",
+    "difficulte": "Difficile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Dans le processus de fabrication traditionnelle de l’huile d’olive en Corse, comment est obtenue la première huile vierge ?",
+    "reponses": [
+      {"texte": "Par chauffage à haute température", "correct": false},
+      {"texte": "Par centrifugation rapide", "correct": false},
+      {"texte": "Par première pression à froid", "correct": true},
+      {"texte": "Par filtrage à la toile", "correct": false}
+    ],
+    "explication": "L’huile d’olive vierge est obtenue par première pression à froid, selon la tradition corse.",
+    "difficulte": "Facile",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quelle manifestation, classée parmi les '100 sites du goût', célèbre l’oléiculture et les métiers d’art au cœur de la Balagne ?",
+    "reponses": [
+      {"texte": "Foire de l’olivier de Porto-Vecchio", "correct": false},
+      {"texte": "Foire de l’olivier de Corte", "correct": false},
+      {"texte": "Foire de l’olivier de Montegrosso", "correct": true},
+      {"texte": "Foire de l’olivier de Calvi", "correct": false}
+    ],
+    "explication": "La Foire de l’olivier de Montegrosso réunit chaque été oléiculteurs et artisans pour célébrer la richesse locale.",
+    "difficulte": "Moyen",
+    "image": null
+  },
+  {
+    "categorie": "Culture - Gastronomie - Traditions",
+    "question": "Quel cépage typique de Corse est surtout cultivé pour les vins rouges et rosés, mais non utilisé pour le muscat du Cap Corse ?",
+    "reponses": [
+      {"texte": "Niellucciu", "correct": true},
+      {"texte": "Muscat blanc à petits grains", "correct": false},
+      {"texte": "Vermentinu", "correct": false},
+      {"texte": "Grenache", "correct": false}
+    ],
+    "explication": "Le niellucciu est un cépage emblématique pour les rouges et rosés corses, mais il n’entre pas dans la composition du muscat du Cap Corse.",
+    "difficulte": "Difficile",
+    "image": null
   }
+  ]
 
 
 
-]
+
+
+
+
+
 
 
 
