@@ -306,6 +306,10 @@ class _LoginScreenState extends State<LoginScreen> {
                                 : ProfileScreen(user: user),
                           ),
                         );
+                      } else {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('Échec de la connexion')),
+                        );
                       }
                     },
                     icon: "assets/icons/apple.png",
