@@ -202,7 +202,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => SettingsScreen(user: widget.user),
+                      builder: (_) => SettingsScreen(user: widget.user!),
                     ),
                   );
                 },
@@ -535,7 +535,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ProfileScreen(user: user)),
+              MaterialPageRoute(builder: (context) => ProfileScreen(user: user!)),
             );
           },
           child: Column(
