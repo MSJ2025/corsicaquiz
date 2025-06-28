@@ -297,9 +297,14 @@ class _LoginScreenState extends State<LoginScreen> {
                     onTap: () async {
                       User? user = await _authService.signInWithApple();
                       if (user != null) {
+                        bool hasProfile = await ProfileService().hasProfile(user.uid);
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen(user: user)),
+                          MaterialPageRoute(
+                            builder: (context) => hasProfile
+                                ? HomeScreen(user: user)
+                                : ProfileScreen(user: user),
+                          ),
                         );
                       }
                     },
