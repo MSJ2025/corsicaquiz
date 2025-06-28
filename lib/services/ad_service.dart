@@ -6,12 +6,12 @@ class AdService {
   // Identifiant interstitiel de test pour Android
   // Remplacez-le par votre ID Android lors de la mise en production
   static const String _interstitialAndroidId =
-      'ca-app-pub-3940256099942544/1033173712';
+      'ca-app-pub-4176691748354941/8784531479';
 
   // Identifiant interstitiel de test pour iOS
   // Remplacez-le par votre ID iOS lors de la mise en production
   static const String _interstitialIosId =
-      'ca-app-pub-3940256099942544/4411468910';
+      'ca-app-pub-4176691748354941/7472014459';
 
   static InterstitialAd? _interstitial;
   // Indique si l'interstitiel est prêt à être affiché

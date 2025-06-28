@@ -34,7 +34,7 @@
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-4176691748354941~7193192759</string>
+	<string>ca-app-pub-4176691748354941~9980410687</string>
 	<key>GoogleService-Info</key>
 	<dict>
 		<key>CLIENT_ID</key>
@@ -52,11 +52,11 @@
 	<key>NSFaceIDUsageDescription</key>
 	<string>Utilisation de Face ID pour se connecter avec Apple.</string>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>Cette app a besoin d'accéder au réseau local pour le débogage et certaines fonctionnalités.</string>
+	<string>Cette app a besoin d&apos;accéder au réseau local pour le débogage et certaines fonctionnalités.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
-	<string>Main.storyboard</string>
+	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
@@ -72,5 +72,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
 </dict>
 </plist>
