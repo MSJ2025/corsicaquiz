@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../services/auth_service.dart';
 import 'dart:io';
+import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import '/services/profile_service.dart';
 import '../screens/home_screen.dart';
 import '../screens/profile_screen.dart';
@@ -293,8 +294,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 // 🔹 Bouton Apple (uniquement sur iOS)
                 if (Platform.isIOS)
-                  _buildSocialButton(
-                    onTap: () async {
+                  SignInWithAppleButton(
+                    onPressed: () async {
                       User? user = await _authService.signInWithApple();
                       if (user != null) {
                         bool hasProfile = await ProfileService().hasProfile(user.uid);
@@ -308,8 +309,6 @@ class _LoginScreenState extends State<LoginScreen> {
                         );
                       }
                     },
-                    icon: "assets/icons/apple.png",
-                    text: "Se connecter avec Apple",
                   ),
 
                 SizedBox(height: 20),
