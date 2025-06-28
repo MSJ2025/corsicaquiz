@@ -69,4 +69,13 @@ void main() {
     final doc = await firestore.collection('users').doc('u1').get();
     expect(doc.data()?['online'], false);
   });
+
+  test('signInWithApple renvoie null si la plateforme n\'est pas iOS/macOS', () async {
+    final auth = MockFirebaseAuth();
+    final service = AuthService(auth: auth);
+
+    final user = await service.signInWithApple();
+
+    expect(user, isNull);
+  });
 }
