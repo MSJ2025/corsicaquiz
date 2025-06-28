@@ -199,12 +199,14 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
               child: IconButton(
                 icon: Icon(Icons.settings, color: Colors.blueGrey, size: 40),
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => SettingsScreen(user: widget.user!),
-                    ),
-                  );
+                  _requireAuth(() {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => SettingsScreen(user: widget.user!),
+                      ),
+                    );
+                  });
                 },
               ),
             ),
