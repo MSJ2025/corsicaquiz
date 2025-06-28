@@ -20,9 +20,9 @@ import 'favorites_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  final User user;
+  final User? user;
 
-  const HomeScreen({required this.user});
+  const HomeScreen({this.user});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -52,7 +52,8 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   }
 
   void _listenForDuels() {
-    final uid = widget.user.uid;
+    final uid = widget.user?.uid;
+    if (uid == null) return;
     _duelSub = FirebaseFirestore.instance
         .collection('duels')
         .where('to', isEqualTo: uid)
@@ -71,6 +72,38 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
         }
       }
     });
+  }
+
+  void _requireAuth(VoidCallback onAuthenticated) {
+    if (widget.user == null) {
+      showDialog(
+        context: context,
+        builder: (_) => AlertDialog(
+          title: const Text('Connexion requise'),
+          content: const Text(
+            'Vous devez être connecté pour jouer. Souhaitez-vous créer un compte ?',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Plus tard'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const LoginScreen()),
+                );
+              },
+              child: const Text('S\'inscrire'),
+            ),
+          ],
+        ),
+      );
+    } else {
+      onAuthenticated();
+    }
   }
 
   @override
@@ -200,10 +233,12 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         text: "Quiz Classique",
                         backgroundImage: 'assets/images/boiscartoon.png',
                         onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
-                          );
+                          _requireAuth(() {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
+                            );
+                          });
                         },
                       ),
                       SizedBox(height: 25),
@@ -213,26 +248,47 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         text: "Défis Quiz",
                         backgroundImage: 'assets/images/boiscartoon.png',
                         onTap: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => ChallengeScreen()));
+                          _requireAuth(() {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => ChallengeScreen()),
+                            );
+                          });
                         },
                       ),
                       SizedBox(height: 25),
-                      StreamBuilder<int>(
-                        stream: DuelService().totalUnreadDuels(widget.user.uid),
-                        builder: (context, snapshot) {
-                          final count = snapshot.data ?? 0;
-                          return _buildGameModeButton(
-                            context,
-                            icon: Icons.people,
-                            text: "Duel en Ligne",
-                            backgroundImage: 'assets/images/boiscartoon.png',
-                            badgeCount: count,
-                            onTap: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => DuelMenuScreen()));
-                            },
-                          );
-                        },
-                      ),
+                      if (widget.user != null)
+                        StreamBuilder<int>(
+                          stream: DuelService().totalUnreadDuels(widget.user!.uid),
+                          builder: (context, snapshot) {
+                            final count = snapshot.data ?? 0;
+                            return _buildGameModeButton(
+                              context,
+                              icon: Icons.people,
+                              text: "Duel en Ligne",
+                              backgroundImage: 'assets/images/boiscartoon.png',
+                              badgeCount: count,
+                              onTap: () {
+                                _requireAuth(() {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => DuelMenuScreen()),
+                                  );
+                                });
+                              },
+                            );
+                          },
+                        )
+                      else
+                        _buildGameModeButton(
+                          context,
+                          icon: Icons.people,
+                          text: "Duel en Ligne",
+                          backgroundImage: 'assets/images/boiscartoon.png',
+                          onTap: () {
+                            _requireAuth(() {});
+                          },
+                        ),
                       SizedBox(height: 25),
                       _buildGameModeButton(
                         context,
@@ -240,7 +296,12 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         text: "Classement",
                         backgroundImage: 'assets/images/boiscartoon.png',
                         onTap: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => ClassementScreen()));
+                          _requireAuth(() {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => ClassementScreen()),
+                            );
+                          });
                         },
                       ),
                     ],
@@ -264,6 +325,27 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       ),
       backgroundColor: Colors.white,
       builder: (BuildContext context) {
+        if (widget.user == null) {
+          return Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                ListTile(
+                  leading: const Icon(Icons.login, color: Colors.blueAccent),
+                  title: const Text('Se connecter'),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const LoginScreen()),
+                    );
+                  },
+                ),
+              ],
+            ),
+          );
+        }
         return Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
@@ -304,11 +386,11 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                     ),
                   );
 
-                  if (confirm == true) {
+                  if (confirm == true && widget.user != null) {
                     try {
-                      final uid = widget.user.uid;
+                      final uid = widget.user!.uid;
                       await FirebaseFirestore.instance.collection('users').doc(uid).delete();
-                      await widget.user.delete();
+                      await widget.user!.delete();
                       await _authService.signOut();
                       Navigator.pushAndRemoveUntil(
                         context,
@@ -390,9 +472,10 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                   );
                 },
               ),
-              if (widget.user.email == 'pacman93@gmail.com' ||
-                  widget.user.email == 'alexandrejordan84@gmail.com' ||
-                  widget.user.email == 'dev.msj2025@gmail.com') ...[
+              if (widget.user != null &&
+                  (widget.user!.email == 'pacman93@gmail.com' ||
+                      widget.user!.email == 'alexandrejordan84@gmail.com' ||
+                      widget.user!.email == 'dev.msj2025@gmail.com')) ...[
                 Divider(),
                 ListTile(
                   leading: Icon(Icons.warning_amber_rounded, color: Colors.deepOrange),
@@ -425,17 +508,26 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   }
 
   // ✅ Widget pour l'affichage du profil utilisateur
-  Widget _buildUserProfile(BuildContext context, User user) {
+  Widget _buildUserProfile(BuildContext context, User? user) {
+    if (user == null) {
+      return Column(
+        children: const [
+          CircleAvatar(radius: 50, backgroundImage: AssetImage('assets/images/avatars/1.png')),
+          SizedBox(height: 10),
+          Text('Invité', style: TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold)),
+        ],
+      );
+    }
     return StreamBuilder<DocumentSnapshot>(
       stream: FirebaseFirestore.instance.collection('users').doc(user.uid).snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData || !snapshot.data!.exists) {
-          return CircularProgressIndicator();
+          return const CircularProgressIndicator();
         }
 
         final data = snapshot.data!.data() as Map<String, dynamic>;
-        final pseudo = data['pseudo'] ?? "Utilisateur";
-        final avatar = data['avatar'] ?? "1.png";
+        final pseudo = data['pseudo'] ?? 'Utilisateur';
+        final avatar = data['avatar'] ?? '1.png';
         final points = data['points'] ?? 0;
         final glands = data['glands'] ?? 0;
 

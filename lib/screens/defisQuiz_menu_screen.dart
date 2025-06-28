@@ -192,7 +192,8 @@ class _ChallengeScreenState extends State<ChallengeScreen> with SingleTickerProv
                 onPressed: () {
                   Navigator.pushAndRemoveUntil(
                     context,
-                    MaterialPageRoute(builder: (context) => HomeScreen(user: FirebaseAuth.instance.currentUser!)),
+                    MaterialPageRoute(
+                        builder: (context) => HomeScreen(user: FirebaseAuth.instance.currentUser)),
                     (route) => false,
                   );
                 },
