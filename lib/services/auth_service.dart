@@ -11,14 +11,17 @@ class AuthService {
   final FirebaseAuth _auth;
   final GoogleSignIn _googleSignIn;
   final PresenceService _presence;
+  final ProfileService _profileService;
 
   AuthService({
     FirebaseAuth? auth,
     GoogleSignIn? googleSignIn,
     PresenceService? presenceService,
+    ProfileService? profileService,
   })  : _auth = auth ?? FirebaseAuth.instance,
         _googleSignIn = googleSignIn ?? GoogleSignIn(),
-        _presence = presenceService ?? PresenceService();
+        _presence = presenceService ?? PresenceService(),
+        _profileService = profileService ?? ProfileService();
 
   // 🔹 Connexion avec Google
   Future<User?> signInWithGoogle() async {
@@ -40,7 +43,7 @@ class AuthService {
             .doc(user.uid)
             .get();
         if (!doc.exists) {
-          await ProfileService().createProfile(
+          await _profileService.createProfile(
             user.uid,
             user.displayName ?? '',
             user.photoURL ?? '',
@@ -75,6 +78,18 @@ class AuthService {
       UserCredential userCredential = await _auth.signInWithCredential(oauthCredential);
       final user = userCredential.user;
       if (user != null) {
+        final doc = await FirebaseFirestore.instance
+            .collection('users')
+            .doc(user.uid)
+            .get();
+        if (!doc.exists) {
+          await _profileService.createProfile(
+            user.uid,
+            appleCredential.givenName ?? user.email ?? '',
+            '',
+            '',
+          );
+        }
         _presence.init(user.uid);
       }
       return user;
