@@ -5,6 +5,8 @@ import 'classement_hebdo_screen.dart';
 import 'classement_comparatif_screen.dart';
 import 'classement_perso_screen.dart';
 import 'package:lottie/lottie.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import '/screens/login_screen.dart';
 
 class AnimatedMenuButton extends StatefulWidget {
   final String title;
@@ -62,7 +64,38 @@ class _AnimatedMenuButtonState extends State<AnimatedMenuButton> with SingleTick
               scale: _scaleAnimation.value,
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (_) => widget.target));
+                  if (FirebaseAuth.instance.currentUser == null) {
+                    showDialog(
+                      context: context,
+                      builder: (_) => AlertDialog(
+                        title: const Text('Connexion requise'),
+                        content: const Text(
+                          'Vous devez être connecté pour jouer. Souhaitez-vous créer un compte ?',
+                        ),
+                        actions: [
+                          TextButton(
+                            onPressed: () => Navigator.pop(context),
+                            child: const Text('Plus tard'),
+                          ),
+                          TextButton(
+                            onPressed: () {
+                              Navigator.pop(context);
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (_) => const LoginScreen()),
+                              );
+                            },
+                            child: const Text('S\'inscrire'),
+                          ),
+                        ],
+                      ),
+                    );
+                  } else {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => widget.target),
+                    );
+                  }
                 },
                 child: Container(
                   margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
