@@ -111,7 +111,7 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
                     onPressed: () {
                       Navigator.pushAndRemoveUntil(
                         context,
-                        MaterialPageRoute(builder: (context) => HomeScreen(user: FirebaseAuth.instance.currentUser!)),
+                        MaterialPageRoute(builder: (context) => HomeScreen(user: FirebaseAuth.instance.currentUser)),
                         (route) => false,
                       );
                     },
