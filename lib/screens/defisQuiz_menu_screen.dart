@@ -5,6 +5,7 @@ import '/screens/defis_screens/defi_quiz_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '/screens/home_screen.dart';
+import '/screens/login_screen.dart';
 import 'package:video_player/video_player.dart';
 
 class _AnimatedFloatingButton extends StatefulWidget {
@@ -109,6 +110,39 @@ class _ChallengeScreenState extends State<ChallengeScreen> with SingleTickerProv
     }
   }
 
+  void _requireAuth(BuildContext context, VoidCallback onAuthenticated) {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) {
+      showDialog(
+        context: context,
+        builder: (_) => AlertDialog(
+          title: const Text('Connexion requise'),
+          content: const Text(
+            'Vous devez être connecté pour jouer. Souhaitez-vous créer un compte ?',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Plus tard'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const LoginScreen()),
+                );
+              },
+              child: const Text("S'inscrire"),
+            ),
+          ],
+        ),
+      );
+    } else {
+      onAuthenticated();
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -209,19 +243,21 @@ class _ChallengeScreenState extends State<ChallengeScreen> with SingleTickerProv
         child: _AnimatedFloatingButton(
           backgroundImage: 'assets/images/boiscartoon.png',
           onTap: () async {
-            if (_glands >= 12) {
-              final user = FirebaseAuth.instance.currentUser;
-              final userRef = FirebaseFirestore.instance.collection('users').doc(user!.uid);
-              await userRef.update({'glands': _glands - 12});
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HistoryQuizScreen()),
-              );
-            } else {
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text("Tu n’as pas assez de glands pour participer.")),
-              );
-            }
+            _requireAuth(context, () async {
+              if (_glands >= 12) {
+                final user = FirebaseAuth.instance.currentUser;
+                final userRef = FirebaseFirestore.instance.collection('users').doc(user!.uid);
+                await userRef.update({'glands': _glands - 12});
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HistoryQuizScreen()),
+                );
+              } else {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text("Tu n’as pas assez de glands pour participer.")),
+                );
+              }
+            });
           },
           text: "Défi Quiz",
           glands: _glands,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '/screens/home_screen.dart';
+import '/screens/login_screen.dart';
 import '/screens/quiz_screen.dart';
 import '/screens/defis_screens/defi_quiz_screen.dart';
 import '/screens/classic_quiz/classic_histoire_quiz_screen.dart';
@@ -101,6 +102,39 @@ class _AnimatedFloatingButtonState extends State<_AnimatedFloatingButton> with S
 }
 
 class ClassicQuizMenuScreen extends StatelessWidget {
+  void _requireAuth(BuildContext context, VoidCallback onAuthenticated) {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) {
+      showDialog(
+        context: context,
+        builder: (_) => AlertDialog(
+          title: const Text('Connexion requise'),
+          content: const Text(
+            'Vous devez être connecté pour jouer. Souhaitez-vous créer un compte ?',
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Plus tard'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const LoginScreen()),
+                );
+              },
+              child: const Text("S'inscrire"),
+            ),
+          ],
+        ),
+      );
+    } else {
+      onAuthenticated();
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -173,50 +207,60 @@ class ClassicQuizMenuScreen extends StatelessWidget {
                 _AnimatedFloatingButton(
                   backgroundImage: 'assets/images/boiscartoon.png',
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => ClassicHistoireQuizScreen()),
-                    );
+                    _requireAuth(context, () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ClassicHistoireQuizScreen()),
+                      );
+                    });
                   },
                   text: "Histoire",
                 ),
                 _AnimatedFloatingButton(
                   backgroundImage: 'assets/images/boiscartoon.png',
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => ClassicGeographieQuizScreen()),
-                    );
+                    _requireAuth(context, () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ClassicGeographieQuizScreen()),
+                      );
+                    });
                   },
                   text: "Géographie",
                 ),
                 _AnimatedFloatingButton(
                   backgroundImage: 'assets/images/boiscartoon.png',
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => ClassicCultureQuizScreen()),
-                    );
+                    _requireAuth(context, () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ClassicCultureQuizScreen()),
+                      );
+                    });
                   },
                   text: "Gastronomie, Culture & Traditions",
                 ),
                 _AnimatedFloatingButton(
                   backgroundImage: 'assets/images/boiscartoon.png',
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => ClassicFauneQuizScreen()),
-                    );
+                    _requireAuth(context, () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ClassicFauneQuizScreen()),
+                      );
+                    });
                   },
                   text: "Faune & Flore",
                 ),
                 _AnimatedFloatingButton(
                   backgroundImage: 'assets/images/boiscartoon.png',
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => ClassicPersonnalitesQuizScreen()),
-                    );
+                    _requireAuth(context, () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ClassicPersonnalitesQuizScreen()),
+                      );
+                    });
                   },
                   text: "Personnalités",
                 ),
