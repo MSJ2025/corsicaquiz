@@ -235,12 +235,10 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         text: "Quiz Classique",
                         backgroundImage: 'assets/images/boiscartoon.png',
                         onTap: () {
-                          _requireAuth(() {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
-                            );
-                          });
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
+                          );
                         },
                       ),
                       SizedBox(height: 25),
@@ -250,12 +248,10 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         text: "Défis Quiz",
                         backgroundImage: 'assets/images/boiscartoon.png',
                         onTap: () {
-                          _requireAuth(() {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => ChallengeScreen()),
-                            );
-                          });
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => ChallengeScreen()),
+                          );
                         },
                       ),
                       SizedBox(height: 25),
@@ -298,12 +294,10 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         text: "Classement",
                         backgroundImage: 'assets/images/boiscartoon.png',
                         onTap: () {
-                          _requireAuth(() {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => ClassementScreen()),
-                            );
-                          });
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => ClassementScreen()),
+                          );
                         },
                       ),
                     ],
