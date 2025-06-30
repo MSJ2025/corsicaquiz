@@ -29,6 +29,11 @@ class _ClassicCultureQuizScreenState extends State<ClassicCultureQuizScreen> wit
       debugPrint("Erreur de lecture du son bell : \$e");
     }
 
+    final loggedIn = FirebaseAuth.instance.currentUser != null;
+    final msg = loggedIn
+        ? 'Tu as gagné \$_score glands !\nIls ont été ajoutés à ton profil.'
+        : 'Tu as gagné \$_score glands !';
+
     await showDialog(
       context: context,
       barrierDismissible: false,
@@ -58,7 +63,7 @@ class _ClassicCultureQuizScreenState extends State<ClassicCultureQuizScreen> wit
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Tu as gagné $_score glands !\nIls ont été ajoutés à ton profil.',
+                  msg,
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 16),
                 ),
