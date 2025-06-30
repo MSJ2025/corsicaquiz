@@ -12,6 +12,7 @@ import '/screens/classic_quiz/classic_quiz_menu_screen.dart';
 import '/services/ad_service.dart';
 import '../../services/background_music_service.dart';
 import '../../services/question_history_service.dart';
+import '../login_screen.dart';
 
 class ClassicHistoireQuizScreen extends StatefulWidget {
   @override
@@ -31,7 +32,7 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
     final loggedIn = FirebaseAuth.instance.currentUser != null;
     final msg = loggedIn
         ? 'Tu as gagné \$_score glands !\nIls ont été ajoutés à ton profil.'
-        : 'Tu as gagné \$_score glands !';
+        : 'Tu as gagné \$_score glands !\nTon score ne sera pas enregistré car tu joues en invité.';
 
     await showDialog(
       context: context,
@@ -67,22 +68,60 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
                   style: TextStyle(fontSize: 16),
                 ),
                 SizedBox(height: 20),
-                ElevatedButton(
-                  onPressed: () {
-                    AdService.showInterstitial();
-                    Navigator.pop(context);
-                    Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
-                    );
-                  },
-                  child: Text('Retour au menu'),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.orange.shade700,
-                    foregroundColor: Colors.white,
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                if (loggedIn)
+                  ElevatedButton(
+                    onPressed: () {
+                      AdService.showInterstitial();
+                      Navigator.pop(context);
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
+                      );
+                    },
+                    child: Text('Retour au menu'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange.shade700,
+                      foregroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    ),
+                  )
+                else
+                  Column(
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          AdService.showInterstitial();
+                          Navigator.pop(context);
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => ClassicQuizMenuScreen()),
+                          );
+                        },
+                        child: Text('Continuer en invité'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.orange.shade700,
+                          foregroundColor: Colors.white,
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      ElevatedButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => const LoginScreen()),
+                          );
+                        },
+                        child: Text("S'inscrire"),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.green.shade700,
+                          foregroundColor: Colors.white,
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                      )
+                    ],
                   ),
-                ),
               ],
             ),
           ),

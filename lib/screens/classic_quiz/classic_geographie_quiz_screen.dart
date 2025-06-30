@@ -11,6 +11,7 @@ import 'classic_quiz_menu_screen.dart';
 import '/services/ad_service.dart';
 import '../../services/background_music_service.dart';
 import '../../services/question_history_service.dart';
+import '../login_screen.dart';
 
 class ClassicGeographieQuizScreen extends StatefulWidget {
   ClassicGeographieQuizScreen({super.key});
@@ -172,6 +173,11 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     } catch (e) {
       debugPrint("Erreur de lecture du son bell : $e");
     }
+    final loggedIn = FirebaseAuth.instance.currentUser != null;
+    final scoreMsg = loggedIn
+        ? 'Score : \$_score / \${_cities.length}'
+        : 'Score : \$_score / \${_cities.length}\nTon score ne sera pas enregistré car tu joues en invité.';
+
     showDialog(
       context: context,
       barrierDismissible: false,
@@ -187,19 +193,51 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
               SizedBox(height: 10),
               Text('Quiz terminé !', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               SizedBox(height: 10),
-              Text('Score : $_score / ${_cities.length}', textAlign: TextAlign.center),
+              Text(scoreMsg, textAlign: TextAlign.center),
               SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  AdService.showInterstitial();
-                  Navigator.pop(context);
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(builder: (c) => ClassicQuizMenuScreen()),
-                  );
-                },
-                child: Text('Retour au menu'),
-              )
+              if (loggedIn)
+                ElevatedButton(
+                  onPressed: () {
+                    AdService.showInterstitial();
+                    Navigator.pop(context);
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (c) => ClassicQuizMenuScreen()),
+                    );
+                  },
+                  child: Text('Retour au menu'),
+                )
+              else
+                Column(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {
+                        AdService.showInterstitial();
+                        Navigator.pop(context);
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (c) => ClassicQuizMenuScreen()),
+                        );
+                      },
+                      child: Text('Continuer en invité'),
+                    ),
+                    SizedBox(height: 10),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const LoginScreen()),
+                        );
+                      },
+                      child: Text("S'inscrire"),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.green.shade700,
+                        foregroundColor: Colors.white,
+                      ),
+                    )
+                  ],
+                )
             ],
           ),
         ),
