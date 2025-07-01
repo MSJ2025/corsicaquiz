@@ -37,6 +37,8 @@ class AdService {
         onAdFailedToLoad: (error) {
           print('Erreur chargement interstitiel: $error');
           _interstitialReady = false;
+          // Nouvel essai de chargement en cas d'échec
+          loadInterstitial();
         },
       ),
     );
@@ -62,6 +64,9 @@ class AdService {
       _interstitial!.show();
       // L'interstitiel ne peut être réutilisé, on marque donc l'état comme non prêt
       _interstitialReady = false;
+    } else {
+      // Si aucune publicité n'est prête, on tente un nouveau chargement
+      loadInterstitial();
     }
   }
 
