@@ -18,3 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 ## Nouveauté
 
 * Possibilité de demander une **Revanche** depuis l'écran de résultat d'un duel.
+
+## Confidentialité iOS
+
+L'application utilise le package `app_tracking_transparency` pour demander
+l'autorisation de suivi publicitaire au démarrage.
