@@ -35,6 +35,7 @@ class AdService {
           _interstitialReady = true;
         },
         onAdFailedToLoad: (error) {
+          print('Erreur chargement interstitiel: $error');
           _interstitialReady = false;
         },
       ),
@@ -51,6 +52,7 @@ class AdService {
           loadInterstitial();
         },
         onAdFailedToShowFullScreenContent: (ad, error) {
+          print('Erreur chargement interstitiel: $error');
           // En cas d'erreur d'affichage, on détruit l'instance
           // et on tente de recharger pour la prochaine fois
           ad.dispose();
