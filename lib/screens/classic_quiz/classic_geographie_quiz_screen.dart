@@ -175,8 +175,8 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
     final loggedIn = FirebaseAuth.instance.currentUser != null;
     final scoreMsg = loggedIn
-        ? 'Score : \$_score / \${_cities.length}'
-        : 'Score : \$_score / \${_cities.length}\nTon score ne sera pas enregistré car tu joues en invité.';
+        ? 'Score : $_score / \${_cities.length}'
+        : 'Score : $_score / \${_cities.length}\nTon score ne sera pas enregistré car tu joues en invité.';
 
     showDialog(
       context: context,
