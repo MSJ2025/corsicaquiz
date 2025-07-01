@@ -3,7 +3,6 @@ import 'package:flame/game.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 import 'login_screen.dart';
-import 'welcome_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '/services/profile_service.dart';
 import '/services/winner_service.dart'; // Ajout de l'import pour WinnerService
@@ -37,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
     } else {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const WelcomeScreen()),
+        MaterialPageRoute(builder: (_) => const LoginScreen()),
       );
     }
   }
