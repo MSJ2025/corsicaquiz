@@ -31,8 +31,8 @@ class _ClassicHistoireQuizScreenState extends State<ClassicHistoireQuizScreen> w
 
     final loggedIn = FirebaseAuth.instance.currentUser != null;
     final msg = loggedIn
-        ? 'Tu as gagné \$_score glands !\nIls ont été ajoutés à ton profil.'
-        : 'Tu as gagné \$_score glands !\nTon score ne sera pas enregistré car tu joues en invité.';
+        ? 'Tu as gagné $_score glands !\nIls ont été ajoutés à ton profil.'
+        : 'Tu as gagné $_score glands !\nTon score ne sera pas enregistré car tu joues en invité.';
 
     await showDialog(
       context: context,
