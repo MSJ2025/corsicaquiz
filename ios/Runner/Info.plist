@@ -51,9 +51,11 @@
 	</dict>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Utilisation de Face ID pour se connecter avec Apple.</string>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>Cette app a besoin d&apos;accéder au réseau local pour le débogage et certaines fonctionnalités.</string>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
+        <key>NSLocalNetworkUsageDescription</key>
+        <string>Cette app a besoin d&apos;accéder au réseau local pour le débogage et certaines fonctionnalités.</string>
+        <key>NSUserTrackingUsageDescription</key>
+        <string>Cette application utilise votre identifiant publicitaire pour personnaliser les publicités.</string>
+        <key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

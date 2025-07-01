@@ -10,6 +10,7 @@ import 'services/notification_service.dart';
 import 'services/ad_service.dart';
 import 'services/background_music_service.dart';
 import 'theme_notifier.dart';
+import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,6 +19,7 @@ void main() async {
   );
   await NotificationService.init();
   await ThemeNotifier.loadTheme();
+  await AppTrackingTransparency.requestTrackingAuthorization();
   await AdService.init();
   BackgroundMusicService.instance.play();
 
