@@ -136,7 +136,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
       ),
     );
 
-    if (distance < 10) {
+    if (distance < 20) {
       _score++;
       _controller.stop();
       _controller.animateTo((_score + 1) / _cities.length,
@@ -144,7 +144,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
     final player = AudioPlayer();
     try {
-      await player.setAsset(distance < 10 ? 'assets/sons/quiz/correct.mp3' : 'assets/sons/quiz/pig.mp3');
+      await player.setAsset(distance < 20 ? 'assets/sons/quiz/correct.mp3' : 'assets/sons/quiz/pig.mp3');
       player.play();
     } catch (e) {
       debugPrint('Erreur de lecture du son : $e');
@@ -175,8 +175,8 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
     final loggedIn = FirebaseAuth.instance.currentUser != null;
     final scoreMsg = loggedIn
-        ? 'Score : $_score / \${_cities.length}'
-        : 'Score : $_score / \${_cities.length}\nTon score ne sera pas enregistré car tu joues en invité.';
+        ? 'Score : $_score / ${_cities.length}'
+        : 'Score : $_score / ${_cities.length}\nTon score ne sera pas enregistré car tu joues en invité.';
 
     showDialog(
       context: context,
@@ -418,7 +418,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                       flutter_map.CircleMarker(
                         point: realPoint,
                         useRadiusInMeter: true,
-                        radius: 10000,
+                        radius: 20000,
                         color: Colors.blueAccent.withOpacity(0.1),
                         borderColor: Colors.blueAccent,
                         borderStrokeWidth: 2,
