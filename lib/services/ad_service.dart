@@ -11,7 +11,8 @@ class AdService {
   // Identifiant interstitiel de test pour iOS
   // Remplacez-le par votre ID iOS lors de la mise en production
   static const String _interstitialIosId =
-      'ca-app-pub-4176691748354941/7472014459';
+      'ca-app-pub-4176691748354941/7472014459';  //id1
+      //  'ca-app-pub-3940256099942544/4411468910'; // TEST
 
   static InterstitialAd? _interstitial;
   // Indique si l'interstitiel est prêt à être affiché

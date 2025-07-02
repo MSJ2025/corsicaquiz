@@ -14,12 +14,16 @@
       },
       "oauth_client": [
         {
-          "client_id": "109788230031-2cel176v2dl6muahk1tqo9dv9jfc7sgu.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "109788230031-a4ugp31spse07p5e5opjddm32vuunhv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msj2025.corsicaquiz",
+            "certificate_hash": "2336e5f6f2807bab35513ecd5abf15c44766738c"
+          }
         },
         {
           "client_id": "109788230031-2cel176v2dl6muahk1tqo9dv9jfc7sgu.apps.googleusercontent.com",
-          "client_type": 1
+          "client_type": 3
         }
       ],
       "api_key": [

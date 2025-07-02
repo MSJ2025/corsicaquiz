@@ -6,6 +6,8 @@
 	<string>109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>109788230031-2c5029u03m84b1i0j741igrepu34n8ai.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyC-Sr7V7r9nZLZuHkKK1pLOobYn6_Xx2Uw</string>
 	<key>GCM_SENDER_ID</key>
@@ -19,9 +21,9 @@
 	<key>STORAGE_BUCKET</key>
 	<string>quizcorsica.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_APPINVITE_ENABLED</key>
 	<true></true>
 	<key>IS_GCM_ENABLED</key>
