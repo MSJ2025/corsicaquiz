@@ -44,6 +44,42 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
   }
 
+  String _generateQuestionText(Map<String, dynamic> city) {
+    final type = city['type']?.toString().toLowerCase() ?? '';
+    final name = city['nom'] ?? '';
+    switch (type) {
+      case 'ville':
+        return 'Où se situe la ville de $name ?';
+      case 'village':
+        return 'Où se situe le village de $name ?';
+      case 'monument':
+        return 'Où se situe le monument "$name" ?';
+      case 'plage':
+        return 'Où se situe la plage $name ?';
+      case 'région':
+        return 'Où se situe la région $name ?';
+      case 'site naturel':
+        return 'Où se situe le site naturel $name ?';
+      default:
+        return 'Où se situe $name ?';
+    }
+  }
+
+  Color _getDifficultyColor(String difficulty) {
+    switch (difficulty) {
+      case 'Moyen':
+        return Colors.orange;
+      case 'Difficile':
+        return Colors.red;
+      default:
+        return Colors.green;
+    }
+  }
+
+  Widget _buildDifficultyIndicator(String difficulty) {
+    return Icon(Icons.circle, color: _getDifficultyColor(difficulty), size: 12);
+  }
+
   @override
   void initState() {
     super.initState();
@@ -460,7 +496,19 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                     color: Colors.white.withOpacity(0.8),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  child: Text('Où se situe ${city['nom']} ?'),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      _buildDifficultyIndicator(city['difficulte']),
+                      SizedBox(width: 8),
+                      Flexible(
+                        child: Text(
+                          _generateQuestionText(city),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
                 SizedBox(height: 8),
                 Text('Score : $_score / ${_cities.length}', style: TextStyle(color: Colors.white)),
