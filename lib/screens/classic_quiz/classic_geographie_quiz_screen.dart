@@ -33,6 +33,17 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   late Animation<double> _avatarPosition;
   String _userAvatar = '1.png';
 
+  double _getRadiusKm(Map<String, dynamic> city) {
+    switch (city['difficulte']) {
+      case 'Difficile':
+        return 10.0;
+      case 'Moyen':
+        return 15.0;
+      default:
+        return 20.0;
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -114,6 +125,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
   void _onTap(dynamic pos, latlong2.LatLng latlng) async {
     if (_answered || _cities.isEmpty) return;
     final city = _cities[_current];
+    final radiusKm = _getRadiusKm(city);
 
     final key = "Geographie|${city['nom'].toString().trim()}";
     await QuestionHistoryService().addQuestion(key);
@@ -136,7 +148,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
       ),
     );
 
-    if (distance < 20) {
+    if (distance < radiusKm) {
       _score++;
       _controller.stop();
       _controller.animateTo((_score + 1) / _cities.length,
@@ -144,7 +156,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
     final player = AudioPlayer();
     try {
-      await player.setAsset(distance < 20 ? 'assets/sons/quiz/correct.mp3' : 'assets/sons/quiz/pig.mp3');
+      await player.setAsset(distance < radiusKm ? 'assets/sons/quiz/correct.mp3' : 'assets/sons/quiz/pig.mp3');
       player.play();
     } catch (e) {
       debugPrint('Erreur de lecture du son : $e');
@@ -245,7 +257,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     );
   }
 
-  void _signalerProbleme(Map<String, dynamic> question) {
+  void _signalerProbleme(Map<String, dynamic> city) {
     showDialog(
       context: context,
       builder: (context) {
@@ -268,10 +280,11 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                       .collection('signalements_questions')
                       .add({
                     'timestamp': Timestamp.now(),
-                    'question': question['question'],
-                    'categorie': question['categorie'],
-                    'explication': question['explication'],
-                    'reponses': question['reponses'],
+                    'question': 'Localisation: ' + (city['nom'] ?? ''),
+                    'categorie': 'Geographie',
+                    'difficulte': city['difficulte'],
+                    'latitude': city['latitude'],
+                    'longitude': city['longitude'],
                     'message': message,
                   });
                 }
@@ -370,6 +383,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     final city = _cities[_current];
     // latlong2.LatLng pour la carte (affichage)
     final realPoint = latlong2.LatLng(city['latitude'], city['longitude']);
+    final radiusKm = _getRadiusKm(city);
 
     return Scaffold(
       body: SafeArea(
@@ -418,7 +432,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                       flutter_map.CircleMarker(
                         point: realPoint,
                         useRadiusInMeter: true,
-                        radius: 20000,
+                        radius: radiusKm * 1000,
                         color: Colors.blueAccent.withOpacity(0.1),
                         borderColor: Colors.blueAccent,
                         borderStrokeWidth: 2,
@@ -450,6 +464,11 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                 ),
                 SizedBox(height: 8),
                 Text('Score : $_score / ${_cities.length}', style: TextStyle(color: Colors.white)),
+                TextButton.icon(
+                  onPressed: () => _signalerProbleme(city),
+                  icon: const Icon(Icons.report_problem_outlined, color: Colors.white),
+                  label: const Text('Signaler un problème', style: TextStyle(color: Colors.white)),
+                ),
               ],
             ),
           ),
