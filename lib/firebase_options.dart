@@ -55,6 +55,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '109788230031',
     projectId: 'quizcorsica',
     storageBucket: 'quizcorsica.firebasestorage.app',
+    databaseURL: 'https://quizcorsica-default-rtdb.europe-west1.firebasedatabase.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -63,6 +64,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '109788230031',
     projectId: 'quizcorsica',
     storageBucket: 'quizcorsica.firebasestorage.app',
+    databaseURL: 'https://quizcorsica-default-rtdb.europe-west1.firebasedatabase.app',
     iosClientId: '109788230031-p59g4m2378mcirc3jr9kf4ipsddlm5fi.apps.googleusercontent.com',
     iosBundleId: 'com.msj2025.corsicaquiz',
   );

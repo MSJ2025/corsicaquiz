@@ -1,1 +1,32 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"quizcorsica","appId":"1:109788230031:android:2d5beda26c1bdcfa989bfa","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"quizcorsica","appId":"1:109788230031:ios:1889b0a679821a9b989bfa","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"quizcorsica","configurations":{"android":"1:109788230031:android:2d5beda26c1bdcfa989bfa","ios":"1:109788230031:ios:1889b0a679821a9b989bfa"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "quizcorsica",
+          "appId": "1:109788230031:android:2d5beda26c1bdcfa989bfa",
+          "fileOutput": "android/app/google-services.json",
+          "databaseURL": "https://quizcorsica-default-rtdb.europe-west1.firebasedatabase.app"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "quizcorsica",
+          "appId": "1:109788230031:ios:1889b0a679821a9b989bfa",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist",
+          "databaseURL": "https://quizcorsica-default-rtdb.europe-west1.firebasedatabase.app"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "quizcorsica",
+          "configurations": {
+            "android": "1:109788230031:android:2d5beda26c1bdcfa989bfa",
+            "ios": "1:109788230031:ios:1889b0a679821a9b989bfa"
+          }
+        }
+      }
+    }
+  }
+}
