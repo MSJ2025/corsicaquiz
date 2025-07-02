@@ -2134,7 +2134,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire moderne",
+    "categorie": "Histoire de la Corse",
     "question": "Quelle réforme importante Pascal Paoli met-il en œuvre après avoir pris la tête du gouvernement corse en 1755 ?",
     "reponses": [
       { "texte": "La création d'une armée professionnelle", "correct": false },
@@ -2147,7 +2147,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire antique",
+    "categorie": "Histoire de la Corse",
     "question": "Quel peuple fonde la ville d’Aléria en Corse ?",
     "reponses": [
       { "texte": "Les Étrusques", "correct": false },
@@ -2160,7 +2160,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire contemporaine",
+    "categorie": "Histoire de la Corse",
     "question": "Quel événement marque fortement la mémoire collective corse en 1998 ?",
     "reponses": [
       { "texte": "La création d'une université corse", "correct": false },
@@ -2173,7 +2173,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire napoléonienne",
+    "categorie": "Histoire de la Corse",
     "question": "En quelle année Napoléon Bonaparte naît-il à Ajaccio ?",
     "reponses": [
       { "texte": "1769", "correct": true },
@@ -2186,7 +2186,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire contemporaine",
+    "categorie": "Histoire de la Corse",
     "question": "Quel mouvement autonomiste corse est créé en 1976 ?",
     "reponses": [
       { "texte": "Corsica Libera", "correct": false },
@@ -2199,7 +2199,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire médiévale",
+    "categorie": "Histoire de la Corse",
     "question": "Quel pouvoir contrôle la Corse au XIIIe siècle avant d'être évincé par Gênes ?",
     "reponses": [
       { "texte": "La couronne d'Aragon", "correct": false },
@@ -2212,7 +2212,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire contemporaine",
+    "categorie": "Histoire de la Corse",
     "question": "Quel est le nom de l’accord signé en 2001 visant à donner plus d’autonomie à la Corse ?",
     "reponses": [
       { "texte": "Accord de Matignon", "correct": true },
@@ -2225,7 +2225,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire moderne",
+    "categorie": "Histoire de la Corse",
     "question": "Quel territoire la Corse forme-t-elle brièvement avec la Sardaigne sous la domination savoyarde ?",
     "reponses": [
       { "texte": "Le royaume de Piémont", "correct": false },
@@ -2238,7 +2238,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire antique",
+    "categorie": "Histoire de la Corse",
     "question": "Que signifie le nom « Cyrnos », utilisé dans l’Antiquité pour désigner la Corse ?",
     "reponses": [
       { "texte": "La montagne", "correct": false },
@@ -2251,7 +2251,7 @@
     "image": null
   },
   {
-    "categorie": "Histoire moderne",
+    "categorie": "Histoire de la Corse",
     "question": "Quel traité officialise la cession de la Corse à la France par Gênes ?",
     "reponses": [
       { "texte": "Traité de Versailles (1768)", "correct": true },
