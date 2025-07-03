@@ -100,8 +100,7 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
       ...select(easyCities),
       ...select(mediumCities),
       ...select(hardCities)
-    ]
-      ..shuffle();
+    ];
 
     setState(() {
       _cities = selectedCities;
@@ -460,13 +459,27 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
             child: _buildVerticalScoreBar(),
           ),
           Positioned(
+            top: 20,
+            left: 20,
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: _getDifficultyColor(city['difficulte']),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Text(
+                city['difficulte'],
+                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+          Positioned(
             bottom: 20,
             left: 20,
             right: 20,
             child: Column(
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
                       padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
@@ -477,17 +490,6 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
                       child: Text(
                         'Question ${_current + 1} / ${_cities.length}',
                         style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: _getDifficultyColor(city['difficulte']),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        city['difficulte'],
-                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                       ),
                     ),
                   ],
