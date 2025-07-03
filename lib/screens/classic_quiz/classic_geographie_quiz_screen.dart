@@ -44,6 +44,17 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
     }
   }
 
+  Color _getDifficultyColor(String difficulty) {
+    switch (difficulty) {
+      case 'Facile':
+        return Colors.green.shade600;
+      case 'Moyen':
+        return Colors.orange.shade600;
+      default:
+        return Colors.red.shade600;
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -454,6 +465,34 @@ class _ClassicGeographieQuizScreenState extends State<ClassicGeographieQuizScree
             right: 20,
             child: Column(
               children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.8),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        'Question ${_current + 1} / ${_cities.length}',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: _getDifficultyColor(city['difficulte']),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        city['difficulte'],
+                        style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 8),
                 Container(
                   padding: EdgeInsets.all(12),
                   decoration: BoxDecoration(
