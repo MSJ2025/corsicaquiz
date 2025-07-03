@@ -8,9 +8,12 @@ class FakeQuestionService extends QuestionService {
       {'difficulte': 'facile'},
       {'difficulte': 'facile'},
       {'difficulte': 'facile'},
+      {'difficulte': 'facile'},
       {'difficulte': 'moyen'},
       {'difficulte': 'moyen'},
       {'difficulte': 'moyen'},
+      {'difficulte': 'moyen'},
+      {'difficulte': 'difficile'},
       {'difficulte': 'difficile'},
       {'difficulte': 'difficile'},
       {'difficulte': 'difficile'},
@@ -29,8 +32,8 @@ void main() {
       counts[q['difficulte']] = counts[q['difficulte']]! + 1;
     }
 
-    expect(counts['facile'], 3);
-    expect(counts['moyen'], 3);
-    expect(counts['difficile'], 3);
+    expect(counts['facile'], 4);
+    expect(counts['moyen'], 4);
+    expect(counts['difficile'], 4);
   });
 }

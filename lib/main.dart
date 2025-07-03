@@ -14,10 +14,15 @@ import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  if (Firebase.apps.isEmpty) {
+  print("Avant init firebase");
+  try {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
+    print("Après init firebase");
+  } catch (e) {
+    // On ignore l'erreur si Firebase est déjà initialisé.
+    print('Firebase déjà initialisé ou erreur: $e');
   }
   await NotificationService.init();
   await ThemeNotifier.loadTheme();
