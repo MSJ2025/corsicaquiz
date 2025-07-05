@@ -274,6 +274,9 @@ class _DuelUserListScreenState extends State<DuelUserListScreen> {
                   child: StreamBuilder<QuerySnapshot>(
                     stream: FirebaseFirestore.instance.collection('users').snapshots(),
                     builder: (context, snapshot) {
+                      if (snapshot.hasError) {
+                        return const Center(child: Text('Erreur de chargement'));
+                      }
                       if (!snapshot.hasData) {
                         return const Center(child: CircularProgressIndicator());
                       }

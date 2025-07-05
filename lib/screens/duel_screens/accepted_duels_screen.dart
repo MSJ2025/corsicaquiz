@@ -22,7 +22,7 @@ class AcceptedDuelsScreen extends StatelessWidget {
           if (snapshot.hasError) {
             return const Center(child: Text("Erreur de chargement"));
           }
-          if (snapshot.connectionState == ConnectionState.waiting) {
+          if (!snapshot.hasData) {
             return const Center(child: CircularProgressIndicator());
           }
 

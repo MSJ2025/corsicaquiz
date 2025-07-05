@@ -182,6 +182,9 @@ class _DuelOverviewScreenState extends State<DuelOverviewScreen> with SingleTick
             .snapshots(),
       ),
       builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return const Center(child: Text('Erreur de chargement'));
+        }
         if (!snapshot.hasData) {
           return const Center(child: CircularProgressIndicator());
         }
@@ -286,6 +289,9 @@ class _DuelOverviewScreenState extends State<DuelOverviewScreen> with SingleTick
           .where('status', isEqualTo: 'pending')
           .snapshots(),
       builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return const Center(child: Text('Erreur de chargement'));
+        }
         if (!snapshot.hasData) {
           return const Center(child: CircularProgressIndicator());
         }
@@ -346,6 +352,9 @@ class _DuelOverviewScreenState extends State<DuelOverviewScreen> with SingleTick
           .where('status', isEqualTo: 'accepted')
           .snapshots(),
       builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return const Center(child: Text('Erreur de chargement'));
+        }
         if (!snapshot.hasData) {
           return const Center(child: CircularProgressIndicator());
         }

@@ -142,6 +142,12 @@ class _DuelMenuScreenState extends State<DuelMenuScreen> with SingleTickerProvid
                 StreamBuilder<int>(
                   stream: DuelService().totalUnreadDuels(FirebaseAuth.instance.currentUser!.uid),
                   builder: (context, snapshot) {
+                    if (snapshot.hasError) {
+                      return const Center(child: Text('Erreur de chargement'));
+                    }
+                    if (!snapshot.hasData) {
+                      return const Center(child: CircularProgressIndicator());
+                    }
                     final count = snapshot.data ?? 0;
                     return _CustomButton(
                       onPressed: () {
