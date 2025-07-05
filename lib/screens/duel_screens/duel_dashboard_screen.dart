@@ -115,7 +115,12 @@ class _AcceptedDuelsWidgetState extends State<AcceptedDuelsWidget> {
     return StreamBuilder<QuerySnapshot>(
       stream: query,
       builder: (context, snapshot) {
-        if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
+        if (snapshot.hasError) {
+          return const Center(child: Text('Erreur de chargement'));
+        }
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator());
+        }
 
         final docs = snapshot.data!.docs;
         final duels = docs.where((doc) {
@@ -270,7 +275,12 @@ class _PendingDuelsWidgetState extends State<PendingDuelsWidget> {
     return StreamBuilder<QuerySnapshot>(
       stream: query.snapshots(),
       builder: (context, snapshot) {
-        if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
+        if (snapshot.hasError) {
+          return const Center(child: Text('Erreur de chargement'));
+        }
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator());
+        }
 
         final requests = snapshot.data!.docs;
         final uid = currentUser?.uid;
@@ -430,7 +440,12 @@ class _HistoryDuelsWidgetState extends State<HistoryDuelsWidget> {
     return StreamBuilder<QuerySnapshot>(
       stream: query.snapshots(),
       builder: (context, snapshot) {
-        if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
+        if (snapshot.hasError) {
+          return const Center(child: Text('Erreur de chargement'));
+        }
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator());
+        }
 
         final allDocs = snapshot.data!.docs;
         final docs = allDocs.where((doc) {
