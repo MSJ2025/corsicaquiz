@@ -1,4 +1,7 @@
 import 'dart:convert';
+import 'dart:typed_data';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:corsicaquiz/services/duel_question_service.dart';
@@ -13,6 +16,12 @@ class FakeBundle extends CachingAssetBundle {
       throw FlutterError('Asset $key not found');
     }
     return data[key]!;
+  }
+
+  @override
+  Future<ByteData> load(String key) async {
+    final bytes = utf8.encode(await loadString(key));
+    return ByteData.view(Uint8List.fromList(bytes).buffer);
   }
 }
 
