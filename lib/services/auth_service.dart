@@ -19,7 +19,7 @@ class AuthService {
     PresenceService? presenceService,
     ProfileService? profileService,
   })  : _auth = auth ?? FirebaseAuth.instance,
-        _googleSignIn = googleSignIn ?? GoogleSignIn(),
+        _googleSignIn = googleSignIn ?? GoogleSignIn(),  // <- juste ceci !
         _presence = presenceService ?? PresenceService(),
         _profileService = profileService ?? ProfileService();
 
@@ -145,9 +145,10 @@ class AuthService {
           .update({'online': false});
       _presence.dispose();
       await _auth.signOut();
-      if (await _googleSignIn.isSignedIn()) {
-        await _googleSignIn.signOut();
-      }
+
+      // Déconnexion Google (utilise l'instance stockée)
+      await _googleSignIn.signOut();
+
       debugPrint("✅ Déconnexion réussie");
     } catch (e) {
       debugPrint("❌ Erreur lors de la déconnexion : $e");

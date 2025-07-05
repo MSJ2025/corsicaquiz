@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.3.3+7
+version: 1.3.4+8
 
 environment:
   sdk: ^3.7.0
@@ -34,35 +34,35 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  firebase_core: ^3.13.0
-  firebase_auth: ^5.5.2
-  google_sign_in: ^6.2.2
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.6.1
+  google_sign_in: ^6.3.0
   sign_in_with_apple: ^7.0.1
   flame: ^1.25.0
   flame_splash_screen: ^0.3.1+1
-  cloud_firestore: ^5.6.6
+  cloud_firestore: ^5.6.10
   lottie: ^3.3.1
   google_fonts: ^6.1.0
-  just_audio: ^0.10.4
+  just_audio: ^0.9.37
   audioplayers: ^6.4.0
   animate_do: ^4.2.0
   auto_size_text: ^3.0.0
   animated_text_kit: ^4.2.2
   intl: ^0.20.2
-  firebase_analytics: ^11.4.5
+  firebase_analytics: ^11.5.1
   rxdart: ^0.28.0
   glassmorphism: ^3.0.0
   flutter_launcher_icons: ^0.14.4
   video_player: ^2.5.1
-  firebase_database: ^11.0.0
+  firebase_database: ^11.3.8
   upgrader: ^11.3.1
-  firebase_messaging: ^15.2.7
+  firebase_messaging: ^15.2.9
   flutter_local_notifications: ^19.2.1
   flutter_map: ^8.1.1
   latlong2: ^0.9.0
   package_info_plus: ^8.3.0
   shared_preferences: ^2.2.2
-  google_mobile_ads: ^5.0.0
+  google_mobile_ads: ^6.0.0
   app_tracking_transparency: ^2.0.4
 
 
@@ -75,7 +75,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
   mocktail: ^1.0.3
   firebase_auth_mocks: ^0.14.2
   fake_cloud_firestore: ^3.1.0
