@@ -23,3 +23,11 @@ samples, guidance on mobile development, and a full API reference.
 
 L'application utilise le package `app_tracking_transparency` pour demander
 l'autorisation de suivi publicitaire au démarrage.
+
+## Indexes Firestore
+
+Les index composites nécessaires à l'application sont définis dans `firestore.indexes.json` à la racine du projet. Pour les déployer, exécutez :
+
+```bash
+firebase deploy --only firestore:indexes
+```
