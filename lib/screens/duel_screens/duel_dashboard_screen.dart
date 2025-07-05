@@ -8,6 +8,7 @@ import 'opponent_domain_selection_screen.dart';
 import 'domain_selection_screen.dart';
 import '../../widgets/simple_badge.dart';
 import '../../services/duel_service.dart';
+import '../../services/duel_question_service.dart';
 
 Future<String?> getUserAvatar(String uid) async {
   final doc = await FirebaseFirestore.instance.collection('users').doc(uid).get();
@@ -352,38 +353,59 @@ class _PendingDuelsWidgetState extends State<PendingDuelsWidget> {
                       const Icon(Icons.fiber_new, color: Colors.red, size: 20),
                     IconButton(
                       icon: const Icon(Icons.check, color: Colors.green),
-                    onPressed: () async {
-                      final selectedDomains = await Navigator.push(
-                        context,
-                        PageRouteBuilder(
-                          pageBuilder: (_, __, ___) => OpponentDomainSelectionScreen(
-                            key: UniqueKey(),
-                            initialDomains: List<String>.from(data['domainesEnvoyeur'] ?? []),
-                            duelId: request.id,
-                            duelData: Map<String, dynamic>.from(data),
+                      onPressed: () async {
+                        final selectedDomains = await Navigator.push(
+                          context,
+                          PageRouteBuilder(
+                            pageBuilder: (_, __, ___) => OpponentDomainSelectionScreen(
+                              key: UniqueKey(),
+                              initialDomains: List<String>.from(data['domainesEnvoyeur'] ?? []),
+                              duelId: request.id,
+                              duelData: Map<String, dynamic>.from(data),
+                            ),
+                            transitionsBuilder: (context, animation, secondaryAnimation, child) {
+                              final tween = Tween(begin: 0.0, end: 1.0);
+                              return FadeTransition(
+                                opacity: animation.drive(tween),
+                                child: child,
+                              );
+                            },
                           ),
-                          transitionsBuilder: (context, animation, secondaryAnimation, child) {
-                            final tween = Tween(begin: 0.0, end: 1.0);
-                            return FadeTransition(
-                              opacity: animation.drive(tween),
-                              child: child,
-                            );
-                          },
-                        ),
-                      );
+                        );
 
-                        if (selectedDomains != null && selectedDomains is List<String> && selectedDomains.length == 6) {
-                          await FirebaseFirestore.instance
-                              .collection('duels')
-                              .doc(request.id)
-                              .update({
-                                'domainesReceveur': selectedDomains,
-                                'status': 'accepted',
-                                'updatedAt': FieldValue.serverTimestamp(),
-                              });
-                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Duel accepté avec sélection des domaines.")));
+                        if (selectedDomains != null &&
+                            selectedDomains is List<String> &&
+                            selectedDomains.length == 6) {
+                          try {
+                            final questionService = DuelQuestionService();
+                            final extraQuestions = await questionService
+                                .getBalancedQuestionsFromDomains(selectedDomains.cast<String>());
+                            final currentQuestions =
+                                List<Map<String, dynamic>>.from(data['questions'] ?? []);
+                            final updatedQuestions = List<Map<String, dynamic>>.from(currentQuestions)
+                              ..addAll(extraQuestions);
+
+                            await FirebaseFirestore.instance
+                                .collection('duels')
+                                .doc(request.id)
+                                .update({
+                                  'domainesReceveur': selectedDomains,
+                                  'questions': updatedQuestions,
+                                  'status': 'accepted',
+                                  'updatedAt': FieldValue.serverTimestamp(),
+                                });
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('Duel accepté avec sélection des domaines.')),
+                            );
+                          } catch (e) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('Erreur lors de la génération des questions.')),
+                            );
+                          }
                         } else {
-                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Sélection annulée.")));
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(content: Text('Sélection annulée.')),
+                          );
                         }
                       },
                     ),
